@@ -1,0 +1,17 @@
+{
+  "id": "95da551e",
+  "timestamp": "20260303_180119",
+  "pattern": "race_and_chase",
+  "pattern_category": "Foundational",
+  "subject": "jo",
+  "tempo": "mixed",
+  "notes": "",
+  "tags": [
+    "bbc"
+  ],
+  "duration_sec": 56.682,
+  "sample_count": 5584,
+  "device_count": 2,
+  "sample_rate_hz_approx": 98.51451960057867,
+  "has_video": true
+}

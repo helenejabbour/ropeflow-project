@@ -1,0 +1,17 @@
+{
+  "id": "1491e440",
+  "timestamp": "20260303_173008",
+  "pattern": "experimental",
+  "pattern_category": "Other",
+  "subject": "oli",
+  "tempo": "mixed",
+  "notes": "",
+  "tags": [
+    "bbc"
+  ],
+  "duration_sec": 58.835,
+  "sample_count": 5793,
+  "device_count": 2,
+  "sample_rate_hz_approx": 98.46179994900994,
+  "has_video": true
+}

@@ -1,0 +1,17 @@
+{
+  "id": "4fba7a8f",
+  "timestamp": "20260303_171847",
+  "pattern": "experimental",
+  "pattern_category": "Other",
+  "subject": "jo",
+  "tempo": "mixed",
+  "notes": "",
+  "tags": [
+    "bbc"
+  ],
+  "duration_sec": 222.607,
+  "sample_count": 21922,
+  "device_count": 2,
+  "sample_rate_hz_approx": 98.47848450408118,
+  "has_video": true
+}

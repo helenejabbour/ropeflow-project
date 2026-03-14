@@ -1,0 +1,18 @@
+{
+  "id": "b4d757a8",
+  "timestamp": "20260303_172356",
+  "pattern": "experimental",
+  "pattern_category": "Other",
+  "subject": "jo",
+  "tempo": "mixed",
+  "notes": "",
+  "tags": [
+    "bbc",
+    "meteor"
+  ],
+  "duration_sec": 82.505,
+  "sample_count": 8126,
+  "device_count": 2,
+  "sample_rate_hz_approx": 98.4910005454215,
+  "has_video": true
+}

@@ -1,0 +1,17 @@
+{
+  "id": "c1871dda",
+  "timestamp": "20260303_172529",
+  "pattern": "experimental",
+  "pattern_category": "Other",
+  "subject": "jo",
+  "tempo": "mixed",
+  "notes": "",
+  "tags": [
+    "bbc"
+  ],
+  "duration_sec": 65.34,
+  "sample_count": 6436,
+  "device_count": 2,
+  "sample_rate_hz_approx": 98.50015304560759,
+  "has_video": true
+}
