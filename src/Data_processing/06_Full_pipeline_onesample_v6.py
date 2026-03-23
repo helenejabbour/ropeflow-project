@@ -299,21 +299,15 @@ def detect_cycles(gyr_degs, fs):
 # ── Validation plot ───────────────────────────────────────────
 
 def save_plot(t, acc_g_raw, acc_g_filt, acc_linear,
-              sig_bp, mag_smooth, peaks, dom, gaps, fname, dev):
+              sig_bp, mag_smooth, peaks, dom, gaps, fname, dev, gyr_filt):
     """
-    4-panel processing validation figure.
-
-      Panel 1 — Low-pass filtering effect (time domain, first 10 s)
-      Panel 2 — Power spectral density: raw vs filtered, rope-flow band
-      Panel 3 — World-frame linear acceleration after gravity removal (full session)
-      Panel 4 — Rope-flow cycle detection on the dominant gyro axis
+    5-panel processing validation figure.
     """
-    fig, axes = plt.subplots(4, 1, figsize=(11, 13))
+    fig, axes = plt.subplots(5, 1, figsize=(11, 16))
     fig.suptitle(
         f"Stage 1 — IMU preprocessing validation\n"
         f"Session: {fname}   Device: {dev}   "
-        f"fs = {FS_TARGET:.0f} Hz   low-pass = {LOWPASS_HZ:.0f} Hz   "
-        f"Madgwick β = {MADGWICK_BETA}",
+        f"fs = {FS_TARGET:.0f} Hz   low-pass = {LOWPASS_HZ:.0f} Hz",
         fontsize=10, y=1.01
     )
     axis_labels = ['X', 'Y', 'Z']
@@ -322,78 +316,52 @@ def save_plot(t, acc_g_raw, acc_g_filt, acc_linear,
 
     # ── Panel 1: filtering — time domain ─────────────────────
     ax = axes[0]
-    ax.plot(t[t10], np.linalg.norm(acc_g_raw[t10]  * G_MS2, axis=1),
-            color='#cccccc', lw=1.0, label='Raw')
-    ax.plot(t[t10], np.linalg.norm(acc_g_filt[t10] * G_MS2, axis=1),
-            color='#e74c3c', lw=1.4, label=f'Low-pass filtered ({LOWPASS_HZ} Hz)')
+    ax.plot(t[t10], np.linalg.norm(acc_g_raw[t10]  * G_MS2, axis=1), color='#cccccc', lw=1.0, label='Raw')
+    ax.plot(t[t10], np.linalg.norm(acc_g_filt[t10] * G_MS2, axis=1), color='#e74c3c', lw=1.4, label=f'Filtered ({LOWPASS_HZ} Hz)')
     ax.set_ylabel('‖a‖  (m/s²)')
-    ax.set_xlabel('Time (s)')
     ax.set_title('Acceleration magnitude — raw vs filtered (first 10 s)')
     ax.legend(fontsize=9)
 
     # ── Panel 2: filtering — frequency domain ────────────────
-    ax      = axes[1]
+    ax = axes[1]
     nperseg = min(256, len(acc_g_raw))
-    for arr, color, lbl in [
-        (acc_g_raw[:,0]  * G_MS2, '#cccccc', 'Raw (acc-X)'),
-        (acc_g_filt[:,0] * G_MS2, '#e74c3c',
-         f'Filtered (acc-X,  {LOWPASS_HZ} Hz cutoff)'),
-    ]:
-        f_, P_ = signal.welch(arr, FS_TARGET, nperseg=nperseg)
-        ax.semilogy(f_, P_, color=color, lw=1.3, label=lbl)
-    ax.axvspan(*CYCLE_BAND, alpha=0.12, color='#27ae60',
-               label=f'Rope-flow band ({CYCLE_BAND[0]}–{CYCLE_BAND[1]} Hz)')
-    ax.axvline(LOWPASS_HZ, color='black', lw=1.0, ls='--',
-               label=f'Cutoff ({LOWPASS_HZ} Hz)')
-    ax.set_xlim(0, FS_TARGET / 2)
+    f_, P_ = signal.welch(acc_g_raw[:,0] * G_MS2, FS_TARGET, nperseg=nperseg)
+    ax.semilogy(f_, P_, color='#cccccc', lw=1.3, label='Raw (acc-X)')
+    f_f, P_f = signal.welch(acc_g_filt[:,0] * G_MS2, FS_TARGET, nperseg=nperseg)
+    ax.semilogy(f_f, P_f, color='#e74c3c', lw=1.3, label=f'Filtered (acc-X, {LOWPASS_HZ} Hz)')
+    ax.axvspan(*CYCLE_BAND, alpha=0.12, color='#27ae60', label='Rope-flow band')
+    ax.axvline(LOWPASS_HZ, color='black', lw=1.0, ls='--', label='Cutoff')
     ax.set_ylabel('PSD  (m²/s⁴/Hz)')
-    ax.set_xlabel('Frequency (Hz)')
-    ax.set_title('Power spectral density — signal preserved in rope-flow band')
+    ax.set_title('Power spectral density')
     ax.legend(fontsize=9)
 
     # ── Panel 3: world-frame linear acceleration ──────────────
     ax = axes[2]
     for i in range(3):
-        ax.plot(t, acc_linear[:, i], color=colours[i], lw=0.8,
-                label=f'a_{axis_labels[i]}  '
-                      f'(mean = {acc_linear[:,i].mean():+.2f} m/s²)')
+        ax.plot(t, acc_linear[:, i], color=colours[i], lw=0.8, label=f'a_{axis_labels[i]}')
     ax.axhline(0, color='black', lw=0.6, ls='--')
-    # Mark large interpolated gaps
     for t_start, gap_ms in gaps:
-        ax.axvspan(t_start, t_start + gap_ms/1000,
-                   color='#f39c12', alpha=0.3, lw=0)
-    if gaps:
-        ax.axvspan(0, 0, color='#f39c12', alpha=0.3,
-                   label=f'{len(gaps)} interpolated gaps  (>100 ms)')
-    ax.set_ylabel('Linear acceleration  (m/s²)')
-    ax.set_xlabel('Time (s)')
-    ax.set_title('World-frame linear acceleration after gravity removal\n'
-                 'Mean offset = residual gravity bias   '
-                 'Orange = linearly interpolated segments')
-    ax.legend(fontsize=9)
+        ax.axvspan(t_start, t_start + gap_ms/1000, color='#f39c12', alpha=0.3)
+    ax.set_ylabel('Linear acceleration (m/s²)')
+    ax.set_title('World-frame linear acceleration (gravity removed)')
+    ax.legend(fontsize=9, loc='upper right')
 
-    # ── Panel 4: cycle detection ──────────────────────────────
+    # ── Panel 4: Body-frame angular velocity ──────────────────
     ax = axes[3]
-    ax.plot(t, mag_smooth, color='#e67e22', lw=1.0,
-            label='||omega|| smoothed (deg/s)  — used for detection')
-    ax.plot(t, sig_bp * 180/np.pi, color='#bdc3c7', lw=0.7, alpha=0.6,
-            label=f'Gyro-{axis_labels[dom]} bandpass (deg/s, for reference)')
+    for i in range(3):
+        ax.plot(t, gyr_filt[:, i], color=colours[i], lw=0.8, label=f'g_{axis_labels[i]}')
+    ax.set_ylabel('Angular velocity (deg/s)')
+    ax.set_title('Filtered body-frame angular velocity (gx, gy, gz)')
+    ax.legend(fontsize=9, loc='upper right')
+
+    # ── Panel 5: cycle detection ──────────────────────────────
+    ax = axes[4]
+    ax.plot(t, mag_smooth, color='#e67e22', lw=1.0, label='||omega|| smoothed')
     if len(peaks) > 0:
-        ax.plot(t[peaks], mag_smooth[peaks], 'v', color='#2c3e50', ms=6,
-                label=f'{len(peaks)} cycles detected')
-    if len(peaks) > 1:
-        periods = np.diff(t[peaks])
-        cv      = np.std(periods) / np.mean(periods)
-        ax.set_title(
-            f'Rope-flow cycle detection — dominant axis: {axis_labels[dom]}\n'
-            f'Mean period: {np.mean(periods):.2f} s  '
-            f'({1/np.mean(periods):.2f} Hz)   '
-            f'CV: {cv:.2f}   n = {len(peaks)} cycles'
-        )
-    else:
-        ax.set_title(f'Rope-flow cycle detection — dominant axis: {axis_labels[dom]}')
-    ax.set_ylabel('Angular velocity  (deg/s)')
+        ax.plot(t[peaks], mag_smooth[peaks], 'v', color='#2c3e50', ms=6, label=f'{len(peaks)} cycles')
+    ax.set_ylabel('Magnitude (deg/s)')
     ax.set_xlabel('Time (s)')
+    ax.set_title('Rope-flow cycle detection')
     ax.legend(fontsize=9)
 
     plt.tight_layout()
@@ -401,20 +369,17 @@ def save_plot(t, acc_g_raw, acc_g_filt, acc_linear,
     plt.savefig(out, dpi=150, bbox_inches='tight')
     plt.close()
 
-
 # ── Column name resolution ────────────────────────────────────
-
 COLUMN_ALIASES = {
-    'timestamp': ['timestamp', 'time', 't', 'ts', 'time_ms', 'time_us'],
-    'device':    ['device', 'dev', 'sensor', 'id'],
-    'ax': ['ax', 'accel_x', 'acc_x', 'a_x', 'AccX'],
-    'ay': ['ay', 'accel_y', 'acc_y', 'a_y', 'AccY'],
-    'az': ['az', 'accel_z', 'acc_z', 'a_z', 'AccZ'],
-    'gx': ['gx', 'gyro_x', 'gyr_x', 'g_x', 'GyroX'],
-    'gy': ['gy', 'gyro_y', 'gyr_y', 'g_y', 'GyroY'],
-    'gz': ['gz', 'gyro_z', 'gyr_z', 'g_z', 'GyroZ'],
+'timestamp': ['timestamp', 'time', 't', 'ts', 'time_ms', 'time_us'],
+'device': ['device', 'dev', 'sensor', 'id'],
+'ax': ['ax', 'accel_x', 'acc_x', 'a_x', 'AccX'],
+'ay': ['ay', 'accel_y', 'acc_y', 'a_y', 'AccY'],
+'az': ['az', 'accel_z', 'acc_z', 'a_z', 'AccZ'],
+'gx': ['gx', 'gyro_x', 'gyr_x', 'g_x', 'GyroX'],
+'gy': ['gy', 'gyro_y', 'gyr_y', 'g_y', 'GyroY'],
+'gz': ['gz', 'gyro_z', 'gyr_z', 'g_z', 'GyroZ'],
 }
-
 
 def resolve_columns(df):
     """Rename raw column names to the standard set using COLUMN_ALIASES."""
@@ -532,6 +497,9 @@ def process_file(path):
             'ax_w': acc_linear[:,0],
             'ay_w': acc_linear[:,1],
             'az_w': acc_linear[:,2],
+            'gx': gyr_filt[:,0],
+            'gy': gyr_filt[:,1],
+            'gz': gyr_filt[:,2],
         })
         out_path = os.path.join(DATA_PROCESSED,
                                 f"{fname}_device{dev}_processed.csv")
@@ -540,7 +508,7 @@ def process_file(path):
 
         # ── Save validation plot ─────────────────────────────────
         save_plot(t, acc_g_raw, acc_g_filt, acc_linear,
-                  sig_bp, mag_smooth, peaks, dom, gaps, fname, dev)
+                  sig_bp, mag_smooth, peaks, dom, gaps, fname, dev, gyr_filt)
 
 
 # ── Entry point ───────────────────────────────────────────────
@@ -552,9 +520,6 @@ def main():
         raise FileNotFoundError(f"No CSV files found under {DATA_RAW}")
     print(f"Found {len(files)} file(s). Processing first.")
     process_file(files[0])
-    # To process all files: replace the two lines above with:
-    # for f in files:
-    #     process_file(f)
 
 
 if __name__ == "__main__":
