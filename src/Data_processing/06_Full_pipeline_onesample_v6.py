@@ -1,4 +1,4 @@
-# src/Data_processing/08_preprocess.py
+
 # IMU preprocessing pipeline for rope flow data (M5Stick C Plus 1.1)
 # Output: one clean CSV per device, ready for trajectory reconstruction
 #
