@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls \"C:/Users/Admin/Projects/ropeflow-project/data/processed/\"*.xlsx)",
+      "Bash(python:*)",
+      "Bash(xargs -I{} basename {})",
+      "Bash(find C:/Users/Admin/Projects/ropeflow-project/data/raw/ -name *.csv -exec python -c \":*)"
+    ]
+  }
+}
