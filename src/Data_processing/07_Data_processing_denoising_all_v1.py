@@ -1,10 +1,9 @@
 
 # IMU preprocessing pipeline — batch processing all sessions
-# Output: one Excel file per session with two sheets (Device_0 = left hand, Device_1 = right hand)
+# Output: one CSV per device per session (e.g. session_device0_processed.csv, session_device1_processed.csv)
 #
-# Based on 06_Full_pipeline_onesample_v6.py with the following changes:
-#   - Processes ALL raw CSV files (app-data + unified-data), not just the first
-#   - Saves both devices into a single .xlsx file (one sheet per device)
+#   - Processes ALL raw CSV files (app-data + unified-data)
+#   - Saves each device as a separate CSV file
 #   - Uses session folder name for unified-data files (preserves pattern/subject labels)
 #   - Generates a summary table at the end with per-session statistics
 
@@ -507,15 +506,12 @@ def process_file(path):
             device_dfs[dev] = out_df
             all_stats[dev]  = stats
 
-    # ── Save single Excel file with one sheet per device ─────
+    # ── Save one CSV per device ───────────────────────────────
     if device_dfs:
-        out_path = os.path.join(DATA_PROCESSED, f"{session_name}_processed.xlsx")
-        with pd.ExcelWriter(out_path, engine='openpyxl') as writer:
-            for dev in sorted(device_dfs.keys()):
-                sheet_name = f"Device_{dev}"
-                device_dfs[dev].to_excel(writer, sheet_name=sheet_name, index=False)
-        print(f"\n  Saved:  {out_path}")
-        print(f"          Sheets: {', '.join(f'Device_{d}' for d in sorted(device_dfs.keys()))}")
+        for dev in sorted(device_dfs.keys()):
+            out_path = os.path.join(DATA_PROCESSED, f"{session_name}_device{dev}_processed.csv")
+            device_dfs[dev].to_csv(out_path, index=False)
+            print(f"\n  Saved:  {out_path}")
 
     return {session_name: all_stats}
 
