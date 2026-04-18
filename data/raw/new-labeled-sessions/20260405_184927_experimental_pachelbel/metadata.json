@@ -1,0 +1,17 @@
+{
+  "id": "865c613e",
+  "timestamp": "20260405_184927",
+  "pattern": "experimental",
+  "pattern_category": "Other",
+  "subject": "pachelbel",
+  "tempo": "mixed",
+  "notes": "",
+  "tags": [],
+  "duration_sec": 14.992,
+  "sample_count": 1476,
+  "device_count": 2,
+  "sample_rate_hz_approx": 98.45250800426894,
+  "has_video": true,
+  "has_audio": false,
+  "has_labels": false
+}

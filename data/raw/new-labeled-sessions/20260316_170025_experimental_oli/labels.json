@@ -1,0 +1,596 @@
+{
+  "method": "spectral_segment_knn",
+  "segments": [
+    {
+      "start": 0.832,
+      "end": 2.08,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 2.08,
+      "end": 2.8,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 2.8,
+      "end": 3.488,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 3.488,
+      "end": 4.48,
+      "label": "overhand",
+      "spoken": "overhand"
+    },
+    {
+      "start": 4.48,
+      "end": 4.864,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 4.864,
+      "end": 5.480000019073486,
+      "label": "overhand",
+      "spoken": "overhand"
+    },
+    {
+      "start": 5.480000019073486,
+      "end": 6.208,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 6.208,
+      "end": 7.216,
+      "label": "overhand",
+      "spoken": "overhand"
+    },
+    {
+      "start": 7.216,
+      "end": 7.552,
+      "label": "overhand",
+      "spoken": "overhand"
+    },
+    {
+      "start": 7.552,
+      "end": 8.688,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 8.688,
+      "end": 10.016,
+      "label": "underhand",
+      "spoken": "under"
+    },
+    {
+      "start": 10.016,
+      "end": 11.6,
+      "label": "underhand",
+      "spoken": "under"
+    },
+    {
+      "start": 11.6,
+      "end": 12.96,
+      "label": "underhand",
+      "spoken": "under"
+    },
+    {
+      "start": 12.96,
+      "end": 14.336,
+      "label": "underhand",
+      "spoken": "under"
+    },
+    {
+      "start": 14.336,
+      "end": 15.712,
+      "label": "underhand",
+      "spoken": "underhand"
+    },
+    {
+      "start": 15.712,
+      "end": 17.056,
+      "label": "underhand",
+      "spoken": "under"
+    },
+    {
+      "start": 17.056,
+      "end": 18.24,
+      "label": "underhand",
+      "spoken": "under"
+    },
+    {
+      "start": 18.24,
+      "end": 19.648,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 19.648,
+      "end": 20.624,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 20.624,
+      "end": 20.928,
+      "label": "overhand",
+      "spoken": "overhand"
+    },
+    {
+      "start": 20.928,
+      "end": 21.968,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 21.968,
+      "end": 23.344,
+      "label": "overhand",
+      "spoken": "overhand"
+    },
+    {
+      "start": 23.344,
+      "end": 23.872,
+      "label": "overhand",
+      "spoken": "overhand"
+    },
+    {
+      "start": 23.872,
+      "end": 24.864,
+      "label": "overhand",
+      "spoken": "overhand"
+    },
+    {
+      "start": 24.864,
+      "end": 26.24,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 26.24,
+      "end": 28.096,
+      "label": "overhand",
+      "spoken": "overhand"
+    },
+    {
+      "start": 28.096,
+      "end": 29.232,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 29.232,
+      "end": 29.6,
+      "label": "overhand",
+      "spoken": "overhand"
+    },
+    {
+      "start": 29.6,
+      "end": 31.056,
+      "label": "overhand",
+      "spoken": "overhand"
+    },
+    {
+      "start": 31.056,
+      "end": 32.048,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 32.048,
+      "end": 33.472,
+      "label": "overhand",
+      "spoken": "overhand"
+    },
+    {
+      "start": 33.472,
+      "end": 35.84,
+      "label": "underhand",
+      "spoken": "under"
+    },
+    {
+      "start": 35.84,
+      "end": 36.448,
+      "label": "overhand",
+      "spoken": "overhand"
+    },
+    {
+      "start": 36.448,
+      "end": 36.752,
+      "label": "overhand",
+      "spoken": "overhand"
+    },
+    {
+      "start": 36.752,
+      "end": 37.088,
+      "label": "dragon_roll",
+      "spoken": "dragon"
+    },
+    {
+      "start": 37.088,
+      "end": 37.76,
+      "label": "dragon_roll",
+      "spoken": "dragon"
+    },
+    {
+      "start": 37.76,
+      "end": 38.08,
+      "label": "overhand",
+      "spoken": "overhand"
+    },
+    {
+      "start": 38.08,
+      "end": 39.36,
+      "label": "overhand",
+      "spoken": "overhand"
+    },
+    {
+      "start": 39.36,
+      "end": 40.592,
+      "label": "overhand",
+      "spoken": "overhand"
+    },
+    {
+      "start": 40.592,
+      "end": 41.376,
+      "label": "underhand",
+      "spoken": "underhand"
+    },
+    {
+      "start": 41.376,
+      "end": null,
+      "label": "overhand",
+      "spoken": "overhand"
+    }
+  ],
+  "label_events": [
+    {
+      "time": 0.832,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 2.08,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 2.8,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 3.488,
+      "spoken": "overhand",
+      "label": "overhand"
+    },
+    {
+      "time": 4.48,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 4.864,
+      "spoken": "overhand",
+      "label": "overhand"
+    },
+    {
+      "time": 5.480000019073486,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 6.208,
+      "spoken": "overhand",
+      "label": "overhand"
+    },
+    {
+      "time": 7.216,
+      "spoken": "overhand",
+      "label": "overhand"
+    },
+    {
+      "time": 7.552,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 8.688,
+      "spoken": "under",
+      "label": "underhand"
+    },
+    {
+      "time": 10.016,
+      "spoken": "under",
+      "label": "underhand"
+    },
+    {
+      "time": 11.6,
+      "spoken": "under",
+      "label": "underhand"
+    },
+    {
+      "time": 12.96,
+      "spoken": "under",
+      "label": "underhand"
+    },
+    {
+      "time": 14.336,
+      "spoken": "underhand",
+      "label": "underhand"
+    },
+    {
+      "time": 15.712,
+      "spoken": "under",
+      "label": "underhand"
+    },
+    {
+      "time": 17.056,
+      "spoken": "under",
+      "label": "underhand"
+    },
+    {
+      "time": 18.24,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 19.648,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 20.624,
+      "spoken": "overhand",
+      "label": "overhand"
+    },
+    {
+      "time": 20.928,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 21.968,
+      "spoken": "overhand",
+      "label": "overhand"
+    },
+    {
+      "time": 23.344,
+      "spoken": "overhand",
+      "label": "overhand"
+    },
+    {
+      "time": 23.872,
+      "spoken": "overhand",
+      "label": "overhand"
+    },
+    {
+      "time": 24.864,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 26.24,
+      "spoken": "overhand",
+      "label": "overhand"
+    },
+    {
+      "time": 28.096,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 29.232,
+      "spoken": "overhand",
+      "label": "overhand"
+    },
+    {
+      "time": 29.6,
+      "spoken": "overhand",
+      "label": "overhand"
+    },
+    {
+      "time": 31.056,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 32.048,
+      "spoken": "overhand",
+      "label": "overhand"
+    },
+    {
+      "time": 33.472,
+      "spoken": "under",
+      "label": "underhand"
+    },
+    {
+      "time": 35.84,
+      "spoken": "overhand",
+      "label": "overhand"
+    },
+    {
+      "time": 36.448,
+      "spoken": "overhand",
+      "label": "overhand"
+    },
+    {
+      "time": 36.752,
+      "spoken": "dragon",
+      "label": "dragon_roll"
+    },
+    {
+      "time": 37.088,
+      "spoken": "dragon",
+      "label": "dragon_roll"
+    },
+    {
+      "time": 37.76,
+      "spoken": "overhand",
+      "label": "overhand"
+    },
+    {
+      "time": 38.08,
+      "spoken": "overhand",
+      "label": "overhand"
+    },
+    {
+      "time": 39.36,
+      "spoken": "overhand",
+      "label": "overhand"
+    },
+    {
+      "time": 40.592,
+      "spoken": "underhand",
+      "label": "underhand"
+    },
+    {
+      "time": 41.376,
+      "spoken": "overhand",
+      "label": "overhand"
+    }
+  ],
+  "unmatched_peaks": [
+    40.16
+  ],
+  "raw_transcript": "Over, over, over, over, over, under, under, under, under, under, under, over, over, over, sneak, over, sneak, over, sneak, over, under, under, dragon sorry",
+  "word_timestamps": [
+    {
+      "word": "over",
+      "start": 0.8199999928474426,
+      "end": 2.4600000381469727
+    },
+    {
+      "word": "over",
+      "start": 2.5799999237060547,
+      "end": 3.9200000762939453
+    },
+    {
+      "word": "over",
+      "start": 4.320000171661377,
+      "end": 5.300000190734863
+    },
+    {
+      "word": "over",
+      "start": 5.480000019073486,
+      "end": 6.739999771118164
+    },
+    {
+      "word": "over",
+      "start": 7.78000020980835,
+      "end": 8.199999809265137
+    },
+    {
+      "word": "under",
+      "start": 8.699999809265137,
+      "end": 9.15999984741211
+    },
+    {
+      "word": "under",
+      "start": 10.079999923706055,
+      "end": 10.819999694824219
+    },
+    {
+      "word": "under",
+      "start": 11.800000190734863,
+      "end": 12.0600004196167
+    },
+    {
+      "word": "under",
+      "start": 12.84000015258789,
+      "end": 13.880000114440918
+    },
+    {
+      "word": "under",
+      "start": 15.720000267028809,
+      "end": 15.9399995803833
+    },
+    {
+      "word": "under",
+      "start": 17.100000381469727,
+      "end": 17.3799991607666
+    },
+    {
+      "word": "over",
+      "start": 18.579999923706055,
+      "end": 18.600000381469727
+    },
+    {
+      "word": "over",
+      "start": 19.979999542236328,
+      "end": 20.059999465942383
+    },
+    {
+      "word": "over",
+      "start": 21.31999969482422,
+      "end": 22.780000686645508
+    },
+    {
+      "word": "sneak",
+      "start": 23.559999465942383,
+      "end": 24.260000228881836
+    },
+    {
+      "word": "over",
+      "start": 24.520000457763672,
+      "end": 25.579999923706055
+    },
+    {
+      "word": "sneak",
+      "start": 25.799999237060547,
+      "end": 26.860000610351562
+    },
+    {
+      "word": "over",
+      "start": 28.15999984741211,
+      "end": 28.81999969482422
+    },
+    {
+      "word": "sneak",
+      "start": 29.920000076293945,
+      "end": 29.920000076293945
+    },
+    {
+      "word": "over",
+      "start": 31.31999969482422,
+      "end": 31.600000381469727
+    },
+    {
+      "word": "under",
+      "start": 33.0,
+      "end": 33.0
+    },
+    {
+      "word": "under",
+      "start": 33.31999969482422,
+      "end": 34.02000045776367
+    },
+    {
+      "word": "dragon",
+      "start": 37.15999984741211,
+      "end": 37.599998474121094
+    },
+    {
+      "word": "sorry",
+      "start": 39.68000030517578,
+      "end": 40.380001068115234
+    }
+  ],
+  "vocabulary": {
+    "over": "overhand",
+    "under": "underhand",
+    "dragon": "dragon_roll"
+  },
+  "whisper_model": "whisper-1",
+  "knn_stats": {
+    "n_segments": 43,
+    "n_whisper_labeled": 20,
+    "n_knn_filled": 22,
+    "n_low_confidence": 1
+  }
+}

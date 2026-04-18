@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "recording": "20260316_172228_experimental_jo",
+  "corrections": [
+    {
+      "t_start": 15.18,
+      "t_end": 15.75,
+      "original_label": "Idle3",
+      "original_confidence": 0.001,
+      "corrected_label": "sneak_underhand",
+      "source": "manual",
+      "timestamp": "2026-04-10T11:16:09",
+      "original_cluster_id": 3
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "recording": "20260405_184927_experimental_pachelbel",
+  "corrections": [
+    {
+      "t_start": 12.7,
+      "t_end": 13.58,
+      "original_label": "UR-CW",
+      "original_confidence": 0.92,
+      "corrected_label": "ur",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:07:43",
+      "original_cluster_id": 17
+    }
+  ]
+}

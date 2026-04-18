@@ -1,0 +1,641 @@
+{
+  "version": 1,
+  "recording": "20260316_171550_experimental_jo",
+  "corrections": [
+    {
+      "t_start": 9.65,
+      "t_end": 9.98,
+      "original_label": "overhand",
+      "original_confidence": 0.205,
+      "corrected_label": "excluded",
+      "source": "manual",
+      "timestamp": "2026-03-24T23:07:36"
+    },
+    {
+      "t_start": 9.98,
+      "t_end": 10.28,
+      "original_label": "idle",
+      "original_confidence": 0.16,
+      "corrected_label": "excluded",
+      "source": "manual",
+      "timestamp": "2026-03-24T23:07:40"
+    },
+    {
+      "t_start": 13.67,
+      "t_end": 14.35,
+      "original_label": "overhand",
+      "original_confidence": 0.31,
+      "corrected_label": "dragon_roll",
+      "source": "manual",
+      "timestamp": "2026-03-24T23:08:23"
+    },
+    {
+      "t_start": 14.35,
+      "t_end": 15.01,
+      "original_label": "overhand",
+      "original_confidence": 0.135,
+      "corrected_label": "dragon_roll",
+      "source": "manual",
+      "timestamp": "2026-03-24T23:08:34"
+    },
+    {
+      "t_start": 33.94,
+      "t_end": 34.21,
+      "original_label": "idle",
+      "original_confidence": 0.19,
+      "corrected_label": "excluded",
+      "source": "manual",
+      "timestamp": "2026-03-24T23:10:34"
+    },
+    {
+      "t_start": 34.21,
+      "t_end": 34.85,
+      "original_label": "overhand",
+      "original_confidence": 0.24,
+      "corrected_label": "excluded",
+      "source": "manual",
+      "timestamp": "2026-03-24T23:10:36"
+    },
+    {
+      "t_start": 34.85,
+      "t_end": 35.32,
+      "original_label": "sneak_overhand",
+      "original_confidence": 0.16,
+      "corrected_label": "excluded",
+      "source": "manual",
+      "timestamp": "2026-03-24T23:10:39"
+    },
+    {
+      "t_start": 35.32,
+      "t_end": 35.91,
+      "original_label": "dragon_roll",
+      "original_confidence": 0.195,
+      "corrected_label": "excluded",
+      "source": "manual",
+      "timestamp": "2026-03-24T23:10:42"
+    },
+    {
+      "t_start": 94.58,
+      "t_end": 95.21,
+      "original_label": "overhand",
+      "original_confidence": 0.4,
+      "corrected_label": "underhand",
+      "source": "manual",
+      "timestamp": "2026-03-24T23:14:46"
+    },
+    {
+      "t_start": 97.14,
+      "t_end": 97.83,
+      "original_label": "overhand",
+      "original_confidence": 0.19,
+      "corrected_label": "underhand",
+      "source": "manual",
+      "timestamp": "2026-03-24T23:14:59"
+    },
+    {
+      "t_start": 125.51,
+      "t_end": 126.19,
+      "original_label": "overhand",
+      "original_confidence": 0.29,
+      "corrected_label": "underhand",
+      "source": "manual",
+      "timestamp": "2026-03-24T23:17:13"
+    },
+    {
+      "t_start": 127.36,
+      "t_end": 127.91,
+      "original_label": "overhand",
+      "original_confidence": 0.18,
+      "corrected_label": "sneak_underhand",
+      "source": "manual",
+      "timestamp": "2026-03-24T23:17:36"
+    },
+    {
+      "t_start": 127.91,
+      "t_end": 128.49,
+      "original_label": "overhand",
+      "original_confidence": 0.205,
+      "corrected_label": "sneak_underhand",
+      "source": "manual",
+      "timestamp": "2026-03-24T23:17:53"
+    },
+    {
+      "t_start": 128.49,
+      "t_end": 129.12,
+      "original_label": "overhand",
+      "original_confidence": 0.325,
+      "corrected_label": "underhand",
+      "source": "manual",
+      "timestamp": "2026-03-24T23:18:01"
+    },
+    {
+      "t_start": 130.3,
+      "t_end": 130.94,
+      "original_label": "overhand",
+      "original_confidence": 0.295,
+      "corrected_label": "underhand",
+      "source": "manual",
+      "timestamp": "2026-03-24T23:18:16"
+    },
+    {
+      "t_start": 1.25,
+      "t_end": 2.38,
+      "original_label": "underhand",
+      "original_confidence": 0.598,
+      "corrected_label": "excluded",
+      "source": "manual",
+      "timestamp": "2026-03-26T18:42:30",
+      "original_cluster_id": 12
+    },
+    {
+      "t_start": 0.73,
+      "t_end": 1.25,
+      "original_label": "sneak_underhand",
+      "original_confidence": 0.825,
+      "corrected_label": "excluded",
+      "source": "manual",
+      "timestamp": "2026-03-26T18:42:31",
+      "original_cluster_id": 5
+    },
+    {
+      "t_start": 3.1,
+      "t_end": 3.71,
+      "original_label": "UR-CW",
+      "original_confidence": 0.922,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 5.25,
+      "t_end": 5.87,
+      "original_label": "UR-CW",
+      "original_confidence": 0.973,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 7.46,
+      "t_end": 8.12,
+      "original_label": "UR-CW",
+      "original_confidence": 0.974,
+      "corrected_label": "ur",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 20.98,
+      "t_end": 21.69,
+      "original_label": "UR-CW",
+      "original_confidence": 0.97,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 28.06,
+      "t_end": 28.58,
+      "original_label": "UR-CW",
+      "original_confidence": 0.953,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 30.26,
+      "t_end": 30.83,
+      "original_label": "UR-CW",
+      "original_confidence": 0.956,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 36.62,
+      "t_end": 37.25,
+      "original_label": "UR-CW",
+      "original_confidence": 0.94,
+      "corrected_label": "ur",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 43.44,
+      "t_end": 44.08,
+      "original_label": "UR-CW",
+      "original_confidence": 0.951,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 45.52,
+      "t_end": 46.02,
+      "original_label": "UR-CW",
+      "original_confidence": 0.958,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 47.47,
+      "t_end": 47.96,
+      "original_label": "UR-CW",
+      "original_confidence": 0.955,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 49.33,
+      "t_end": 49.79,
+      "original_label": "UR-CW",
+      "original_confidence": 0.94,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 50.92,
+      "t_end": 51.33,
+      "original_label": "UR-CW",
+      "original_confidence": 0.967,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 52.5,
+      "t_end": 52.91,
+      "original_label": "UR-CW",
+      "original_confidence": 0.931,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 53.99,
+      "t_end": 54.41,
+      "original_label": "UR-CW",
+      "original_confidence": 0.872,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 55.54,
+      "t_end": 55.97,
+      "original_label": "UR-CW",
+      "original_confidence": 0.951,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 57.59,
+      "t_end": 58.21,
+      "original_label": "UR-CW",
+      "original_confidence": 0.914,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 60.35,
+      "t_end": 61.16,
+      "original_label": "UR-CW",
+      "original_confidence": 0.966,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 63.29,
+      "t_end": 63.89,
+      "original_label": "UR-CW",
+      "original_confidence": 0.941,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 65.98,
+      "t_end": 66.61,
+      "original_label": "UR-CW",
+      "original_confidence": 0.977,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 79.28,
+      "t_end": 79.93,
+      "original_label": "UR-CW",
+      "original_confidence": 0.962,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 87.83,
+      "t_end": 88.47,
+      "original_label": "UR-CW",
+      "original_confidence": 0.974,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 90.28,
+      "t_end": 90.95,
+      "original_label": "UR-CW",
+      "original_confidence": 0.961,
+      "corrected_label": "ur",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 103.97,
+      "t_end": 104.52,
+      "original_label": "UR-CW",
+      "original_confidence": 0.959,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 106.12,
+      "t_end": 106.61,
+      "original_label": "UR-CW",
+      "original_confidence": 0.966,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 108.07,
+      "t_end": 108.61,
+      "original_label": "UR-CW",
+      "original_confidence": 0.964,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 113.38,
+      "t_end": 113.91,
+      "original_label": "UR-CW",
+      "original_confidence": 0.973,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 123.1,
+      "t_end": 123.75,
+      "original_label": "UR-CW",
+      "original_confidence": 0.969,
+      "corrected_label": "ur",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 132.07,
+      "t_end": 132.69,
+      "original_label": "UR-CW",
+      "original_confidence": 0.944,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 144.25,
+      "t_end": 144.84,
+      "original_label": "UR-CW",
+      "original_confidence": 0.976,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 146.25,
+      "t_end": 146.72,
+      "original_label": "UR-CW",
+      "original_confidence": 0.956,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 148.07,
+      "t_end": 148.54,
+      "original_label": "UR-CW",
+      "original_confidence": 0.962,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 149.84,
+      "t_end": 150.3,
+      "original_label": "UR-CW",
+      "original_confidence": 0.966,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 151.91,
+      "t_end": 152.61,
+      "original_label": "UR-CW",
+      "original_confidence": 0.922,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 154.55,
+      "t_end": 155.16,
+      "original_label": "UR-CW",
+      "original_confidence": 0.896,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 157.17,
+      "t_end": 157.88,
+      "original_label": "UR-CW",
+      "original_confidence": 0.965,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 159.98,
+      "t_end": 160.71,
+      "original_label": "UR-CW",
+      "original_confidence": 0.894,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 163.1,
+      "t_end": 163.84,
+      "original_label": "UR-CW",
+      "original_confidence": 0.964,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 166.21,
+      "t_end": 166.86,
+      "original_label": "UR-CW",
+      "original_confidence": 0.951,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 180.05,
+      "t_end": 180.75,
+      "original_label": "UR-CW",
+      "original_confidence": 0.951,
+      "corrected_label": "ur",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 22.77,
+      "t_end": 23.3,
+      "original_label": "OR/OSL?",
+      "original_confidence": 0.923,
+      "corrected_label": "or",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:28:06",
+      "original_cluster_id": 21
+    },
+    {
+      "t_start": 30.83,
+      "t_end": 31.37,
+      "original_label": "OL/OSR?",
+      "original_confidence": 0.941,
+      "corrected_label": "osr",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:28:06",
+      "original_cluster_id": 4
+    },
+    {
+      "t_start": 32.71,
+      "t_end": 33.27,
+      "original_label": "OL/OSR?",
+      "original_confidence": 0.972,
+      "corrected_label": "osr",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:28:06",
+      "original_cluster_id": 4
+    },
+    {
+      "t_start": 72.41,
+      "t_end": 73.09,
+      "original_label": "OL/OSR?",
+      "original_confidence": 0.978,
+      "corrected_label": "osr",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:28:06",
+      "original_cluster_id": 4
+    },
+    {
+      "t_start": 109.67,
+      "t_end": 110.28,
+      "original_label": "OR/OSL?",
+      "original_confidence": 0.912,
+      "corrected_label": "or",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:28:06",
+      "original_cluster_id": 21
+    },
+    {
+      "t_start": 115.07,
+      "t_end": 115.59,
+      "original_label": "OR/OSL?",
+      "original_confidence": 0.935,
+      "corrected_label": "or",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:28:06",
+      "original_cluster_id": 21
+    },
+    {
+      "t_start": 116.92,
+      "t_end": 117.56,
+      "original_label": "OL/OSR?",
+      "original_confidence": 0.955,
+      "corrected_label": "osr",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:28:06",
+      "original_cluster_id": 4
+    },
+    {
+      "t_start": 118.92,
+      "t_end": 119.46,
+      "original_label": "OR/OSL?",
+      "original_confidence": 0.842,
+      "corrected_label": "or",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:28:06",
+      "original_cluster_id": 21
+    },
+    {
+      "t_start": 120.65,
+      "t_end": 121.25,
+      "original_label": "OL/OSR?",
+      "original_confidence": 0.969,
+      "corrected_label": "osr",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:28:06",
+      "original_cluster_id": 4
+    }
+  ]
+}

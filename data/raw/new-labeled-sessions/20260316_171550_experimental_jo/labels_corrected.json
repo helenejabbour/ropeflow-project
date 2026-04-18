@@ -1,0 +1,1785 @@
+{
+  "segments": [
+    {
+      "start": 0.73,
+      "end": 1.25,
+      "label": "idle",
+      "spoken": "model"
+    },
+    {
+      "start": 1.25,
+      "end": 2.38,
+      "label": "idle",
+      "spoken": "model"
+    },
+    {
+      "start": 2.38,
+      "end": 3.1,
+      "label": "idle",
+      "spoken": "model"
+    },
+    {
+      "start": 3.1,
+      "end": 3.71,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 3.71,
+      "end": 4.24,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 4.24,
+      "end": 4.82,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 4.82,
+      "end": 5.25,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 5.25,
+      "end": 5.87,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 5.87,
+      "end": 6.37,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 6.37,
+      "end": 6.92,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 6.92,
+      "end": 7.46,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 7.46,
+      "end": 8.120000000000001,
+      "label": "underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 8.120000000000001,
+      "end": 8.620000000000001,
+      "label": "underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 8.620000000000001,
+      "end": 9.14,
+      "label": "underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 9.14,
+      "end": 9.65,
+      "label": "underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 10.28,
+      "end": 10.85,
+      "label": "underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 10.85,
+      "end": 11.42,
+      "label": "underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 11.42,
+      "end": 11.94,
+      "label": "underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 11.94,
+      "end": 12.530000000000001,
+      "label": "underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 12.530000000000001,
+      "end": 13.07,
+      "label": "underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 13.07,
+      "end": 13.67,
+      "label": "underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 13.67,
+      "end": 14.35,
+      "label": "dragon_roll",
+      "spoken": "manual"
+    },
+    {
+      "start": 14.35,
+      "end": 15.01,
+      "label": "dragon_roll",
+      "spoken": "manual"
+    },
+    {
+      "start": 15.01,
+      "end": 15.66,
+      "label": "dragon_roll",
+      "spoken": "model"
+    },
+    {
+      "start": 15.66,
+      "end": 16.38,
+      "label": "dragon_roll",
+      "spoken": "model"
+    },
+    {
+      "start": 16.38,
+      "end": 17.0,
+      "label": "dragon_roll",
+      "spoken": "model"
+    },
+    {
+      "start": 17.0,
+      "end": 17.740000000000002,
+      "label": "dragon_roll",
+      "spoken": "model"
+    },
+    {
+      "start": 17.740000000000002,
+      "end": 18.39,
+      "label": "dragon_roll",
+      "spoken": "model"
+    },
+    {
+      "start": 18.39,
+      "end": 19.16,
+      "label": "dragon_roll",
+      "spoken": "model"
+    },
+    {
+      "start": 19.16,
+      "end": 19.88,
+      "label": "dragon_roll",
+      "spoken": "model"
+    },
+    {
+      "start": 19.88,
+      "end": 20.54,
+      "label": "dragon_roll",
+      "spoken": "model"
+    },
+    {
+      "start": 20.54,
+      "end": 20.98,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 20.98,
+      "end": 21.69,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 21.69,
+      "end": 22.03,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 22.03,
+      "end": 22.77,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 22.77,
+      "end": 23.3,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 23.3,
+      "end": 23.91,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 23.91,
+      "end": 24.48,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 24.48,
+      "end": 25.05,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 25.05,
+      "end": 25.66,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 25.66,
+      "end": 26.26,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 26.26,
+      "end": 26.84,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 26.84,
+      "end": 27.44,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 27.44,
+      "end": 28.060000000000002,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 28.060000000000002,
+      "end": 28.580000000000002,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 28.580000000000002,
+      "end": 29.11,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 29.11,
+      "end": 29.7,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 29.7,
+      "end": 30.26,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 30.26,
+      "end": 30.830000000000002,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 30.830000000000002,
+      "end": 31.37,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 31.37,
+      "end": 32.06,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 32.06,
+      "end": 32.71,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 32.71,
+      "end": 33.27,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 33.27,
+      "end": 33.94,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 35.910000000000004,
+      "end": 36.62,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 36.62,
+      "end": 37.25,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 37.25,
+      "end": 37.88,
+      "label": "underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 37.88,
+      "end": 38.45,
+      "label": "underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 38.45,
+      "end": 39.01,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 39.01,
+      "end": 39.67,
+      "label": "sneak_underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 39.67,
+      "end": 40.35,
+      "label": "sneak_underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 40.35,
+      "end": 40.94,
+      "label": "dragon_roll",
+      "spoken": "model"
+    },
+    {
+      "start": 40.94,
+      "end": 41.6,
+      "label": "sneak_underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 41.6,
+      "end": 42.24,
+      "label": "sneak_underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 42.24,
+      "end": 42.88,
+      "label": "sneak_underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 42.88,
+      "end": 43.44,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 43.44,
+      "end": 44.08,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 44.08,
+      "end": 44.58,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 44.58,
+      "end": 45.08,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 45.08,
+      "end": 45.52,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 45.52,
+      "end": 46.02,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 46.02,
+      "end": 46.5,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 46.5,
+      "end": 47.0,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 47.0,
+      "end": 47.47,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 47.47,
+      "end": 47.96,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 47.96,
+      "end": 48.45,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 48.45,
+      "end": 48.910000000000004,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 48.910000000000004,
+      "end": 49.33,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 49.33,
+      "end": 49.79,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 49.79,
+      "end": 50.18,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 50.18,
+      "end": 50.620000000000005,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 50.620000000000005,
+      "end": 50.92,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 50.92,
+      "end": 51.33,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 51.33,
+      "end": 51.79,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 51.79,
+      "end": 52.19,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 52.19,
+      "end": 52.5,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 52.5,
+      "end": 52.910000000000004,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 52.910000000000004,
+      "end": 53.29,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 53.29,
+      "end": 53.67,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 53.67,
+      "end": 53.99,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 53.99,
+      "end": 54.410000000000004,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 54.410000000000004,
+      "end": 54.78,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 54.78,
+      "end": 55.160000000000004,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 55.160000000000004,
+      "end": 55.54,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 55.54,
+      "end": 55.97,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 55.97,
+      "end": 56.46,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 56.46,
+      "end": 57.02,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 57.02,
+      "end": 57.59,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 57.59,
+      "end": 58.21,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 58.21,
+      "end": 58.96,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 58.96,
+      "end": 59.68,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 59.68,
+      "end": 60.35,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 60.35,
+      "end": 61.160000000000004,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 61.160000000000004,
+      "end": 61.78,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 61.78,
+      "end": 62.61,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 62.61,
+      "end": 63.29,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 63.29,
+      "end": 63.89,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 63.89,
+      "end": 64.65,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 64.65,
+      "end": 65.36,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 65.36,
+      "end": 65.98,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 65.98,
+      "end": 66.61,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 66.61,
+      "end": 67.26,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 67.26,
+      "end": 67.96000000000001,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 67.96000000000001,
+      "end": 68.74,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 68.74,
+      "end": 69.41,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 69.41,
+      "end": 70.21000000000001,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 70.21000000000001,
+      "end": 71.02,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 71.02,
+      "end": 71.72,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 71.72,
+      "end": 72.41,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 72.41,
+      "end": 73.09,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 73.09,
+      "end": 73.85000000000001,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 73.85000000000001,
+      "end": 74.59,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 74.59,
+      "end": 75.33,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 75.33,
+      "end": 76.02,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 76.02,
+      "end": 76.76,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 76.76,
+      "end": 77.56,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 77.56,
+      "end": 78.47,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 78.47,
+      "end": 79.28,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 79.28,
+      "end": 79.93,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 79.93,
+      "end": 80.56,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 80.56,
+      "end": 81.27,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 81.27,
+      "end": 81.86,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 81.86,
+      "end": 82.60000000000001,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 82.60000000000001,
+      "end": 83.4,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 83.4,
+      "end": 84.26,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 84.26,
+      "end": 85.08,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 85.08,
+      "end": 85.76,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 85.76,
+      "end": 86.39,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 86.39,
+      "end": 87.18,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 87.18,
+      "end": 87.83,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 87.83,
+      "end": 88.47,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 88.47,
+      "end": 89.04,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 89.04,
+      "end": 89.75,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 89.75,
+      "end": 90.28,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 90.28,
+      "end": 90.95,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 90.95,
+      "end": 91.46000000000001,
+      "label": "underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 91.46000000000001,
+      "end": 92.06,
+      "label": "underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 92.06,
+      "end": 92.54,
+      "label": "underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 92.54,
+      "end": 93.23,
+      "label": "underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 93.23,
+      "end": 93.87,
+      "label": "underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 93.87,
+      "end": 94.58,
+      "label": "underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 94.58,
+      "end": 95.21000000000001,
+      "label": "underhand",
+      "spoken": "manual"
+    },
+    {
+      "start": 95.21000000000001,
+      "end": 95.89,
+      "label": "underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 95.89,
+      "end": 96.5,
+      "label": "underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 96.5,
+      "end": 97.14,
+      "label": "underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 97.14,
+      "end": 97.83,
+      "label": "underhand",
+      "spoken": "manual"
+    },
+    {
+      "start": 97.83,
+      "end": 98.49000000000001,
+      "label": "dragon_roll",
+      "spoken": "model"
+    },
+    {
+      "start": 98.49000000000001,
+      "end": 99.18,
+      "label": "dragon_roll",
+      "spoken": "model"
+    },
+    {
+      "start": 99.18,
+      "end": 99.8,
+      "label": "dragon_roll",
+      "spoken": "model"
+    },
+    {
+      "start": 99.8,
+      "end": 100.46000000000001,
+      "label": "dragon_roll",
+      "spoken": "model"
+    },
+    {
+      "start": 100.46000000000001,
+      "end": 101.16,
+      "label": "dragon_roll",
+      "spoken": "model"
+    },
+    {
+      "start": 101.16,
+      "end": 101.88,
+      "label": "dragon_roll",
+      "spoken": "model"
+    },
+    {
+      "start": 101.88,
+      "end": 102.55,
+      "label": "dragon_roll",
+      "spoken": "model"
+    },
+    {
+      "start": 102.55,
+      "end": 103.33,
+      "label": "dragon_roll",
+      "spoken": "model"
+    },
+    {
+      "start": 103.33,
+      "end": 103.97,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 103.97,
+      "end": 104.52,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 104.52,
+      "end": 105.07000000000001,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 105.07000000000001,
+      "end": 105.66,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 105.66,
+      "end": 106.12,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 106.12,
+      "end": 106.61,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 106.61,
+      "end": 107.14,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 107.14,
+      "end": 107.61,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 107.61,
+      "end": 108.07000000000001,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 108.07000000000001,
+      "end": 108.61,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 108.61,
+      "end": 109.12,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 109.12,
+      "end": 109.67,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 109.67,
+      "end": 110.28,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 110.28,
+      "end": 110.91,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 110.91,
+      "end": 111.54,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 111.54,
+      "end": 112.14,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 112.14,
+      "end": 112.82000000000001,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 112.82000000000001,
+      "end": 113.38,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 113.38,
+      "end": 113.91,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 113.91,
+      "end": 114.42,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 114.42,
+      "end": 115.07000000000001,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 115.07000000000001,
+      "end": 115.59,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 115.59,
+      "end": 116.23,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 116.23,
+      "end": 116.92,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 116.92,
+      "end": 117.56,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 117.56,
+      "end": 118.27,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 118.27,
+      "end": 118.92,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 118.92,
+      "end": 119.46000000000001,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 119.46000000000001,
+      "end": 120.07000000000001,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 120.07000000000001,
+      "end": 120.65,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 120.65,
+      "end": 121.25,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 121.25,
+      "end": 121.88,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 121.88,
+      "end": 122.52,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 122.52,
+      "end": 123.10000000000001,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 123.10000000000001,
+      "end": 123.75,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 123.75,
+      "end": 124.27,
+      "label": "underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 124.27,
+      "end": 124.85000000000001,
+      "label": "sneak_underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 124.85000000000001,
+      "end": 125.51,
+      "label": "sneak_underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 125.51,
+      "end": 126.19,
+      "label": "underhand",
+      "spoken": "manual"
+    },
+    {
+      "start": 126.19,
+      "end": 126.72,
+      "label": "underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 126.72,
+      "end": 127.36,
+      "label": "underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 127.36,
+      "end": 127.91,
+      "label": "sneak_underhand",
+      "spoken": "manual"
+    },
+    {
+      "start": 127.91,
+      "end": 128.49,
+      "label": "sneak_underhand",
+      "spoken": "manual"
+    },
+    {
+      "start": 128.49,
+      "end": 129.12,
+      "label": "underhand",
+      "spoken": "manual"
+    },
+    {
+      "start": 129.12,
+      "end": 129.69,
+      "label": "sneak_underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 129.69,
+      "end": 130.3,
+      "label": "sneak_underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 130.3,
+      "end": 130.94,
+      "label": "underhand",
+      "spoken": "manual"
+    },
+    {
+      "start": 130.94,
+      "end": 131.47,
+      "label": "dragon_roll",
+      "spoken": "model"
+    },
+    {
+      "start": 131.47,
+      "end": 132.07,
+      "label": "sneak_underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 132.07,
+      "end": 132.69,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 132.69,
+      "end": 133.28,
+      "label": "sneak_underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 133.28,
+      "end": 133.91,
+      "label": "sneak_underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 133.91,
+      "end": 134.68,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 134.68,
+      "end": 135.51,
+      "label": "dragon_roll",
+      "spoken": "model"
+    },
+    {
+      "start": 135.51,
+      "end": 136.24,
+      "label": "dragon_roll",
+      "spoken": "model"
+    },
+    {
+      "start": 136.24,
+      "end": 136.91,
+      "label": "dragon_roll",
+      "spoken": "model"
+    },
+    {
+      "start": 136.91,
+      "end": 137.64000000000001,
+      "label": "dragon_roll",
+      "spoken": "model"
+    },
+    {
+      "start": 137.64000000000001,
+      "end": 138.26,
+      "label": "dragon_roll",
+      "spoken": "model"
+    },
+    {
+      "start": 138.26,
+      "end": 139.01,
+      "label": "dragon_roll",
+      "spoken": "model"
+    },
+    {
+      "start": 139.01,
+      "end": 139.69,
+      "label": "dragon_roll",
+      "spoken": "model"
+    },
+    {
+      "start": 139.69,
+      "end": 140.53,
+      "label": "dragon_roll",
+      "spoken": "model"
+    },
+    {
+      "start": 140.53,
+      "end": 141.23,
+      "label": "dragon_roll",
+      "spoken": "model"
+    },
+    {
+      "start": 141.23,
+      "end": 142.08,
+      "label": "dragon_roll",
+      "spoken": "model"
+    },
+    {
+      "start": 142.08,
+      "end": 142.84,
+      "label": "dragon_roll",
+      "spoken": "model"
+    },
+    {
+      "start": 142.84,
+      "end": 143.72,
+      "label": "dragon_roll",
+      "spoken": "model"
+    },
+    {
+      "start": 143.72,
+      "end": 144.25,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 144.25,
+      "end": 144.84,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 144.84,
+      "end": 145.34,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 145.34,
+      "end": 145.82,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 145.82,
+      "end": 146.25,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 146.25,
+      "end": 146.72,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 146.72,
+      "end": 147.19,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 147.19,
+      "end": 147.66,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 147.66,
+      "end": 148.07,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 148.07,
+      "end": 148.54,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 148.54,
+      "end": 148.98,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 148.98,
+      "end": 149.45000000000002,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 149.45000000000002,
+      "end": 149.84,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 149.84,
+      "end": 150.3,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 150.3,
+      "end": 150.77,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 150.77,
+      "end": 151.39000000000001,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 151.39000000000001,
+      "end": 151.91,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 151.91,
+      "end": 152.61,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 152.61,
+      "end": 153.34,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 153.34,
+      "end": 154.03,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 154.03,
+      "end": 154.55,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 154.55,
+      "end": 155.16,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 155.16,
+      "end": 155.71,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 155.71,
+      "end": 156.41,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 156.41,
+      "end": 157.17000000000002,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 157.17000000000002,
+      "end": 157.88,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 157.88,
+      "end": 158.58,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 158.58,
+      "end": 159.27,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 159.27,
+      "end": 159.98,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 159.98,
+      "end": 160.71,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 160.71,
+      "end": 161.5,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 161.5,
+      "end": 162.38,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 162.38,
+      "end": 163.1,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 163.1,
+      "end": 163.84,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 163.84,
+      "end": 164.58,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 164.58,
+      "end": 165.43,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 165.43,
+      "end": 166.21,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 166.21,
+      "end": 166.86,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 166.86,
+      "end": 167.79,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 167.79,
+      "end": 168.58,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 168.58,
+      "end": 169.4,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 169.4,
+      "end": 170.13,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 170.13,
+      "end": 170.99,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 170.99,
+      "end": 171.88,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 171.88,
+      "end": 172.71,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 172.71,
+      "end": 173.48,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 173.48,
+      "end": 174.22,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 174.22,
+      "end": 175.05,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 175.05,
+      "end": 175.78,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 175.78,
+      "end": 176.52,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 176.52,
+      "end": 177.39000000000001,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 177.39000000000001,
+      "end": 178.32,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 178.32,
+      "end": 179.15,
+      "label": "sneak_overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 179.15,
+      "end": 180.05,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 180.05,
+      "end": 180.75,
+      "label": "overhand",
+      "spoken": "model"
+    },
+    {
+      "start": 180.75,
+      "end": 181.58,
+      "label": "underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 181.58,
+      "end": 182.31,
+      "label": "underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 182.31,
+      "end": 182.89000000000001,
+      "label": "underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 182.89000000000001,
+      "end": 183.55,
+      "label": "underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 183.55,
+      "end": 184.57,
+      "label": "underhand",
+      "spoken": "model"
+    },
+    {
+      "start": 184.57,
+      "end": 185.46,
+      "label": "idle",
+      "spoken": "model"
+    },
+    {
+      "start": 185.46,
+      "end": 185.86,
+      "label": "idle",
+      "spoken": "model"
+    },
+    {
+      "start": 185.86,
+      "end": 186.42000000000002,
+      "label": "idle",
+      "spoken": "model"
+    }
+  ],
+  "excluded_segments": [
+    {
+      "t_start": 9.65,
+      "t_end": 9.98
+    },
+    {
+      "t_start": 9.98,
+      "t_end": 10.28
+    },
+    {
+      "t_start": 33.94,
+      "t_end": 34.21
+    },
+    {
+      "t_start": 34.21,
+      "t_end": 34.85
+    },
+    {
+      "t_start": 34.85,
+      "t_end": 35.32
+    },
+    {
+      "t_start": 35.32,
+      "t_end": 35.910000000000004
+    }
+  ],
+  "label_events": [],
+  "source": "trigger_viewer_corrections",
+  "corrected_from": "tsne21_model"
+}

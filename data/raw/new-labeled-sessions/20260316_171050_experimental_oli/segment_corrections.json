@@ -1,0 +1,156 @@
+{
+  "version": 1,
+  "recording": "20260316_171050_experimental_oli",
+  "corrections": [
+    {
+      "t_start": 69.14,
+      "t_end": 69.92,
+      "original_label": "UR-CW",
+      "original_confidence": 0.908,
+      "corrected_label": "ur",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:19",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 0.68,
+      "t_end": 1.55,
+      "original_label": "Idle-or-ol?",
+      "original_confidence": 0.918,
+      "corrected_label": "idle",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:28:06",
+      "original_cluster_id": 20
+    },
+    {
+      "t_start": 2.43,
+      "t_end": 3.21,
+      "original_label": "Idle-or-ol?",
+      "original_confidence": 0.899,
+      "corrected_label": "idle",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:28:06",
+      "original_cluster_id": 20
+    },
+    {
+      "t_start": 4.04,
+      "t_end": 4.81,
+      "original_label": "Idle-or-ol?",
+      "original_confidence": 0.871,
+      "corrected_label": "idle",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:28:06",
+      "original_cluster_id": 20
+    },
+    {
+      "t_start": 5.55,
+      "t_end": 6.29,
+      "original_label": "Idle-or-ol?",
+      "original_confidence": 0.884,
+      "corrected_label": "idle",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:28:06",
+      "original_cluster_id": 20
+    },
+    {
+      "t_start": 6.98,
+      "t_end": 7.58,
+      "original_label": "Idle-or-ol?",
+      "original_confidence": 0.818,
+      "corrected_label": "idle",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:28:06",
+      "original_cluster_id": 20
+    },
+    {
+      "t_start": 19.26,
+      "t_end": 19.51,
+      "original_label": "OR/OSL?",
+      "original_confidence": 0.634,
+      "corrected_label": "or",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:28:06",
+      "original_cluster_id": 21
+    },
+    {
+      "t_start": 27.87,
+      "t_end": 28.15,
+      "original_label": "OR/OSL?",
+      "original_confidence": 0.901,
+      "corrected_label": "or",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:28:06",
+      "original_cluster_id": 21
+    },
+    {
+      "t_start": 29.27,
+      "t_end": 30.52,
+      "original_label": "Idle-or-ol?",
+      "original_confidence": 0.85,
+      "corrected_label": "idle",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:28:06",
+      "original_cluster_id": 20
+    },
+    {
+      "t_start": 34.69,
+      "t_end": 35.18,
+      "original_label": "Idle-or-ol?",
+      "original_confidence": 0.835,
+      "corrected_label": "idle",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:28:06",
+      "original_cluster_id": 20
+    },
+    {
+      "t_start": 36.53,
+      "t_end": 37.17,
+      "original_label": "Idle-or-ol?",
+      "original_confidence": 0.895,
+      "corrected_label": "idle",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:28:06",
+      "original_cluster_id": 20
+    },
+    {
+      "t_start": 41.44,
+      "t_end": 42.13,
+      "original_label": "Idle-or-ol?",
+      "original_confidence": 0.909,
+      "corrected_label": "idle",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:28:06",
+      "original_cluster_id": 20
+    },
+    {
+      "t_start": 56.63,
+      "t_end": 57.16,
+      "original_label": "Idle-or-ol?",
+      "original_confidence": 0.745,
+      "corrected_label": "idle",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:28:06",
+      "original_cluster_id": 20
+    },
+    {
+      "t_start": 81.39,
+      "t_end": 82.09,
+      "original_label": "Idle-or-ol?",
+      "original_confidence": 0.842,
+      "corrected_label": "idle",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:28:06",
+      "original_cluster_id": 20
+    },
+    {
+      "t_start": 83.45,
+      "t_end": 84.04,
+      "original_label": "Idle-or-ol?",
+      "original_confidence": 0.914,
+      "corrected_label": "idle",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:28:06",
+      "original_cluster_id": 20
+    }
+  ]
+}
