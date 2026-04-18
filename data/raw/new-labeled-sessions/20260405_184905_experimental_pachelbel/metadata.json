@@ -1,0 +1,17 @@
+{
+  "id": "da9509d9",
+  "timestamp": "20260405_184905",
+  "pattern": "experimental",
+  "pattern_category": "Other",
+  "subject": "pachelbel",
+  "tempo": "mixed",
+  "notes": "",
+  "tags": [],
+  "duration_sec": 84.407,
+  "sample_count": 8313,
+  "device_count": 2,
+  "sample_rate_hz_approx": 98.4870923027711,
+  "has_video": true,
+  "has_audio": false,
+  "has_labels": false
+}

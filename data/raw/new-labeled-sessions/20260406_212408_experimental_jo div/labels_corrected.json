@@ -1,0 +1,4223 @@
+{
+  "segments": [
+    {
+      "start": 0.32,
+      "end": 0.88,
+      "label": "Idle3",
+      "spoken": "model",
+      "cluster_id": 3
+    },
+    {
+      "start": 0.88,
+      "end": 1.6,
+      "label": "Idle3",
+      "spoken": "model",
+      "cluster_id": 3
+    },
+    {
+      "start": 1.6,
+      "end": 2.0300000000000002,
+      "label": "Idle3",
+      "spoken": "model",
+      "cluster_id": 3
+    },
+    {
+      "start": 2.0300000000000002,
+      "end": 2.5100000000000002,
+      "label": "Idle3",
+      "spoken": "model",
+      "cluster_id": 3
+    },
+    {
+      "start": 2.5100000000000002,
+      "end": 3.38,
+      "label": "Idle3",
+      "spoken": "model",
+      "cluster_id": 3
+    },
+    {
+      "start": 3.38,
+      "end": 4.3,
+      "label": "Idle3",
+      "spoken": "model",
+      "cluster_id": 3
+    },
+    {
+      "start": 4.3,
+      "end": 5.13,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 12
+    },
+    {
+      "start": 5.13,
+      "end": 5.8,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 12
+    },
+    {
+      "start": 5.8,
+      "end": 6.49,
+      "label": "cw",
+      "spoken": "manual",
+      "cluster_id": 20
+    },
+    {
+      "start": 6.49,
+      "end": 7.1000000000000005,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 7.1000000000000005,
+      "end": 7.66,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 7.66,
+      "end": 8.22,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 8.22,
+      "end": 8.92,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 8.92,
+      "end": 9.43,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 9.43,
+      "end": 9.9,
+      "label": "UL0",
+      "spoken": "model",
+      "cluster_id": 13
+    },
+    {
+      "start": 9.9,
+      "end": 10.51,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 16
+    },
+    {
+      "start": 10.51,
+      "end": 11.040000000000001,
+      "label": "UR",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 11.040000000000001,
+      "end": 11.47,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 11.47,
+      "end": 12.0,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 12.0,
+      "end": 12.47,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 12.47,
+      "end": 13.05,
+      "label": "UR",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 13.05,
+      "end": 13.56,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 13.56,
+      "end": 14.14,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 14.14,
+      "end": 14.68,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 14.68,
+      "end": 15.24,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 15.24,
+      "end": 15.780000000000001,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 15.780000000000001,
+      "end": 16.34,
+      "label": "FB",
+      "spoken": "model",
+      "cluster_id": 10
+    },
+    {
+      "start": 16.34,
+      "end": 16.9,
+      "label": "USR",
+      "spoken": "model",
+      "cluster_id": 11
+    },
+    {
+      "start": 16.9,
+      "end": 17.46,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 17.46,
+      "end": 17.990000000000002,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 17.990000000000002,
+      "end": 18.57,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 18.57,
+      "end": 19.23,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 19.23,
+      "end": 19.73,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 19.73,
+      "end": 20.240000000000002,
+      "label": "UL0",
+      "spoken": "model",
+      "cluster_id": 13
+    },
+    {
+      "start": 20.240000000000002,
+      "end": 20.900000000000002,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 16
+    },
+    {
+      "start": 20.900000000000002,
+      "end": 21.45,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 21.45,
+      "end": 21.95,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 21.95,
+      "end": 22.55,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 22.55,
+      "end": 23.14,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 23.14,
+      "end": 23.66,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 23.66,
+      "end": 24.12,
+      "label": "UL0",
+      "spoken": "model",
+      "cluster_id": 13
+    },
+    {
+      "start": 24.12,
+      "end": 24.77,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 16
+    },
+    {
+      "start": 24.77,
+      "end": 25.310000000000002,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 25.310000000000002,
+      "end": 25.79,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 25.79,
+      "end": 26.34,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 26.34,
+      "end": 26.94,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 26.94,
+      "end": 27.47,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 27.47,
+      "end": 27.98,
+      "label": "UL0",
+      "spoken": "model",
+      "cluster_id": 13
+    },
+    {
+      "start": 27.98,
+      "end": 28.57,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 16
+    },
+    {
+      "start": 28.57,
+      "end": 29.11,
+      "label": "UR",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 29.11,
+      "end": 29.57,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 29.57,
+      "end": 30.080000000000002,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 30.080000000000002,
+      "end": 30.64,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 30.64,
+      "end": 31.2,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 31.2,
+      "end": 31.7,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 31.7,
+      "end": 32.18,
+      "label": "UL0",
+      "spoken": "model",
+      "cluster_id": 13
+    },
+    {
+      "start": 32.18,
+      "end": 32.81,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 16
+    },
+    {
+      "start": 32.81,
+      "end": 33.31,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 33.31,
+      "end": 33.84,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 33.84,
+      "end": 34.4,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 34.4,
+      "end": 34.96,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 34.96,
+      "end": 35.49,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 35.49,
+      "end": 35.93,
+      "label": "UL0",
+      "spoken": "model",
+      "cluster_id": 13
+    },
+    {
+      "start": 35.93,
+      "end": 36.54,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 16
+    },
+    {
+      "start": 36.54,
+      "end": 36.97,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 36.97,
+      "end": 37.52,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 37.52,
+      "end": 38.08,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 38.08,
+      "end": 38.65,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 38.65,
+      "end": 39.19,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 39.19,
+      "end": 39.67,
+      "label": "UL0",
+      "spoken": "model",
+      "cluster_id": 13
+    },
+    {
+      "start": 39.67,
+      "end": 40.26,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 16
+    },
+    {
+      "start": 40.26,
+      "end": 40.800000000000004,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 40.800000000000004,
+      "end": 41.27,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 41.27,
+      "end": 41.77,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 41.77,
+      "end": 42.33,
+      "label": "UR",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 42.33,
+      "end": 42.79,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 42.79,
+      "end": 43.32,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 43.32,
+      "end": 43.85,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 43.85,
+      "end": 44.39,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 44.39,
+      "end": 45.01,
+      "label": "UR0",
+      "spoken": "model",
+      "cluster_id": 0
+    },
+    {
+      "start": 45.01,
+      "end": 45.53,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 45.53,
+      "end": 45.86,
+      "label": "USR",
+      "spoken": "model",
+      "cluster_id": 11
+    },
+    {
+      "start": 45.86,
+      "end": 46.29,
+      "label": "FB2",
+      "spoken": "model",
+      "cluster_id": 22
+    },
+    {
+      "start": 46.29,
+      "end": 46.99,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 46.99,
+      "end": 47.33,
+      "label": "Idle3",
+      "spoken": "model",
+      "cluster_id": 3
+    },
+    {
+      "start": 47.33,
+      "end": 47.77,
+      "label": "Idle3",
+      "spoken": "model",
+      "cluster_id": 3
+    },
+    {
+      "start": 49.04,
+      "end": 49.68,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 49.68,
+      "end": 50.25,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 50.25,
+      "end": 50.77,
+      "label": "UR",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 50.77,
+      "end": 51.24,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 51.24,
+      "end": 51.82,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 51.82,
+      "end": 52.32,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 52.32,
+      "end": 52.94,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 52.94,
+      "end": 53.45,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 53.45,
+      "end": 53.95,
+      "label": "UL0",
+      "spoken": "model",
+      "cluster_id": 13
+    },
+    {
+      "start": 53.95,
+      "end": 54.54,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 16
+    },
+    {
+      "start": 54.54,
+      "end": 55.13,
+      "label": "UR",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 55.13,
+      "end": 55.54,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 55.54,
+      "end": 56.07,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 56.07,
+      "end": 56.59,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 56.59,
+      "end": 57.14,
+      "label": "UR",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 57.14,
+      "end": 57.65,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 57.65,
+      "end": 58.18,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 58.18,
+      "end": 58.72,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 58.72,
+      "end": 59.27,
+      "label": "UR",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 59.27,
+      "end": 59.71,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 59.71,
+      "end": 60.25,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 60.25,
+      "end": 60.71,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 60.71,
+      "end": 61.160000000000004,
+      "label": "UR",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 61.160000000000004,
+      "end": 61.61,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 61.61,
+      "end": 62.160000000000004,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 62.160000000000004,
+      "end": 62.82,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 62.82,
+      "end": 63.410000000000004,
+      "label": "UR",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 63.410000000000004,
+      "end": 63.980000000000004,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 63.980000000000004,
+      "end": 64.73,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 64.73,
+      "end": 65.31,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 65.31,
+      "end": 66.11,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 66.11,
+      "end": 66.7,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 66.7,
+      "end": 67.41,
+      "label": "UL0",
+      "spoken": "model",
+      "cluster_id": 13
+    },
+    {
+      "start": 67.41,
+      "end": 68.07000000000001,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 16
+    },
+    {
+      "start": 68.07000000000001,
+      "end": 68.71000000000001,
+      "label": "UR0",
+      "spoken": "model",
+      "cluster_id": 0
+    },
+    {
+      "start": 68.71000000000001,
+      "end": 69.4,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 69.4,
+      "end": 70.04,
+      "label": "UL0",
+      "spoken": "model",
+      "cluster_id": 13
+    },
+    {
+      "start": 70.04,
+      "end": 70.75,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 16
+    },
+    {
+      "start": 70.75,
+      "end": 71.36,
+      "label": "UR0",
+      "spoken": "model",
+      "cluster_id": 0
+    },
+    {
+      "start": 71.36,
+      "end": 72.07000000000001,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 72.07000000000001,
+      "end": 72.72,
+      "label": "UL0",
+      "spoken": "model",
+      "cluster_id": 13
+    },
+    {
+      "start": 72.72,
+      "end": 73.43,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 16
+    },
+    {
+      "start": 73.43,
+      "end": 74.13,
+      "label": "UR0",
+      "spoken": "model",
+      "cluster_id": 0
+    },
+    {
+      "start": 74.13,
+      "end": 74.84,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 74.84,
+      "end": 75.58,
+      "label": "OSR",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 75.58,
+      "end": 76.21000000000001,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 76.21000000000001,
+      "end": 76.89,
+      "label": "OR/OSL?",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 76.89,
+      "end": 77.58,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 77.58,
+      "end": 78.28,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 78.28,
+      "end": 78.87,
+      "label": "FB2",
+      "spoken": "model",
+      "cluster_id": 22
+    },
+    {
+      "start": 78.87,
+      "end": 79.45,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 79.45,
+      "end": 80.08,
+      "label": "OR3",
+      "spoken": "model",
+      "cluster_id": 15
+    },
+    {
+      "start": 80.08,
+      "end": 80.8,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 80.8,
+      "end": 81.43,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 81.43,
+      "end": 82.11,
+      "label": "FB",
+      "spoken": "model",
+      "cluster_id": 10
+    },
+    {
+      "start": 82.11,
+      "end": 82.7,
+      "label": "USR",
+      "spoken": "model",
+      "cluster_id": 11
+    },
+    {
+      "start": 82.7,
+      "end": 83.37,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 83.37,
+      "end": 83.96000000000001,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 83.96000000000001,
+      "end": 84.61,
+      "label": "OR3",
+      "spoken": "model",
+      "cluster_id": 15
+    },
+    {
+      "start": 84.61,
+      "end": 85.33,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 85.33,
+      "end": 85.92,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 85.92,
+      "end": 86.58,
+      "label": "FB",
+      "spoken": "model",
+      "cluster_id": 10
+    },
+    {
+      "start": 86.58,
+      "end": 87.16,
+      "label": "USR",
+      "spoken": "model",
+      "cluster_id": 11
+    },
+    {
+      "start": 87.16,
+      "end": 87.77,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 87.77,
+      "end": 88.29,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 88.29,
+      "end": 88.89,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 88.89,
+      "end": 89.57000000000001,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 89.57000000000001,
+      "end": 90.05,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 90.05,
+      "end": 90.72,
+      "label": "FB",
+      "spoken": "model",
+      "cluster_id": 10
+    },
+    {
+      "start": 90.72,
+      "end": 91.28,
+      "label": "USR",
+      "spoken": "model",
+      "cluster_id": 11
+    },
+    {
+      "start": 91.28,
+      "end": 91.91,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 91.91,
+      "end": 92.45,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 92.45,
+      "end": 93.14,
+      "label": "OR3",
+      "spoken": "model",
+      "cluster_id": 15
+    },
+    {
+      "start": 93.14,
+      "end": 93.72,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 93.72,
+      "end": 94.23,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 94.23,
+      "end": 94.81,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 94.81,
+      "end": 95.47,
+      "label": "cw",
+      "spoken": "manual",
+      "cluster_id": 17
+    },
+    {
+      "start": 95.47,
+      "end": 95.94,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 95.94,
+      "end": 96.51,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 96.51,
+      "end": 97.02,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 97.02,
+      "end": 97.57000000000001,
+      "label": "cw",
+      "spoken": "manual",
+      "cluster_id": 17
+    },
+    {
+      "start": 97.57000000000001,
+      "end": 98.10000000000001,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 98.10000000000001,
+      "end": 98.64,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 98.64,
+      "end": 99.28,
+      "label": "or",
+      "spoken": "manual",
+      "cluster_id": 21
+    },
+    {
+      "start": 99.28,
+      "end": 99.88,
+      "label": "FB2",
+      "spoken": "model",
+      "cluster_id": 22
+    },
+    {
+      "start": 99.88,
+      "end": 100.53,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 100.53,
+      "end": 101.14,
+      "label": "FB2",
+      "spoken": "model",
+      "cluster_id": 22
+    },
+    {
+      "start": 101.14,
+      "end": 101.8,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 101.8,
+      "end": 102.43,
+      "label": "FB2",
+      "spoken": "model",
+      "cluster_id": 22
+    },
+    {
+      "start": 102.43,
+      "end": 103.02,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 103.02,
+      "end": 103.61,
+      "label": "OR3",
+      "spoken": "model",
+      "cluster_id": 15
+    },
+    {
+      "start": 103.61,
+      "end": 104.31,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 104.31,
+      "end": 104.92,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 104.92,
+      "end": 105.58,
+      "label": "FB2",
+      "spoken": "model",
+      "cluster_id": 22
+    },
+    {
+      "start": 105.58,
+      "end": 105.87,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 106.26,
+      "end": 107.06,
+      "label": "FB2",
+      "spoken": "model",
+      "cluster_id": 22
+    },
+    {
+      "start": 107.06,
+      "end": 107.74000000000001,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 107.74000000000001,
+      "end": 108.39,
+      "label": "FB2",
+      "spoken": "model",
+      "cluster_id": 22
+    },
+    {
+      "start": 108.39,
+      "end": 109.10000000000001,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 109.10000000000001,
+      "end": 109.78,
+      "label": "FB2",
+      "spoken": "model",
+      "cluster_id": 22
+    },
+    {
+      "start": 109.78,
+      "end": 110.45,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 110.45,
+      "end": 111.05,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 111.05,
+      "end": 111.71000000000001,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 111.71000000000001,
+      "end": 112.3,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 112.3,
+      "end": 112.83,
+      "label": "UL0",
+      "spoken": "model",
+      "cluster_id": 13
+    },
+    {
+      "start": 112.83,
+      "end": 113.48,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 16
+    },
+    {
+      "start": 113.48,
+      "end": 114.06,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 114.06,
+      "end": 114.61,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 114.61,
+      "end": 115.19,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 115.19,
+      "end": 115.78,
+      "label": "cw",
+      "spoken": "manual",
+      "cluster_id": 17
+    },
+    {
+      "start": 115.78,
+      "end": 116.22,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 116.22,
+      "end": 116.79,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 116.79,
+      "end": 117.36,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 117.36,
+      "end": 117.9,
+      "label": "cw",
+      "spoken": "manual",
+      "cluster_id": 17
+    },
+    {
+      "start": 117.9,
+      "end": 118.33,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 118.33,
+      "end": 118.83,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 118.83,
+      "end": 119.29,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 119.29,
+      "end": 119.75,
+      "label": "cw",
+      "spoken": "manual",
+      "cluster_id": 17
+    },
+    {
+      "start": 119.75,
+      "end": 120.19,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 120.19,
+      "end": 120.60000000000001,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 120.60000000000001,
+      "end": 121.01,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 121.01,
+      "end": 121.38,
+      "label": "cw",
+      "spoken": "manual",
+      "cluster_id": 17
+    },
+    {
+      "start": 121.38,
+      "end": 121.8,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 121.8,
+      "end": 122.15,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 122.15,
+      "end": 122.61,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 122.61,
+      "end": 123.09,
+      "label": "cw",
+      "spoken": "manual",
+      "cluster_id": 17
+    },
+    {
+      "start": 123.09,
+      "end": 123.64,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 123.64,
+      "end": 124.23,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 124.23,
+      "end": 124.82000000000001,
+      "label": "or",
+      "spoken": "manual",
+      "cluster_id": 21
+    },
+    {
+      "start": 124.82000000000001,
+      "end": 125.46000000000001,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 125.46000000000001,
+      "end": 126.06,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 126.31,
+      "end": 126.7,
+      "label": "OSR",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 126.7,
+      "end": 127.28,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 127.28,
+      "end": 127.98,
+      "label": "OR3",
+      "spoken": "model",
+      "cluster_id": 15
+    },
+    {
+      "start": 127.98,
+      "end": 128.69,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 128.69,
+      "end": 129.21,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 129.21,
+      "end": 129.74,
+      "label": "UL0",
+      "spoken": "model",
+      "cluster_id": 13
+    },
+    {
+      "start": 129.74,
+      "end": 130.32,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 16
+    },
+    {
+      "start": 130.32,
+      "end": 130.79,
+      "label": "UR0",
+      "spoken": "model",
+      "cluster_id": 0
+    },
+    {
+      "start": 130.79,
+      "end": 131.33,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 131.33,
+      "end": 131.84,
+      "label": "UL0",
+      "spoken": "model",
+      "cluster_id": 13
+    },
+    {
+      "start": 131.84,
+      "end": 132.4,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 16
+    },
+    {
+      "start": 132.4,
+      "end": 132.98,
+      "label": "UR0",
+      "spoken": "model",
+      "cluster_id": 0
+    },
+    {
+      "start": 132.98,
+      "end": 133.54,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 133.54,
+      "end": 134.22,
+      "label": "OSR",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 134.22,
+      "end": 134.69,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 134.69,
+      "end": 135.3,
+      "label": "OR2",
+      "spoken": "model",
+      "cluster_id": 9
+    },
+    {
+      "start": 135.3,
+      "end": 135.9,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 135.9,
+      "end": 136.33,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 136.63,
+      "end": 137.0,
+      "label": "OSR",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 137.0,
+      "end": 137.53,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 137.53,
+      "end": 138.13,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 7
+    },
+    {
+      "start": 138.13,
+      "end": 138.70000000000002,
+      "label": "cw",
+      "spoken": "manual",
+      "cluster_id": 17
+    },
+    {
+      "start": 138.70000000000002,
+      "end": 139.34,
+      "label": "UR0",
+      "spoken": "model",
+      "cluster_id": 0
+    },
+    {
+      "start": 139.34,
+      "end": 139.86,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 139.86,
+      "end": 140.45000000000002,
+      "label": "FB",
+      "spoken": "model",
+      "cluster_id": 10
+    },
+    {
+      "start": 140.45000000000002,
+      "end": 141.03,
+      "label": "USR",
+      "spoken": "model",
+      "cluster_id": 11
+    },
+    {
+      "start": 141.03,
+      "end": 141.6,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 141.6,
+      "end": 142.15,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 142.15,
+      "end": 142.73,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 142.73,
+      "end": 143.36,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 143.36,
+      "end": 143.87,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 143.87,
+      "end": 144.46,
+      "label": "FB",
+      "spoken": "model",
+      "cluster_id": 10
+    },
+    {
+      "start": 144.46,
+      "end": 144.95000000000002,
+      "label": "USR",
+      "spoken": "model",
+      "cluster_id": 11
+    },
+    {
+      "start": 144.95000000000002,
+      "end": 145.55,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 145.55,
+      "end": 146.02,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 146.02,
+      "end": 146.5,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 146.5,
+      "end": 147.06,
+      "label": "UR",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 147.06,
+      "end": 147.52,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 147.52,
+      "end": 147.99,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 147.99,
+      "end": 148.47,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 148.47,
+      "end": 148.97,
+      "label": "UR",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 148.97,
+      "end": 149.42000000000002,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 149.42000000000002,
+      "end": 149.93,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 149.93,
+      "end": 150.47,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 150.47,
+      "end": 150.97,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 150.97,
+      "end": 151.52,
+      "label": "UR0",
+      "spoken": "model",
+      "cluster_id": 0
+    },
+    {
+      "start": 151.52,
+      "end": 152.03,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 152.03,
+      "end": 152.54,
+      "label": "UL0",
+      "spoken": "model",
+      "cluster_id": 13
+    },
+    {
+      "start": 152.54,
+      "end": 153.02,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 16
+    },
+    {
+      "start": 153.02,
+      "end": 153.58,
+      "label": "UR0",
+      "spoken": "model",
+      "cluster_id": 0
+    },
+    {
+      "start": 153.58,
+      "end": 154.04,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 154.04,
+      "end": 154.57,
+      "label": "UL0",
+      "spoken": "model",
+      "cluster_id": 13
+    },
+    {
+      "start": 154.57,
+      "end": 155.11,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 16
+    },
+    {
+      "start": 155.11,
+      "end": 155.67000000000002,
+      "label": "UR0",
+      "spoken": "model",
+      "cluster_id": 0
+    },
+    {
+      "start": 155.67000000000002,
+      "end": 156.25,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 156.25,
+      "end": 156.95000000000002,
+      "label": "FB2",
+      "spoken": "model",
+      "cluster_id": 22
+    },
+    {
+      "start": 156.95000000000002,
+      "end": 157.55,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 157.55,
+      "end": 158.20000000000002,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 158.20000000000002,
+      "end": 158.78,
+      "label": "UR",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 158.78,
+      "end": 159.3,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 159.3,
+      "end": 159.85,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 159.85,
+      "end": 160.46,
+      "label": "or",
+      "spoken": "manual",
+      "cluster_id": 21
+    },
+    {
+      "start": 160.46,
+      "end": 161.01,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 161.01,
+      "end": 161.54,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 161.54,
+      "end": 162.26,
+      "label": "OSR",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 162.26,
+      "end": 162.87,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 162.87,
+      "end": 163.46,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 163.46,
+      "end": 164.12,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 164.12,
+      "end": 164.67000000000002,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 164.67000000000002,
+      "end": 165.28,
+      "label": "UL0",
+      "spoken": "model",
+      "cluster_id": 13
+    },
+    {
+      "start": 165.28,
+      "end": 165.8,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 16
+    },
+    {
+      "start": 165.8,
+      "end": 166.36,
+      "label": "UR0",
+      "spoken": "model",
+      "cluster_id": 0
+    },
+    {
+      "start": 166.36,
+      "end": 166.86,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 166.86,
+      "end": 167.36,
+      "label": "UL0",
+      "spoken": "model",
+      "cluster_id": 13
+    },
+    {
+      "start": 167.36,
+      "end": 167.93,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 16
+    },
+    {
+      "start": 167.93,
+      "end": 168.46,
+      "label": "UR0",
+      "spoken": "model",
+      "cluster_id": 0
+    },
+    {
+      "start": 168.46,
+      "end": 169.0,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 169.0,
+      "end": 169.51,
+      "label": "UL0",
+      "spoken": "model",
+      "cluster_id": 13
+    },
+    {
+      "start": 169.51,
+      "end": 170.07,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 16
+    },
+    {
+      "start": 170.07,
+      "end": 170.55,
+      "label": "UR0",
+      "spoken": "model",
+      "cluster_id": 0
+    },
+    {
+      "start": 170.55,
+      "end": 171.20000000000002,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 171.20000000000002,
+      "end": 171.81,
+      "label": "FB",
+      "spoken": "model",
+      "cluster_id": 10
+    },
+    {
+      "start": 171.81,
+      "end": 172.41,
+      "label": "USR",
+      "spoken": "model",
+      "cluster_id": 11
+    },
+    {
+      "start": 172.41,
+      "end": 173.06,
+      "label": "FB2",
+      "spoken": "model",
+      "cluster_id": 22
+    },
+    {
+      "start": 173.06,
+      "end": 173.66,
+      "label": "USL",
+      "spoken": "model",
+      "cluster_id": 19
+    },
+    {
+      "start": 173.66,
+      "end": 174.29,
+      "label": "UL0",
+      "spoken": "model",
+      "cluster_id": 13
+    },
+    {
+      "start": 174.29,
+      "end": 174.86,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 16
+    },
+    {
+      "start": 174.86,
+      "end": 175.35,
+      "label": "UR0",
+      "spoken": "model",
+      "cluster_id": 0
+    },
+    {
+      "start": 175.35,
+      "end": 175.87,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 175.87,
+      "end": 176.35,
+      "label": "UL0",
+      "spoken": "model",
+      "cluster_id": 13
+    },
+    {
+      "start": 176.35,
+      "end": 176.99,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 16
+    },
+    {
+      "start": 176.99,
+      "end": 177.48,
+      "label": "UR0",
+      "spoken": "model",
+      "cluster_id": 0
+    },
+    {
+      "start": 177.48,
+      "end": 178.07,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 178.32,
+      "end": 178.74,
+      "label": "OSR",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 178.74,
+      "end": 179.27,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 179.27,
+      "end": 179.86,
+      "label": "OR/OSL?",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 179.86,
+      "end": 180.51,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 180.51,
+      "end": 181.07,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 181.07,
+      "end": 181.68,
+      "label": "or",
+      "spoken": "manual",
+      "cluster_id": 21
+    },
+    {
+      "start": 181.68,
+      "end": 182.35,
+      "label": "cw",
+      "spoken": "manual",
+      "cluster_id": 20
+    },
+    {
+      "start": 182.35,
+      "end": 182.96,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 182.96,
+      "end": 183.71,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 183.71,
+      "end": 184.42000000000002,
+      "label": "FB",
+      "spoken": "model",
+      "cluster_id": 10
+    },
+    {
+      "start": 184.42000000000002,
+      "end": 184.95000000000002,
+      "label": "USR",
+      "spoken": "model",
+      "cluster_id": 11
+    },
+    {
+      "start": 184.95000000000002,
+      "end": 185.61,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 185.61,
+      "end": 186.15,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 186.15,
+      "end": 186.73,
+      "label": "FB",
+      "spoken": "model",
+      "cluster_id": 10
+    },
+    {
+      "start": 186.73,
+      "end": 187.38,
+      "label": "USR",
+      "spoken": "model",
+      "cluster_id": 11
+    },
+    {
+      "start": 187.38,
+      "end": 187.88,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 187.88,
+      "end": 188.6,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 188.6,
+      "end": 189.25,
+      "label": "UR0",
+      "spoken": "model",
+      "cluster_id": 0
+    },
+    {
+      "start": 189.25,
+      "end": 189.87,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 189.87,
+      "end": 190.53,
+      "label": "OSR",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 190.53,
+      "end": 191.12,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 191.12,
+      "end": 191.78,
+      "label": "UL0",
+      "spoken": "model",
+      "cluster_id": 13
+    },
+    {
+      "start": 191.78,
+      "end": 192.4,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 16
+    },
+    {
+      "start": 192.4,
+      "end": 193.09,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 193.09,
+      "end": 193.72,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 193.72,
+      "end": 194.39000000000001,
+      "label": "FB",
+      "spoken": "model",
+      "cluster_id": 10
+    },
+    {
+      "start": 194.39000000000001,
+      "end": 194.92000000000002,
+      "label": "USR",
+      "spoken": "model",
+      "cluster_id": 11
+    },
+    {
+      "start": 194.92000000000002,
+      "end": 195.59,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 195.59,
+      "end": 196.13,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 196.13,
+      "end": 196.66,
+      "label": "FB",
+      "spoken": "model",
+      "cluster_id": 10
+    },
+    {
+      "start": 196.66,
+      "end": 197.15,
+      "label": "USR",
+      "spoken": "model",
+      "cluster_id": 11
+    },
+    {
+      "start": 197.15,
+      "end": 197.82,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 197.82,
+      "end": 198.42000000000002,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 198.42000000000002,
+      "end": 199.09,
+      "label": "UR0",
+      "spoken": "model",
+      "cluster_id": 0
+    },
+    {
+      "start": 199.09,
+      "end": 199.67000000000002,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 199.67000000000002,
+      "end": 200.21,
+      "label": "FB",
+      "spoken": "model",
+      "cluster_id": 10
+    },
+    {
+      "start": 200.21,
+      "end": 200.72,
+      "label": "USR",
+      "spoken": "model",
+      "cluster_id": 11
+    },
+    {
+      "start": 200.72,
+      "end": 201.38,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 201.38,
+      "end": 201.91,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 201.91,
+      "end": 202.55,
+      "label": "UR0",
+      "spoken": "model",
+      "cluster_id": 0
+    },
+    {
+      "start": 202.55,
+      "end": 203.13,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 203.13,
+      "end": 203.71,
+      "label": "FB",
+      "spoken": "model",
+      "cluster_id": 10
+    },
+    {
+      "start": 203.71,
+      "end": 204.18,
+      "label": "USR",
+      "spoken": "model",
+      "cluster_id": 11
+    },
+    {
+      "start": 204.18,
+      "end": 204.79,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 204.79,
+      "end": 205.32,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 205.32,
+      "end": 206.0,
+      "label": "UR0",
+      "spoken": "model",
+      "cluster_id": 0
+    },
+    {
+      "start": 206.0,
+      "end": 206.48000000000002,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 206.48000000000002,
+      "end": 207.05,
+      "label": "FB",
+      "spoken": "model",
+      "cluster_id": 10
+    },
+    {
+      "start": 207.05,
+      "end": 207.52,
+      "label": "USR",
+      "spoken": "model",
+      "cluster_id": 11
+    },
+    {
+      "start": 207.52,
+      "end": 208.15,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 208.15,
+      "end": 208.68,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 208.68,
+      "end": 209.32,
+      "label": "UR0",
+      "spoken": "model",
+      "cluster_id": 0
+    },
+    {
+      "start": 209.32,
+      "end": 209.82,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 209.82,
+      "end": 210.36,
+      "label": "FB",
+      "spoken": "model",
+      "cluster_id": 10
+    },
+    {
+      "start": 210.36,
+      "end": 210.94,
+      "label": "USR",
+      "spoken": "model",
+      "cluster_id": 11
+    },
+    {
+      "start": 210.94,
+      "end": 211.46,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 211.46,
+      "end": 212.1,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 212.1,
+      "end": 212.76,
+      "label": "UR0",
+      "spoken": "model",
+      "cluster_id": 0
+    },
+    {
+      "start": 212.76,
+      "end": 213.29,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 213.29,
+      "end": 213.81,
+      "label": "UL0",
+      "spoken": "model",
+      "cluster_id": 13
+    },
+    {
+      "start": 213.81,
+      "end": 214.42000000000002,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 16
+    },
+    {
+      "start": 214.42000000000002,
+      "end": 214.8,
+      "label": "OL2",
+      "spoken": "model",
+      "cluster_id": 14
+    },
+    {
+      "start": 214.8,
+      "end": 215.47,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 7
+    },
+    {
+      "start": 215.47,
+      "end": 215.99,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 215.99,
+      "end": 216.6,
+      "label": "cw",
+      "spoken": "manual",
+      "cluster_id": 17
+    },
+    {
+      "start": 216.6,
+      "end": 217.08,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 217.08,
+      "end": 217.67000000000002,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 217.67000000000002,
+      "end": 218.27,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 218.27,
+      "end": 218.83,
+      "label": "ur",
+      "spoken": "manual",
+      "cluster_id": 17
+    },
+    {
+      "start": 218.83,
+      "end": 219.33,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 219.33,
+      "end": 219.84,
+      "label": "UL0",
+      "spoken": "model",
+      "cluster_id": 13
+    },
+    {
+      "start": 219.84,
+      "end": 220.41,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 16
+    },
+    {
+      "start": 220.41,
+      "end": 220.96,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 220.96,
+      "end": 221.54,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 221.54,
+      "end": 222.05,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 222.05,
+      "end": 222.63,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 222.63,
+      "end": 223.22,
+      "label": "UR0",
+      "spoken": "model",
+      "cluster_id": 0
+    },
+    {
+      "start": 223.22,
+      "end": 223.68,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 223.68,
+      "end": 224.18,
+      "label": "UL0",
+      "spoken": "model",
+      "cluster_id": 13
+    },
+    {
+      "start": 224.18,
+      "end": 224.76,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 16
+    },
+    {
+      "start": 224.76,
+      "end": 225.23000000000002,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 225.23000000000002,
+      "end": 225.75,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 225.75,
+      "end": 226.26,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 226.26,
+      "end": 226.85,
+      "label": "ur",
+      "spoken": "manual",
+      "cluster_id": 17
+    },
+    {
+      "start": 226.85,
+      "end": 227.28,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 227.28,
+      "end": 227.76,
+      "label": "UL0",
+      "spoken": "model",
+      "cluster_id": 13
+    },
+    {
+      "start": 227.76,
+      "end": 228.32,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 16
+    },
+    {
+      "start": 228.32,
+      "end": 228.79,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 228.79,
+      "end": 229.32,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 229.32,
+      "end": 229.83,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 229.83,
+      "end": 230.41,
+      "label": "ur",
+      "spoken": "manual",
+      "cluster_id": 17
+    },
+    {
+      "start": 230.41,
+      "end": 230.86,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 230.86,
+      "end": 231.41,
+      "label": "UL0",
+      "spoken": "model",
+      "cluster_id": 13
+    },
+    {
+      "start": 231.41,
+      "end": 231.95000000000002,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 16
+    },
+    {
+      "start": 231.95000000000002,
+      "end": 232.42000000000002,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 232.42000000000002,
+      "end": 232.95000000000002,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 232.95000000000002,
+      "end": 233.55,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 233.55,
+      "end": 234.02,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 234.02,
+      "end": 234.63,
+      "label": "UR0",
+      "spoken": "model",
+      "cluster_id": 0
+    },
+    {
+      "start": 234.63,
+      "end": 235.07,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 235.07,
+      "end": 235.54,
+      "label": "UL0",
+      "spoken": "model",
+      "cluster_id": 13
+    },
+    {
+      "start": 235.54,
+      "end": 236.06,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 16
+    },
+    {
+      "start": 236.06,
+      "end": 236.52,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 236.52,
+      "end": 237.08,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 237.08,
+      "end": 237.57,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 237.57,
+      "end": 238.07,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 238.07,
+      "end": 238.65,
+      "label": "UR0",
+      "spoken": "model",
+      "cluster_id": 0
+    },
+    {
+      "start": 238.65,
+      "end": 239.06,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 239.06,
+      "end": 239.56,
+      "label": "UL0",
+      "spoken": "model",
+      "cluster_id": 13
+    },
+    {
+      "start": 239.56,
+      "end": 240.13,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 16
+    },
+    {
+      "start": 240.13,
+      "end": 240.59,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 240.59,
+      "end": 241.17000000000002,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 241.17000000000002,
+      "end": 241.70000000000002,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 241.70000000000002,
+      "end": 242.31,
+      "label": "ur",
+      "spoken": "manual",
+      "cluster_id": 17
+    },
+    {
+      "start": 242.31,
+      "end": 242.83,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 242.83,
+      "end": 243.4,
+      "label": "FB",
+      "spoken": "model",
+      "cluster_id": 10
+    },
+    {
+      "start": 243.4,
+      "end": 243.84,
+      "label": "USR",
+      "spoken": "model",
+      "cluster_id": 11
+    },
+    {
+      "start": 243.84,
+      "end": 244.48000000000002,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 244.48000000000002,
+      "end": 244.94,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 244.94,
+      "end": 245.5,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 245.5,
+      "end": 246.04,
+      "label": "cw",
+      "spoken": "manual",
+      "cluster_id": 17
+    },
+    {
+      "start": 246.04,
+      "end": 246.53,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 246.53,
+      "end": 247.08,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 247.08,
+      "end": 247.71,
+      "label": "OR2",
+      "spoken": "model",
+      "cluster_id": 9
+    },
+    {
+      "start": 247.71,
+      "end": 248.24,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 248.24,
+      "end": 248.74,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 249.0,
+      "end": 249.38,
+      "label": "OSR",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 249.38,
+      "end": 249.9,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 249.9,
+      "end": 250.33,
+      "label": "OR3",
+      "spoken": "model",
+      "cluster_id": 15
+    },
+    {
+      "start": 250.33,
+      "end": 250.87,
+      "label": "cw",
+      "spoken": "manual",
+      "cluster_id": 17
+    },
+    {
+      "start": 250.87,
+      "end": 251.37,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 251.37,
+      "end": 251.89000000000001,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 251.89000000000001,
+      "end": 252.4,
+      "label": "or",
+      "spoken": "manual",
+      "cluster_id": 21
+    },
+    {
+      "start": 252.4,
+      "end": 252.98000000000002,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 252.98000000000002,
+      "end": 253.46,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 253.46,
+      "end": 253.71,
+      "label": "OR3",
+      "spoken": "model",
+      "cluster_id": 15
+    },
+    {
+      "start": 253.71,
+      "end": 254.09,
+      "label": "OSR",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 254.09,
+      "end": 254.58,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 254.58,
+      "end": 255.11,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 255.11,
+      "end": 255.59,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 255.59,
+      "end": 256.15,
+      "label": "UR0",
+      "spoken": "model",
+      "cluster_id": 0
+    },
+    {
+      "start": 256.15,
+      "end": 256.71,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 256.71,
+      "end": 257.19,
+      "label": "FB",
+      "spoken": "model",
+      "cluster_id": 10
+    },
+    {
+      "start": 257.19,
+      "end": 257.64,
+      "label": "USR",
+      "spoken": "model",
+      "cluster_id": 11
+    },
+    {
+      "start": 257.64,
+      "end": 258.26,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 258.26,
+      "end": 258.82,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 258.82,
+      "end": 259.45,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 259.45,
+      "end": 260.13,
+      "label": "UR",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 260.13,
+      "end": 260.81,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 260.81,
+      "end": 261.61,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 261.61,
+      "end": 262.39,
+      "label": "OR2",
+      "spoken": "model",
+      "cluster_id": 9
+    },
+    {
+      "start": 262.39,
+      "end": 263.15,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 263.15,
+      "end": 263.89,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 263.89,
+      "end": 264.67,
+      "label": "OSR",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 264.67,
+      "end": 265.36,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 265.36,
+      "end": 266.06,
+      "label": "OR3",
+      "spoken": "model",
+      "cluster_id": 15
+    },
+    {
+      "start": 266.06,
+      "end": 266.79,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 266.79,
+      "end": 267.51,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 267.51,
+      "end": 268.2,
+      "label": "FB",
+      "spoken": "model",
+      "cluster_id": 10
+    },
+    {
+      "start": 268.2,
+      "end": 268.97,
+      "label": "USR",
+      "spoken": "model",
+      "cluster_id": 11
+    },
+    {
+      "start": 268.97,
+      "end": 269.72,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 269.72,
+      "end": 270.38,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 270.38,
+      "end": 270.89,
+      "label": "or",
+      "spoken": "manual",
+      "cluster_id": 21
+    },
+    {
+      "start": 270.89,
+      "end": 271.22,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 271.22,
+      "end": 271.85,
+      "label": "cw",
+      "spoken": "manual",
+      "cluster_id": 17
+    },
+    {
+      "start": 271.85,
+      "end": 272.42,
+      "label": "ol",
+      "spoken": "manual",
+      "cluster_id": 4
+    },
+    {
+      "start": 272.42,
+      "end": 272.68,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 272.68,
+      "end": 273.44,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 273.44,
+      "end": 274.18,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 274.18,
+      "end": 274.96,
+      "label": "cw",
+      "spoken": "manual",
+      "cluster_id": 17
+    },
+    {
+      "start": 274.96,
+      "end": 275.74,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 275.74,
+      "end": 276.45,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 276.45,
+      "end": 277.26,
+      "label": "OR2",
+      "spoken": "model",
+      "cluster_id": 9
+    },
+    {
+      "start": 277.26,
+      "end": 278.04,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 278.04,
+      "end": 278.83,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 278.83,
+      "end": 279.59000000000003,
+      "label": "OSR",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 279.59000000000003,
+      "end": 280.32,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 280.32,
+      "end": 281.18,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 281.18,
+      "end": 281.83,
+      "label": "ur",
+      "spoken": "manual",
+      "cluster_id": 17
+    },
+    {
+      "start": 281.83,
+      "end": 282.62,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 282.62,
+      "end": 283.37,
+      "label": "FB",
+      "spoken": "model",
+      "cluster_id": 10
+    },
+    {
+      "start": 283.37,
+      "end": 284.04,
+      "label": "USR",
+      "spoken": "model",
+      "cluster_id": 11
+    },
+    {
+      "start": 284.04,
+      "end": 284.77,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 284.77,
+      "end": 285.41,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 285.41,
+      "end": 286.04,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 286.04,
+      "end": 286.8,
+      "label": "cw",
+      "spoken": "manual",
+      "cluster_id": 17
+    },
+    {
+      "start": 286.8,
+      "end": 287.5,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 287.5,
+      "end": 288.16,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 288.16,
+      "end": 288.84000000000003,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 288.84000000000003,
+      "end": 289.48,
+      "label": "cw",
+      "spoken": "manual",
+      "cluster_id": 17
+    },
+    {
+      "start": 289.48,
+      "end": 290.13,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 290.13,
+      "end": 290.87,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 290.87,
+      "end": 291.51,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 291.51,
+      "end": 292.36,
+      "label": "ur",
+      "spoken": "manual",
+      "cluster_id": 17
+    },
+    {
+      "start": 292.36,
+      "end": 293.11,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 293.11,
+      "end": 293.78000000000003,
+      "label": "UL0",
+      "spoken": "model",
+      "cluster_id": 13
+    },
+    {
+      "start": 293.78000000000003,
+      "end": 294.39,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 16
+    },
+    {
+      "start": 294.39,
+      "end": 295.09000000000003,
+      "label": "UR0",
+      "spoken": "model",
+      "cluster_id": 0
+    },
+    {
+      "start": 295.09000000000003,
+      "end": 295.73,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 295.73,
+      "end": 296.29,
+      "label": "UL0",
+      "spoken": "model",
+      "cluster_id": 13
+    },
+    {
+      "start": 296.29,
+      "end": 296.98,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 16
+    },
+    {
+      "start": 296.98,
+      "end": 297.69,
+      "label": "UR0",
+      "spoken": "model",
+      "cluster_id": 0
+    },
+    {
+      "start": 297.69,
+      "end": 298.33,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 298.33,
+      "end": 299.07,
+      "label": "OSR",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 299.07,
+      "end": 299.68,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 299.68,
+      "end": 300.39,
+      "label": "or",
+      "spoken": "manual",
+      "cluster_id": 21
+    },
+    {
+      "start": 300.39,
+      "end": 301.04,
+      "label": "FB2",
+      "spoken": "model",
+      "cluster_id": 22
+    },
+    {
+      "start": 301.04,
+      "end": 301.78000000000003,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 301.78000000000003,
+      "end": 302.48,
+      "label": "FB2",
+      "spoken": "model",
+      "cluster_id": 22
+    },
+    {
+      "start": 302.48,
+      "end": 303.23,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 303.23,
+      "end": 303.92,
+      "label": "FB2",
+      "spoken": "model",
+      "cluster_id": 22
+    },
+    {
+      "start": 303.92,
+      "end": 304.67,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 304.67,
+      "end": 305.39,
+      "label": "UR0",
+      "spoken": "model",
+      "cluster_id": 0
+    },
+    {
+      "start": 305.39,
+      "end": 306.0,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 306.0,
+      "end": 306.57,
+      "label": "UL0",
+      "spoken": "model",
+      "cluster_id": 13
+    },
+    {
+      "start": 306.57,
+      "end": 307.14,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 16
+    },
+    {
+      "start": 307.14,
+      "end": 307.64,
+      "label": "UR0",
+      "spoken": "model",
+      "cluster_id": 0
+    },
+    {
+      "start": 307.64,
+      "end": 308.8,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 308.8,
+      "end": 309.46,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 16
+    },
+    {
+      "start": 309.46,
+      "end": 310.05,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 310.05,
+      "end": 310.54,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 310.54,
+      "end": 311.11,
+      "label": "OR3",
+      "spoken": "model",
+      "cluster_id": 15
+    },
+    {
+      "start": 311.11,
+      "end": 311.76,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 311.76,
+      "end": 312.28000000000003,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 312.28000000000003,
+      "end": 312.86,
+      "label": "FB",
+      "spoken": "model",
+      "cluster_id": 10
+    },
+    {
+      "start": 312.86,
+      "end": 313.40000000000003,
+      "label": "USR",
+      "spoken": "model",
+      "cluster_id": 11
+    },
+    {
+      "start": 313.40000000000003,
+      "end": 313.99,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 313.99,
+      "end": 314.5,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 314.5,
+      "end": 315.1,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 315.1,
+      "end": 315.67,
+      "label": "cw",
+      "spoken": "manual",
+      "cluster_id": 17
+    },
+    {
+      "start": 315.67,
+      "end": 316.15000000000003,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 316.15000000000003,
+      "end": 316.74,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 316.74,
+      "end": 317.31,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 317.31,
+      "end": 317.93,
+      "label": "ur",
+      "spoken": "manual",
+      "cluster_id": 17
+    },
+    {
+      "start": 317.93,
+      "end": 318.42,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 318.42,
+      "end": 319.1,
+      "label": "FB",
+      "spoken": "model",
+      "cluster_id": 10
+    },
+    {
+      "start": 319.1,
+      "end": 319.75,
+      "label": "USR",
+      "spoken": "model",
+      "cluster_id": 11
+    },
+    {
+      "start": 319.75,
+      "end": 320.29,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 320.29,
+      "end": 320.89,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 320.89,
+      "end": 321.43,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 321.43,
+      "end": 322.05,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 322.05,
+      "end": 322.58,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 322.58,
+      "end": 323.15000000000003,
+      "label": "FB",
+      "spoken": "model",
+      "cluster_id": 10
+    },
+    {
+      "start": 323.15000000000003,
+      "end": 323.64,
+      "label": "USR",
+      "spoken": "model",
+      "cluster_id": 11
+    },
+    {
+      "start": 323.64,
+      "end": 324.33,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 324.33,
+      "end": 324.89,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 324.89,
+      "end": 325.40000000000003,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 325.40000000000003,
+      "end": 326.02,
+      "label": "UR",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 326.02,
+      "end": 326.56,
+      "label": "OL",
+      "spoken": "model",
+      "cluster_id": 4
+    },
+    {
+      "start": 326.56,
+      "end": 327.1,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 327.1,
+      "end": 327.6,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 327.6,
+      "end": 328.25,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 328.25,
+      "end": 328.76,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 328.76,
+      "end": 329.28000000000003,
+      "label": "UL0",
+      "spoken": "model",
+      "cluster_id": 13
+    },
+    {
+      "start": 329.28000000000003,
+      "end": 329.83,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 16
+    },
+    {
+      "start": 329.83,
+      "end": 330.33,
+      "label": "UR0",
+      "spoken": "model",
+      "cluster_id": 0
+    },
+    {
+      "start": 330.33,
+      "end": 330.85,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 330.85,
+      "end": 331.33,
+      "label": "UL0",
+      "spoken": "model",
+      "cluster_id": 13
+    },
+    {
+      "start": 331.33,
+      "end": 331.94,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 16
+    },
+    {
+      "start": 331.94,
+      "end": 332.52,
+      "label": "OSL",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 332.52,
+      "end": 333.01,
+      "label": "BF2",
+      "spoken": "model",
+      "cluster_id": 8
+    },
+    {
+      "start": 333.01,
+      "end": 333.53000000000003,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 333.53000000000003,
+      "end": 334.13,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 334.13,
+      "end": 334.62,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 334.62,
+      "end": 335.12,
+      "label": "UL0",
+      "spoken": "model",
+      "cluster_id": 13
+    },
+    {
+      "start": 335.12,
+      "end": 335.73,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 16
+    },
+    {
+      "start": 335.73,
+      "end": 336.32,
+      "label": "FB",
+      "spoken": "model",
+      "cluster_id": 10
+    },
+    {
+      "start": 336.32,
+      "end": 336.87,
+      "label": "USR",
+      "spoken": "model",
+      "cluster_id": 11
+    },
+    {
+      "start": 336.87,
+      "end": 337.55,
+      "label": "FB2",
+      "spoken": "model",
+      "cluster_id": 22
+    },
+    {
+      "start": 337.55,
+      "end": 338.22,
+      "label": "USL",
+      "spoken": "model",
+      "cluster_id": 19
+    },
+    {
+      "start": 338.22,
+      "end": 338.97,
+      "label": "FB",
+      "spoken": "model",
+      "cluster_id": 10
+    },
+    {
+      "start": 338.97,
+      "end": 339.64,
+      "label": "USR",
+      "spoken": "model",
+      "cluster_id": 11
+    },
+    {
+      "start": 339.64,
+      "end": 340.25,
+      "label": "ol",
+      "spoken": "manual",
+      "cluster_id": 20
+    },
+    {
+      "start": 340.25,
+      "end": 340.75,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 1
+    },
+    {
+      "start": 340.75,
+      "end": 341.18,
+      "label": "OR",
+      "spoken": "model",
+      "cluster_id": 21
+    },
+    {
+      "start": 341.18,
+      "end": 341.97,
+      "label": "CW",
+      "spoken": "model",
+      "cluster_id": 17
+    },
+    {
+      "start": 341.97,
+      "end": 342.62,
+      "label": "CCW",
+      "spoken": "model",
+      "cluster_id": 2
+    },
+    {
+      "start": 342.62,
+      "end": 343.36,
+      "label": "fb",
+      "spoken": "manual",
+      "cluster_id": 10
+    },
+    {
+      "start": 344.17,
+      "end": 344.6,
+      "label": "Idle3",
+      "spoken": "model",
+      "cluster_id": 3
+    },
+    {
+      "start": 344.6,
+      "end": 345.22,
+      "label": "Idle3",
+      "spoken": "model",
+      "cluster_id": 3
+    },
+    {
+      "start": 345.22,
+      "end": 345.97,
+      "label": "Idle3",
+      "spoken": "model",
+      "cluster_id": 3
+    },
+    {
+      "start": 345.97,
+      "end": 346.37,
+      "label": "Idle3",
+      "spoken": "model",
+      "cluster_id": 3
+    },
+    {
+      "start": 346.37,
+      "end": 346.68,
+      "label": "Idle3",
+      "spoken": "model",
+      "cluster_id": 3
+    },
+    {
+      "start": 346.68,
+      "end": 347.36,
+      "label": "Idle3",
+      "spoken": "model",
+      "cluster_id": 3
+    },
+    {
+      "start": 347.36,
+      "end": 348.0,
+      "label": "Idle3",
+      "spoken": "model",
+      "cluster_id": 3
+    },
+    {
+      "start": 348.0,
+      "end": 348.65000000000003,
+      "label": "Idle3",
+      "spoken": "model",
+      "cluster_id": 3
+    },
+    {
+      "start": 348.65000000000003,
+      "end": 349.12,
+      "label": "Idle3",
+      "spoken": "model",
+      "cluster_id": 3
+    },
+    {
+      "start": 349.12,
+      "end": 349.39,
+      "label": "Idle3",
+      "spoken": "model",
+      "cluster_id": 3
+    }
+  ],
+  "excluded_segments": [
+    {
+      "t_start": 47.77,
+      "t_end": 49.04
+    },
+    {
+      "t_start": 105.87,
+      "t_end": 106.26
+    },
+    {
+      "t_start": 126.06,
+      "t_end": 126.31
+    },
+    {
+      "t_start": 136.33,
+      "t_end": 136.63
+    },
+    {
+      "t_start": 178.07,
+      "t_end": 178.32
+    },
+    {
+      "t_start": 248.74,
+      "t_end": 249.0
+    },
+    {
+      "t_start": 343.36,
+      "t_end": 344.17
+    }
+  ],
+  "label_events": [],
+  "source": "trigger_viewer_corrections",
+  "corrected_from": "vq24_model"
+}

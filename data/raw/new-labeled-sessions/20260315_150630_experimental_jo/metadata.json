@@ -1,0 +1,17 @@
+{
+  "id": "e1a3d4d0",
+  "timestamp": "20260315_150630",
+  "pattern": "experimental",
+  "pattern_category": "Other",
+  "subject": "jo",
+  "tempo": "mixed",
+  "notes": "test audio labeling",
+  "tags": [],
+  "duration_sec": 202.186,
+  "sample_count": 19912,
+  "device_count": 2,
+  "sample_rate_hz_approx": 98.48357453038291,
+  "has_video": true,
+  "has_audio": true,
+  "has_labels": true
+}

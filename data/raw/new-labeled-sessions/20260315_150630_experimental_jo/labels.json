@@ -1,0 +1,1691 @@
+{
+  "segments": [
+    {
+      "start": 14.479999542236328,
+      "end": 16.6200008392334,
+      "label": "overhand",
+      "spoken": "overhand"
+    },
+    {
+      "start": 16.6200008392334,
+      "end": 18.040000915527344,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 18.040000915527344,
+      "end": 20.440000534057617,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 20.440000534057617,
+      "end": 21.399999618530273,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 21.399999618530273,
+      "end": 22.799999237060547,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 22.799999237060547,
+      "end": 24.15999984741211,
+      "label": "dragon_roll",
+      "spoken": "dragon"
+    },
+    {
+      "start": 24.15999984741211,
+      "end": 25.739999771118164,
+      "label": "dragon_roll",
+      "spoken": "dragon"
+    },
+    {
+      "start": 25.739999771118164,
+      "end": 27.799999237060547,
+      "label": "dragon_roll",
+      "spoken": "dragon"
+    },
+    {
+      "start": 27.799999237060547,
+      "end": 28.799999237060547,
+      "label": "underhand",
+      "spoken": "under"
+    },
+    {
+      "start": 28.799999237060547,
+      "end": 29.979999542236328,
+      "label": "underhand",
+      "spoken": "under"
+    },
+    {
+      "start": 29.979999542236328,
+      "end": 29.979999542236328,
+      "label": "underhand",
+      "spoken": "under"
+    },
+    {
+      "start": 29.979999542236328,
+      "end": 29.979999542236328,
+      "label": "underhand",
+      "spoken": "under"
+    },
+    {
+      "start": 29.979999542236328,
+      "end": 35.36000061035156,
+      "label": "underhand",
+      "spoken": "under"
+    },
+    {
+      "start": 35.36000061035156,
+      "end": 35.459999084472656,
+      "label": "dragon_roll",
+      "spoken": "dragon"
+    },
+    {
+      "start": 35.459999084472656,
+      "end": 38.02000045776367,
+      "label": "dragon_roll",
+      "spoken": "dragon"
+    },
+    {
+      "start": 38.02000045776367,
+      "end": 39.91999816894531,
+      "label": "dragon_roll",
+      "spoken": "dragon"
+    },
+    {
+      "start": 39.91999816894531,
+      "end": 42.41999816894531,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 42.41999816894531,
+      "end": 43.900001525878906,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 43.900001525878906,
+      "end": 45.560001373291016,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 45.560001373291016,
+      "end": 48.31999969482422,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 48.31999969482422,
+      "end": 48.31999969482422,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 48.31999969482422,
+      "end": 49.31999969482422,
+      "label": "underhand",
+      "spoken": "under"
+    },
+    {
+      "start": 49.31999969482422,
+      "end": 50.58000183105469,
+      "label": "underhand",
+      "spoken": "under"
+    },
+    {
+      "start": 50.58000183105469,
+      "end": 51.79999923706055,
+      "label": "underhand",
+      "spoken": "under"
+    },
+    {
+      "start": 51.79999923706055,
+      "end": 61.959999084472656,
+      "label": "underhand",
+      "spoken": "under"
+    },
+    {
+      "start": 61.959999084472656,
+      "end": 63.36000061035156,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 63.36000061035156,
+      "end": 64.76000213623047,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 64.76000213623047,
+      "end": 67.26000213623047,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 67.26000213623047,
+      "end": 68.94000244140625,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 68.94000244140625,
+      "end": 70.27999877929688,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 70.27999877929688,
+      "end": 71.41999816894531,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 71.41999816894531,
+      "end": 82.95999908447266,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 82.95999908447266,
+      "end": 82.95999908447266,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 82.95999908447266,
+      "end": 82.95999908447266,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 82.95999908447266,
+      "end": 82.95999908447266,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 82.95999908447266,
+      "end": 82.95999908447266,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 82.95999908447266,
+      "end": 82.95999908447266,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 82.95999908447266,
+      "end": 82.95999908447266,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 82.95999908447266,
+      "end": 82.95999908447266,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 82.95999908447266,
+      "end": 83.23999786376953,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 83.23999786376953,
+      "end": 86.68000030517578,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 86.68000030517578,
+      "end": 86.68000030517578,
+      "label": "underhand",
+      "spoken": "under"
+    },
+    {
+      "start": 86.68000030517578,
+      "end": 87.94000244140625,
+      "label": "underhand",
+      "spoken": "under"
+    },
+    {
+      "start": 87.94000244140625,
+      "end": 89.30000305175781,
+      "label": "underhand",
+      "spoken": "under"
+    },
+    {
+      "start": 89.30000305175781,
+      "end": 91.0,
+      "label": "underhand",
+      "spoken": "under"
+    },
+    {
+      "start": 91.0,
+      "end": 92.4000015258789,
+      "label": "underhand",
+      "spoken": "under"
+    },
+    {
+      "start": 92.4000015258789,
+      "end": 93.4800033569336,
+      "label": "sneak_underhand",
+      "spoken": "under sneak"
+    },
+    {
+      "start": 93.4800033569336,
+      "end": 96.86000061035156,
+      "label": "sneak_underhand",
+      "spoken": "under sneak"
+    },
+    {
+      "start": 96.86000061035156,
+      "end": 99.63999938964844,
+      "label": "underhand",
+      "spoken": "under"
+    },
+    {
+      "start": 99.63999938964844,
+      "end": 101.0999984741211,
+      "label": "underhand",
+      "spoken": "under"
+    },
+    {
+      "start": 101.0999984741211,
+      "end": 101.94000244140625,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 101.94000244140625,
+      "end": 115.72000122070312,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 115.72000122070312,
+      "end": 115.9800033569336,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 115.9800033569336,
+      "end": 115.9800033569336,
+      "label": "underhand",
+      "spoken": "under"
+    },
+    {
+      "start": 115.9800033569336,
+      "end": 117.5199966430664,
+      "label": "underhand",
+      "spoken": "under"
+    },
+    {
+      "start": 117.5199966430664,
+      "end": 118.08000183105469,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 118.08000183105469,
+      "end": 119.73999786376953,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 119.73999786376953,
+      "end": 122.87999725341797,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 122.87999725341797,
+      "end": 124.94000244140625,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 124.94000244140625,
+      "end": 127.30000305175781,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 127.30000305175781,
+      "end": 128.83999633789062,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 128.83999633789062,
+      "end": 129.5,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 129.5,
+      "end": 131.3000030517578,
+      "label": "sneak_overhand",
+      "spoken": "over sneak"
+    },
+    {
+      "start": 131.3000030517578,
+      "end": 135.86000061035156,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 135.86000061035156,
+      "end": 138.33999633789062,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 138.33999633789062,
+      "end": 139.10000610351562,
+      "label": "sneak_overhand",
+      "spoken": "over sneak"
+    },
+    {
+      "start": 139.10000610351562,
+      "end": 141.16000366210938,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 141.16000366210938,
+      "end": 142.72000122070312,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 142.72000122070312,
+      "end": 144.0800018310547,
+      "label": "sneak_overhand",
+      "spoken": "over sneak"
+    },
+    {
+      "start": 144.0800018310547,
+      "end": 150.27999877929688,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 150.27999877929688,
+      "end": 151.6199951171875,
+      "label": "underhand",
+      "spoken": "under"
+    },
+    {
+      "start": 151.6199951171875,
+      "end": 152.0500030517578,
+      "label": "underhand",
+      "spoken": "under"
+    },
+    {
+      "start": 152.0500030517578,
+      "end": 152.9199981689453,
+      "label": "underhand",
+      "spoken": "under"
+    },
+    {
+      "start": 152.9199981689453,
+      "end": 154.6999969482422,
+      "label": "sneak_underhand",
+      "spoken": "under sneak"
+    },
+    {
+      "start": 154.6999969482422,
+      "end": 160.9199981689453,
+      "label": "sneak_underhand",
+      "spoken": "under sneak"
+    },
+    {
+      "start": 160.9199981689453,
+      "end": 164.27999877929688,
+      "label": "sneak_underhand",
+      "spoken": "under sneak"
+    },
+    {
+      "start": 164.27999877929688,
+      "end": 164.6199951171875,
+      "label": "dragon_roll",
+      "spoken": "dragon"
+    },
+    {
+      "start": 164.6199951171875,
+      "end": 166.94000244140625,
+      "label": "dragon_roll",
+      "spoken": "dragon"
+    },
+    {
+      "start": 166.94000244140625,
+      "end": 168.47999572753906,
+      "label": "dragon_roll",
+      "spoken": "dragon"
+    },
+    {
+      "start": 168.47999572753906,
+      "end": 169.24000549316406,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 169.24000549316406,
+      "end": 170.39999389648438,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 170.39999389648438,
+      "end": 171.39999389648438,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 171.39999389648438,
+      "end": 173.86000061035156,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 173.86000061035156,
+      "end": 179.86000061035156,
+      "label": "sneak_underhand",
+      "spoken": "under sneak"
+    },
+    {
+      "start": 179.86000061035156,
+      "end": 180.9199981689453,
+      "label": "sneak_underhand",
+      "spoken": "under sneak"
+    },
+    {
+      "start": 180.9199981689453,
+      "end": 182.24000549316406,
+      "label": "sneak_underhand",
+      "spoken": "under sneak"
+    },
+    {
+      "start": 182.24000549316406,
+      "end": 184.52000427246094,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 184.52000427246094,
+      "end": 185.1199951171875,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 185.1199951171875,
+      "end": 186.72000122070312,
+      "label": "sneak_overhand",
+      "spoken": "over sneak"
+    },
+    {
+      "start": 186.72000122070312,
+      "end": 187.9199981689453,
+      "label": "sneak_overhand",
+      "spoken": "over sneak"
+    },
+    {
+      "start": 187.9199981689453,
+      "end": 193.5399932861328,
+      "label": "sneak_overhand",
+      "spoken": "over sneak"
+    },
+    {
+      "start": 193.5399932861328,
+      "end": 193.9199981689453,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 193.9199981689453,
+      "end": 194.83999633789062,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 194.83999633789062,
+      "end": 194.94000244140625,
+      "label": "overhand",
+      "spoken": "over"
+    },
+    {
+      "start": 194.94000244140625,
+      "end": 195.10000610351562,
+      "label": "sneak_overhand",
+      "spoken": "over sneak"
+    },
+    {
+      "start": 195.10000610351562,
+      "end": 196.36000061035156,
+      "label": "underhand",
+      "spoken": "under"
+    },
+    {
+      "start": 196.36000061035156,
+      "end": 197.0,
+      "label": "underhand",
+      "spoken": "under"
+    },
+    {
+      "start": 197.0,
+      "end": 201.74000549316406,
+      "label": "underhand",
+      "spoken": "under"
+    },
+    {
+      "start": 201.74000549316406,
+      "end": null,
+      "label": "underhand",
+      "spoken": "under"
+    }
+  ],
+  "label_events": [
+    {
+      "time": 14.479999542236328,
+      "spoken": "overhand",
+      "label": "overhand"
+    },
+    {
+      "time": 16.6200008392334,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 18.040000915527344,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 20.440000534057617,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 21.399999618530273,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 22.799999237060547,
+      "spoken": "dragon",
+      "label": "dragon_roll"
+    },
+    {
+      "time": 24.15999984741211,
+      "spoken": "dragon",
+      "label": "dragon_roll"
+    },
+    {
+      "time": 25.739999771118164,
+      "spoken": "dragon",
+      "label": "dragon_roll"
+    },
+    {
+      "time": 27.799999237060547,
+      "spoken": "under",
+      "label": "underhand"
+    },
+    {
+      "time": 28.799999237060547,
+      "spoken": "under",
+      "label": "underhand"
+    },
+    {
+      "time": 29.979999542236328,
+      "spoken": "under",
+      "label": "underhand"
+    },
+    {
+      "time": 29.979999542236328,
+      "spoken": "under",
+      "label": "underhand"
+    },
+    {
+      "time": 29.979999542236328,
+      "spoken": "under",
+      "label": "underhand"
+    },
+    {
+      "time": 35.36000061035156,
+      "spoken": "dragon",
+      "label": "dragon_roll"
+    },
+    {
+      "time": 35.459999084472656,
+      "spoken": "dragon",
+      "label": "dragon_roll"
+    },
+    {
+      "time": 38.02000045776367,
+      "spoken": "dragon",
+      "label": "dragon_roll"
+    },
+    {
+      "time": 39.91999816894531,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 42.41999816894531,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 43.900001525878906,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 45.560001373291016,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 48.31999969482422,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 48.31999969482422,
+      "spoken": "under",
+      "label": "underhand"
+    },
+    {
+      "time": 49.31999969482422,
+      "spoken": "under",
+      "label": "underhand"
+    },
+    {
+      "time": 50.58000183105469,
+      "spoken": "under",
+      "label": "underhand"
+    },
+    {
+      "time": 51.79999923706055,
+      "spoken": "under",
+      "label": "underhand"
+    },
+    {
+      "time": 61.959999084472656,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 63.36000061035156,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 64.76000213623047,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 67.26000213623047,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 68.94000244140625,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 70.27999877929688,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 71.41999816894531,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 82.95999908447266,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 82.95999908447266,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 82.95999908447266,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 82.95999908447266,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 82.95999908447266,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 82.95999908447266,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 82.95999908447266,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 82.95999908447266,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 83.23999786376953,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 86.68000030517578,
+      "spoken": "under",
+      "label": "underhand"
+    },
+    {
+      "time": 86.68000030517578,
+      "spoken": "under",
+      "label": "underhand"
+    },
+    {
+      "time": 87.94000244140625,
+      "spoken": "under",
+      "label": "underhand"
+    },
+    {
+      "time": 89.30000305175781,
+      "spoken": "under",
+      "label": "underhand"
+    },
+    {
+      "time": 91.0,
+      "spoken": "under",
+      "label": "underhand"
+    },
+    {
+      "time": 92.4000015258789,
+      "spoken": "under sneak",
+      "label": "sneak_underhand"
+    },
+    {
+      "time": 93.4800033569336,
+      "spoken": "under sneak",
+      "label": "sneak_underhand"
+    },
+    {
+      "time": 96.86000061035156,
+      "spoken": "under",
+      "label": "underhand"
+    },
+    {
+      "time": 99.63999938964844,
+      "spoken": "under",
+      "label": "underhand"
+    },
+    {
+      "time": 101.0999984741211,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 101.94000244140625,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 115.72000122070312,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 115.9800033569336,
+      "spoken": "under",
+      "label": "underhand"
+    },
+    {
+      "time": 115.9800033569336,
+      "spoken": "under",
+      "label": "underhand"
+    },
+    {
+      "time": 117.5199966430664,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 118.08000183105469,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 119.73999786376953,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 122.87999725341797,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 124.94000244140625,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 127.30000305175781,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 128.83999633789062,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 129.5,
+      "spoken": "over sneak",
+      "label": "sneak_overhand"
+    },
+    {
+      "time": 131.3000030517578,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 135.86000061035156,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 138.33999633789062,
+      "spoken": "over sneak",
+      "label": "sneak_overhand"
+    },
+    {
+      "time": 139.10000610351562,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 141.16000366210938,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 142.72000122070312,
+      "spoken": "over sneak",
+      "label": "sneak_overhand"
+    },
+    {
+      "time": 144.0800018310547,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 150.27999877929688,
+      "spoken": "under",
+      "label": "underhand"
+    },
+    {
+      "time": 151.6199951171875,
+      "spoken": "under",
+      "label": "underhand"
+    },
+    {
+      "time": 152.0500030517578,
+      "spoken": "under",
+      "label": "underhand"
+    },
+    {
+      "time": 152.9199981689453,
+      "spoken": "under sneak",
+      "label": "sneak_underhand"
+    },
+    {
+      "time": 154.6999969482422,
+      "spoken": "under sneak",
+      "label": "sneak_underhand"
+    },
+    {
+      "time": 160.9199981689453,
+      "spoken": "under sneak",
+      "label": "sneak_underhand"
+    },
+    {
+      "time": 164.27999877929688,
+      "spoken": "dragon",
+      "label": "dragon_roll"
+    },
+    {
+      "time": 164.6199951171875,
+      "spoken": "dragon",
+      "label": "dragon_roll"
+    },
+    {
+      "time": 166.94000244140625,
+      "spoken": "dragon",
+      "label": "dragon_roll"
+    },
+    {
+      "time": 168.47999572753906,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 169.24000549316406,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 170.39999389648438,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 171.39999389648438,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 173.86000061035156,
+      "spoken": "under sneak",
+      "label": "sneak_underhand"
+    },
+    {
+      "time": 179.86000061035156,
+      "spoken": "under sneak",
+      "label": "sneak_underhand"
+    },
+    {
+      "time": 180.9199981689453,
+      "spoken": "under sneak",
+      "label": "sneak_underhand"
+    },
+    {
+      "time": 182.24000549316406,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 184.52000427246094,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 185.1199951171875,
+      "spoken": "over sneak",
+      "label": "sneak_overhand"
+    },
+    {
+      "time": 186.72000122070312,
+      "spoken": "over sneak",
+      "label": "sneak_overhand"
+    },
+    {
+      "time": 187.9199981689453,
+      "spoken": "over sneak",
+      "label": "sneak_overhand"
+    },
+    {
+      "time": 193.5399932861328,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 193.9199981689453,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 194.83999633789062,
+      "spoken": "over",
+      "label": "overhand"
+    },
+    {
+      "time": 194.94000244140625,
+      "spoken": "over sneak",
+      "label": "sneak_overhand"
+    },
+    {
+      "time": 195.10000610351562,
+      "spoken": "under",
+      "label": "underhand"
+    },
+    {
+      "time": 196.36000061035156,
+      "spoken": "under",
+      "label": "underhand"
+    },
+    {
+      "time": 197.0,
+      "spoken": "under",
+      "label": "underhand"
+    },
+    {
+      "time": 201.74000549316406,
+      "spoken": "under",
+      "label": "underhand"
+    }
+  ],
+  "raw_transcript": "overhand, over, over, over, over, dragon, dragon, dragon, under, under, under, under, under, dragon, dragon, dragon, over, over, over, over, over, under, under, under, under, over, over, over, over, over, over, over, over, over, over, over, over, over, over, over, over, under, under, under, under, under, under, sneak, under, sneak, under, under, over, over, over, under, under, over, over, over sneek, over, over, sneek, over, over, over sneak, over, over, over sneak, over, over, over sneak, over, under, under, under, under sneak, under sneak, under sneak, dragon, dragon, dragon, over, over, over, over, under, sneak, under sneak, under sneak, over, over, over sneak, over sneak, over sneak, over, over, over, over sneak, under, under, under, under",
+  "word_timestamps": [
+    {
+      "word": "overhand",
+      "start": 14.479999542236328,
+      "end": 15.880000114440918
+    },
+    {
+      "word": "over",
+      "start": 16.6200008392334,
+      "end": 17.719999313354492
+    },
+    {
+      "word": "over",
+      "start": 18.040000915527344,
+      "end": 19.200000762939453
+    },
+    {
+      "word": "over",
+      "start": 20.440000534057617,
+      "end": 20.440000534057617
+    },
+    {
+      "word": "over",
+      "start": 21.399999618530273,
+      "end": 22.18000030517578
+    },
+    {
+      "word": "dragon",
+      "start": 22.799999237060547,
+      "end": 23.260000228881836
+    },
+    {
+      "word": "dragon",
+      "start": 24.15999984741211,
+      "end": 25.079999923706055
+    },
+    {
+      "word": "dragon",
+      "start": 25.739999771118164,
+      "end": 26.739999771118164
+    },
+    {
+      "word": "under",
+      "start": 27.799999237060547,
+      "end": 27.899999618530273
+    },
+    {
+      "word": "under",
+      "start": 28.799999237060547,
+      "end": 29.440000534057617
+    },
+    {
+      "word": "under",
+      "start": 29.979999542236328,
+      "end": 29.979999542236328
+    },
+    {
+      "word": "under",
+      "start": 29.979999542236328,
+      "end": 29.979999542236328
+    },
+    {
+      "word": "under",
+      "start": 29.979999542236328,
+      "end": 30.600000381469727
+    },
+    {
+      "word": "dragon",
+      "start": 35.36000061035156,
+      "end": 35.36000061035156
+    },
+    {
+      "word": "dragon",
+      "start": 35.459999084472656,
+      "end": 38.02000045776367
+    },
+    {
+      "word": "dragon",
+      "start": 38.02000045776367,
+      "end": 39.91999816894531
+    },
+    {
+      "word": "over",
+      "start": 39.91999816894531,
+      "end": 42.02000045776367
+    },
+    {
+      "word": "over",
+      "start": 42.41999816894531,
+      "end": 43.86000061035156
+    },
+    {
+      "word": "over",
+      "start": 43.900001525878906,
+      "end": 45.560001373291016
+    },
+    {
+      "word": "over",
+      "start": 45.560001373291016,
+      "end": 47.52000045776367
+    },
+    {
+      "word": "over",
+      "start": 48.31999969482422,
+      "end": 48.31999969482422
+    },
+    {
+      "word": "under",
+      "start": 48.31999969482422,
+      "end": 48.63999938964844
+    },
+    {
+      "word": "under",
+      "start": 49.31999969482422,
+      "end": 49.880001068115234
+    },
+    {
+      "word": "under",
+      "start": 50.58000183105469,
+      "end": 51.540000915527344
+    },
+    {
+      "word": "under",
+      "start": 51.79999923706055,
+      "end": 52.97999954223633
+    },
+    {
+      "word": "over",
+      "start": 61.959999084472656,
+      "end": 63.36000061035156
+    },
+    {
+      "word": "over",
+      "start": 63.36000061035156,
+      "end": 64.76000213623047
+    },
+    {
+      "word": "over",
+      "start": 64.76000213623047,
+      "end": 65.95999908447266
+    },
+    {
+      "word": "over",
+      "start": 67.26000213623047,
+      "end": 67.55999755859375
+    },
+    {
+      "word": "over",
+      "start": 68.94000244140625,
+      "end": 68.94000244140625
+    },
+    {
+      "word": "over",
+      "start": 70.27999877929688,
+      "end": 70.66000366210938
+    },
+    {
+      "word": "over",
+      "start": 71.41999816894531,
+      "end": 71.86000061035156
+    },
+    {
+      "word": "over",
+      "start": 82.95999908447266,
+      "end": 82.95999908447266
+    },
+    {
+      "word": "over",
+      "start": 82.95999908447266,
+      "end": 82.95999908447266
+    },
+    {
+      "word": "over",
+      "start": 82.95999908447266,
+      "end": 82.95999908447266
+    },
+    {
+      "word": "over",
+      "start": 82.95999908447266,
+      "end": 82.95999908447266
+    },
+    {
+      "word": "over",
+      "start": 82.95999908447266,
+      "end": 82.95999908447266
+    },
+    {
+      "word": "over",
+      "start": 82.95999908447266,
+      "end": 82.95999908447266
+    },
+    {
+      "word": "over",
+      "start": 82.95999908447266,
+      "end": 82.95999908447266
+    },
+    {
+      "word": "over",
+      "start": 82.95999908447266,
+      "end": 83.19999694824219
+    },
+    {
+      "word": "over",
+      "start": 83.23999786376953,
+      "end": 84.36000061035156
+    },
+    {
+      "word": "under",
+      "start": 86.68000030517578,
+      "end": 86.68000030517578
+    },
+    {
+      "word": "under",
+      "start": 86.68000030517578,
+      "end": 87.94000244140625
+    },
+    {
+      "word": "under",
+      "start": 87.94000244140625,
+      "end": 89.30000305175781
+    },
+    {
+      "word": "under",
+      "start": 89.30000305175781,
+      "end": 91.0
+    },
+    {
+      "word": "under",
+      "start": 91.0,
+      "end": 92.4000015258789
+    },
+    {
+      "word": "under",
+      "start": 92.4000015258789,
+      "end": 92.87999725341797
+    },
+    {
+      "word": "sneak",
+      "start": 92.87999725341797,
+      "end": 93.16000366210938
+    },
+    {
+      "word": "under",
+      "start": 93.4800033569336,
+      "end": 95.18000030517578
+    },
+    {
+      "word": "sneak",
+      "start": 96.16000366210938,
+      "end": 96.86000061035156
+    },
+    {
+      "word": "under",
+      "start": 96.86000061035156,
+      "end": 98.76000213623047
+    },
+    {
+      "word": "under",
+      "start": 99.63999938964844,
+      "end": 100.5
+    },
+    {
+      "word": "over",
+      "start": 101.0999984741211,
+      "end": 101.80000305175781
+    },
+    {
+      "word": "over",
+      "start": 101.94000244140625,
+      "end": 103.12000274658203
+    },
+    {
+      "word": "over",
+      "start": 115.72000122070312,
+      "end": 115.9800033569336
+    },
+    {
+      "word": "under",
+      "start": 115.9800033569336,
+      "end": 115.9800033569336
+    },
+    {
+      "word": "under",
+      "start": 115.9800033569336,
+      "end": 117.5199966430664
+    },
+    {
+      "word": "over",
+      "start": 117.5199966430664,
+      "end": 117.81999969482422
+    },
+    {
+      "word": "over",
+      "start": 118.08000183105469,
+      "end": 118.95999908447266
+    },
+    {
+      "word": "over",
+      "start": 119.73999786376953,
+      "end": 120.27999877929688
+    },
+    {
+      "word": "sneek",
+      "start": 120.27999877929688,
+      "end": 122.04000091552734
+    },
+    {
+      "word": "over",
+      "start": 122.87999725341797,
+      "end": 124.27999877929688
+    },
+    {
+      "word": "over",
+      "start": 124.94000244140625,
+      "end": 125.45999908447266
+    },
+    {
+      "word": "sneek",
+      "start": 125.81999969482422,
+      "end": 127.30000305175781
+    },
+    {
+      "word": "over",
+      "start": 127.30000305175781,
+      "end": 128.13999938964844
+    },
+    {
+      "word": "over",
+      "start": 128.83999633789062,
+      "end": 129.5
+    },
+    {
+      "word": "over",
+      "start": 129.5,
+      "end": 130.5399932861328
+    },
+    {
+      "word": "sneak",
+      "start": 130.5399932861328,
+      "end": 131.3000030517578
+    },
+    {
+      "word": "over",
+      "start": 131.3000030517578,
+      "end": 134.13999938964844
+    },
+    {
+      "word": "over",
+      "start": 135.86000061035156,
+      "end": 137.0800018310547
+    },
+    {
+      "word": "over",
+      "start": 138.33999633789062,
+      "end": 138.33999633789062
+    },
+    {
+      "word": "sneak",
+      "start": 138.33999633789062,
+      "end": 139.10000610351562
+    },
+    {
+      "word": "over",
+      "start": 139.10000610351562,
+      "end": 140.86000061035156
+    },
+    {
+      "word": "over",
+      "start": 141.16000366210938,
+      "end": 142.0800018310547
+    },
+    {
+      "word": "over",
+      "start": 142.72000122070312,
+      "end": 143.5399932861328
+    },
+    {
+      "word": "sneak",
+      "start": 143.5399932861328,
+      "end": 144.0800018310547
+    },
+    {
+      "word": "over",
+      "start": 144.0800018310547,
+      "end": 150.1999969482422
+    },
+    {
+      "word": "under",
+      "start": 150.27999877929688,
+      "end": 150.4199981689453
+    },
+    {
+      "word": "under",
+      "start": 151.6199951171875,
+      "end": 151.6199951171875
+    },
+    {
+      "word": "under",
+      "start": 152.0500030517578,
+      "end": 152.74000549316406
+    },
+    {
+      "word": "under",
+      "start": 152.9199981689453,
+      "end": 154.0
+    },
+    {
+      "word": "sneak",
+      "start": 154.0,
+      "end": 154.67999267578125
+    },
+    {
+      "word": "under",
+      "start": 154.6999969482422,
+      "end": 158.4600067138672
+    },
+    {
+      "word": "sneak",
+      "start": 158.4600067138672,
+      "end": 160.86000061035156
+    },
+    {
+      "word": "under",
+      "start": 160.9199981689453,
+      "end": 161.16000366210938
+    },
+    {
+      "word": "sneak",
+      "start": 161.16000366210938,
+      "end": 161.66000366210938
+    },
+    {
+      "word": "dragon",
+      "start": 164.27999877929688,
+      "end": 164.27999877929688
+    },
+    {
+      "word": "dragon",
+      "start": 164.6199951171875,
+      "end": 166.94000244140625
+    },
+    {
+      "word": "dragon",
+      "start": 166.94000244140625,
+      "end": 168.47999572753906
+    },
+    {
+      "word": "over",
+      "start": 168.47999572753906,
+      "end": 169.0399932861328
+    },
+    {
+      "word": "over",
+      "start": 169.24000549316406,
+      "end": 169.94000244140625
+    },
+    {
+      "word": "over",
+      "start": 170.39999389648438,
+      "end": 171.39999389648438
+    },
+    {
+      "word": "over",
+      "start": 171.39999389648438,
+      "end": 171.94000244140625
+    },
+    {
+      "word": "under",
+      "start": 173.86000061035156,
+      "end": 173.86000061035156
+    },
+    {
+      "word": "sneak",
+      "start": 174.17999267578125,
+      "end": 179.02000427246094
+    },
+    {
+      "word": "under",
+      "start": 179.86000061035156,
+      "end": 180.72000122070312
+    },
+    {
+      "word": "sneak",
+      "start": 180.72000122070312,
+      "end": 180.9199981689453
+    },
+    {
+      "word": "under",
+      "start": 180.9199981689453,
+      "end": 181.6199951171875
+    },
+    {
+      "word": "sneak",
+      "start": 181.6199951171875,
+      "end": 182.24000549316406
+    },
+    {
+      "word": "over",
+      "start": 182.24000549316406,
+      "end": 183.86000061035156
+    },
+    {
+      "word": "over",
+      "start": 184.52000427246094,
+      "end": 185.10000610351562
+    },
+    {
+      "word": "over",
+      "start": 185.1199951171875,
+      "end": 186.55999755859375
+    },
+    {
+      "word": "sneak",
+      "start": 186.55999755859375,
+      "end": 186.55999755859375
+    },
+    {
+      "word": "over",
+      "start": 186.72000122070312,
+      "end": 187.8800048828125
+    },
+    {
+      "word": "sneak",
+      "start": 187.8800048828125,
+      "end": 187.8800048828125
+    },
+    {
+      "word": "over",
+      "start": 187.9199981689453,
+      "end": 191.3800048828125
+    },
+    {
+      "word": "sneak",
+      "start": 191.3800048828125,
+      "end": 193.5399932861328
+    },
+    {
+      "word": "over",
+      "start": 193.5399932861328,
+      "end": 193.89999389648438
+    },
+    {
+      "word": "over",
+      "start": 193.9199981689453,
+      "end": 194.83999633789062
+    },
+    {
+      "word": "over",
+      "start": 194.83999633789062,
+      "end": 194.83999633789062
+    },
+    {
+      "word": "over",
+      "start": 194.94000244140625,
+      "end": 194.94000244140625
+    },
+    {
+      "word": "sneak",
+      "start": 194.94000244140625,
+      "end": 195.10000610351562
+    },
+    {
+      "word": "under",
+      "start": 195.10000610351562,
+      "end": 195.10000610351562
+    },
+    {
+      "word": "under",
+      "start": 196.36000061035156,
+      "end": 196.36000061035156
+    },
+    {
+      "word": "under",
+      "start": 197.0,
+      "end": 197.0
+    },
+    {
+      "word": "under",
+      "start": 201.74000549316406,
+      "end": 201.89999389648438
+    }
+  ],
+  "vocabulary": {
+    "over": "overhand",
+    "overhand": "overhand",
+    "under": "underhand",
+    "underhand": "underhand",
+    "undersneak": "sneak_underhand",
+    "under sneak": "sneak_underhand",
+    "oversneak": "sneak_overhand",
+    "over sneak": "sneak_overhand",
+    "dragon": "dragon_roll",
+    "dragon roll": "dragon_roll"
+  },
+  "whisper_model": "whisper-1"
+}

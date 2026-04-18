@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "recording": "20260405_184729_experimental_pachelbel",
+  "corrections": [
+    {
+      "t_start": 57.09,
+      "t_end": 57.72,
+      "original_label": "VQ16",
+      "original_confidence": 0.981,
+      "corrected_label": "vq16",
+      "source": "manual",
+      "timestamp": "2026-04-09T18:21:43",
+      "original_cluster_id": 16
+    },
+    {
+      "t_start": 16.59,
+      "t_end": 17.27,
+      "original_label": "UR-CW",
+      "original_confidence": 0.955,
+      "corrected_label": "ur",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:03:45",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 27.76,
+      "t_end": 28.42,
+      "original_label": "UR-CW",
+      "original_confidence": 0.92,
+      "corrected_label": "ur",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:04:14",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 38.7,
+      "t_end": 39.4,
+      "original_label": "UR-CW",
+      "original_confidence": 0.969,
+      "corrected_label": "ur",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:04:55",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 49.52,
+      "t_end": 50.24,
+      "original_label": "UR-CW",
+      "original_confidence": 0.967,
+      "corrected_label": "ur",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:07:42",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 60.4,
+      "t_end": 61.07,
+      "original_label": "UR-CW",
+      "original_confidence": 0.936,
+      "corrected_label": "ur",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:07:42",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 70.19,
+      "t_end": 70.76,
+      "original_label": "UR-CW",
+      "original_confidence": 0.967,
+      "corrected_label": "ur",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:07:42",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 79.15,
+      "t_end": 79.76,
+      "original_label": "UR-CW",
+      "original_confidence": 0.979,
+      "corrected_label": "ur",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:07:42",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 88.33,
+      "t_end": 88.86,
+      "original_label": "UR-CW",
+      "original_confidence": 0.932,
+      "corrected_label": "ur",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:07:42",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 97.87,
+      "t_end": 98.6,
+      "original_label": "UR-CW",
+      "original_confidence": 0.948,
+      "corrected_label": "ur",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:07:42",
+      "original_cluster_id": 17
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "new_rec",
+  "timestamp": "20260315_182722",
+  "pattern": "experimental",
+  "pattern_category": "Other",
+  "subject": "jo",
+  "tempo": "mixed",
+  "notes": "voice, louder",
+  "tags": [],
+  "duration_sec": 131.80131220817566,
+  "sample_count": 12982,
+  "device_count": 2,
+  "sample_rate_hz_approx": 98.4967431848886,
+  "has_video": true,
+  "has_audio": true,
+  "has_labels": true
+}

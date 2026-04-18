@@ -1,0 +1,146 @@
+{
+  "version": 1,
+  "recording": "20260405_184905_experimental_pachelbel",
+  "corrections": [
+    {
+      "t_start": 19.72,
+      "t_end": 20.4,
+      "original_label": "UR-CW",
+      "original_confidence": 0.966,
+      "corrected_label": "ur",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:07:43",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 29.15,
+      "t_end": 29.79,
+      "original_label": "UR-CW",
+      "original_confidence": 0.962,
+      "corrected_label": "ur",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:07:43",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 38.89,
+      "t_end": 39.6,
+      "original_label": "UR-CW",
+      "original_confidence": 0.908,
+      "corrected_label": "ur",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:07:43",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 51.25,
+      "t_end": 52.03,
+      "original_label": "UR-CW",
+      "original_confidence": 0.956,
+      "corrected_label": "ur",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:07:43",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 63.21,
+      "t_end": 63.95,
+      "original_label": "UR-CW",
+      "original_confidence": 0.923,
+      "corrected_label": "ur",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:07:43",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 74.6,
+      "t_end": 75.31,
+      "original_label": "UR-CW",
+      "original_confidence": 0.973,
+      "corrected_label": "ur",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:07:43",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 5.34,
+      "t_end": 6.22,
+      "original_label": "Idle3",
+      "original_confidence": 0.016,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:09:31",
+      "original_cluster_id": 3
+    },
+    {
+      "t_start": 6.22,
+      "t_end": 6.93,
+      "original_label": "Idle3",
+      "original_confidence": 0.015,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:09:33",
+      "original_cluster_id": 3
+    },
+    {
+      "t_start": 6.93,
+      "t_end": 7.66,
+      "original_label": "Idle3",
+      "original_confidence": 0.005,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:09:35",
+      "original_cluster_id": 3
+    },
+    {
+      "t_start": 7.66,
+      "t_end": 8.41,
+      "original_label": "Idle3",
+      "original_confidence": 0.008,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:09:37",
+      "original_cluster_id": 3
+    },
+    {
+      "t_start": 8.41,
+      "t_end": 9.16,
+      "original_label": "Idle3",
+      "original_confidence": 0.028,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:09:41",
+      "original_cluster_id": 3
+    },
+    {
+      "t_start": 9.16,
+      "t_end": 9.92,
+      "original_label": "Idle3",
+      "original_confidence": 0.012,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:09:44",
+      "original_cluster_id": 3
+    },
+    {
+      "t_start": 9.92,
+      "t_end": 10.71,
+      "original_label": "Idle3",
+      "original_confidence": 0.01,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:09:46",
+      "original_cluster_id": 3
+    },
+    {
+      "t_start": 10.71,
+      "t_end": 11.54,
+      "original_label": "USR",
+      "original_confidence": 0.889,
+      "corrected_label": "cw",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:09:57",
+      "original_cluster_id": 11
+    }
+  ]
+}

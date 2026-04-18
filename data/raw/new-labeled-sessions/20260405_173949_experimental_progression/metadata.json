@@ -1,0 +1,19 @@
+{
+  "id": "ea6e14b6",
+  "timestamp": "20260405_173949",
+  "pattern": "experimental",
+  "pattern_category": "Other",
+  "subject": "progression",
+  "tempo": "mixed",
+  "notes": "prog1",
+  "tags": [
+    "birth-death progression"
+  ],
+  "duration_sec": 102.673,
+  "sample_count": 9759,
+  "device_count": 2,
+  "sample_rate_hz_approx": 95.04933137241534,
+  "has_video": true,
+  "has_audio": true,
+  "has_labels": false
+}

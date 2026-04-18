@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "recording": "20260316_170025_experimental_oli",
+  "corrections": [
+    {
+      "t_start": 7.81,
+      "t_end": 8.51,
+      "original_label": "UR-CW",
+      "original_confidence": 0.914,
+      "corrected_label": "ur",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:21:18",
+      "original_cluster_id": 17
+    },
+    {
+      "t_start": 0.41,
+      "t_end": 1.3,
+      "original_label": "Idle-or-ol?",
+      "original_confidence": 0.892,
+      "corrected_label": "idle",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:28:05",
+      "original_cluster_id": 20
+    },
+    {
+      "t_start": 35.67,
+      "t_end": 36.4,
+      "original_label": "Idle-or-ol?",
+      "original_confidence": 0.905,
+      "corrected_label": "idle",
+      "source": "manual",
+      "timestamp": "2026-04-10T16:28:05",
+      "original_cluster_id": 20
+    }
+  ]
+}
