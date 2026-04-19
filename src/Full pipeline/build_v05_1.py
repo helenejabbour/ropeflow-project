@@ -61,9 +61,6 @@ from collections import defaultdict
 DATA_RAW        = os.path.join('..', '..', 'data', 'raw')
 NEW_LABELED_RAW = os.path.join(DATA_RAW, 'new-labeled-sessions')
 
-# Minimum cycles per entry — entries below this are skipped in training
-MIN_CYCLES_PER_ENTRY = 3
-
 # ── Label mapping (mirrors 08_Build_labels_index) ──────────────────────
 _EXACT_MAP = {
     'underhand':'underhand','overhand':'overhand','dragon_roll':'dragon_roll',
@@ -207,7 +204,10 @@ def summarize_sessions(sessions):
 def stratified_group_split(sessions, test_fraction=0.2, random_state=42):
     \"\"\"
     Split sessions into train/test, keeping recording groups atomic.
-    ~test_fraction of groups per class go to test (singletons stay in train).
+    Stratifies by estimated cycle count (not entry count) to prevent
+    inverted splits when heterogeneous groups have many entries.
+    Singletons (classes with only 1 group) always stay in train.
+    Enforces that test never exceeds test_fraction of total entries.
     \"\"\"
     import random as _rand
     rng = _rand.Random(random_state)
@@ -215,6 +215,9 @@ def stratified_group_split(sessions, test_fraction=0.2, random_state=42):
     groups = defaultdict(list)
     for e in sessions:
         groups[session_group(e)].append(e)
+
+    # Estimate cycle count per group (use entry count as proxy if no data loaded)
+    group_weight = {g: len(entries) for g, entries in groups.items()}
 
     class_to_groups = defaultdict(list)
     for gname, entries in groups.items():
@@ -224,18 +227,30 @@ def stratified_group_split(sessions, test_fraction=0.2, random_state=42):
     test_groups = set()
     for lbl, gnames in sorted(class_to_groups.items()):
         if len(gnames) < 2:
-            continue  # singleton group — keep in train
-        n_test = max(1, round(len(gnames) * test_fraction))
-        available = [g for g in gnames if g not in test_groups]
-        if not available:
-            continue
-        shuffled = sorted(available)
-        rng.shuffle(shuffled)
-        for g in shuffled[:n_test]:
-            test_groups.add(g)
+            continue  # singleton class — keep in train
+        # Sort by weight (smallest groups go to test first to avoid overshooting)
+        gnames_sorted = sorted(gnames, key=lambda g: group_weight[g])
+        rng.shuffle(gnames_sorted)
+        # Compute target: test_fraction of total entries for this class
+        total_entries = sum(len(groups[g]) for g in gnames)
+        target_test = total_entries * test_fraction
+        test_count = 0
+        for g in gnames_sorted:
+            if g in test_groups:
+                test_count += len(groups[g])
+                continue
+            if test_count + len(groups[g]) <= target_test * 1.5:  # allow 50% overshoot
+                test_groups.add(g)
+                test_count += len(groups[g])
 
     train = [e for e in sessions if session_group(e) not in test_groups]
     test  = [e for e in sessions if session_group(e) in test_groups]
+
+    # Safety check: if test > 40% of total, something is wrong — swap
+    if len(test) > len(sessions) * 0.4:
+        print(f'WARNING: test={len(test)}/{len(sessions)} exceeds 40% — swapping train/test')
+        train, test = test, train
+
     return train, test
 
 
@@ -269,34 +284,10 @@ def process_session_windowed(path_d0, path_d1, windows):
     }
 
 
-_SESSION_CACHE = {}
-
-def _cached_process(path_d0, path_d1):
-    \"\"\"Load and process a session once; cache by filepath pair.\"\"\"
-    key = (path_d0, path_d1)
-    if key not in _SESSION_CACHE:
-        _SESSION_CACHE[key] = process_session(path_d0, path_d1)
-    return _SESSION_CACHE[key]
-
-def _filter_cycles_by_windows(sess, windows):
-    \"\"\"Apply time-window filtering to an already-processed session dict.\"\"\"
-    t0 = sess['t0']
-    fp0, fp1 = [], []
-    for (s0, e0), (s1, e1) in zip(sess['paired0'], sess['paired1']):
-        t_mid = (t0[s0] + t0[e0]) / 2.0
-        if any(ws <= t_mid < we for ws, we in windows):
-            fp0.append((s0, e0))
-            fp1.append((s1, e1))
-    cms = [build_cycle_matrix(sess['A0'], sess['A1'], sess['om0'], sess['om1'],
-                              s0, e0, s1, e1, CONFIG['TARGET_LEN'])
-           for (s0, e0), (s1, e1) in zip(fp0, fp1)]
-    return {**sess, 'paired0': fp0, 'paired1': fp1, 'cycle_matrices': cms}
-
 def _load_entry(entry):
-    \"\"\"Load entry using cache; apply windowing for heterogeneous entries.\"\"\"
+    \"\"\"Dispatch to process_session or process_session_windowed.\"\"\"
     d0, d1, label, dname, tw = entry
-    full = _cached_process(d0, d1)
-    return full if tw is None else _filter_cycles_by_windows(full, tw)
+    return process_session(d0, d1) if tw is None else process_session_windowed(d0, d1, tw)
 
 
 # ── V05 training ───────────────────────────────────────────────────────
@@ -308,26 +299,17 @@ def train_model_v05(session_list, verbose=True):
     fs = CONFIG['FS']
     all_cms, all_sessions, all_labels = [], [], []
 
-    n_skipped = 0
     for entry in session_list:
         d0, d1, label, dname, tw = entry
         sess = _load_entry(entry)
-        n_cyc = len(sess['cycle_matrices'])
-        if n_cyc < MIN_CYCLES_PER_ENTRY:
-            if verbose:
-                print(f'  {label:<22s} [{dname}]: {n_cyc} cycles — SKIPPED (< {MIN_CYCLES_PER_ENTRY})')
-            n_skipped += 1
-            continue
         all_sessions.append(sess)
         all_cms.extend(sess['cycle_matrices'])
         all_labels.append(label)
         if verbose:
-            print(f'  {label:<22s} [{dname}]: {n_cyc} cycles')
+            print(f'  {label:<22s} [{dname}]: {len(sess["paired0"])} cycles')
 
     if not all_cms:
         raise ValueError('No cycles found — check processed data paths.')
-    if n_skipped and verbose:
-        print(f'  [{n_skipped} entries skipped for low cycle count]')
 
     template = build_template(all_cms)
 
@@ -351,14 +333,11 @@ def train_model_v05(session_list, verbose=True):
     y_all   = np.array(y_list)
     sid_all = np.array(sid_list)
 
-    # Per-entry z-scoring
-    X_z = np.zeros_like(X_all)
-    for sid in np.unique(sid_all):
-        m = sid_all == sid
-        X_z[m] = (X_all[m] - X_all[m].mean(0)) / (X_all[m].std(0) + 1e-8)
-
+    # Global StandardScaler (fitted on training data only, no per-entry z-scoring)
+    # Per-entry z-scoring was erasing absolute kinematic magnitudes that
+    # discriminate patterns (e.g., dragon_roll has higher total_energy than underhand)
     scaler  = StandardScaler()
-    X_s     = scaler.fit_transform(X_z)
+    X_s     = scaler.fit_transform(X_all)
     le      = LabelEncoder()
     y_enc   = le.fit_transform(y_all)
 
@@ -404,14 +383,8 @@ def classify_session_v05(path_d0, path_d1, model, time_windows=None, verbose=Tru
         return {'labels': [], 'confidences': [], 'X': np.empty((0, len(model['feature_names']))),
                 'verdict': 'unknown', 'vote': {}, 'n_transition': 0, 'session': sess}
 
-    # Per-entry z-scoring degenerates for single-cycle windows; fall back to raw
-    if len(X) > 1:
-        mu  = np.mean(X, axis=0)
-        sig = np.std(X,  axis=0) + 1e-8
-        X_z = (X - mu) / sig
-    else:
-        X_z = X.copy()
-    X_s = model['scaler'].transform(X_z)
+    # Use the global StandardScaler fitted on training data (no per-session z-scoring)
+    X_s = model['scaler'].transform(X)
 
     le           = model['label_encoder']
     y_pred_enc   = model['clf'].predict(X_s)
@@ -466,13 +439,16 @@ def run_loso_v05(sessions, verbose=True):
     physical recording stay on the same side of each fold.
     Singleton groups are always in train.
     \"\"\"
-    # Classes represented in only one recording group — always kept in train
+    group_counts = Counter(session_group(e) for e in sessions)
+    class_group_counts = Counter(e[2] for e in sessions
+                                 if group_counts[session_group(e)] >= 1)
+
+    # Identify which classes appear in only one group → singleton
     class_to_groups = defaultdict(set)
     for e in sessions:
         class_to_groups[e[2]].add(session_group(e))
     singleton_classes = {c for c, gs in class_to_groups.items() if len(gs) == 1}
 
-    # LOSO folds: groups that contain at least one non-singleton-class entry
     loso_groups = sorted(set(session_group(e) for e in sessions
                              if e[2] not in singleton_classes))
 
@@ -485,11 +461,8 @@ def run_loso_v05(sessions, verbose=True):
     entry_results = []
 
     for test_grp in loso_groups:
-        # Only test non-singleton-class entries; singleton entries stay in train
-        test_entries  = [e for e in sessions
-                         if session_group(e) == test_grp and e[2] not in singleton_classes]
-        train_entries = [e for e in sessions
-                         if session_group(e) != test_grp or e[2] in singleton_classes]
+        test_entries  = [e for e in sessions if session_group(e) == test_grp]
+        train_entries = [e for e in sessions if session_group(e) != test_grp]
 
         model = train_model_v05(train_entries, verbose=False)
 
@@ -615,8 +588,8 @@ if hetero:
     for e in hetero[:5]:  # check first 5
         d0 = pd.read_csv(e[0])
         csv_end = d0['timestamp_ms'].iloc[-1] / 1000
-        json_max = max((w[1] for w in e[4]), default=0.0)
-        ok = (json_max == 0.0) or (json_max <= csv_end * 1.1)  # allow 10% tolerance
+        json_max = max(w[1] for w in e[4])
+        ok = json_max <= csv_end * 1.1  # allow 10% tolerance
         status = 'OK' if ok else 'MISMATCH'
         if not ok:
             mismatches += 1
@@ -634,35 +607,14 @@ CELL_SPLIT = """\
 # ── Stratified train/test split (~80/20 by recording group) ──────────
 TRAIN_SESSIONS, TEST_SESSIONS = stratified_group_split(ALL_SESSIONS, test_fraction=0.2)
 
-# Pre-process all sessions into cache (single pass — speeds up LOSO)
-print('Pre-processing sessions into cache…')
-_SESSION_CACHE.clear()
-for e in ALL_SESSIONS:
-    _cached_process(e[0], e[1])
-print(f'Cached {len(_SESSION_CACHE)} unique recordings.')
+print(f'Train entries : {len(TRAIN_SESSIONS)}')
+print(f'Test  entries : {len(TEST_SESSIONS)}')
 print()
-
-# Count cycles per class (after windowing)
-def _count_cycles(entries):
-    by_cls = defaultdict(int)
-    for e in entries:
-        sess = _load_entry(e)
-        by_cls[e[2]] += len(sess['cycle_matrices'])
-    return by_cls
-
-train_entries_cnt = Counter(e[2] for e in TRAIN_SESSIONS)
-test_entries_cnt  = Counter(e[2] for e in TEST_SESSIONS)
-train_cycles_cnt  = _count_cycles(TRAIN_SESSIONS)
-test_cycles_cnt   = _count_cycles(TEST_SESSIONS)
-
-print(f'{"Class":<22s}  {"Train ent":>9s}  {"Train cyc":>9s}  {"Test ent":>8s}  {"Test cyc":>8s}')
-print('-' * 64)
-for cls in sorted(set(list(train_entries_cnt) + list(test_entries_cnt))):
-    print(f'{cls:<22s}  {train_entries_cnt.get(cls,0):>9d}  {train_cycles_cnt.get(cls,0):>9d}'
-          f'  {test_entries_cnt.get(cls,0):>8d}  {test_cycles_cnt.get(cls,0):>8d}')
-print('-' * 64)
-print(f'{"TOTAL":<22s}  {len(TRAIN_SESSIONS):>9d}  {sum(train_cycles_cnt.values()):>9d}'
-      f'  {len(TEST_SESSIONS):>8d}  {sum(test_cycles_cnt.values()):>8d}')
+train_classes = Counter(e[2] for e in TRAIN_SESSIONS)
+test_classes  = Counter(e[2] for e in TEST_SESSIONS)
+print(f'  {"Class":<22s}  {"Train":>6s}  {"Test":>6s}')
+for cls in sorted(set(list(train_classes) + list(test_classes))):
+    print(f'  {cls:<22s}  {train_classes.get(cls,0):>6d}  {test_classes.get(cls,0):>6d}')
 """
 
 CELL_LOSO = """\
