@@ -6,7 +6,7 @@ from bisect import bisect_right
 from scipy.signal import savgol_filter, find_peaks
 
 from sklearn.preprocessing import StandardScaler
-from sklearn.decomposition import PCA
+from sklearn.model_selection import train_test_split
 from sklearn.metrics import (
     accuracy_score,
     f1_score,
@@ -35,7 +35,7 @@ DIRECT_CFG = {
     'PEAK_SAVGOL_POLY':   3,
     'PEAK_MIN_PERIOD_S':  0.2,
     'MERGE_GAP_S':        0.20,
-    'PCA_VAR':            0.95,
+    'PCA_VAR':            0.99,
     # Put your exact 12 supervised classes here; all other labels map to UNKNOWN_CLASS.
     'SUPERVISED_CLASSES': [
         'dragon_roll',
@@ -51,7 +51,7 @@ DIRECT_CFG = {
         'counter_clockwise',
         'idle'
     ],
-    'UNKNOWN_CLASS':      'unknown',
+    #'UNKNOWN_CLASS':      'unknown',
 }
 if len(DIRECT_CFG['SUPERVISED_CLASSES']) != 12:
     raise ValueError('DIRECT_CFG[SUPERVISED_CLASSES] must contain exactly 12 known classes.')
@@ -300,7 +300,7 @@ def map_to_supervised_class(raw_label, cfg):
     known = set(cfg['SUPERVISED_CLASSES'])
     if lab in known:
         return lab
-    return cfg['UNKNOWN_CLASS']
+    return cfg.get('UNKNOWN_CLASS', 'unknown')
 
 _DIAG_SID = '20260406_212408_experimental_jo div'
 
@@ -429,32 +429,120 @@ def build_labeled_cycle_dataset(entries, cfg):
     print(f'Labeled dataset: X={X.shape} | classes={len(np.unique(y))}')
     return X, y, groups, session_ids, t_mid_s
 
-def build_feature_matrix(X_cycles, cfg):
-    fs = cfg['FS']
-    win = cfg['WINDOW']
-    n, n_ch = len(X_cycles), X_cycles.shape[1]
-    F = np.zeros((n, n_ch * win), dtype=np.float32)
-    for i in range(n):
-        cycle = X_cycles[i].copy()          # (12, 32)
-        for ch in range(n_ch):
-            mu  = cycle[ch].mean()
-            std = cycle[ch].std()
-            cycle[ch] = (cycle[ch] - mu) / std if std > 1e-6 else cycle[ch] - mu
-        F[i] = cycle.ravel()
-    print(f'Window: {win} samples = {win/fs:.3f}s at {fs} Hz')
-    print(f'Feature matrix: {F.shape} (12 x {win} per-cycle normalized + flattened)')
+def build_feature_matrix(X_cycles):
+    eps = 1e-8
+
+    def biomech_features_from_cycle(cycle_12xt):
+        w0 = cycle_12xt[3:6, :].T
+        w1 = cycle_12xt[9:12, :].T
+        n = min(len(w0), len(w1))
+        if n < 8:
+            return np.zeros(24, dtype=np.float32)
+
+        w0 = w0[:n]
+        w1 = w1[:n]
+        m0 = np.linalg.norm(w0, axis=1)
+        m1 = np.linalg.norm(w1, axis=1)
+
+        def dom_stats(w):
+            e = np.mean(w ** 2, axis=0)
+            k = int(np.argmax(e))
+            share = float(e[k] / (np.sum(e) + eps))
+            signed_mean = float(np.mean(w[:, k]) / (np.sqrt(e[k]) + eps))
+            signflip = float(np.mean(np.sign(w[:-1, k]) != np.sign(w[1:, k])))
+            return float(k), share, signed_mean, signflip
+
+        k0, sh0, sgn0, sf0 = dom_stats(w0)
+        k1, sh1, sgn1, sf1 = dom_stats(w1)
+
+        mid = n // 2
+        hw = max(3, int(0.15 * n))
+        seg0 = w0[max(0, mid - hw):min(n, mid + hw), :2]
+        seg1 = w1[max(0, mid - hw):min(n, mid + hw), :2]
+        mid_evt0 = float(np.max(np.linalg.norm(seg0, axis=1)) / (np.sqrt(np.mean(w0[:, :2] ** 2)) + eps))
+        mid_evt1 = float(np.max(np.linalg.norm(seg1, axis=1)) / (np.sqrt(np.mean(w1[:, :2] ** 2)) + eps))
+        mid_asym = float(np.abs(mid_evt0 - mid_evt1))
+
+        a = m0 - np.mean(m0)
+        b = m1 - np.mean(m1)
+        cc = np.correlate(a, b, mode='full')
+        lag = int(np.argmax(cc) - (n - 1))
+        phase_deg = float((lag / max(1, n)) * 360.0)
+        inphase = float(np.cos(np.deg2rad(phase_deg)))
+        antiphase = float(np.cos(np.deg2rad(phase_deg - 180.0)))
+
+        win = max(8, int(0.25 * n))
+        step = max(2, win // 2)
+        lags = []
+        for st in range(0, n - win + 1, step):
+            aa = m0[st:st + win] - np.mean(m0[st:st + win])
+            bb = m1[st:st + win] - np.mean(m1[st:st + win])
+            c = np.correlate(aa, bb, mode='full')
+            lags.append(np.argmax(c) - (win - 1))
+        lag_var = float(np.var(lags)) if len(lags) > 1 else 0.0
+
+        imp0 = float(np.max(m0) / (np.mean(m0) + eps))
+        imp1 = float(np.max(m1) / (np.mean(m1) + eps))
+        imp_asym = float(max(imp0 / (imp1 + eps), imp1 / (imp0 + eps)))
+
+        q0 = np.percentile(m0, 20)
+        q1 = np.percentile(m1, 20)
+        h0 = np.percentile(m0, 80)
+        h1 = np.percentile(m1, 80)
+        quiet0 = float(np.mean(m0 <= q0))
+        quiet1 = float(np.mean(m1 <= q1))
+        quiet_active_overlap = float(
+            max(np.mean((m0 <= q0) & (m1 >= h1)), np.mean((m1 <= q1) & (m0 >= h0)))
+        )
+
+        e0 = m0 ** 2
+        e1 = m1 ** 2
+        asym_t = np.abs(e0 - e1) / (e0 + e1 + eps)
+        asym_mean = float(np.mean(asym_t))
+        asym_std = float(np.std(asym_t))
+        asym_peak = float(np.max(asym_t))
+
+        return np.array([
+            k0, sh0, sgn0, sf0,
+            k1, sh1, sgn1, sf1,
+            mid_evt0, mid_evt1, mid_asym,
+            phase_deg, inphase, antiphase, lag_var,
+            imp0, imp1, imp_asym,
+            quiet0, quiet1, quiet_active_overlap,
+            asym_mean, asym_std, asym_peak,
+        ], dtype=np.float32)
+
+    F_flat = X_cycles.reshape(len(X_cycles), -1).astype(np.float32)
+    F_biomech = np.vstack([biomech_features_from_cycle(c) for c in X_cycles]).astype(np.float32)
+    F = np.hstack([F_flat, F_biomech]).astype(np.float32)
+    F = np.nan_to_num(F, nan=0.0, posinf=0.0, neginf=0.0)
+    print(f'Feature matrix: {F.shape} (flattened + 24 biomech)')
     return F
 
-def build_class_list(cfg):
+
+def build_class_list(cfg, y_labels=None):
     classes = list(cfg['SUPERVISED_CLASSES'])
     unk = str(cfg.get('UNKNOWN_CLASS', 'unknown'))
-    if unk not in classes:
+    has_unknown = y_labels is not None and unk in set(y_labels)
+    if has_unknown and unk not in classes:
         classes.append(unk)
     return classes
 
 def encode_labels(y_str, class_names):
     cls_to_idx = {c: i for i, c in enumerate(class_names)}
-    y_idx = np.array([cls_to_idx.get(y, cls_to_idx[class_names[-1]]) for y in y_str], dtype=np.int32)
+    unknown_name = 'unknown'
+    y_idx_list = []
+    unseen = []
+    for y in y_str:
+        if y in cls_to_idx:
+            y_idx_list.append(cls_to_idx[y])
+        elif unknown_name in cls_to_idx:
+            y_idx_list.append(cls_to_idx[unknown_name])
+        else:
+            unseen.append(y)
+    if unseen:
+        raise ValueError(f'Found labels not in class_names and no unknown class present: {sorted(set(unseen))}')
+    y_idx = np.array(y_idx_list, dtype=np.int32)
     return y_idx, cls_to_idx
 
 def _save_supervised_eval(y_true, y_pred, class_names, tag, results_dir):
@@ -507,90 +595,252 @@ def _save_supervised_eval(y_true, y_pred, class_names, tag, results_dir):
         'confusion_png': out_cm,
     }
 
-def run_loso_pca_gbm(X_feat, y, groups, class_names, cfg, results_dir):
-    uniq = np.unique(groups)
-    y_true_all, y_pred_all = [], []
 
-    for fi, g in enumerate(uniq, 1):
-        tr, te = groups != g, groups == g
-        Xtr, Xte = X_feat[tr], X_feat[te]
-        ytr, yte = y[tr], y[te]
-        if len(yte) == 0:
-            continue
+def make_shared_stratified_split(X_feat, X_cycles, y, test_size=0.2, random_state=42):
+    idx = np.arange(len(y))
+    tr_idx, te_idx = train_test_split(idx, test_size=test_size, stratify=y, random_state=random_state)
+    return {
+        'Xf_train': X_feat[tr_idx],
+        'Xf_test': X_feat[te_idx],
+        'Xc_train': X_cycles[tr_idx],
+        'Xc_test': X_cycles[te_idx],
+        'y_train': y[tr_idx],
+        'y_test': y[te_idx],
+    }
 
-        if len(np.unique(ytr)) < 2:
-            pred = np.full_like(yte, fill_value=int(ytr[0]))
-            y_true_all.extend(yte.tolist())
-            y_pred_all.extend(pred.tolist())
-            print(f'  [PCA+GBM] fold {fi}/{len(uniq)} (single-class fallback)')
-            continue
 
-        sc = StandardScaler()
-        Xts = sc.fit_transform(Xtr)
-        Xes = sc.transform(Xte)
+def run_stratified_rf(X_train_s, X_test_s, y_train, y_test, class_names, results_dir):
+    clf = RandomForestClassifier(
+        n_estimators=400,
+        max_depth=24,
+        class_weight='balanced_subsample',
+        n_jobs=-1,
+        random_state=42,
+    )
+    clf.fit(X_train_s, y_train)
+    y_pred = clf.predict(X_test_s)
 
-        pca = PCA(n_components=float(cfg.get('PCA_VAR', 0.95)), svd_solver='full')
-        Xtp = pca.fit_transform(Xts)
-        Xep = pca.transform(Xes)
+    acc = accuracy_score(y_test, y_pred)
+    print(f'[RF] Accuracy: {acc:.4f}')
 
-        clf = HistGradientBoostingClassifier(
-            max_iter=200,
-            max_depth=6,
-            learning_rate=0.08,
-            l2_regularization=1.0,
-            random_state=42,
-        )
-        clf.fit(Xtp, ytr)
-        pred = clf.predict(Xep)
+    res = _save_supervised_eval(y_test, y_pred, class_names, 'stratified_rf', results_dir)
+    return res
 
-        y_true_all.extend(yte.tolist())
-        y_pred_all.extend(pred.tolist())
-        print(f'  [PCA+GBM] fold {fi}/{len(uniq)}')
 
-    y_true = np.array(y_true_all, dtype=np.int32)
-    y_pred = np.array(y_pred_all, dtype=np.int32)
-    return _save_supervised_eval(y_true, y_pred, class_names, 'pca_gbm_loso', results_dir)
+def run_stratified_pca_gbm(X_train_s, X_test_s, y_train, y_test, class_names, results_dir):
+    from sklearn.decomposition import PCA
 
-def run_loso_rf(X_feat, y, groups, class_names, results_dir):
-    uniq = np.unique(groups)
-    y_true_all, y_pred_all = [], []
+    pca = PCA(n_components=DIRECT_CFG.get('PCA_VAR', 0.99), svd_solver='full')
+    X_tr_p = pca.fit_transform(X_train_s)
+    X_te_p = pca.transform(X_test_s)
 
-    for fi, g in enumerate(uniq, 1):
-        tr, te = groups != g, groups == g
-        Xtr, Xte = X_feat[tr], X_feat[te]
-        ytr, yte = y[tr], y[te]
-        if len(yte) == 0:
-            continue
+    clf = HistGradientBoostingClassifier(
+        max_iter=200,
+        max_depth=6,
+        learning_rate=0.08,
+        random_state=42,
+    )
+    clf.fit(X_tr_p, y_train)
+    y_pred = clf.predict(X_te_p)
 
-        if len(np.unique(ytr)) < 2:
-            pred = np.full_like(yte, fill_value=int(ytr[0]))
-            y_true_all.extend(yte.tolist())
-            y_pred_all.extend(pred.tolist())
-            print(f'  [RF] fold {fi}/{len(uniq)} (single-class fallback)')
-            continue
+    acc = accuracy_score(y_test, y_pred)
+    print(f'[PCA+GBM] Accuracy: {acc:.4f} | PCA dims: {X_tr_p.shape[1]}')
 
-        sc = StandardScaler()
-        Xts = sc.fit_transform(Xtr)
-        Xes = sc.transform(Xte)
+    res = _save_supervised_eval(y_test, y_pred, class_names, 'stratified_pca_gbm', results_dir)
+    return res
 
-        clf = RandomForestClassifier(
-            n_estimators=400,
-            max_depth=24,
-            min_samples_leaf=1,
-            class_weight='balanced_subsample',
-            n_jobs=-1,
-            random_state=42,
-        )
-        clf.fit(Xts, ytr)
-        pred = clf.predict(Xes)
 
-        y_true_all.extend(yte.tolist())
-        y_pred_all.extend(pred.tolist())
-        print(f'  [RF] fold {fi}/{len(uniq)}')
+def run_stratified_cnn(X_train, X_test, y_train, y_test, class_names, results_dir):
+    import torch
+    import torch.nn as nn
+    from torch.utils.data import TensorDataset, DataLoader
 
-    y_true = np.array(y_true_all, dtype=np.int32)
-    y_pred = np.array(y_pred_all, dtype=np.int32)
-    return _save_supervised_eval(y_true, y_pred, class_names, 'rf_loso', results_dir)
+    mean = X_train.mean(axis=(0, 2), keepdims=True)
+    std = X_train.std(axis=(0, 2), keepdims=True) + 1e-6
+    X_train_n = (X_train - mean) / std
+    X_test_n = (X_test - mean) / std
+
+    n_classes = len(class_names)
+
+    class CycleNet(nn.Module):
+        def __init__(self):
+            super().__init__()
+            self.conv = nn.Sequential(
+                nn.Conv1d(12, 64, 5, padding=2),
+                nn.BatchNorm1d(64),
+                nn.ReLU(),
+                nn.Conv1d(64, 128, 5, padding=2),
+                nn.BatchNorm1d(128),
+                nn.ReLU(),
+                nn.AdaptiveAvgPool1d(1),
+            )
+            self.head = nn.Sequential(nn.Flatten(), nn.Dropout(0.3), nn.Linear(128, n_classes))
+
+        def forward(self, x):
+            return self.head(self.conv(x))
+
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    model = CycleNet().to(device)
+
+    counts = np.bincount(y_train, minlength=n_classes).astype(float)
+    weights = torch.tensor(1.0 / (counts + 1.0), dtype=torch.float32).to(device)
+
+    opt = torch.optim.Adam(model.parameters(), lr=1e-3, weight_decay=1e-4)
+    loss_fn = nn.CrossEntropyLoss(weight=weights)
+
+    train_ds = TensorDataset(
+        torch.tensor(X_train_n, dtype=torch.float32),
+        torch.tensor(y_train, dtype=torch.long),
+    )
+    train_dl = DataLoader(train_ds, batch_size=32, shuffle=True)
+
+    model.train()
+    for epoch in range(80):
+        for xb, yb in train_dl:
+            xb, yb = xb.to(device), yb.to(device)
+            opt.zero_grad()
+            loss_fn(model(xb), yb).backward()
+            opt.step()
+        if (epoch + 1) % 20 == 0:
+            print(f'  [CNN] epoch {epoch + 1}/80')
+
+    model.eval()
+    with torch.no_grad():
+        X_te_t = torch.tensor(X_test_n, dtype=torch.float32).to(device)
+        y_pred = model(X_te_t).argmax(dim=1).cpu().numpy().astype(np.int32)
+
+    acc = accuracy_score(y_test, y_pred)
+    print(f'[CNN] Accuracy: {acc:.4f}')
+
+    res = _save_supervised_eval(y_test, y_pred, class_names, 'stratified_cnn', results_dir)
+    return res
+
+
+def run_stratified_bilstm(X_train, X_test, y_train, y_test, class_names, results_dir):
+    import torch
+    import torch.nn as nn
+    from torch.utils.data import TensorDataset, DataLoader
+
+    mean = X_train.mean(axis=(0, 2), keepdims=True)
+    std = X_train.std(axis=(0, 2), keepdims=True) + 1e-6
+    X_train_n = (X_train - mean) / std
+    X_test_n = (X_test - mean) / std
+
+    X_train_n = np.transpose(X_train_n, (0, 2, 1))
+    X_test_n = np.transpose(X_test_n, (0, 2, 1))
+
+    n_classes = len(class_names)
+
+    class BiLSTMNet(nn.Module):
+        def __init__(self):
+            super().__init__()
+            self.lstm = nn.LSTM(
+                input_size=12,
+                hidden_size=64,
+                num_layers=2,
+                batch_first=True,
+                bidirectional=True,
+                dropout=0.3,
+            )
+            self.head = nn.Sequential(nn.Dropout(0.3), nn.Linear(128, n_classes))
+
+        def forward(self, x):
+            out, _ = self.lstm(x)
+            return self.head(out[:, -1, :])
+
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    model = BiLSTMNet().to(device)
+
+    counts = np.bincount(y_train, minlength=n_classes).astype(float)
+    weights = torch.tensor(1.0 / (counts + 1.0), dtype=torch.float32).to(device)
+
+    opt = torch.optim.Adam(model.parameters(), lr=1e-3, weight_decay=1e-4)
+    loss_fn = nn.CrossEntropyLoss(weight=weights)
+
+    train_ds = TensorDataset(
+        torch.tensor(X_train_n, dtype=torch.float32),
+        torch.tensor(y_train, dtype=torch.long),
+    )
+    train_dl = DataLoader(train_ds, batch_size=32, shuffle=True)
+
+    model.train()
+    for epoch in range(80):
+        for xb, yb in train_dl:
+            xb, yb = xb.to(device), yb.to(device)
+            opt.zero_grad()
+            loss_fn(model(xb), yb).backward()
+            opt.step()
+        if (epoch + 1) % 20 == 0:
+            print(f'  [BiLSTM] epoch {epoch + 1}/80')
+
+    model.eval()
+    with torch.no_grad():
+        X_te_t = torch.tensor(X_test_n, dtype=torch.float32).to(device)
+        y_pred = model(X_te_t).argmax(dim=1).cpu().numpy().astype(np.int32)
+
+    acc = accuracy_score(y_test, y_pred)
+    print(f'[BiLSTM] Accuracy: {acc:.4f}')
+
+    res = _save_supervised_eval(y_test, y_pred, class_names, 'stratified_bilstm', results_dir)
+    return res
+
+
+def _resample_sequence(seq, target_len=16):
+    src_len = seq.shape[0]
+    if src_len == target_len:
+        return seq.astype(np.float32, copy=False)
+    x_src = np.linspace(0.0, 1.0, src_len)
+    x_dst = np.linspace(0.0, 1.0, target_len)
+    out = np.empty((target_len, seq.shape[1]), dtype=np.float32)
+    for ch in range(seq.shape[1]):
+        out[:, ch] = np.interp(x_dst, x_src, seq[:, ch])
+    return out
+
+
+def _dtw_distance_banded(a, b, radius=2):
+    n, m = a.shape[0], b.shape[0]
+    radius = max(int(radius), abs(n - m))
+    inf = np.inf
+    dp = np.full((n + 1, m + 1), inf, dtype=np.float32)
+    dp[0, 0] = 0.0
+    for i in range(1, n + 1):
+        j0 = max(1, i - radius)
+        j1 = min(m, i + radius)
+        ai = a[i - 1]
+        for j in range(j0, j1 + 1):
+            cost = float(np.linalg.norm(ai - b[j - 1]))
+            dp[i, j] = cost + min(dp[i - 1, j], dp[i, j - 1], dp[i - 1, j - 1])
+    return float(dp[n, m])
+
+
+def run_stratified_dtw_knn(X_train, X_test, y_train, y_test, class_names, results_dir, k=3):
+    mean = X_train.mean(axis=(0, 2), keepdims=True)
+    std = X_train.std(axis=(0, 2), keepdims=True) + 1e-6
+    X_train_n = (X_train - mean) / std
+    X_test_n = (X_test - mean) / std
+
+    X_train_seq = np.stack([
+        _resample_sequence(x.transpose(1, 0), target_len=16) for x in X_train_n
+    ], axis=0)
+    X_test_seq = np.stack([
+        _resample_sequence(x.transpose(1, 0), target_len=16) for x in X_test_n
+    ], axis=0)
+
+    y_pred = np.empty(len(X_test_seq), dtype=np.int32)
+    for i, xq in enumerate(X_test_seq):
+        dists = np.array([_dtw_distance_banded(xq, xt, radius=2) for xt in X_train_seq], dtype=np.float32)
+        nn_idx = np.argsort(dists)[:k]
+        nn_labels = y_train[nn_idx]
+        votes = np.bincount(nn_labels, minlength=len(class_names))
+        y_pred[i] = int(np.argmax(votes))
+        if (i + 1) % 20 == 0 or i + 1 == len(X_test_seq):
+            print(f'  [DTW+kNN] {i + 1}/{len(X_test_seq)}')
+
+    acc = accuracy_score(y_test, y_pred)
+    print(f'[DTW+kNN] Accuracy: {acc:.4f} | k={k}')
+
+    res = _save_supervised_eval(y_test, y_pred, class_names, 'stratified_dtw_knn', results_dir)
+    return res
 
 def save_dataset_diagnostics(y_str, groups, results_dir):
     df = pd.DataFrame({'label': y_str, 'session_id': groups})
@@ -631,30 +881,15 @@ if os.path.isdir(DATA_PROCESSED):
 print(f'Sessions found: {len(SESSIONS)}')
 
 X_cycles, y_labels, groups, session_ids, t_mid_s = build_labeled_cycle_dataset(SESSIONS, DIRECT_CFG)
-# DIAGNOSTIC: what raw labels became "unknown"?
-from collections import Counter
-ann_cache = {}
-unknown_raw = []
-for entry in SESSIONS:
-    sid = entry[2]
-    if sid not in ann_cache:
-        ann_cache[sid] = _load_time_labels_for_session(sid)
-    ann = ann_cache[sid]
-    if ann is None:
-        continue
-    for seg in ann['segments']:
-        raw = seg[2]  # already canonicalized
-        mapped = map_to_supervised_class(raw, DIRECT_CFG)
-        if mapped == 'unknown':
-            unknown_raw.append(raw)
-print(f'\nRaw labels mapped to "unknown": {Counter(unknown_raw)}')
 
-X_feat = build_feature_matrix(X_cycles, DIRECT_CFG)
+X_feat = build_feature_matrix(X_cycles)
 
-CLASS_NAMES = build_class_list(DIRECT_CFG)
+CLASS_NAMES = build_class_list(DIRECT_CFG, y_labels)
+if 'unknown' not in set(y_labels):
+    CLASS_NAMES = [c for c in CLASS_NAMES if c != 'unknown']
 y_idx, CLASS_TO_IDX = encode_labels(y_labels, CLASS_NAMES)
 
-print(f'Using {len(CLASS_NAMES)} classes (including unknown):')
+print(f'Using {len(CLASS_NAMES)} classes:')
 print(CLASS_NAMES)
 
 save_dataset_diagnostics(y_labels, groups, RESULTS_DIR)
@@ -669,37 +904,68 @@ out_ds = os.path.join(RESULTS_DIR, 'supervised_cycle_index.csv')
 supervised_dataset.to_csv(out_ds, index=False)
 print(f'Supervised cycle index saved: {out_ds}')
 
-print('\n-- LOSO: PCA + GBM --')
-res_pca = run_loso_pca_gbm(X_feat, y_idx, groups, CLASS_NAMES, DIRECT_CFG, RESULTS_DIR)
+split = make_shared_stratified_split(X_feat, X_cycles, y_idx, test_size=0.2, random_state=42)
+Xf_train, Xf_test = split['Xf_train'], split['Xf_test']
+Xc_train, Xc_test = split['Xc_train'], split['Xc_test']
+y_train, y_test = split['y_train'], split['y_test']
 
-print('\n-- LOSO: Random Forest --')
-res_rf = run_loso_rf(X_feat, y_idx, groups, CLASS_NAMES, RESULTS_DIR)
+sc = StandardScaler()
+Xf_train_s = sc.fit_transform(Xf_train)
+Xf_test_s = sc.transform(Xf_test)
+
+print(f'\nTrain: {len(y_train)} | Test: {len(y_test)} (shared split, random_state=42)')
+
+print('\n-- Stratified 80/20: RF --')
+res_rf = run_stratified_rf(Xf_train_s, Xf_test_s, y_train, y_test, CLASS_NAMES, RESULTS_DIR)
+
+print('\n-- Stratified 80/20: PCA+GBM --')
+res_pca_gbm = run_stratified_pca_gbm(Xf_train_s, Xf_test_s, y_train, y_test, CLASS_NAMES, RESULTS_DIR)
+
+print('\n-- Stratified 80/20: 1D-CNN --')
+res_cnn = run_stratified_cnn(Xc_train, Xc_test, y_train, y_test, CLASS_NAMES, RESULTS_DIR)
+
+print('\n-- Stratified 80/20: BiLSTM --')
+res_bilstm = run_stratified_bilstm(Xc_train, Xc_test, y_train, y_test, CLASS_NAMES, RESULTS_DIR)
+
+print('\n-- Stratified 80/20: DTW+k-NN --')
+res_dtw_knn = run_stratified_dtw_knn(Xc_train, Xc_test, y_train, y_test, CLASS_NAMES, RESULTS_DIR)
 
 summary = pd.DataFrame([
-    {'approach': 'PCA + GBM', 'accuracy': res_pca['accuracy'], 'macro_f1': res_pca['macro_f1']},
-    {'approach': 'Random Forest', 'accuracy': res_rf['accuracy'], 'macro_f1': res_rf['macro_f1']},
+    {
+        'approach': 'RF',
+        'accuracy': res_rf['accuracy'],
+        'macro_f1': res_rf['macro_f1'],
+    },
+    {
+        'approach': 'PCA+GBM',
+        'accuracy': res_pca_gbm['accuracy'],
+        'macro_f1': res_pca_gbm['macro_f1'],
+    },
+    {
+        'approach': '1D-CNN',
+        'accuracy': res_cnn['accuracy'],
+        'macro_f1': res_cnn['macro_f1'],
+    },
+    {
+        'approach': 'BiLSTM',
+        'accuracy': res_bilstm['accuracy'],
+        'macro_f1': res_bilstm['macro_f1'],
+    },
+    {
+        'approach': 'DTW+k-NN',
+        'accuracy': res_dtw_knn['accuracy'],
+        'macro_f1': res_dtw_knn['macro_f1'],
+    },
 ]).sort_values('macro_f1', ascending=False).reset_index(drop=True)
-summary.index += 1
 
 print('\n' + '=' * 56)
-print('LOSO supervised performance (cycle-level)')
+print('Stratified supervised performance (cycle-level)')
 print('=' * 56)
-print(summary.to_string())
+print(summary.to_string(index=False))
 print('=' * 56)
 
-out_summary = os.path.join(RESULTS_DIR, 'loso_supervised_summary.csv')
+out_summary = os.path.join(RESULTS_DIR, 'stratified_supervised_summary.csv')
 summary.to_csv(out_summary, index=False)
 print(f'Summary saved: {out_summary}')
-
-fig, ax = plt.subplots(figsize=(7, 3))
-ax.barh(summary['approach'][::-1], summary['macro_f1'][::-1], color=['#4c956c', '#2c6e91'])
-ax.set_xlabel('Macro-F1')
-ax.set_xlim(0, 1.0)
-ax.set_title('LOSO macro-F1 comparison (supervised)')
-for i, row in summary[::-1].reset_index(drop=True).iterrows():
-    ax.text(row['macro_f1'] + 0.01, i, f"{row['macro_f1']:.3f}", va='center', fontsize=9)
-fig.tight_layout()
-fig.savefig(os.path.join(RESULTS_DIR, 'fig_loso_supervised_comparison.png'), bbox_inches='tight')
-plt.close(fig)
 
 print('Results saved to', RESULTS_DIR)
