@@ -1,0 +1,2637 @@
+session_id,t_mid_s,label,label_idx
+20260315_150630_experimental_jo,1.085,idle,11
+20260315_150630_experimental_jo,1.59,idle,11
+20260315_150630_experimental_jo,1.93,idle,11
+20260315_150630_experimental_jo,2.255,idle,11
+20260315_150630_experimental_jo,2.645,idle,11
+20260315_150630_experimental_jo,3.035,idle,11
+20260315_150630_experimental_jo,3.74,idle,11
+20260315_150630_experimental_jo,4.43,idle,11
+20260315_150630_experimental_jo,4.775,idle,11
+20260315_150630_experimental_jo,5.225,idle,11
+20260315_150630_experimental_jo,5.735,idle,11
+20260315_150630_experimental_jo,6.12,idle,11
+20260315_150630_experimental_jo,6.715,idle,11
+20260315_150630_experimental_jo,7.425,idle,11
+20260315_150630_experimental_jo,7.87,idle,11
+20260315_150630_experimental_jo,8.18,idle,11
+20260315_150630_experimental_jo,8.59,idle,11
+20260315_150630_experimental_jo,9.035,idle,11
+20260315_150630_experimental_jo,9.745,idle,11
+20260315_150630_experimental_jo,10.64,idle,11
+20260315_150630_experimental_jo,11.135,idle,11
+20260315_150630_experimental_jo,11.665,idle,11
+20260315_150630_experimental_jo,12.415,idle,11
+20260315_150630_experimental_jo,13.165,idle,11
+20260315_150630_experimental_jo,13.955,idle,11
+20260315_150630_experimental_jo,14.69,overhand_right,4
+20260315_150630_experimental_jo,15.385,clockwise,9
+20260315_150630_experimental_jo,16.16,sneak_underhand_left,5
+20260315_150630_experimental_jo,16.9,overhand_left,3
+20260315_150630_experimental_jo,17.57,counter_clockwise,10
+20260315_150630_experimental_jo,18.23,overhand_right,4
+20260315_150630_experimental_jo,18.92,underhand_right,1
+20260315_150630_experimental_jo,19.635,overhand_left,3
+20260315_150630_experimental_jo,20.32,counter_clockwise,10
+20260315_150630_experimental_jo,20.985,overhand_right,4
+20260315_150630_experimental_jo,21.67,clockwise,9
+20260315_150630_experimental_jo,22.41,dragon_roll,0
+20260315_150630_experimental_jo,23.155,dragon_roll,0
+20260315_150630_experimental_jo,23.89,dragon_roll,0
+20260315_150630_experimental_jo,24.67,dragon_roll,0
+20260315_150630_experimental_jo,25.445,dragon_roll,0
+20260315_150630_experimental_jo,26.19,dragon_roll,0
+20260315_150630_experimental_jo,26.97,underhand_right,1
+20260315_150630_experimental_jo,27.715,counter_clockwise,10
+20260315_150630_experimental_jo,28.41,underhand_left,2
+20260315_150630_experimental_jo,29.105,clockwise,9
+20260315_150630_experimental_jo,29.79,underhand_right,1
+20260315_150630_experimental_jo,30.45,counter_clockwise,10
+20260315_150630_experimental_jo,31.09,underhand_left,2
+20260315_150630_experimental_jo,31.73,clockwise,9
+20260315_150630_experimental_jo,32.405,underhand_right,1
+20260315_150630_experimental_jo,33.075,counter_clockwise,10
+20260315_150630_experimental_jo,33.755,underhand_left,2
+20260315_150630_experimental_jo,34.525,dragon_roll,0
+20260315_150630_experimental_jo,35.345,dragon_roll,0
+20260315_150630_experimental_jo,36.185,dragon_roll,0
+20260315_150630_experimental_jo,37.075,dragon_roll,0
+20260315_150630_experimental_jo,37.955,dragon_roll,0
+20260315_150630_experimental_jo,38.785,dragon_roll,0
+20260315_150630_experimental_jo,39.615,overhand_right,4
+20260315_150630_experimental_jo,41.235,overhand_right,4
+20260315_150630_experimental_jo,41.94,underhand_right,1
+20260315_150630_experimental_jo,42.565,overhand_left,3
+20260315_150630_experimental_jo,43.19,counter_clockwise,10
+20260315_150630_experimental_jo,43.72,overhand_right,4
+20260315_150630_experimental_jo,44.32,underhand_right,1
+20260315_150630_experimental_jo,45.1,overhand_left,3
+20260315_150630_experimental_jo,45.775,counter_clockwise,10
+20260315_150630_experimental_jo,46.4,overhand_right,4
+20260315_150630_experimental_jo,47.04,clockwise,9
+20260315_150630_experimental_jo,47.72,underhand_right,1
+20260315_150630_experimental_jo,48.385,counter_clockwise,10
+20260315_150630_experimental_jo,48.98,underhand_left,2
+20260315_150630_experimental_jo,49.6,clockwise,9
+20260315_150630_experimental_jo,50.28,underhand_right,1
+20260315_150630_experimental_jo,50.935,counter_clockwise,10
+20260315_150630_experimental_jo,51.57,underhand_left,2
+20260315_150630_experimental_jo,52.21,clockwise,9
+20260315_150630_experimental_jo,52.87,underhand_right,1
+20260315_150630_experimental_jo,53.535,counter_clockwise,10
+20260315_150630_experimental_jo,54.23,underhand_left,2
+20260315_150630_experimental_jo,54.92,dragon_roll,0
+20260315_150630_experimental_jo,55.62,sneak_underhand_right,6
+20260315_150630_experimental_jo,56.34,dragon_roll,0
+20260315_150630_experimental_jo,57.035,sneak_underhand_left,5
+20260315_150630_experimental_jo,57.755,dragon_roll,0
+20260315_150630_experimental_jo,58.475,sneak_underhand_right,6
+20260315_150630_experimental_jo,59.2,dragon_roll,0
+20260315_150630_experimental_jo,59.935,sneak_underhand_left,5
+20260315_150630_experimental_jo,60.655,counter_clockwise,10
+20260315_150630_experimental_jo,61.205,counter_clockwise,10
+20260315_150630_experimental_jo,61.565,overhand_right,4
+20260315_150630_experimental_jo,62.08,underhand_right,1
+20260315_150630_experimental_jo,62.7,overhand_left,3
+20260315_150630_experimental_jo,63.29,counter_clockwise,10
+20260315_150630_experimental_jo,63.79,overhand_right,4
+20260315_150630_experimental_jo,64.385,underhand_right,1
+20260315_150630_experimental_jo,65.145,overhand_left,3
+20260315_150630_experimental_jo,65.805,counter_clockwise,10
+20260315_150630_experimental_jo,66.425,overhand_right,4
+20260315_150630_experimental_jo,67.03,clockwise,9
+20260315_150630_experimental_jo,67.655,underhand_right,1
+20260315_150630_experimental_jo,68.265,counter_clockwise,10
+20260315_150630_experimental_jo,68.84,underhand_left,2
+20260315_150630_experimental_jo,69.425,clockwise,9
+20260315_150630_experimental_jo,70.035,underhand_right,1
+20260315_150630_experimental_jo,70.63,counter_clockwise,10
+20260315_150630_experimental_jo,71.2,underhand_left,2
+20260315_150630_experimental_jo,71.81,clockwise,9
+20260315_150630_experimental_jo,72.445,underhand_right,1
+20260315_150630_experimental_jo,73.055,counter_clockwise,10
+20260315_150630_experimental_jo,73.675,counter_clockwise,10
+20260315_150630_experimental_jo,74.87,clockwise,9
+20260315_150630_experimental_jo,75.62,clockwise,9
+20260315_150630_experimental_jo,76.2,overhand_left,3
+20260315_150630_experimental_jo,76.86,counter_clockwise,10
+20260315_150630_experimental_jo,77.64,counter_clockwise,10
+20260315_150630_experimental_jo,78.39,overhand_right,4
+20260315_150630_experimental_jo,78.93,clockwise,9
+20260315_150630_experimental_jo,79.66,underhand_right,1
+20260315_150630_experimental_jo,80.3,overhand_left,3
+20260315_150630_experimental_jo,80.95,counter_clockwise,10
+20260315_150630_experimental_jo,81.645,counter_clockwise,10
+20260315_150630_experimental_jo,82.195,overhand_right,4
+20260315_150630_experimental_jo,82.83,underhand_right,1
+20260315_150630_experimental_jo,83.53,overhand_left,3
+20260315_150630_experimental_jo,84.1,counter_clockwise,10
+20260315_150630_experimental_jo,84.595,overhand_right,4
+20260315_150630_experimental_jo,85.19,clockwise,9
+20260315_150630_experimental_jo,85.915,underhand_right,1
+20260315_150630_experimental_jo,86.525,counter_clockwise,10
+20260315_150630_experimental_jo,87.05,underhand_left,2
+20260315_150630_experimental_jo,87.615,clockwise,9
+20260315_150630_experimental_jo,88.25,underhand_right,1
+20260315_150630_experimental_jo,88.835,counter_clockwise,10
+20260315_150630_experimental_jo,89.365,underhand_left,2
+20260315_150630_experimental_jo,89.955,clockwise,9
+20260315_150630_experimental_jo,90.595,underhand_right,1
+20260315_150630_experimental_jo,91.18,counter_clockwise,10
+20260315_150630_experimental_jo,91.76,underhand_left,2
+20260315_150630_experimental_jo,92.395,dragon_roll,0
+20260315_150630_experimental_jo,93.08,sneak_underhand_right,6
+20260315_150630_experimental_jo,93.77,clockwise,9
+20260315_150630_experimental_jo,94.405,underhand_right,1
+20260315_150630_experimental_jo,95.08,dragon_roll,0
+20260315_150630_experimental_jo,95.8,sneak_underhand_left,5
+20260315_150630_experimental_jo,96.495,clockwise,9
+20260315_150630_experimental_jo,97.195,counter_clockwise,10
+20260315_150630_experimental_jo,97.915,underhand_left,2
+20260315_150630_experimental_jo,98.595,clockwise,9
+20260315_150630_experimental_jo,99.23,underhand_right,1
+20260315_150630_experimental_jo,99.83,counter_clockwise,10
+20260315_150630_experimental_jo,100.425,counter_clockwise,10
+20260315_150630_experimental_jo,101.015,overhand_right,4
+20260315_150630_experimental_jo,101.615,underhand_right,1
+20260315_150630_experimental_jo,102.235,overhand_left,3
+20260315_150630_experimental_jo,102.845,counter_clockwise,10
+20260315_150630_experimental_jo,103.355,overhand_right,4
+20260315_150630_experimental_jo,103.955,underhand_right,1
+20260315_150630_experimental_jo,104.645,overhand_left,3
+20260315_150630_experimental_jo,105.205,counter_clockwise,10
+20260315_150630_experimental_jo,105.735,overhand_right,4
+20260315_150630_experimental_jo,106.365,clockwise,9
+20260315_150630_experimental_jo,106.95,overhand_left,3
+20260315_150630_experimental_jo,107.715,idle,11
+20260315_150630_experimental_jo,108.25,overhand_right,4
+20260315_150630_experimental_jo,108.87,underhand_right,1
+20260315_150630_experimental_jo,109.565,overhand_left,3
+20260315_150630_experimental_jo,110.175,counter_clockwise,10
+20260315_150630_experimental_jo,110.735,overhand_right,4
+20260315_150630_experimental_jo,111.325,underhand_right,1
+20260315_150630_experimental_jo,111.98,overhand_left,3
+20260315_150630_experimental_jo,112.625,counter_clockwise,10
+20260315_150630_experimental_jo,113.23,overhand_right,4
+20260315_150630_experimental_jo,113.86,clockwise,9
+20260315_150630_experimental_jo,114.545,underhand_right,1
+20260315_150630_experimental_jo,115.18,counter_clockwise,10
+20260315_150630_experimental_jo,115.755,underhand_left,2
+20260315_150630_experimental_jo,116.385,clockwise,9
+20260315_150630_experimental_jo,116.89,overhand_left,3
+20260315_150630_experimental_jo,117.165,overhand_left,3
+20260315_150630_experimental_jo,117.58,counter_clockwise,10
+20260315_150630_experimental_jo,118.095,overhand_right,4
+20260315_150630_experimental_jo,118.685,underhand_right,1
+20260315_150630_experimental_jo,119.35,overhand_left,3
+20260315_150630_experimental_jo,119.955,counter_clockwise,10
+20260315_150630_experimental_jo,120.61,overhand_right,4
+20260315_150630_experimental_jo,121.29,sneak_overhand_left,7
+20260315_150630_experimental_jo,121.97,dragon_roll,0
+20260315_150630_experimental_jo,122.655,overhand_right,4
+20260315_150630_experimental_jo,123.315,underhand_right,1
+20260315_150630_experimental_jo,123.97,overhand_left,3
+20260315_150630_experimental_jo,124.59,counter_clockwise,10
+20260315_150630_experimental_jo,125.19,overhand_right,4
+20260315_150630_experimental_jo,125.85,sneak_overhand_left,7
+20260315_150630_experimental_jo,126.58,dragon_roll,0
+20260315_150630_experimental_jo,127.285,overhand_right,4
+20260315_150630_experimental_jo,127.925,underhand_right,1
+20260315_150630_experimental_jo,128.545,overhand_left,3
+20260315_150630_experimental_jo,129.205,counter_clockwise,10
+20260315_150630_experimental_jo,129.835,overhand_right,4
+20260315_150630_experimental_jo,130.45,sneak_overhand_left,7
+20260315_150630_experimental_jo,131.16,dragon_roll,0
+20260315_150630_experimental_jo,131.885,counter_clockwise,10
+20260315_150630_experimental_jo,132.585,counter_clockwise,10
+20260315_150630_experimental_jo,133.14,counter_clockwise,10
+20260315_150630_experimental_jo,133.485,overhand_right,4
+20260315_150630_experimental_jo,133.99,clockwise,9
+20260315_150630_experimental_jo,135.53,underhand_right,1
+20260315_150630_experimental_jo,136.23,overhand_left,3
+20260315_150630_experimental_jo,136.8,counter_clockwise,10
+20260315_150630_experimental_jo,137.365,overhand_right,4
+20260315_150630_experimental_jo,138.01,sneak_overhand_left,7
+20260315_150630_experimental_jo,138.7,dragon_roll,0
+20260315_150630_experimental_jo,139.36,counter_clockwise,10
+20260315_150630_experimental_jo,139.895,overhand_right,4
+20260315_150630_experimental_jo,140.55,underhand_right,1
+20260315_150630_experimental_jo,141.29,overhand_left,3
+20260315_150630_experimental_jo,141.87,counter_clockwise,10
+20260315_150630_experimental_jo,142.425,overhand_right,4
+20260315_150630_experimental_jo,143.045,sneak_overhand_left,7
+20260315_150630_experimental_jo,143.715,dragon_roll,0
+20260315_150630_experimental_jo,144.355,counter_clockwise,10
+20260315_150630_experimental_jo,145.06,counter_clockwise,10
+20260315_150630_experimental_jo,145.82,counter_clockwise,10
+20260315_150630_experimental_jo,146.56,counter_clockwise,10
+20260315_150630_experimental_jo,147.315,counter_clockwise,10
+20260315_150630_experimental_jo,147.83,sneak_underhand_left,5
+20260315_150630_experimental_jo,148.855,clockwise,9
+20260315_150630_experimental_jo,149.535,underhand_right,1
+20260315_150630_experimental_jo,150.165,counter_clockwise,10
+20260315_150630_experimental_jo,150.765,underhand_left,2
+20260315_150630_experimental_jo,151.39,clockwise,9
+20260315_150630_experimental_jo,152.035,underhand_right,1
+20260315_150630_experimental_jo,152.67,counter_clockwise,10
+20260315_150630_experimental_jo,153.325,underhand_left,2
+20260315_150630_experimental_jo,153.96,dragon_roll,0
+20260315_150630_experimental_jo,154.6,sneak_underhand_right,6
+20260315_150630_experimental_jo,155.26,dragon_roll,0
+20260315_150630_experimental_jo,155.895,sneak_underhand_left,5
+20260315_150630_experimental_jo,156.555,dragon_roll,0
+20260315_150630_experimental_jo,157.225,sneak_underhand_right,6
+20260315_150630_experimental_jo,157.9,dragon_roll,0
+20260315_150630_experimental_jo,158.575,sneak_underhand_left,5
+20260315_150630_experimental_jo,159.24,dragon_roll,0
+20260315_150630_experimental_jo,159.91,sneak_underhand_right,6
+20260315_150630_experimental_jo,160.57,dragon_roll,0
+20260315_150630_experimental_jo,161.23,sneak_underhand_left,5
+20260315_150630_experimental_jo,161.925,counter_clockwise,10
+20260315_150630_experimental_jo,162.64,sneak_underhand_left,5
+20260315_150630_experimental_jo,163.405,dragon_roll,0
+20260315_150630_experimental_jo,164.24,dragon_roll,0
+20260315_150630_experimental_jo,165.065,dragon_roll,0
+20260315_150630_experimental_jo,165.85,dragon_roll,0
+20260315_150630_experimental_jo,166.62,dragon_roll,0
+20260315_150630_experimental_jo,167.38,dragon_roll,0
+20260315_150630_experimental_jo,168.005,overhand_right,4
+20260315_150630_experimental_jo,168.61,underhand_right,1
+20260315_150630_experimental_jo,169.18,overhand_left,3
+20260315_150630_experimental_jo,169.68,counter_clockwise,10
+20260315_150630_experimental_jo,170.185,overhand_right,4
+20260315_150630_experimental_jo,170.665,underhand_right,1
+20260315_150630_experimental_jo,171.17,overhand_left,3
+20260315_150630_experimental_jo,171.695,counter_clockwise,10
+20260315_150630_experimental_jo,172.68,clockwise,9
+20260315_150630_experimental_jo,173.22,underhand_right,1
+20260315_150630_experimental_jo,173.74,counter_clockwise,10
+20260315_150630_experimental_jo,174.23,underhand_left,2
+20260315_150630_experimental_jo,174.715,clockwise,9
+20260315_150630_experimental_jo,175.245,underhand_right,1
+20260315_150630_experimental_jo,175.76,counter_clockwise,10
+20260315_150630_experimental_jo,176.245,underhand_left,2
+20260315_150630_experimental_jo,176.75,clockwise,9
+20260315_150630_experimental_jo,177.27,underhand_right,1
+20260315_150630_experimental_jo,177.83,counter_clockwise,10
+20260315_150630_experimental_jo,178.375,dragon_roll,0
+20260315_150630_experimental_jo,178.935,sneak_underhand_right,6
+20260315_150630_experimental_jo,179.51,dragon_roll,0
+20260315_150630_experimental_jo,180.1,sneak_underhand_left,5
+20260315_150630_experimental_jo,180.72,dragon_roll,0
+20260315_150630_experimental_jo,181.32,sneak_underhand_right,6
+20260315_150630_experimental_jo,181.91,dragon_roll,0
+20260315_150630_experimental_jo,182.525,sneak_underhand_left,5
+20260315_150630_experimental_jo,183.11,overhand_right,4
+20260315_150630_experimental_jo,183.68,clockwise,9
+20260315_150630_experimental_jo,184.23,overhand_left,3
+20260315_150630_experimental_jo,184.755,counter_clockwise,10
+20260315_150630_experimental_jo,185.82,sneak_overhand_left,7
+20260315_150630_experimental_jo,186.43,dragon_roll,0
+20260315_150630_experimental_jo,187.06,sneak_overhand_right,8
+20260315_150630_experimental_jo,187.73,dragon_roll,0
+20260315_150630_experimental_jo,188.33,sneak_overhand_left,7
+20260315_150630_experimental_jo,188.92,dragon_roll,0
+20260315_150630_experimental_jo,189.535,dragon_roll,0
+20260315_150630_experimental_jo,190.155,dragon_roll,0
+20260315_150630_experimental_jo,190.755,overhand_right,4
+20260315_150630_experimental_jo,191.325,underhand_right,1
+20260315_150630_experimental_jo,191.875,overhand_left,3
+20260315_150630_experimental_jo,192.455,counter_clockwise,10
+20260315_150630_experimental_jo,192.99,overhand_right,4
+20260315_150630_experimental_jo,193.55,clockwise,9
+20260315_150630_experimental_jo,194.225,underhand_right,1
+20260315_150630_experimental_jo,194.825,counter_clockwise,10
+20260315_150630_experimental_jo,195.395,underhand_left,2
+20260315_150630_experimental_jo,196.03,clockwise,9
+20260315_150630_experimental_jo,196.505,idle,11
+20260315_150630_experimental_jo,196.945,idle,11
+20260315_150630_experimental_jo,197.455,idle,11
+20260315_150630_experimental_jo,197.95,idle,11
+20260315_150630_experimental_jo,198.465,idle,11
+20260315_150630_experimental_jo,198.88,idle,11
+20260315_150630_experimental_jo,199.34,idle,11
+20260315_150630_experimental_jo,200.055,idle,11
+20260315_150630_experimental_jo,200.74,idle,11
+20260315_150630_experimental_jo,201.2,idle,11
+20260315_150630_experimental_jo,201.715,idle,11
+20260315_155448_experimental_jo,3.544,overhand_left,3
+20260315_155448_experimental_jo,5.576,overhand_left,3
+20260315_155448_experimental_jo,6.904,overhand_left,3
+20260315_155448_experimental_jo,7.872,overhand_left,3
+20260315_155448_experimental_jo,9.384,overhand_left,3
+20260315_155448_experimental_jo,10.84,overhand_left,3
+20260315_155448_experimental_jo,11.744,overhand_left,3
+20260315_155448_experimental_jo,12.984,overhand_left,3
+20260315_155448_experimental_jo,14.2,underhand_right,1
+20260315_155448_experimental_jo,15.488,overhand_left,3
+20260315_155448_experimental_jo,16.784,underhand_right,1
+20260315_155448_experimental_jo,18.08,underhand_right,1
+20260315_155448_experimental_jo,19.352,underhand_right,1
+20260315_155448_experimental_jo,20.236,underhand_right,1
+20260315_155448_experimental_jo,20.884,underhand_right,1
+20260315_155448_experimental_jo,21.792,underhand_right,1
+20260315_155448_experimental_jo,22.588,underhand_right,1
+20260315_155448_experimental_jo,23.188,underhand_right,1
+20260315_155448_experimental_jo,24.144,underhand_right,1
+20260315_155448_experimental_jo,25.056,underhand_right,1
+20260315_155448_experimental_jo,25.736,underhand_right,1
+20260315_155448_experimental_jo,26.408,underhand_right,1
+20260315_155448_experimental_jo,27.032,underhand_right,1
+20260315_155448_experimental_jo,27.688,underhand_right,1
+20260315_155448_experimental_jo,28.336,underhand_right,1
+20260315_155448_experimental_jo,29.0,underhand_right,1
+20260315_155448_experimental_jo,29.632,underhand_right,1
+20260315_155448_experimental_jo,30.264,underhand_right,1
+20260315_155448_experimental_jo,31.224,underhand_right,1
+20260315_155448_experimental_jo,32.424,underhand_right,1
+20260315_155448_experimental_jo,33.424,underhand_right,1
+20260315_155448_experimental_jo,34.08,dragon_roll,0
+20260315_155448_experimental_jo,35.096,overhand_left,3
+20260315_155448_experimental_jo,36.224,overhand_left,3
+20260315_155448_experimental_jo,36.976,underhand_right,1
+20260315_155448_experimental_jo,38.048,dragon_roll,0
+20260315_155448_experimental_jo,39.176003,dragon_roll,0
+20260315_155448_experimental_jo,39.896,underhand_right,1
+20260315_155448_experimental_jo,40.608,dragon_roll,0
+20260315_155448_experimental_jo,41.56,dragon_roll,0
+20260315_155448_experimental_jo,42.642002,overhand_left,3
+20260315_155448_experimental_jo,43.562,overhand_left,3
+20260315_155448_experimental_jo,44.544,overhand_left,3
+20260315_155448_experimental_jo,45.462,overhand_left,3
+20260315_155448_experimental_jo,46.126,overhand_left,3
+20260315_155448_experimental_jo,46.872,overhand_left,3
+20260315_155448_experimental_jo,47.504,overhand_left,3
+20260315_155448_experimental_jo,48.028,overhand_left,3
+20260315_155448_experimental_jo,48.612,overhand_left,3
+20260315_155448_experimental_jo,49.64,overhand_left,3
+20260315_155448_experimental_jo,50.712,overhand_left,3
+20260315_155448_experimental_jo,51.384,overhand_left,3
+20260315_155448_experimental_jo,52.336,overhand_left,3
+20260315_155448_experimental_jo,53.368,overhand_left,3
+20260315_155448_experimental_jo,54.024,overhand_left,3
+20260315_155448_experimental_jo,55.248,overhand_left,3
+20260315_155448_experimental_jo,56.496,overhand_left,3
+20260315_155448_experimental_jo,57.36,overhand_left,3
+20260315_155448_experimental_jo,58.848,overhand_left,3
+20260315_155448_experimental_jo,60.038,overhand_left,3
+20260315_155448_experimental_jo,60.621998,overhand_left,3
+20260315_155448_experimental_jo,61.52,underhand_right,1
+20260315_155448_experimental_jo,62.632,underhand_right,1
+20260315_155448_experimental_jo,63.72,overhand_left,3
+20260315_155448_experimental_jo,64.536,overhand_left,3
+20260315_155448_experimental_jo,65.176,overhand_left,3
+20260315_155448_experimental_jo,65.704,overhand_left,3
+20260315_155448_experimental_jo,66.84,underhand_right,1
+20260315_155448_experimental_jo,68.736,underhand_right,1
+20260315_155448_experimental_jo,69.936,overhand_left,3
+20260315_155448_experimental_jo,70.776,overhand_left,3
+20260315_155448_experimental_jo,71.896,overhand_left,3
+20260315_155448_experimental_jo,72.944,overhand_left,3
+20260315_155448_experimental_jo,74.12,overhand_left,3
+20260315_155448_experimental_jo,75.184,underhand_right,1
+20260315_155448_experimental_jo,75.826,underhand_right,1
+20260315_155448_experimental_jo,76.626,underhand_right,1
+20260315_155448_experimental_jo,77.664,underhand_right,1
+20260315_155448_experimental_jo,78.76,underhand_right,1
+20260315_155448_experimental_jo,79.848,underhand_right,1
+20260315_155448_experimental_jo,81.232,underhand_right,1
+20260315_155448_experimental_jo,82.648,overhand_left,3
+20260315_155448_experimental_jo,83.784,overhand_left,3
+20260315_155448_experimental_jo,84.732,overhand_left,3
+20260315_155448_experimental_jo,85.388,overhand_left,3
+20260315_155448_experimental_jo,86.288,overhand_left,3
+20260315_155448_experimental_jo,87.432,overhand_left,3
+20260315_155448_experimental_jo,88.896,overhand_left,3
+20260315_155448_experimental_jo,90.432,overhand_left,3
+20260315_155448_experimental_jo,91.328,overhand_left,3
+20260315_155448_experimental_jo,92.552,overhand_left,3
+20260315_155448_experimental_jo,94.052,overhand_left,3
+20260315_155448_experimental_jo,94.923996,underhand_right,1
+20260315_155448_experimental_jo,95.808,underhand_right,1
+20260315_155448_experimental_jo,96.928,underhand_right,1
+20260315_155448_experimental_jo,98.056,underhand_right,1
+20260315_155448_experimental_jo,99.136,underhand_right,1
+20260315_155448_experimental_jo,100.184,underhand_right,1
+20260315_155448_experimental_jo,101.32,overhand_left,3
+20260315_155448_experimental_jo,102.48,overhand_left,3
+20260315_155448_experimental_jo,103.6,overhand_left,3
+20260315_155448_experimental_jo,105.064,overhand_left,3
+20260315_155448_experimental_jo,106.872,overhand_left,3
+20260315_155448_experimental_jo,108.048,overhand_left,3
+20260315_155448_experimental_jo,108.5,overhand_left,3
+20260315_155448_experimental_jo,109.044,overhand_left,3
+20260315_155448_experimental_jo,110.28,overhand_left,3
+20260315_155448_experimental_jo,112.008,overhand_left,3
+20260315_155448_experimental_jo,113.172005,overhand_left,3
+20260315_155448_experimental_jo,114.1,overhand_left,3
+20260315_155448_experimental_jo,115.07,overhand_left,3
+20260315_155448_experimental_jo,115.66,underhand_right,1
+20260315_155448_experimental_jo,116.198,underhand_right,1
+20260315_155448_experimental_jo,117.056,underhand_right,1
+20260315_155448_experimental_jo,118.16,underhand_right,1
+20260315_155448_experimental_jo,119.752,underhand_right,1
+20260315_155448_experimental_jo,121.312,underhand_right,1
+20260315_155448_experimental_jo,122.176,underhand_right,1
+20260315_155448_experimental_jo,122.848,underhand_right,1
+20260315_155448_experimental_jo,123.456,underhand_right,1
+20260315_155448_experimental_jo,124.088,underhand_right,1
+20260315_155448_experimental_jo,125.056,overhand_left,3
+20260315_155448_experimental_jo,126.256,overhand_left,3
+20260315_155448_experimental_jo,127.472,overhand_left,3
+20260315_155448_experimental_jo,128.712,overhand_left,3
+20260315_155448_experimental_jo,129.888,overhand_left,3
+20260315_155448_experimental_jo,130.782,overhand_left,3
+20260315_155448_experimental_jo,131.64,overhand_left,3
+20260315_155448_experimental_jo,132.466,overhand_left,3
+20260315_155448_experimental_jo,133.128,overhand_left,3
+20260315_155448_experimental_jo,133.848,underhand_right,1
+20260315_155448_experimental_jo,134.488,overhand_left,3
+20260315_155448_experimental_jo,135.32,overhand_left,3
+20260315_155448_experimental_jo,136.184,overhand_left,3
+20260315_155448_experimental_jo,136.744,overhand_left,3
+20260315_155448_experimental_jo,137.824,overhand_left,3
+20260315_155448_experimental_jo,139.568,overhand_left,3
+20260315_155448_experimental_jo,140.982,overhand_left,3
+20260315_155448_experimental_jo,141.91,overhand_left,3
+20260315_155448_experimental_jo,142.992,overhand_left,3
+20260315_155448_experimental_jo,143.912,overhand_left,3
+20260315_155448_experimental_jo,144.77,overhand_left,3
+20260315_155448_experimental_jo,145.666,overhand_left,3
+20260315_155448_experimental_jo,146.286,overhand_left,3
+20260315_155448_experimental_jo,147.18199,underhand_right,1
+20260315_155448_experimental_jo,148.288,underhand_right,1
+20260315_155448_experimental_jo,149.384,underhand_right,1
+20260315_155448_experimental_jo,150.456,underhand_right,1
+20260315_155448_experimental_jo,151.42801,underhand_right,1
+20260315_155448_experimental_jo,152.852,overhand_left,3
+20260315_155448_experimental_jo,154.096,underhand_right,1
+20260315_155448_experimental_jo,154.84,overhand_left,3
+20260315_155448_experimental_jo,155.896,underhand_right,1
+20260315_155448_experimental_jo,157.144,overhand_left,3
+20260315_155448_experimental_jo,158.088,overhand_left,3
+20260315_155448_experimental_jo,158.944,overhand_left,3
+20260315_155448_experimental_jo,159.8,underhand_right,1
+20260315_155448_experimental_jo,160.664,overhand_left,3
+20260315_155448_experimental_jo,161.784,overhand_left,3
+20260315_155448_experimental_jo,162.624,overhand_left,3
+20260315_155448_experimental_jo,163.512,overhand_left,3
+20260315_155448_experimental_jo,164.648,underhand_right,1
+20260315_155448_experimental_jo,165.776,underhand_right,1
+20260315_155448_experimental_jo,166.928,underhand_right,1
+20260315_155448_experimental_jo,168.104,underhand_right,1
+20260315_155448_experimental_jo,169.296,underhand_right,1
+20260315_155448_experimental_jo,170.26399,underhand_right,1
+20260315_155448_experimental_jo,170.928,dragon_roll,0
+20260315_155448_experimental_jo,171.856,dragon_roll,0
+20260315_155448_experimental_jo,172.758,overhand_left,3
+20260315_155448_experimental_jo,173.422,dragon_roll,0
+20260315_155448_experimental_jo,174.408,underhand_right,1
+20260315_155448_experimental_jo,175.344,dragon_roll,0
+20260315_155448_experimental_jo,176.032,overhand_left,3
+20260315_155448_experimental_jo,176.608,overhand_left,3
+20260315_155448_experimental_jo,178.0,overhand_left,3
+20260315_182722_experimental_jo,0.664,overhand_left,3
+20260315_182722_experimental_jo,1.808,overhand_left,3
+20260315_182722_experimental_jo,3.056,overhand_left,3
+20260315_182722_experimental_jo,5.224,overhand_left,3
+20260315_182722_experimental_jo,7.328,overhand_left,3
+20260315_182722_experimental_jo,8.688,overhand_left,3
+20260315_182722_experimental_jo,10.032,overhand_left,3
+20260315_182722_experimental_jo,11.368,overhand_left,3
+20260315_182722_experimental_jo,12.624,overhand_left,3
+20260315_182722_experimental_jo,13.88,overhand_left,3
+20260315_182722_experimental_jo,15.168,overhand_left,3
+20260315_182722_experimental_jo,16.464,dragon_roll,0
+20260315_182722_experimental_jo,18.152,underhand_right,1
+20260315_182722_experimental_jo,19.824,underhand_right,1
+20260315_182722_experimental_jo,21.056,underhand_right,1
+20260315_182722_experimental_jo,22.296,underhand_right,1
+20260315_182722_experimental_jo,23.552,underhand_right,1
+20260315_182722_experimental_jo,24.824,underhand_right,1
+20260315_182722_experimental_jo,25.912,underhand_right,1
+20260315_182722_experimental_jo,26.56,dragon_roll,0
+20260315_182722_experimental_jo,27.36,dragon_roll,0
+20260315_182722_experimental_jo,28.176,overhand_left,3
+20260315_182722_experimental_jo,29.28,dragon_roll,0
+20260315_182722_experimental_jo,31.008,dragon_roll,0
+20260315_182722_experimental_jo,32.288,dragon_roll,0
+20260315_182722_experimental_jo,33.192,overhand_left,3
+20260315_182722_experimental_jo,34.032,dragon_roll,0
+20260315_182722_experimental_jo,35.12,overhand_left,3
+20260315_182722_experimental_jo,36.504,overhand_left,3
+20260315_182722_experimental_jo,37.8,overhand_left,3
+20260315_182722_experimental_jo,39.12,overhand_left,3
+20260315_182722_experimental_jo,40.536,overhand_left,3
+20260315_182722_experimental_jo,41.6,overhand_left,3
+20260315_182722_experimental_jo,42.568,overhand_left,3
+20260315_182722_experimental_jo,43.848,overhand_left,3
+20260315_182722_experimental_jo,45.472,overhand_left,3
+20260315_182722_experimental_jo,47.52,overhand_left,3
+20260315_182722_experimental_jo,48.92,overhand_left,3
+20260315_182722_experimental_jo,49.576,overhand_left,3
+20260315_182722_experimental_jo,50.608,overhand_left,3
+20260315_182722_experimental_jo,51.64,overhand_left,3
+20260315_182722_experimental_jo,52.28,overhand_left,3
+20260315_182722_experimental_jo,53.424,underhand_right,1
+20260315_182722_experimental_jo,54.896,overhand_left,3
+20260315_182722_experimental_jo,56.208,overhand_left,3
+20260315_182722_experimental_jo,57.142,underhand_right,1
+20260315_182722_experimental_jo,57.742,underhand_right,1
+20260315_182722_experimental_jo,58.382,underhand_right,1
+20260315_182722_experimental_jo,58.998,underhand_right,1
+20260315_182722_experimental_jo,59.558,underhand_right,1
+20260315_182722_experimental_jo,60.182,underhand_right,1
+20260315_182722_experimental_jo,61.16,underhand_right,1
+20260315_182722_experimental_jo,62.36,underhand_right,1
+20260315_182722_experimental_jo,63.584,underhand_right,1
+20260315_182722_experimental_jo,64.816,underhand_right,1
+20260315_182722_experimental_jo,65.736,overhand_left,3
+20260315_182722_experimental_jo,66.472,overhand_left,3
+20260315_182722_experimental_jo,67.696,overhand_left,3
+20260315_182722_experimental_jo,69.064,overhand_left,3
+20260315_182722_experimental_jo,70.288,overhand_left,3
+20260315_182722_experimental_jo,71.296,overhand_left,3
+20260315_182722_experimental_jo,72.008,underhand_right,1
+20260315_182722_experimental_jo,72.72,overhand_left,3
+20260315_182722_experimental_jo,73.512,underhand_right,1
+20260315_182722_experimental_jo,74.176,dragon_roll,0
+20260315_182722_experimental_jo,74.736,overhand_left,3
+20260315_182722_experimental_jo,75.36,overhand_left,3
+20260315_182722_experimental_jo,75.984,overhand_left,3
+20260315_182722_experimental_jo,76.624,overhand_left,3
+20260315_182722_experimental_jo,77.6,overhand_left,3
+20260315_182722_experimental_jo,78.608,overhand_left,3
+20260315_182722_experimental_jo,79.904,overhand_left,3
+20260315_182722_experimental_jo,81.536,overhand_left,3
+20260315_182722_experimental_jo,82.52,overhand_left,3
+20260315_182722_experimental_jo,83.472,overhand_left,3
+20260315_182722_experimental_jo,84.696,overhand_left,3
+20260315_182722_experimental_jo,85.658,overhand_left,3
+20260315_182722_experimental_jo,86.282,overhand_left,3
+20260315_182722_experimental_jo,87.152,underhand_right,1
+20260315_182722_experimental_jo,88.03,underhand_right,1
+20260315_182722_experimental_jo,88.742004,underhand_right,1
+20260315_182722_experimental_jo,89.504,underhand_right,1
+20260315_182722_experimental_jo,90.216,dragon_roll,0
+20260315_182722_experimental_jo,90.912,dragon_roll,0
+20260315_182722_experimental_jo,91.656,underhand_right,1
+20260315_182722_experimental_jo,92.392,dragon_roll,0
+20260315_182722_experimental_jo,93.08,dragon_roll,0
+20260315_182722_experimental_jo,93.816,overhand_left,3
+20260315_182722_experimental_jo,94.728,underhand_right,1
+20260315_182722_experimental_jo,95.928,underhand_right,1
+20260315_182722_experimental_jo,96.93,underhand_right,1
+20260315_182722_experimental_jo,97.818,overhand_left,3
+20260315_182722_experimental_jo,98.888,overhand_left,3
+20260315_182722_experimental_jo,100.016,overhand_left,3
+20260315_182722_experimental_jo,101.208,overhand_left,3
+20260315_182722_experimental_jo,102.408,overhand_left,3
+20260315_182722_experimental_jo,103.296,overhand_left,3
+20260315_182722_experimental_jo,103.856,overhand_left,3
+20260315_182722_experimental_jo,104.712,overhand_left,3
+20260315_182722_experimental_jo,105.896,overhand_left,3
+20260315_182722_experimental_jo,106.86,overhand_left,3
+20260315_182722_experimental_jo,107.5,overhand_left,3
+20260315_182722_experimental_jo,108.02,overhand_left,3
+20260315_182722_experimental_jo,108.74,overhand_left,3
+20260315_182722_experimental_jo,109.48,overhand_left,3
+20260315_182722_experimental_jo,110.4,overhand_left,3
+20260315_182722_experimental_jo,111.344,overhand_left,3
+20260315_182722_experimental_jo,112.232,overhand_left,3
+20260315_182722_experimental_jo,113.416,overhand_left,3
+20260315_182722_experimental_jo,114.616,overhand_left,3
+20260315_182722_experimental_jo,115.88,overhand_left,3
+20260315_182722_experimental_jo,116.784,overhand_left,3
+20260315_182722_experimental_jo,117.952,overhand_left,3
+20260315_182722_experimental_jo,119.5,overhand_left,3
+20260315_182722_experimental_jo,120.492004,overhand_left,3
+20260315_182722_experimental_jo,121.192,underhand_right,1
+20260315_182722_experimental_jo,122.096,underhand_right,1
+20260315_182722_experimental_jo,123.248,underhand_right,1
+20260315_182722_experimental_jo,124.4,underhand_right,1
+20260315_182722_experimental_jo,125.576,underhand_right,1
+20260315_182722_experimental_jo,126.84,underhand_right,1
+20260315_182722_experimental_jo,127.776,underhand_right,1
+20260315_182722_experimental_jo,128.488,underhand_right,1
+20260315_182722_experimental_jo,129.648,underhand_right,1
+20260315_182722_experimental_jo,131.056,underhand_right,1
+20260316_170025_experimental_oli,1.456,overhand_left,3
+20260316_170025_experimental_oli,2.44,overhand_left,3
+20260316_170025_experimental_oli,3.144,overhand_left,3
+20260316_170025_experimental_oli,3.984,overhand_left,3
+20260316_170025_experimental_oli,4.672,overhand_left,3
+20260316_170025_experimental_oli,5.172,overhand_left,3
+20260316_170025_experimental_oli,5.844,overhand_left,3
+20260316_170025_experimental_oli,6.712,overhand_left,3
+20260316_170025_experimental_oli,7.384,overhand_left,3
+20260316_170025_experimental_oli,8.12,overhand_left,3
+20260316_170025_experimental_oli,9.352,underhand_right,1
+20260316_170025_experimental_oli,10.808,underhand_right,1
+20260316_170025_experimental_oli,12.28,underhand_right,1
+20260316_170025_experimental_oli,13.648,underhand_right,1
+20260316_170025_experimental_oli,15.024,underhand_right,1
+20260316_170025_experimental_oli,16.384,underhand_right,1
+20260316_170025_experimental_oli,17.648,underhand_right,1
+20260316_170025_experimental_oli,18.944,overhand_left,3
+20260316_170025_experimental_oli,20.136,overhand_left,3
+20260316_170025_experimental_oli,20.776,overhand_left,3
+20260316_170025_experimental_oli,21.448,overhand_left,3
+20260316_170025_experimental_oli,22.656,overhand_left,3
+20260316_170025_experimental_oli,23.608,overhand_left,3
+20260316_170025_experimental_oli,24.368,overhand_left,3
+20260316_170025_experimental_oli,25.552,overhand_left,3
+20260316_170025_experimental_oli,27.168,overhand_left,3
+20260316_170025_experimental_oli,28.664,overhand_left,3
+20260316_170025_experimental_oli,29.416,overhand_left,3
+20260316_170025_experimental_oli,30.328,overhand_left,3
+20260316_170025_experimental_oli,31.552,overhand_left,3
+20260316_170025_experimental_oli,32.76,overhand_left,3
+20260316_170025_experimental_oli,34.656,underhand_right,1
+20260316_170025_experimental_oli,36.144,overhand_left,3
+20260316_170025_experimental_oli,36.6,overhand_left,3
+20260316_170025_experimental_oli,36.92,dragon_roll,0
+20260316_170025_experimental_oli,37.424,dragon_roll,0
+20260316_170025_experimental_oli,37.92,overhand_left,3
+20260316_170025_experimental_oli,38.72,overhand_left,3
+20260316_170025_experimental_oli,39.976,overhand_left,3
+20260316_170025_experimental_oli,40.984,underhand_right,1
+20260316_170310_experimental_oli,0.638,overhand_left,3
+20260316_170310_experimental_oli,1.654,underhand_right,1
+20260316_170310_experimental_oli,2.564,underhand_right,1
+20260316_170310_experimental_oli,3.3,underhand_right,1
+20260316_170310_experimental_oli,4.392,underhand_right,1
+20260316_170310_experimental_oli,5.784,underhand_right,1
+20260316_170310_experimental_oli,6.802,underhand_right,1
+20260316_170310_experimental_oli,7.49,underhand_right,1
+20260316_170310_experimental_oli,8.272,underhand_right,1
+20260316_170310_experimental_oli,8.8,underhand_right,1
+20260316_170310_experimental_oli,9.232,underhand_right,1
+20260316_170310_experimental_oli,9.888,overhand_left,3
+20260316_170310_experimental_oli,10.848,overhand_left,3
+20260316_170310_experimental_oli,12.16,overhand_left,3
+20260316_170310_experimental_oli,14.08,overhand_left,3
+20260316_170310_experimental_oli,15.688,overhand_left,3
+20260316_170310_experimental_oli,16.552,overhand_left,3
+20260316_170310_experimental_oli,17.32,overhand_left,3
+20260316_170310_experimental_oli,18.264,overhand_left,3
+20260316_170310_experimental_oli,19.248,overhand_left,3
+20260316_170310_experimental_oli,19.944,overhand_left,3
+20260316_170310_experimental_oli,20.88,underhand_right,1
+20260316_170310_experimental_oli,22.152,underhand_right,1
+20260316_170310_experimental_oli,23.128,overhand_left,3
+20260316_170310_experimental_oli,23.744,overhand_left,3
+20260316_170310_experimental_oli,24.656,overhand_left,3
+20260316_170310_experimental_oli,26.344,overhand_left,3
+20260316_170310_experimental_oli,27.88,overhand_left,3
+20260316_170310_experimental_oli,29.032,overhand_left,3
+20260316_170310_experimental_oli,30.752,overhand_left,3
+20260316_170310_experimental_oli,32.208,overhand_left,3
+20260316_170310_experimental_oli,33.008,overhand_left,3
+20260316_170310_experimental_oli,33.704,overhand_left,3
+20260316_170310_experimental_oli,34.68,underhand_right,1
+20260316_170310_experimental_oli,36.04,underhand_right,1
+20260316_170310_experimental_oli,37.648,underhand_right,1
+20260316_170310_experimental_oli,39.328,overhand_left,3
+20260316_170310_experimental_oli,40.48,underhand_right,1
+20260316_170310_experimental_oli,41.56,underhand_right,1
+20260316_170310_experimental_oli,42.548,underhand_right,1
+20260316_170310_experimental_oli,43.244,underhand_right,1
+20260316_170310_experimental_oli,43.976,underhand_right,1
+20260316_170310_experimental_oli,45.152,overhand_left,3
+20260316_170310_experimental_oli,46.456,overhand_left,3
+20260316_170310_experimental_oli,47.568,overhand_left,3
+20260316_170310_experimental_oli,48.656,overhand_left,3
+20260316_170310_experimental_oli,49.48,overhand_left,3
+20260316_170310_experimental_oli,50.208,overhand_left,3
+20260316_170310_experimental_oli,51.016,underhand_right,1
+20260316_170310_experimental_oli,52.32,overhand_left,3
+20260316_170310_experimental_oli,53.928,overhand_left,3
+20260316_170310_experimental_oli,55.144,overhand_left,3
+20260316_170310_experimental_oli,55.824,overhand_left,3
+20260316_170310_experimental_oli,56.68,underhand_right,1
+20260316_170310_experimental_oli,57.544,underhand_right,1
+20260316_171050_experimental_oli,2.296,overhand_left,3
+20260316_171050_experimental_oli,3.072,overhand_left,3
+20260316_171050_experimental_oli,4.016,dragon_roll,0
+20260316_171050_experimental_oli,5.552,dragon_roll,0
+20260316_171050_experimental_oli,7.2,dragon_roll,0
+20260316_171050_experimental_oli,8.568,overhand_left,3
+20260316_171050_experimental_oli,9.248,overhand_left,3
+20260316_171050_experimental_oli,9.788,overhand_left,3
+20260316_171050_experimental_oli,10.444,overhand_left,3
+20260316_171050_experimental_oli,11.16,overhand_left,3
+20260316_171050_experimental_oli,11.816,overhand_left,3
+20260316_171050_experimental_oli,12.45,overhand_left,3
+20260316_171050_experimental_oli,13.082,overhand_left,3
+20260316_171050_experimental_oli,13.76,overhand_left,3
+20260316_171050_experimental_oli,14.832,underhand_right,1
+20260316_171050_experimental_oli,15.824,underhand_right,1
+20260316_171050_experimental_oli,16.488,underhand_right,1
+20260316_171050_experimental_oli,17.232,underhand_right,1
+20260316_171050_experimental_oli,18.016,underhand_right,1
+20260316_171050_experimental_oli,18.552,overhand_left,3
+20260316_171050_experimental_oli,19.208,overhand_left,3
+20260316_171050_experimental_oli,20.008,underhand_right,1
+20260316_171050_experimental_oli,20.952,overhand_left,3
+20260316_171050_experimental_oli,22.024,overhand_left,3
+20260316_171050_experimental_oli,23.664,overhand_left,3
+20260316_171050_experimental_oli,25.488,overhand_left,3
+20260316_171050_experimental_oli,26.496,overhand_left,3
+20260316_171050_experimental_oli,27.136,overhand_left,3
+20260316_171050_experimental_oli,27.784,overhand_left,3
+20260316_171050_experimental_oli,28.992,overhand_left,3
+20260316_171050_experimental_oli,30.464,overhand_left,3
+20260316_171050_experimental_oli,31.568,underhand_right,1
+20260316_171050_experimental_oli,32.264,overhand_left,3
+20260316_171050_experimental_oli,32.888,overhand_left,3
+20260316_171050_experimental_oli,33.52,overhand_left,3
+20260316_171050_experimental_oli,34.176,overhand_left,3
+20260316_171050_experimental_oli,34.848,overhand_left,3
+20260316_171050_experimental_oli,35.472,overhand_left,3
+20260316_171050_experimental_oli,36.224,underhand_right,1
+20260316_171050_experimental_oli,36.888,overhand_left,3
+20260316_171050_experimental_oli,37.568,overhand_left,3
+20260316_171050_experimental_oli,38.36,underhand_right,1
+20260316_171050_experimental_oli,39.096,overhand_left,3
+20260316_171050_experimental_oli,39.808,underhand_right,1
+20260316_171050_experimental_oli,40.448,dragon_roll,0
+20260316_171050_experimental_oli,41.168,overhand_left,3
+20260316_171050_experimental_oli,41.752,overhand_left,3
+20260316_171050_experimental_oli,42.408,overhand_left,3
+20260316_171050_experimental_oli,43.072,overhand_left,3
+20260316_171050_experimental_oli,43.712,overhand_left,3
+20260316_171050_experimental_oli,44.376,overhand_left,3
+20260316_171050_experimental_oli,45.016,overhand_left,3
+20260316_171050_experimental_oli,46.272,dragon_roll,0
+20260316_171050_experimental_oli,47.396,dragon_roll,0
+20260316_171050_experimental_oli,48.076,dragon_roll,0
+20260316_171050_experimental_oli,48.856,dragon_roll,0
+20260316_171050_experimental_oli,49.559998,dragon_roll,0
+20260316_171050_experimental_oli,50.72,dragon_roll,0
+20260316_171050_experimental_oli,52.096,overhand_left,3
+20260316_171050_experimental_oli,52.792,overhand_left,3
+20260316_171050_experimental_oli,53.432,overhand_left,3
+20260316_171050_experimental_oli,54.104,overhand_left,3
+20260316_171050_experimental_oli,54.952,overhand_left,3
+20260316_171050_experimental_oli,56.44,overhand_left,3
+20260316_171050_experimental_oli,57.472,overhand_left,3
+20260316_171050_experimental_oli,58.784,overhand_left,3
+20260316_171050_experimental_oli,60.36,overhand_left,3
+20260316_171050_experimental_oli,61.208,underhand_right,1
+20260316_171050_experimental_oli,61.792,dragon_roll,0
+20260316_171050_experimental_oli,62.552,dragon_roll,0
+20260316_171050_experimental_oli,63.848,dragon_roll,0
+20260316_171050_experimental_oli,65.248,dragon_roll,0
+20260316_171050_experimental_oli,66.864,dragon_roll,0
+20260316_171050_experimental_oli,68.208,overhand_left,3
+20260316_171050_experimental_oli,68.816,overhand_left,3
+20260316_171050_experimental_oli,69.48,overhand_left,3
+20260316_171050_experimental_oli,70.64,underhand_right,1
+20260316_171050_experimental_oli,71.646,underhand_right,1
+20260316_171050_experimental_oli,72.342,underhand_right,1
+20260316_171050_experimental_oli,73.384,underhand_right,1
+20260316_171050_experimental_oli,74.752,underhand_right,1
+20260316_171050_experimental_oli,75.824,underhand_right,1
+20260316_171050_experimental_oli,76.592,overhand_left,3
+20260316_171050_experimental_oli,77.328,overhand_left,3
+20260316_171050_experimental_oli,78.008,overhand_left,3
+20260316_171050_experimental_oli,78.792,overhand_left,3
+20260316_171050_experimental_oli,79.736,overhand_left,3
+20260316_171050_experimental_oli,80.424,overhand_left,3
+20260316_171050_experimental_oli,81.272,overhand_left,3
+20260316_171050_experimental_oli,82.728,overhand_left,3
+20260316_171050_experimental_oli,83.72,overhand_left,3
+20260316_171050_experimental_oli,84.712,overhand_left,3
+20260316_171050_experimental_oli,85.88,overhand_left,3
+20260316_171050_experimental_oli,86.872,underhand_right,1
+20260316_171050_experimental_oli,88.168,underhand_right,1
+20260316_171050_experimental_oli,89.504,dragon_roll,0
+20260316_171050_experimental_oli,90.376,overhand_left,3
+20260316_171050_experimental_oli,90.918,overhand_left,3
+20260316_171050_experimental_oli,91.566,overhand_left,3
+20260316_171050_experimental_oli,92.264,overhand_left,3
+20260316_171050_experimental_oli,92.904,overhand_left,3
+20260316_171050_experimental_oli,93.584,overhand_left,3
+20260316_171050_experimental_oli,94.232,overhand_left,3
+20260316_171050_experimental_oli,94.928,overhand_left,3
+20260316_171050_experimental_oli,96.064,overhand_left,3
+20260316_171550_experimental_jo,0.99,idle,11
+20260316_171550_experimental_jo,1.815,idle,11
+20260316_171550_experimental_jo,2.74,idle,11
+20260316_171550_experimental_jo,3.405,overhand_left,3
+20260316_171550_experimental_jo,3.975,overhand_left,3
+20260316_171550_experimental_jo,4.53,overhand_left,3
+20260316_171550_experimental_jo,5.035,overhand_left,3
+20260316_171550_experimental_jo,5.56,overhand_left,3
+20260316_171550_experimental_jo,6.12,overhand_left,3
+20260316_171550_experimental_jo,6.645,overhand_left,3
+20260316_171550_experimental_jo,7.19,overhand_left,3
+20260316_171550_experimental_jo,7.79,underhand_right,1
+20260316_171550_experimental_jo,8.37,underhand_right,1
+20260316_171550_experimental_jo,8.88,underhand_right,1
+20260316_171550_experimental_jo,9.395,underhand_right,1
+20260316_171550_experimental_jo,10.565,underhand_right,1
+20260316_171550_experimental_jo,11.135,underhand_right,1
+20260316_171550_experimental_jo,11.68,underhand_right,1
+20260316_171550_experimental_jo,12.235,underhand_right,1
+20260316_171550_experimental_jo,12.8,underhand_right,1
+20260316_171550_experimental_jo,13.37,underhand_right,1
+20260316_171550_experimental_jo,14.01,dragon_roll,0
+20260316_171550_experimental_jo,14.68,dragon_roll,0
+20260316_171550_experimental_jo,15.335,dragon_roll,0
+20260316_171550_experimental_jo,16.02,dragon_roll,0
+20260316_171550_experimental_jo,16.69,dragon_roll,0
+20260316_171550_experimental_jo,17.37,dragon_roll,0
+20260316_171550_experimental_jo,18.065,dragon_roll,0
+20260316_171550_experimental_jo,18.775,dragon_roll,0
+20260316_171550_experimental_jo,19.52,dragon_roll,0
+20260316_171550_experimental_jo,20.21,dragon_roll,0
+20260316_171550_experimental_jo,20.76,overhand_left,3
+20260316_171550_experimental_jo,21.335,overhand_left,3
+20260316_171550_experimental_jo,21.86,overhand_left,3
+20260316_171550_experimental_jo,22.4,overhand_left,3
+20260316_171550_experimental_jo,23.035,overhand_left,3
+20260316_171550_experimental_jo,23.605,sneak_overhand_left,7
+20260316_171550_experimental_jo,24.195,sneak_overhand_left,7
+20260316_171550_experimental_jo,24.765,overhand_left,3
+20260316_171550_experimental_jo,25.355,sneak_overhand_left,7
+20260316_171550_experimental_jo,25.96,sneak_overhand_left,7
+20260316_171550_experimental_jo,26.55,overhand_left,3
+20260316_171550_experimental_jo,27.14,overhand_left,3
+20260316_171550_experimental_jo,27.75,overhand_left,3
+20260316_171550_experimental_jo,28.32,overhand_left,3
+20260316_171550_experimental_jo,28.845,overhand_left,3
+20260316_171550_experimental_jo,29.405,overhand_left,3
+20260316_171550_experimental_jo,29.98,overhand_left,3
+20260316_171550_experimental_jo,30.545,overhand_left,3
+20260316_171550_experimental_jo,31.1,overhand_left,3
+20260316_171550_experimental_jo,31.715,sneak_overhand_left,7
+20260316_171550_experimental_jo,32.385,sneak_overhand_left,7
+20260316_171550_experimental_jo,32.99,overhand_left,3
+20260316_171550_experimental_jo,33.605,overhand_left,3
+20260316_171550_experimental_jo,36.265,overhand_left,3
+20260316_171550_experimental_jo,36.935,overhand_left,3
+20260316_171550_experimental_jo,37.565,underhand_right,1
+20260316_171550_experimental_jo,38.165,underhand_right,1
+20260316_171550_experimental_jo,38.73,overhand_left,3
+20260316_171550_experimental_jo,39.34,sneak_underhand_left,5
+20260316_171550_experimental_jo,40.01,sneak_underhand_left,5
+20260316_171550_experimental_jo,40.645,dragon_roll,0
+20260316_171550_experimental_jo,41.27,sneak_underhand_left,5
+20260316_171550_experimental_jo,41.92,sneak_underhand_left,5
+20260316_171550_experimental_jo,42.56,sneak_underhand_left,5
+20260316_171550_experimental_jo,43.16,overhand_left,3
+20260316_171550_experimental_jo,43.76,overhand_left,3
+20260316_171550_experimental_jo,44.33,overhand_left,3
+20260316_171550_experimental_jo,44.83,overhand_left,3
+20260316_171550_experimental_jo,45.3,overhand_left,3
+20260316_171550_experimental_jo,45.77,overhand_left,3
+20260316_171550_experimental_jo,46.26,overhand_left,3
+20260316_171550_experimental_jo,46.75,overhand_left,3
+20260316_171550_experimental_jo,47.235,overhand_left,3
+20260316_171550_experimental_jo,47.715,overhand_left,3
+20260316_171550_experimental_jo,48.205,overhand_left,3
+20260316_171550_experimental_jo,48.68,overhand_left,3
+20260316_171550_experimental_jo,49.12,overhand_left,3
+20260316_171550_experimental_jo,49.56,overhand_left,3
+20260316_171550_experimental_jo,49.985,overhand_left,3
+20260316_171550_experimental_jo,50.4,overhand_left,3
+20260316_171550_experimental_jo,50.77,overhand_left,3
+20260316_171550_experimental_jo,51.125,overhand_left,3
+20260316_171550_experimental_jo,51.56,overhand_left,3
+20260316_171550_experimental_jo,51.99,overhand_left,3
+20260316_171550_experimental_jo,52.345,overhand_left,3
+20260316_171550_experimental_jo,52.705,overhand_left,3
+20260316_171550_experimental_jo,53.1,overhand_left,3
+20260316_171550_experimental_jo,53.48,overhand_left,3
+20260316_171550_experimental_jo,53.83,overhand_left,3
+20260316_171550_experimental_jo,54.2,overhand_left,3
+20260316_171550_experimental_jo,54.595,overhand_left,3
+20260316_171550_experimental_jo,54.97,overhand_left,3
+20260316_171550_experimental_jo,55.35,overhand_left,3
+20260316_171550_experimental_jo,55.755,overhand_left,3
+20260316_171550_experimental_jo,56.215,overhand_left,3
+20260316_171550_experimental_jo,56.74,overhand_left,3
+20260316_171550_experimental_jo,57.305,overhand_left,3
+20260316_171550_experimental_jo,57.9,overhand_left,3
+20260316_171550_experimental_jo,58.585,overhand_left,3
+20260316_171550_experimental_jo,59.32,overhand_left,3
+20260316_171550_experimental_jo,60.015,overhand_left,3
+20260316_171550_experimental_jo,60.755,overhand_left,3
+20260316_171550_experimental_jo,61.47,overhand_left,3
+20260316_171550_experimental_jo,62.195,overhand_left,3
+20260316_171550_experimental_jo,62.95,overhand_left,3
+20260316_171550_experimental_jo,63.59,overhand_left,3
+20260316_171550_experimental_jo,64.27,overhand_left,3
+20260316_171550_experimental_jo,65.005,overhand_left,3
+20260316_171550_experimental_jo,65.67,overhand_left,3
+20260316_171550_experimental_jo,66.295,overhand_left,3
+20260316_171550_experimental_jo,66.935,overhand_left,3
+20260316_171550_experimental_jo,67.61,overhand_left,3
+20260316_171550_experimental_jo,68.35,overhand_left,3
+20260316_171550_experimental_jo,69.075,sneak_overhand_left,7
+20260316_171550_experimental_jo,69.81,sneak_overhand_left,7
+20260316_171550_experimental_jo,70.615,overhand_left,3
+20260316_171550_experimental_jo,71.37,sneak_overhand_left,7
+20260316_171550_experimental_jo,72.065,sneak_overhand_left,7
+20260316_171550_experimental_jo,72.75,overhand_left,3
+20260316_171550_experimental_jo,73.47,sneak_overhand_left,7
+20260316_171550_experimental_jo,74.22,sneak_overhand_left,7
+20260316_171550_experimental_jo,74.96,overhand_left,3
+20260316_171550_experimental_jo,75.675,sneak_overhand_left,7
+20260316_171550_experimental_jo,76.39,sneak_overhand_left,7
+20260316_171550_experimental_jo,77.16,sneak_overhand_left,7
+20260316_171550_experimental_jo,78.015,sneak_overhand_left,7
+20260316_171550_experimental_jo,78.875,overhand_left,3
+20260316_171550_experimental_jo,79.605,overhand_left,3
+20260316_171550_experimental_jo,80.245,overhand_left,3
+20260316_171550_experimental_jo,80.915,overhand_left,3
+20260316_171550_experimental_jo,81.565,overhand_left,3
+20260316_171550_experimental_jo,82.23,sneak_overhand_left,7
+20260316_171550_experimental_jo,83.0,sneak_overhand_left,7
+20260316_171550_experimental_jo,83.83,sneak_overhand_left,7
+20260316_171550_experimental_jo,84.67,sneak_overhand_left,7
+20260316_171550_experimental_jo,85.42,overhand_left,3
+20260316_171550_experimental_jo,86.075,sneak_overhand_left,7
+20260316_171550_experimental_jo,86.785,sneak_overhand_left,7
+20260316_171550_experimental_jo,87.505,overhand_left,3
+20260316_171550_experimental_jo,88.15,overhand_left,3
+20260316_171550_experimental_jo,88.755,overhand_left,3
+20260316_171550_experimental_jo,89.395,overhand_left,3
+20260316_171550_experimental_jo,90.015,overhand_left,3
+20260316_171550_experimental_jo,90.615,overhand_left,3
+20260316_171550_experimental_jo,91.205,underhand_right,1
+20260316_171550_experimental_jo,91.76,underhand_right,1
+20260316_171550_experimental_jo,92.3,underhand_right,1
+20260316_171550_experimental_jo,92.885,underhand_right,1
+20260316_171550_experimental_jo,93.55,underhand_right,1
+20260316_171550_experimental_jo,94.225,underhand_right,1
+20260316_171550_experimental_jo,94.895,underhand_right,1
+20260316_171550_experimental_jo,95.55,underhand_right,1
+20260316_171550_experimental_jo,96.195,underhand_right,1
+20260316_171550_experimental_jo,96.82,underhand_right,1
+20260316_171550_experimental_jo,97.485,underhand_right,1
+20260316_171550_experimental_jo,98.16,dragon_roll,0
+20260316_171550_experimental_jo,98.835,dragon_roll,0
+20260316_171550_experimental_jo,99.49,dragon_roll,0
+20260316_171550_experimental_jo,100.13,dragon_roll,0
+20260316_171550_experimental_jo,100.81,dragon_roll,0
+20260316_171550_experimental_jo,101.52,dragon_roll,0
+20260316_171550_experimental_jo,102.215,dragon_roll,0
+20260316_171550_experimental_jo,102.94,dragon_roll,0
+20260316_171550_experimental_jo,103.65,overhand_left,3
+20260316_171550_experimental_jo,104.245,overhand_left,3
+20260316_171550_experimental_jo,104.795,overhand_left,3
+20260316_171550_experimental_jo,105.365,overhand_left,3
+20260316_171550_experimental_jo,105.89,overhand_left,3
+20260316_171550_experimental_jo,106.365,overhand_left,3
+20260316_171550_experimental_jo,106.875,overhand_left,3
+20260316_171550_experimental_jo,107.375,overhand_left,3
+20260316_171550_experimental_jo,107.84,overhand_left,3
+20260316_171550_experimental_jo,108.34,overhand_left,3
+20260316_171550_experimental_jo,108.865,overhand_left,3
+20260316_171550_experimental_jo,109.395,overhand_left,3
+20260316_171550_experimental_jo,109.975,overhand_left,3
+20260316_171550_experimental_jo,110.595,sneak_overhand_left,7
+20260316_171550_experimental_jo,111.225,sneak_overhand_left,7
+20260316_171550_experimental_jo,111.84,overhand_left,3
+20260316_171550_experimental_jo,112.48,overhand_left,3
+20260316_171550_experimental_jo,113.1,overhand_left,3
+20260316_171550_experimental_jo,113.645,overhand_left,3
+20260316_171550_experimental_jo,114.165,overhand_left,3
+20260316_171550_experimental_jo,114.745,overhand_left,3
+20260316_171550_experimental_jo,115.33,overhand_left,3
+20260316_171550_experimental_jo,115.91,sneak_overhand_left,7
+20260316_171550_experimental_jo,116.575,sneak_overhand_left,7
+20260316_171550_experimental_jo,117.24,overhand_left,3
+20260316_171550_experimental_jo,117.915,sneak_overhand_left,7
+20260316_171550_experimental_jo,118.595,sneak_overhand_left,7
+20260316_171550_experimental_jo,119.19,overhand_left,3
+20260316_171550_experimental_jo,119.765,sneak_overhand_left,7
+20260316_171550_experimental_jo,120.36,sneak_overhand_left,7
+20260316_171550_experimental_jo,120.95,overhand_left,3
+20260316_171550_experimental_jo,121.565,overhand_left,3
+20260316_171550_experimental_jo,122.2,sneak_overhand_left,7
+20260316_171550_experimental_jo,122.81,overhand_left,3
+20260316_171550_experimental_jo,123.425,overhand_left,3
+20260316_171550_experimental_jo,124.01,underhand_right,1
+20260316_171550_experimental_jo,124.56,sneak_underhand_left,5
+20260316_171550_experimental_jo,125.18,sneak_underhand_left,5
+20260316_171550_experimental_jo,125.85,underhand_right,1
+20260316_171550_experimental_jo,126.455,underhand_right,1
+20260316_171550_experimental_jo,127.04,underhand_right,1
+20260316_171550_experimental_jo,127.635,sneak_underhand_left,5
+20260316_171550_experimental_jo,128.2,sneak_underhand_left,5
+20260316_171550_experimental_jo,128.805,underhand_right,1
+20260316_171550_experimental_jo,129.405,sneak_underhand_left,5
+20260316_171550_experimental_jo,129.995,sneak_underhand_left,5
+20260316_171550_experimental_jo,130.62,underhand_right,1
+20260316_171550_experimental_jo,131.205,dragon_roll,0
+20260316_171550_experimental_jo,131.77,sneak_underhand_left,5
+20260316_171550_experimental_jo,132.38,overhand_left,3
+20260316_171550_experimental_jo,132.985,sneak_underhand_left,5
+20260316_171550_experimental_jo,133.595,sneak_underhand_left,5
+20260316_171550_experimental_jo,134.295,overhand_left,3
+20260316_171550_experimental_jo,135.095,dragon_roll,0
+20260316_171550_experimental_jo,135.875,dragon_roll,0
+20260316_171550_experimental_jo,136.575,dragon_roll,0
+20260316_171550_experimental_jo,137.275,dragon_roll,0
+20260316_171550_experimental_jo,137.95,dragon_roll,0
+20260316_171550_experimental_jo,138.635,dragon_roll,0
+20260316_171550_experimental_jo,139.35,dragon_roll,0
+20260316_171550_experimental_jo,140.11,dragon_roll,0
+20260316_171550_experimental_jo,140.88,dragon_roll,0
+20260316_171550_experimental_jo,141.655,dragon_roll,0
+20260316_171550_experimental_jo,142.46,dragon_roll,0
+20260316_171550_experimental_jo,143.28,dragon_roll,0
+20260316_171550_experimental_jo,143.985,overhand_left,3
+20260316_171550_experimental_jo,144.545,overhand_left,3
+20260316_171550_experimental_jo,145.09,overhand_left,3
+20260316_171550_experimental_jo,145.58,overhand_left,3
+20260316_171550_experimental_jo,146.035,overhand_left,3
+20260316_171550_experimental_jo,146.485,overhand_left,3
+20260316_171550_experimental_jo,146.955,overhand_left,3
+20260316_171550_experimental_jo,147.425,overhand_left,3
+20260316_171550_experimental_jo,147.865,overhand_left,3
+20260316_171550_experimental_jo,148.305,overhand_left,3
+20260316_171550_experimental_jo,148.76,overhand_left,3
+20260316_171550_experimental_jo,149.215,overhand_left,3
+20260316_171550_experimental_jo,149.645,overhand_left,3
+20260316_171550_experimental_jo,150.07,overhand_left,3
+20260316_171550_experimental_jo,150.535,overhand_left,3
+20260316_171550_experimental_jo,151.08,overhand_left,3
+20260316_171550_experimental_jo,151.65,overhand_left,3
+20260316_171550_experimental_jo,152.26,overhand_left,3
+20260316_171550_experimental_jo,152.975,overhand_left,3
+20260316_171550_experimental_jo,153.685,overhand_left,3
+20260316_171550_experimental_jo,154.29,overhand_left,3
+20260316_171550_experimental_jo,154.855,overhand_left,3
+20260316_171550_experimental_jo,155.435,overhand_left,3
+20260316_171550_experimental_jo,156.06,overhand_left,3
+20260316_171550_experimental_jo,156.79,overhand_left,3
+20260316_171550_experimental_jo,157.525,overhand_left,3
+20260316_171550_experimental_jo,158.23,overhand_left,3
+20260316_171550_experimental_jo,158.925,overhand_left,3
+20260316_171550_experimental_jo,159.625,overhand_left,3
+20260316_171550_experimental_jo,160.345,overhand_left,3
+20260316_171550_experimental_jo,161.105,overhand_left,3
+20260316_171550_experimental_jo,161.94,overhand_left,3
+20260316_171550_experimental_jo,162.74,overhand_left,3
+20260316_171550_experimental_jo,163.47,overhand_left,3
+20260316_171550_experimental_jo,164.21,overhand_left,3
+20260316_171550_experimental_jo,165.005,overhand_left,3
+20260316_171550_experimental_jo,165.82,overhand_left,3
+20260316_171550_experimental_jo,166.535,overhand_left,3
+20260316_171550_experimental_jo,167.325,overhand_left,3
+20260316_171550_experimental_jo,168.185,overhand_left,3
+20260316_171550_experimental_jo,168.99,overhand_left,3
+20260316_171550_experimental_jo,169.765,sneak_overhand_left,7
+20260316_171550_experimental_jo,170.56,sneak_overhand_left,7
+20260316_171550_experimental_jo,171.435,sneak_overhand_left,7
+20260316_171550_experimental_jo,172.295,sneak_overhand_left,7
+20260316_171550_experimental_jo,173.095,overhand_left,3
+20260316_171550_experimental_jo,173.85,sneak_overhand_left,7
+20260316_171550_experimental_jo,174.635,sneak_overhand_left,7
+20260316_171550_experimental_jo,175.415,overhand_left,3
+20260316_171550_experimental_jo,176.15,sneak_overhand_left,7
+20260316_171550_experimental_jo,176.955,sneak_overhand_left,7
+20260316_171550_experimental_jo,177.855,sneak_overhand_left,7
+20260316_171550_experimental_jo,178.735,sneak_overhand_left,7
+20260316_171550_experimental_jo,179.6,overhand_left,3
+20260316_171550_experimental_jo,180.4,overhand_left,3
+20260316_171550_experimental_jo,181.165,underhand_right,1
+20260316_171550_experimental_jo,181.945,underhand_right,1
+20260316_171550_experimental_jo,182.6,underhand_right,1
+20260316_171550_experimental_jo,183.22,underhand_right,1
+20260316_171550_experimental_jo,184.06,underhand_right,1
+20260316_171550_experimental_jo,185.015,idle,11
+20260316_171550_experimental_jo,185.66,idle,11
+20260316_171550_experimental_jo,186.14,idle,11
+20260316_172228_experimental_jo,1.528,dragon_roll,0
+20260316_172228_experimental_jo,1.976,dragon_roll,0
+20260316_172228_experimental_jo,3.048,overhand_left,3
+20260316_172228_experimental_jo,4.864,overhand_left,3
+20260316_172228_experimental_jo,6.376,underhand_right,1
+20260316_172228_experimental_jo,7.536,overhand_left,3
+20260316_172228_experimental_jo,8.648,overhand_left,3
+20260316_172228_experimental_jo,10.28,overhand_left,3
+20260316_172228_experimental_jo,11.856,overhand_left,3
+20260316_172228_experimental_jo,12.952,overhand_left,3
+20260316_172228_experimental_jo,14.104,overhand_left,3
+20260316_172228_experimental_jo,15.264,overhand_left,3
+20260316_172228_experimental_jo,16.456,overhand_left,3
+20260316_172228_experimental_jo,17.608,overhand_left,3
+20260316_172228_experimental_jo,18.728,overhand_left,3
+20260316_172228_experimental_jo,19.872,overhand_left,3
+20260316_172228_experimental_jo,20.992,underhand_right,1
+20260316_172228_experimental_jo,21.952,underhand_right,1
+20260316_172228_experimental_jo,22.912,overhand_left,3
+20260316_172228_experimental_jo,24.400002,underhand_right,1
+20260316_172228_experimental_jo,25.736,overhand_left,3
+20260316_172228_experimental_jo,26.406,overhand_left,3
+20260316_172228_experimental_jo,26.974,overhand_left,3
+20260316_172228_experimental_jo,27.576,overhand_left,3
+20260316_172228_experimental_jo,28.16,dragon_roll,0
+20260316_172228_experimental_jo,28.952,overhand_left,3
+20260316_172228_experimental_jo,29.904,overhand_left,3
+20260316_172228_experimental_jo,30.592,overhand_left,3
+20260316_172228_experimental_jo,32.016,overhand_left,3
+20260316_172228_experimental_jo,33.512,dragon_roll,0
+20260316_172228_experimental_jo,34.288,dragon_roll,0
+20260316_172228_experimental_jo,35.088,dragon_roll,0
+20260316_172228_experimental_jo,35.888,overhand_left,3
+20260316_172228_experimental_jo,37.112,dragon_roll,0
+20260316_172228_experimental_jo,38.304,dragon_roll,0
+20260316_172228_experimental_jo,39.096,dragon_roll,0
+20260316_172228_experimental_jo,40.296,dragon_roll,0
+20260316_172228_experimental_jo,41.896,dragon_roll,0
+20260316_172228_experimental_jo,43.512,dragon_roll,0
+20260316_172228_experimental_jo,44.664,dragon_roll,0
+20260316_172228_experimental_jo,45.512,overhand_left,3
+20260316_172228_experimental_jo,46.584,overhand_left,3
+20260316_172228_experimental_jo,47.468,overhand_left,3
+20260316_172228_experimental_jo,48.284,underhand_right,1
+20260316_172228_experimental_jo,49.32,underhand_right,1
+20260316_172228_experimental_jo,50.286,overhand_left,3
+20260316_172228_experimental_jo,50.966,underhand_right,1
+20260316_172228_experimental_jo,51.856,overhand_left,3
+20260316_172228_experimental_jo,52.88,overhand_left,3
+20260316_172228_experimental_jo,54.336,overhand_left,3
+20260405_173949_experimental_progression,0.41,sneak_underhand_left,5
+20260405_173949_experimental_progression,0.85,sneak_underhand_left,5
+20260405_173949_experimental_progression,1.6,underhand_right,1
+20260405_173949_experimental_progression,2.405,underhand_right,1
+20260405_173949_experimental_progression,2.865,sneak_underhand_left,5
+20260405_173949_experimental_progression,3.3,sneak_underhand_left,5
+20260405_173949_experimental_progression,4.01,sneak_underhand_left,5
+20260405_173949_experimental_progression,4.635,sneak_underhand_left,5
+20260405_173949_experimental_progression,5.125,sneak_underhand_left,5
+20260405_173949_experimental_progression,5.555,sneak_underhand_left,5
+20260405_173949_experimental_progression,5.88,dragon_roll,0
+20260405_173949_experimental_progression,6.18,sneak_underhand_left,5
+20260405_173949_experimental_progression,6.48,sneak_underhand_left,5
+20260405_173949_experimental_progression,6.825,sneak_underhand_left,5
+20260405_173949_experimental_progression,7.185,sneak_underhand_left,5
+20260405_173949_experimental_progression,7.81,sneak_underhand_left,5
+20260405_173949_experimental_progression,8.525,sneak_underhand_left,5
+20260405_173949_experimental_progression,9.505,underhand_right,1
+20260405_173949_experimental_progression,10.625,underhand_right,1
+20260405_173949_experimental_progression,11.375,underhand_right,1
+20260405_173949_experimental_progression,12.05,underhand_right,1
+20260405_173949_experimental_progression,12.76,underhand_right,1
+20260405_173949_experimental_progression,13.505,underhand_right,1
+20260405_173949_experimental_progression,14.2,overhand_left,3
+20260405_173949_experimental_progression,14.835,overhand_left,3
+20260405_173949_experimental_progression,15.445,overhand_left,3
+20260405_173949_experimental_progression,16.08,overhand_left,3
+20260405_173949_experimental_progression,16.735,overhand_left,3
+20260405_173949_experimental_progression,17.35,overhand_left,3
+20260405_173949_experimental_progression,17.945,sneak_underhand_left,5
+20260405_173949_experimental_progression,18.565,underhand_right,1
+20260405_173949_experimental_progression,19.175,underhand_right,1
+20260405_173949_experimental_progression,19.755,underhand_right,1
+20260405_173949_experimental_progression,20.335,overhand_left,3
+20260405_173949_experimental_progression,20.93,overhand_left,3
+20260405_173949_experimental_progression,21.55,overhand_left,3
+20260405_173949_experimental_progression,22.165,overhand_left,3
+20260405_173949_experimental_progression,22.755,overhand_left,3
+20260405_173949_experimental_progression,23.32,sneak_overhand_left,7
+20260405_173949_experimental_progression,23.905,underhand_right,1
+20260405_173949_experimental_progression,24.5,dragon_roll,0
+20260405_173949_experimental_progression,25.1,dragon_roll,0
+20260405_173949_experimental_progression,25.71,overhand_left,3
+20260405_173949_experimental_progression,26.29,overhand_left,3
+20260405_173949_experimental_progression,26.895,overhand_left,3
+20260405_173949_experimental_progression,27.48,overhand_left,3
+20260405_173949_experimental_progression,28.065,overhand_left,3
+20260405_173949_experimental_progression,28.68,sneak_overhand_left,7
+20260405_173949_experimental_progression,29.3,underhand_right,1
+20260405_173949_experimental_progression,29.91,sneak_overhand_left,7
+20260405_173949_experimental_progression,30.45,overhand_left,3
+20260405_173949_experimental_progression,30.98,overhand_left,3
+20260405_173949_experimental_progression,31.54,overhand_left,3
+20260405_173949_experimental_progression,32.09,overhand_left,3
+20260405_173949_experimental_progression,32.64,overhand_left,3
+20260405_173949_experimental_progression,33.21,sneak_overhand_left,7
+20260405_173949_experimental_progression,33.78,underhand_right,1
+20260405_173949_experimental_progression,34.305,dragon_roll,0
+20260405_173949_experimental_progression,34.81,sneak_underhand_left,5
+20260405_173949_experimental_progression,35.34,overhand_left,3
+20260405_173949_experimental_progression,35.88,overhand_left,3
+20260405_173949_experimental_progression,36.41,overhand_left,3
+20260405_173949_experimental_progression,36.92,overhand_left,3
+20260405_173949_experimental_progression,37.395,sneak_overhand_left,7
+20260405_173949_experimental_progression,37.905,underhand_right,1
+20260405_173949_experimental_progression,38.43,dragon_roll,0
+20260405_173949_experimental_progression,38.905,sneak_underhand_left,5
+20260405_173949_experimental_progression,39.41,overhand_left,3
+20260405_173949_experimental_progression,39.95,overhand_left,3
+20260405_173949_experimental_progression,40.505,overhand_left,3
+20260405_173949_experimental_progression,41.035,sneak_overhand_left,7
+20260405_173949_experimental_progression,41.59,underhand_right,1
+20260405_173949_experimental_progression,42.11,dragon_roll,0
+20260405_173949_experimental_progression,42.595,sneak_underhand_left,5
+20260405_173949_experimental_progression,43.115,overhand_left,3
+20260405_173949_experimental_progression,43.625,overhand_left,3
+20260405_173949_experimental_progression,44.18,overhand_left,3
+20260405_173949_experimental_progression,44.725,overhand_left,3
+20260405_173949_experimental_progression,45.215,sneak_overhand_left,7
+20260405_173949_experimental_progression,45.755,underhand_right,1
+20260405_173949_experimental_progression,46.26,dragon_roll,0
+20260405_173949_experimental_progression,46.73,sneak_underhand_left,5
+20260405_173949_experimental_progression,47.255,overhand_left,3
+20260405_173949_experimental_progression,47.765,overhand_left,3
+20260405_173949_experimental_progression,48.245,overhand_left,3
+20260405_173949_experimental_progression,48.745,overhand_left,3
+20260405_173949_experimental_progression,49.195,sneak_underhand_left,5
+20260405_173949_experimental_progression,49.705,underhand_right,1
+20260405_173949_experimental_progression,50.275,dragon_roll,0
+20260405_173949_experimental_progression,50.8,overhand_left,3
+20260405_173949_experimental_progression,51.35,overhand_left,3
+20260405_173949_experimental_progression,51.9,overhand_left,3
+20260405_173949_experimental_progression,52.47,overhand_left,3
+20260405_173949_experimental_progression,53.01,overhand_left,3
+20260405_173949_experimental_progression,53.525,sneak_overhand_left,7
+20260405_173949_experimental_progression,54.07,underhand_right,1
+20260405_173949_experimental_progression,54.64,overhand_left,3
+20260405_173949_experimental_progression,55.18,underhand_right,1
+20260405_173949_experimental_progression,55.67,sneak_overhand_left,7
+20260405_173949_experimental_progression,56.19,sneak_underhand_left,5
+20260405_173949_experimental_progression,56.76,overhand_left,3
+20260405_173949_experimental_progression,57.435,overhand_left,3
+20260405_173949_experimental_progression,58.095,overhand_left,3
+20260405_173949_experimental_progression,58.66,sneak_underhand_left,5
+20260405_173949_experimental_progression,59.235,underhand_right,1
+20260405_173949_experimental_progression,59.785,underhand_right,1
+20260405_173949_experimental_progression,60.365,sneak_overhand_left,7
+20260405_173949_experimental_progression,60.94,sneak_underhand_left,5
+20260405_173949_experimental_progression,61.47,overhand_left,3
+20260405_173949_experimental_progression,62.02,overhand_left,3
+20260405_173949_experimental_progression,62.74,overhand_left,3
+20260405_173949_experimental_progression,63.44,overhand_left,3
+20260405_173949_experimental_progression,63.905,sneak_underhand_left,5
+20260405_173949_experimental_progression,64.5,underhand_right,1
+20260405_173949_experimental_progression,65.155,dragon_roll,0
+20260405_173949_experimental_progression,65.715,overhand_left,3
+20260405_173949_experimental_progression,66.3,overhand_left,3
+20260405_173949_experimental_progression,66.955,overhand_left,3
+20260405_173949_experimental_progression,67.63,overhand_left,3
+20260405_173949_experimental_progression,68.225,overhand_left,3
+20260405_173949_experimental_progression,68.775,sneak_overhand_left,7
+20260405_173949_experimental_progression,69.365,underhand_right,1
+20260405_173949_experimental_progression,69.905,dragon_roll,0
+20260405_173949_experimental_progression,70.425,overhand_left,3
+20260405_173949_experimental_progression,71.015,overhand_left,3
+20260405_173949_experimental_progression,71.63,overhand_left,3
+20260405_173949_experimental_progression,72.225,overhand_left,3
+20260405_173949_experimental_progression,72.795,overhand_left,3
+20260405_173949_experimental_progression,73.37,sneak_underhand_left,5
+20260405_173949_experimental_progression,73.925,underhand_right,1
+20260405_173949_experimental_progression,74.43,dragon_roll,0
+20260405_173949_experimental_progression,74.94,sneak_underhand_left,5
+20260405_173949_experimental_progression,75.495,overhand_left,3
+20260405_173949_experimental_progression,76.06,overhand_left,3
+20260405_173949_experimental_progression,76.65,overhand_left,3
+20260405_173949_experimental_progression,77.205,overhand_left,3
+20260405_173949_experimental_progression,77.67,sneak_underhand_left,5
+20260405_173949_experimental_progression,78.26,underhand_right,1
+20260405_173949_experimental_progression,78.865,overhand_left,3
+20260405_173949_experimental_progression,79.33,sneak_overhand_left,7
+20260405_173949_experimental_progression,79.875,overhand_left,3
+20260405_173949_experimental_progression,80.455,overhand_left,3
+20260405_173949_experimental_progression,81.0,overhand_left,3
+20260405_173949_experimental_progression,81.575,overhand_left,3
+20260405_173949_experimental_progression,82.125,sneak_underhand_left,5
+20260405_173949_experimental_progression,82.7,underhand_right,1
+20260405_173949_experimental_progression,83.28,dragon_roll,0
+20260405_173949_experimental_progression,83.775,overhand_left,3
+20260405_173949_experimental_progression,84.33,overhand_left,3
+20260405_173949_experimental_progression,84.9,overhand_left,3
+20260405_173949_experimental_progression,85.445,overhand_left,3
+20260405_173949_experimental_progression,85.98,overhand_left,3
+20260405_173949_experimental_progression,86.445,sneak_underhand_left,5
+20260405_173949_experimental_progression,86.98,underhand_right,1
+20260405_173949_experimental_progression,87.545,overhand_left,3
+20260405_173949_experimental_progression,88.035,sneak_underhand_left,5
+20260405_173949_experimental_progression,88.545,overhand_left,3
+20260405_173949_experimental_progression,89.08,overhand_left,3
+20260405_173949_experimental_progression,89.63,overhand_left,3
+20260405_173949_experimental_progression,90.17,overhand_left,3
+20260405_173949_experimental_progression,90.655,sneak_underhand_left,5
+20260405_173949_experimental_progression,91.175,underhand_right,1
+20260405_173949_experimental_progression,91.695,overhand_left,3
+20260405_173949_experimental_progression,92.145,sneak_underhand_left,5
+20260405_173949_experimental_progression,92.665,overhand_left,3
+20260405_173949_experimental_progression,93.22,overhand_left,3
+20260405_173949_experimental_progression,93.755,overhand_left,3
+20260405_173949_experimental_progression,94.3,overhand_left,3
+20260405_173949_experimental_progression,94.84,sneak_overhand_left,7
+20260405_184437_experimental_bass-walk-down,0.495,idle,11
+20260405_184437_experimental_bass-walk-down,0.945,idle,11
+20260405_184437_experimental_bass-walk-down,2.1,idle,11
+20260405_184437_experimental_bass-walk-down,3.455,idle,11
+20260405_184437_experimental_bass-walk-down,4.26,idle,11
+20260405_184437_experimental_bass-walk-down,5.015,idle,11
+20260405_184437_experimental_bass-walk-down,5.815,idle,11
+20260405_184437_experimental_bass-walk-down,6.605,idle,11
+20260405_184437_experimental_bass-walk-down,7.37,idle,11
+20260405_184437_experimental_bass-walk-down,8.185,idle,11
+20260405_184437_experimental_bass-walk-down,9.015,idle,11
+20260405_184437_experimental_bass-walk-down,9.82,idle,11
+20260405_184437_experimental_bass-walk-down,10.61,overhand_right,4
+20260405_184437_experimental_bass-walk-down,11.375,underhand_right,1
+20260405_184437_experimental_bass-walk-down,12.05,overhand_left,3
+20260405_184437_experimental_bass-walk-down,12.705,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,13.355,overhand_right,4
+20260405_184437_experimental_bass-walk-down,13.95,underhand_right,1
+20260405_184437_experimental_bass-walk-down,14.54,overhand_left,3
+20260405_184437_experimental_bass-walk-down,15.195,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,15.83,overhand_right,4
+20260405_184437_experimental_bass-walk-down,16.455,underhand_right,1
+20260405_184437_experimental_bass-walk-down,17.15,overhand_left,3
+20260405_184437_experimental_bass-walk-down,17.835,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,18.5,dragon_roll,0
+20260405_184437_experimental_bass-walk-down,19.18,sneak_underhand_right,6
+20260405_184437_experimental_bass-walk-down,19.92,dragon_roll,0
+20260405_184437_experimental_bass-walk-down,20.605,sneak_underhand_left,5
+20260405_184437_experimental_bass-walk-down,21.195,overhand_right,4
+20260405_184437_experimental_bass-walk-down,21.8,underhand_right,1
+20260405_184437_experimental_bass-walk-down,22.405,overhand_left,3
+20260405_184437_experimental_bass-walk-down,22.98,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,23.585,overhand_right,4
+20260405_184437_experimental_bass-walk-down,24.225,underhand_right,1
+20260405_184437_experimental_bass-walk-down,24.81,overhand_left,3
+20260405_184437_experimental_bass-walk-down,25.405,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,26.045,overhand_right,4
+20260405_184437_experimental_bass-walk-down,26.675,underhand_right,1
+20260405_184437_experimental_bass-walk-down,27.28,overhand_left,3
+20260405_184437_experimental_bass-walk-down,27.93,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,28.635,dragon_roll,0
+20260405_184437_experimental_bass-walk-down,29.295,sneak_underhand_right,6
+20260405_184437_experimental_bass-walk-down,29.975,dragon_roll,0
+20260405_184437_experimental_bass-walk-down,30.63,sneak_underhand_left,5
+20260405_184437_experimental_bass-walk-down,31.22,overhand_right,4
+20260405_184437_experimental_bass-walk-down,31.8,underhand_right,1
+20260405_184437_experimental_bass-walk-down,32.36,overhand_left,3
+20260405_184437_experimental_bass-walk-down,32.92,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,33.48,overhand_right,4
+20260405_184437_experimental_bass-walk-down,34.02,underhand_right,1
+20260405_184437_experimental_bass-walk-down,34.555,overhand_left,3
+20260405_184437_experimental_bass-walk-down,35.125,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,35.695,overhand_right,4
+20260405_184437_experimental_bass-walk-down,36.29,underhand_right,1
+20260405_184437_experimental_bass-walk-down,36.89,overhand_left,3
+20260405_184437_experimental_bass-walk-down,37.45,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,38.06,dragon_roll,0
+20260405_184437_experimental_bass-walk-down,38.695,sneak_underhand_right,6
+20260405_184437_experimental_bass-walk-down,39.335,dragon_roll,0
+20260405_184437_experimental_bass-walk-down,39.945,sneak_underhand_left,5
+20260405_184437_experimental_bass-walk-down,40.53,overhand_right,4
+20260405_184437_experimental_bass-walk-down,41.125,underhand_right,1
+20260405_184437_experimental_bass-walk-down,41.725,overhand_left,3
+20260405_184437_experimental_bass-walk-down,42.34,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,42.94,overhand_right,4
+20260405_184437_experimental_bass-walk-down,43.55,underhand_right,1
+20260405_184437_experimental_bass-walk-down,44.165,overhand_left,3
+20260405_184437_experimental_bass-walk-down,44.745,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,45.305,overhand_right,4
+20260405_184437_experimental_bass-walk-down,45.915,underhand_right,1
+20260405_184437_experimental_bass-walk-down,46.55,overhand_left,3
+20260405_184437_experimental_bass-walk-down,47.155,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,47.81,dragon_roll,0
+20260405_184437_experimental_bass-walk-down,48.45,sneak_underhand_right,6
+20260405_184437_experimental_bass-walk-down,49.055,dragon_roll,0
+20260405_184437_experimental_bass-walk-down,49.665,sneak_underhand_left,5
+20260405_184437_experimental_bass-walk-down,50.235,overhand_right,4
+20260405_184437_experimental_bass-walk-down,50.775,underhand_right,1
+20260405_184437_experimental_bass-walk-down,51.32,overhand_left,3
+20260405_184437_experimental_bass-walk-down,51.855,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,52.385,overhand_right,4
+20260405_184437_experimental_bass-walk-down,52.93,underhand_right,1
+20260405_184437_experimental_bass-walk-down,53.45,overhand_left,3
+20260405_184437_experimental_bass-walk-down,53.95,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,54.495,overhand_right,4
+20260405_184437_experimental_bass-walk-down,55.02,underhand_right,1
+20260405_184437_experimental_bass-walk-down,55.52,overhand_left,3
+20260405_184437_experimental_bass-walk-down,56.095,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,56.77,dragon_roll,0
+20260405_184437_experimental_bass-walk-down,57.455,sneak_underhand_right,6
+20260405_184437_experimental_bass-walk-down,58.14,dragon_roll,0
+20260405_184437_experimental_bass-walk-down,58.8,sneak_underhand_left,5
+20260405_184437_experimental_bass-walk-down,59.355,overhand_right,4
+20260405_184437_experimental_bass-walk-down,59.87,underhand_right,1
+20260405_184437_experimental_bass-walk-down,60.35,overhand_left,3
+20260405_184437_experimental_bass-walk-down,60.865,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,61.41,overhand_right,4
+20260405_184437_experimental_bass-walk-down,61.94,underhand_right,1
+20260405_184437_experimental_bass-walk-down,62.45,overhand_left,3
+20260405_184437_experimental_bass-walk-down,62.96,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,63.47,overhand_right,4
+20260405_184437_experimental_bass-walk-down,64.025,underhand_right,1
+20260405_184437_experimental_bass-walk-down,64.615,overhand_left,3
+20260405_184437_experimental_bass-walk-down,65.145,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,65.75,dragon_roll,0
+20260405_184437_experimental_bass-walk-down,66.385,sneak_underhand_right,6
+20260405_184437_experimental_bass-walk-down,66.975,dragon_roll,0
+20260405_184437_experimental_bass-walk-down,67.57,sneak_underhand_left,5
+20260405_184437_experimental_bass-walk-down,68.095,overhand_right,4
+20260405_184437_experimental_bass-walk-down,68.675,underhand_right,1
+20260405_184437_experimental_bass-walk-down,69.285,overhand_left,3
+20260405_184437_experimental_bass-walk-down,69.91,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,70.585,overhand_right,4
+20260405_184437_experimental_bass-walk-down,71.205,underhand_right,1
+20260405_184437_experimental_bass-walk-down,71.765,overhand_left,3
+20260405_184437_experimental_bass-walk-down,72.36,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,73.015,overhand_right,4
+20260405_184437_experimental_bass-walk-down,73.61,underhand_right,1
+20260405_184437_experimental_bass-walk-down,74.19,overhand_left,3
+20260405_184437_experimental_bass-walk-down,74.765,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,75.405,dragon_roll,0
+20260405_184437_experimental_bass-walk-down,76.065,sneak_underhand_right,6
+20260405_184437_experimental_bass-walk-down,76.67,dragon_roll,0
+20260405_184437_experimental_bass-walk-down,77.275,sneak_underhand_left,5
+20260405_184437_experimental_bass-walk-down,77.8,dragon_roll,0
+20260405_184437_experimental_bass-walk-down,78.305,underhand_right,1
+20260405_184437_experimental_bass-walk-down,78.84,overhand_left,3
+20260405_184437_experimental_bass-walk-down,79.38,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,79.92,overhand_right,4
+20260405_184437_experimental_bass-walk-down,80.435,underhand_right,1
+20260405_184437_experimental_bass-walk-down,80.935,overhand_left,3
+20260405_184437_experimental_bass-walk-down,81.475,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,81.98,overhand_right,4
+20260405_184437_experimental_bass-walk-down,82.51,underhand_right,1
+20260405_184437_experimental_bass-walk-down,83.14,overhand_left,3
+20260405_184437_experimental_bass-walk-down,83.755,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,84.445,dragon_roll,0
+20260405_184437_experimental_bass-walk-down,85.14,sneak_underhand_right,6
+20260405_184437_experimental_bass-walk-down,85.795,dragon_roll,0
+20260405_184437_experimental_bass-walk-down,86.455,sneak_underhand_left,5
+20260405_184437_experimental_bass-walk-down,87.005,dragon_roll,0
+20260405_184437_experimental_bass-walk-down,87.51,underhand_right,1
+20260405_184437_experimental_bass-walk-down,88.035,overhand_left,3
+20260405_184437_experimental_bass-walk-down,88.55,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,89.035,overhand_right,4
+20260405_184437_experimental_bass-walk-down,89.55,underhand_right,1
+20260405_184437_experimental_bass-walk-down,90.105,overhand_left,3
+20260405_184437_experimental_bass-walk-down,90.64,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,91.145,overhand_right,4
+20260405_184437_experimental_bass-walk-down,91.695,underhand_right,1
+20260405_184437_experimental_bass-walk-down,92.3,overhand_left,3
+20260405_184437_experimental_bass-walk-down,92.865,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,93.51,dragon_roll,0
+20260405_184437_experimental_bass-walk-down,94.185,sneak_underhand_right,6
+20260405_184437_experimental_bass-walk-down,94.94,idle,11
+20260405_184437_experimental_bass-walk-down,95.65,idle,11
+20260405_184437_experimental_bass-walk-down,96.16,idle,11
+20260405_184437_experimental_bass-walk-down,96.655,idle,11
+20260405_184729_experimental_pachelbel,1.555,idle,11
+20260405_184729_experimental_pachelbel,2.785,idle,11
+20260405_184729_experimental_pachelbel,3.57,idle,11
+20260405_184729_experimental_pachelbel,4.275,idle,11
+20260405_184729_experimental_pachelbel,4.975,idle,11
+20260405_184729_experimental_pachelbel,5.685,idle,11
+20260405_184729_experimental_pachelbel,6.415,idle,11
+20260405_184729_experimental_pachelbel,7.145,idle,11
+20260405_184729_experimental_pachelbel,7.915,sneak_underhand_right,6
+20260405_184729_experimental_pachelbel,8.68,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,9.36,dragon_roll,0
+20260405_184729_experimental_pachelbel,10.005,underhand_right,1
+20260405_184729_experimental_pachelbel,10.705,counter_clockwise,10
+20260405_184729_experimental_pachelbel,11.46,sneak_overhand_right,8
+20260405_184729_experimental_pachelbel,12.15,dragon_roll,0
+20260405_184729_experimental_pachelbel,12.785,underhand_left,2
+20260405_184729_experimental_pachelbel,13.465,clockwise,9
+20260405_184729_experimental_pachelbel,14.165,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,14.86,dragon_roll,0
+20260405_184729_experimental_pachelbel,15.595,dragon_roll,0
+20260405_184729_experimental_pachelbel,16.28,sneak_underhand_right,6
+20260405_184729_experimental_pachelbel,17.625,counter_clockwise,10
+20260405_184729_experimental_pachelbel,18.31,dragon_roll,0
+20260405_184729_experimental_pachelbel,19.025,sneak_underhand_right,6
+20260405_184729_experimental_pachelbel,19.73,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,20.38,dragon_roll,0
+20260405_184729_experimental_pachelbel,21.065,underhand_right,1
+20260405_184729_experimental_pachelbel,21.805,counter_clockwise,10
+20260405_184729_experimental_pachelbel,22.585,sneak_overhand_right,8
+20260405_184729_experimental_pachelbel,23.3,dragon_roll,0
+20260405_184729_experimental_pachelbel,23.92,underhand_left,2
+20260405_184729_experimental_pachelbel,24.6,clockwise,9
+20260405_184729_experimental_pachelbel,25.33,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,26.04,dragon_roll,0
+20260405_184729_experimental_pachelbel,26.76,dragon_roll,0
+20260405_184729_experimental_pachelbel,27.44,sneak_underhand_right,6
+20260405_184729_experimental_pachelbel,28.775,counter_clockwise,10
+20260405_184729_experimental_pachelbel,29.47,dragon_roll,0
+20260405_184729_experimental_pachelbel,30.2,sneak_underhand_right,6
+20260405_184729_experimental_pachelbel,30.93,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,31.6,dragon_roll,0
+20260405_184729_experimental_pachelbel,32.275,underhand_right,1
+20260405_184729_experimental_pachelbel,32.985,counter_clockwise,10
+20260405_184729_experimental_pachelbel,33.71,sneak_overhand_right,8
+20260405_184729_experimental_pachelbel,34.4,dragon_roll,0
+20260405_184729_experimental_pachelbel,35.025,underhand_left,2
+20260405_184729_experimental_pachelbel,35.685,clockwise,9
+20260405_184729_experimental_pachelbel,36.39,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,37.07,dragon_roll,0
+20260405_184729_experimental_pachelbel,37.75,dragon_roll,0
+20260405_184729_experimental_pachelbel,38.395,sneak_underhand_right,6
+20260405_184729_experimental_pachelbel,39.715,counter_clockwise,10
+20260405_184729_experimental_pachelbel,40.35,dragon_roll,0
+20260405_184729_experimental_pachelbel,41.02,sneak_underhand_right,6
+20260405_184729_experimental_pachelbel,41.705,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,42.365,dragon_roll,0
+20260405_184729_experimental_pachelbel,43.03,underhand_right,1
+20260405_184729_experimental_pachelbel,43.745,counter_clockwise,10
+20260405_184729_experimental_pachelbel,44.495,sneak_overhand_right,8
+20260405_184729_experimental_pachelbel,45.18,dragon_roll,0
+20260405_184729_experimental_pachelbel,45.82,underhand_left,2
+20260405_184729_experimental_pachelbel,46.48,clockwise,9
+20260405_184729_experimental_pachelbel,47.145,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,47.84,dragon_roll,0
+20260405_184729_experimental_pachelbel,48.56,dragon_roll,0
+20260405_184729_experimental_pachelbel,49.22,sneak_underhand_right,6
+20260405_184729_experimental_pachelbel,50.56,counter_clockwise,10
+20260405_184729_experimental_pachelbel,51.185,dragon_roll,0
+20260405_184729_experimental_pachelbel,51.865,sneak_underhand_right,6
+20260405_184729_experimental_pachelbel,52.585,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,53.24,dragon_roll,0
+20260405_184729_experimental_pachelbel,53.915,underhand_right,1
+20260405_184729_experimental_pachelbel,54.645,counter_clockwise,10
+20260405_184729_experimental_pachelbel,55.385,sneak_overhand_right,8
+20260405_184729_experimental_pachelbel,56.075,dragon_roll,0
+20260405_184729_experimental_pachelbel,56.74,underhand_left,2
+20260405_184729_experimental_pachelbel,58.065,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,58.75,dragon_roll,0
+20260405_184729_experimental_pachelbel,59.43,dragon_roll,0
+20260405_184729_experimental_pachelbel,60.085,sneak_underhand_right,6
+20260405_184729_experimental_pachelbel,61.425,counter_clockwise,10
+20260405_184729_experimental_pachelbel,62.08,dragon_roll,0
+20260405_184729_experimental_pachelbel,62.745,sneak_underhand_right,6
+20260405_184729_experimental_pachelbel,63.41,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,63.985,dragon_roll,0
+20260405_184729_experimental_pachelbel,64.58,underhand_right,1
+20260405_184729_experimental_pachelbel,65.225,counter_clockwise,10
+20260405_184729_experimental_pachelbel,65.875,sneak_overhand_right,8
+20260405_184729_experimental_pachelbel,66.475,dragon_roll,0
+20260405_184729_experimental_pachelbel,67.065,underhand_left,2
+20260405_184729_experimental_pachelbel,67.655,clockwise,9
+20260405_184729_experimental_pachelbel,68.23,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,68.8,dragon_roll,0
+20260405_184729_experimental_pachelbel,69.36,dragon_roll,0
+20260405_184729_experimental_pachelbel,69.92,sneak_underhand_right,6
+20260405_184729_experimental_pachelbel,71.04,counter_clockwise,10
+20260405_184729_experimental_pachelbel,71.59,dragon_roll,0
+20260405_184729_experimental_pachelbel,72.165,sneak_underhand_right,6
+20260405_184729_experimental_pachelbel,72.77,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,73.3,dragon_roll,0
+20260405_184729_experimental_pachelbel,73.845,underhand_right,1
+20260405_184729_experimental_pachelbel,74.42,counter_clockwise,10
+20260405_184729_experimental_pachelbel,75.0,sneak_overhand_right,8
+20260405_184729_experimental_pachelbel,75.565,dragon_roll,0
+20260405_184729_experimental_pachelbel,76.1,underhand_left,2
+20260405_184729_experimental_pachelbel,76.645,clockwise,9
+20260405_184729_experimental_pachelbel,77.21,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,77.795,dragon_roll,0
+20260405_184729_experimental_pachelbel,78.375,dragon_roll,0
+20260405_184729_experimental_pachelbel,78.915,sneak_underhand_right,6
+20260405_184729_experimental_pachelbel,80.045,counter_clockwise,10
+20260405_184729_experimental_pachelbel,80.61,dragon_roll,0
+20260405_184729_experimental_pachelbel,81.17,sneak_underhand_right,6
+20260405_184729_experimental_pachelbel,81.75,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,82.285,dragon_roll,0
+20260405_184729_experimental_pachelbel,82.8,underhand_right,1
+20260405_184729_experimental_pachelbel,83.365,counter_clockwise,10
+20260405_184729_experimental_pachelbel,83.98,sneak_overhand_right,8
+20260405_184729_experimental_pachelbel,84.56,dragon_roll,0
+20260405_184729_experimental_pachelbel,85.115,underhand_left,2
+20260405_184729_experimental_pachelbel,85.66,clockwise,9
+20260405_184729_experimental_pachelbel,86.205,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,86.835,dragon_roll,0
+20260405_184729_experimental_pachelbel,87.5,dragon_roll,0
+20260405_184729_experimental_pachelbel,88.085,sneak_underhand_right,6
+20260405_184729_experimental_pachelbel,89.17,counter_clockwise,10
+20260405_184729_experimental_pachelbel,89.75,dragon_roll,0
+20260405_184729_experimental_pachelbel,90.295,sneak_underhand_right,6
+20260405_184729_experimental_pachelbel,90.88,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,91.435,dragon_roll,0
+20260405_184729_experimental_pachelbel,91.96,underhand_right,1
+20260405_184729_experimental_pachelbel,92.545,counter_clockwise,10
+20260405_184729_experimental_pachelbel,93.16,sneak_overhand_right,8
+20260405_184729_experimental_pachelbel,93.745,dragon_roll,0
+20260405_184729_experimental_pachelbel,94.3,underhand_left,2
+20260405_184729_experimental_pachelbel,94.865,clockwise,9
+20260405_184729_experimental_pachelbel,95.445,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,96.105,dragon_roll,0
+20260405_184729_experimental_pachelbel,96.875,dragon_roll,0
+20260405_184729_experimental_pachelbel,97.575,sneak_underhand_right,6
+20260405_184729_experimental_pachelbel,98.895,counter_clockwise,10
+20260405_184729_experimental_pachelbel,99.53,dragon_roll,0
+20260405_184729_experimental_pachelbel,100.225,sneak_underhand_right,6
+20260405_184729_experimental_pachelbel,100.96,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,101.755,dragon_roll,0
+20260405_184729_experimental_pachelbel,102.61,dragon_roll,0
+20260405_184729_experimental_pachelbel,103.41,sneak_underhand_left,5
+20260405_184729_experimental_pachelbel,104.075,idle,11
+20260405_184729_experimental_pachelbel,104.665,idle,11
+20260405_184729_experimental_pachelbel,105.275,idle,11
+20260405_184905_experimental_pachelbel,1.05,idle,11
+20260405_184905_experimental_pachelbel,1.935,idle,11
+20260405_184905_experimental_pachelbel,2.74,idle,11
+20260405_184905_experimental_pachelbel,3.28,idle,11
+20260405_184905_experimental_pachelbel,3.725,idle,11
+20260405_184905_experimental_pachelbel,4.295,idle,11
+20260405_184905_experimental_pachelbel,4.945,idle,11
+20260405_184905_experimental_pachelbel,5.78,clockwise,9
+20260405_184905_experimental_pachelbel,6.575,clockwise,9
+20260405_184905_experimental_pachelbel,7.295,clockwise,9
+20260405_184905_experimental_pachelbel,8.035,clockwise,9
+20260405_184905_experimental_pachelbel,8.785,clockwise,9
+20260405_184905_experimental_pachelbel,9.54,clockwise,9
+20260405_184905_experimental_pachelbel,10.315,clockwise,9
+20260405_184905_experimental_pachelbel,11.125,clockwise,9
+20260405_184905_experimental_pachelbel,11.88,sneak_overhand_left,7
+20260405_184905_experimental_pachelbel,12.56,dragon_roll,0
+20260405_184905_experimental_pachelbel,13.255,underhand_right,1
+20260405_184905_experimental_pachelbel,13.95,counter_clockwise,10
+20260405_184905_experimental_pachelbel,14.66,sneak_overhand_right,8
+20260405_184905_experimental_pachelbel,15.39,dragon_roll,0
+20260405_184905_experimental_pachelbel,16.1,underhand_left,2
+20260405_184905_experimental_pachelbel,16.765,clockwise,9
+20260405_184905_experimental_pachelbel,17.415,sneak_overhand_left,7
+20260405_184905_experimental_pachelbel,18.105,dragon_roll,0
+20260405_184905_experimental_pachelbel,18.81,dragon_roll,0
+20260405_184905_experimental_pachelbel,19.44,sneak_underhand_right,6
+20260405_184905_experimental_pachelbel,20.06,underhand_right,1
+20260405_184905_experimental_pachelbel,20.725,counter_clockwise,10
+20260405_184905_experimental_pachelbel,21.345,dragon_roll,0
+20260405_184905_experimental_pachelbel,21.945,sneak_underhand_right,6
+20260405_184905_experimental_pachelbel,22.545,sneak_overhand_left,7
+20260405_184905_experimental_pachelbel,23.1,dragon_roll,0
+20260405_184905_experimental_pachelbel,23.685,underhand_right,1
+20260405_184905_experimental_pachelbel,24.3,counter_clockwise,10
+20260405_184905_experimental_pachelbel,24.93,sneak_overhand_right,8
+20260405_184905_experimental_pachelbel,25.515,dragon_roll,0
+20260405_184905_experimental_pachelbel,26.03,underhand_left,2
+20260405_184905_experimental_pachelbel,26.615,clockwise,9
+20260405_184905_experimental_pachelbel,27.215,sneak_overhand_left,7
+20260405_184905_experimental_pachelbel,27.785,dragon_roll,0
+20260405_184905_experimental_pachelbel,28.355,dragon_roll,0
+20260405_184905_experimental_pachelbel,28.895,sneak_underhand_right,6
+20260405_184905_experimental_pachelbel,29.47,underhand_right,1
+20260405_184905_experimental_pachelbel,30.035,counter_clockwise,10
+20260405_184905_experimental_pachelbel,30.565,dragon_roll,0
+20260405_184905_experimental_pachelbel,31.135,sneak_underhand_right,6
+20260405_184905_experimental_pachelbel,31.7,sneak_overhand_left,7
+20260405_184905_experimental_pachelbel,32.23,dragon_roll,0
+20260405_184905_experimental_pachelbel,32.775,underhand_right,1
+20260405_184905_experimental_pachelbel,33.345,counter_clockwise,10
+20260405_184905_experimental_pachelbel,33.935,sneak_overhand_right,8
+20260405_184905_experimental_pachelbel,34.535,dragon_roll,0
+20260405_184905_experimental_pachelbel,35.14,underhand_left,2
+20260405_184905_experimental_pachelbel,35.78,clockwise,9
+20260405_184905_experimental_pachelbel,36.44,sneak_overhand_left,7
+20260405_184905_experimental_pachelbel,37.155,dragon_roll,0
+20260405_184905_experimental_pachelbel,37.875,dragon_roll,0
+20260405_184905_experimental_pachelbel,38.555,sneak_underhand_right,6
+20260405_184905_experimental_pachelbel,39.245,underhand_right,1
+20260405_184905_experimental_pachelbel,39.94,counter_clockwise,10
+20260405_184905_experimental_pachelbel,40.62,dragon_roll,0
+20260405_184905_experimental_pachelbel,41.295,sneak_underhand_right,6
+20260405_184905_experimental_pachelbel,42.015,sneak_overhand_left,7
+20260405_184905_experimental_pachelbel,42.82,dragon_roll,0
+20260405_184905_experimental_pachelbel,43.69,underhand_right,1
+20260405_184905_experimental_pachelbel,44.55,counter_clockwise,10
+20260405_184905_experimental_pachelbel,45.385,sneak_overhand_right,8
+20260405_184905_experimental_pachelbel,46.205,dragon_roll,0
+20260405_184905_experimental_pachelbel,46.995,underhand_left,2
+20260405_184905_experimental_pachelbel,47.755,clockwise,9
+20260405_184905_experimental_pachelbel,48.505,sneak_overhand_left,7
+20260405_184905_experimental_pachelbel,49.305,dragon_roll,0
+20260405_184905_experimental_pachelbel,50.13,dragon_roll,0
+20260405_184905_experimental_pachelbel,50.895,sneak_underhand_right,6
+20260405_184905_experimental_pachelbel,51.64,underhand_right,1
+20260405_184905_experimental_pachelbel,52.395,counter_clockwise,10
+20260405_184905_experimental_pachelbel,53.12,dragon_roll,0
+20260405_184905_experimental_pachelbel,53.78,sneak_underhand_right,6
+20260405_184905_experimental_pachelbel,54.21,dragon_roll,0
+20260405_184905_experimental_pachelbel,54.675,sneak_overhand_left,7
+20260405_184905_experimental_pachelbel,55.415,dragon_roll,0
+20260405_184905_experimental_pachelbel,56.22,underhand_right,1
+20260405_184905_experimental_pachelbel,57.005,counter_clockwise,10
+20260405_184905_experimental_pachelbel,57.77,sneak_overhand_right,8
+20260405_184905_experimental_pachelbel,58.48,dragon_roll,0
+20260405_184905_experimental_pachelbel,59.165,underhand_left,2
+20260405_184905_experimental_pachelbel,59.9,clockwise,9
+20260405_184905_experimental_pachelbel,60.64,sneak_overhand_left,7
+20260405_184905_experimental_pachelbel,61.395,dragon_roll,0
+20260405_184905_experimental_pachelbel,62.165,dragon_roll,0
+20260405_184905_experimental_pachelbel,62.875,sneak_underhand_right,6
+20260405_184905_experimental_pachelbel,63.58,underhand_right,1
+20260405_184905_experimental_pachelbel,64.31,counter_clockwise,10
+20260405_184905_experimental_pachelbel,65.005,dragon_roll,0
+20260405_184905_experimental_pachelbel,65.66,sneak_underhand_right,6
+20260405_184905_experimental_pachelbel,66.355,sneak_overhand_left,7
+20260405_184905_experimental_pachelbel,67.08,dragon_roll,0
+20260405_184905_experimental_pachelbel,67.805,underhand_right,1
+20260405_184905_experimental_pachelbel,68.54,counter_clockwise,10
+20260405_184905_experimental_pachelbel,69.27,sneak_overhand_right,8
+20260405_184905_experimental_pachelbel,69.97,dragon_roll,0
+20260405_184905_experimental_pachelbel,70.66,underhand_left,2
+20260405_184905_experimental_pachelbel,71.37,clockwise,9
+20260405_184905_experimental_pachelbel,72.115,sneak_overhand_left,7
+20260405_184905_experimental_pachelbel,72.855,dragon_roll,0
+20260405_184905_experimental_pachelbel,73.59,dragon_roll,0
+20260405_184905_experimental_pachelbel,74.29,sneak_underhand_right,6
+20260405_184905_experimental_pachelbel,74.955,underhand_right,1
+20260405_184905_experimental_pachelbel,75.64,counter_clockwise,10
+20260405_184905_experimental_pachelbel,76.27,dragon_roll,0
+20260405_184905_experimental_pachelbel,76.87,sneak_underhand_right,6
+20260405_184905_experimental_pachelbel,77.495,sneak_overhand_left,7
+20260405_184905_experimental_pachelbel,78.08,dragon_roll,0
+20260405_184905_experimental_pachelbel,78.64,underhand_right,1
+20260405_184905_experimental_pachelbel,79.255,counter_clockwise,10
+20260405_184905_experimental_pachelbel,79.845,dragon_roll,0
+20260405_184905_experimental_pachelbel,80.4,sneak_underhand_right,6
+20260405_184905_experimental_pachelbel,81.085,sneak_overhand_left,7
+20260405_184905_experimental_pachelbel,82.0,dragon_roll,0
+20260405_184905_experimental_pachelbel,83.29,idle,11
+20260405_185331_experimental_birth-death,0.73,idle,11
+20260405_185331_experimental_birth-death,1.105,idle,11
+20260405_185331_experimental_birth-death,1.955,idle,11
+20260405_185331_experimental_birth-death,2.995,idle,11
+20260405_185331_experimental_birth-death,3.86,clockwise,9
+20260405_185331_experimental_birth-death,4.645,clockwise,9
+20260405_185331_experimental_birth-death,5.35,clockwise,9
+20260405_185331_experimental_birth-death,6.045,clockwise,9
+20260405_185331_experimental_birth-death,6.805,clockwise,9
+20260405_185331_experimental_birth-death,7.51,overhand_left,3
+20260405_185331_experimental_birth-death,8.11,counter_clockwise,10
+20260405_185331_experimental_birth-death,8.725,overhand_right,4
+20260405_185331_experimental_birth-death,9.355,clockwise,9
+20260405_185331_experimental_birth-death,10.015,underhand_right,1
+20260405_185331_experimental_birth-death,10.66,counter_clockwise,10
+20260405_185331_experimental_birth-death,11.255,underhand_left,2
+20260405_185331_experimental_birth-death,11.885,clockwise,9
+20260405_185331_experimental_birth-death,12.515,overhand_left,3
+20260405_185331_experimental_birth-death,13.14,counter_clockwise,10
+20260405_185331_experimental_birth-death,13.74,overhand_right,4
+20260405_185331_experimental_birth-death,14.31,clockwise,9
+20260405_185331_experimental_birth-death,14.92,underhand_right,1
+20260405_185331_experimental_birth-death,15.52,counter_clockwise,10
+20260405_185331_experimental_birth-death,16.085,underhand_left,2
+20260405_185331_experimental_birth-death,16.75,clockwise,9
+20260405_185331_experimental_birth-death,17.28,overhand_left,3
+20260405_185331_experimental_birth-death,17.875,counter_clockwise,10
+20260405_185331_experimental_birth-death,18.6,overhand_right,4
+20260405_185331_experimental_birth-death,19.17,clockwise,9
+20260405_185331_experimental_birth-death,19.785,underhand_right,1
+20260405_185331_experimental_birth-death,20.39,counter_clockwise,10
+20260405_185331_experimental_birth-death,20.95,underhand_left,2
+20260405_185331_experimental_birth-death,21.58,clockwise,9
+20260405_185331_experimental_birth-death,22.185,overhand_left,3
+20260405_185331_experimental_birth-death,22.76,counter_clockwise,10
+20260405_185331_experimental_birth-death,23.35,overhand_right,4
+20260405_185331_experimental_birth-death,23.93,clockwise,9
+20260405_185331_experimental_birth-death,24.575,underhand_right,1
+20260405_185331_experimental_birth-death,25.17,counter_clockwise,10
+20260405_185331_experimental_birth-death,25.705,underhand_left,2
+20260405_185331_experimental_birth-death,26.31,clockwise,9
+20260405_185331_experimental_birth-death,26.885,overhand_left,3
+20260405_185331_experimental_birth-death,27.42,counter_clockwise,10
+20260405_185331_experimental_birth-death,27.965,overhand_right,4
+20260405_185331_experimental_birth-death,28.46,clockwise,9
+20260405_185331_experimental_birth-death,28.925,underhand_right,1
+20260405_185331_experimental_birth-death,29.48,counter_clockwise,10
+20260405_185331_experimental_birth-death,30.065,underhand_left,2
+20260405_185331_experimental_birth-death,30.575,clockwise,9
+20260405_185331_experimental_birth-death,31.06,overhand_left,3
+20260405_185331_experimental_birth-death,31.505,counter_clockwise,10
+20260405_185331_experimental_birth-death,32.0,overhand_right,4
+20260405_185331_experimental_birth-death,32.48,clockwise,9
+20260405_185331_experimental_birth-death,32.955,underhand_right,1
+20260405_185331_experimental_birth-death,33.435,counter_clockwise,10
+20260405_185331_experimental_birth-death,33.885,underhand_left,2
+20260405_185331_experimental_birth-death,34.375,clockwise,9
+20260405_185331_experimental_birth-death,34.82,overhand_left,3
+20260405_185331_experimental_birth-death,35.265,counter_clockwise,10
+20260405_185331_experimental_birth-death,35.725,overhand_right,4
+20260405_185331_experimental_birth-death,36.145,clockwise,9
+20260405_185331_experimental_birth-death,36.62,underhand_right,1
+20260405_185331_experimental_birth-death,37.105,counter_clockwise,10
+20260405_185331_experimental_birth-death,37.55,underhand_left,2
+20260405_185331_experimental_birth-death,38.015,clockwise,9
+20260405_185331_experimental_birth-death,38.45,overhand_left,3
+20260405_185331_experimental_birth-death,38.85,counter_clockwise,10
+20260405_185331_experimental_birth-death,39.295,overhand_right,4
+20260405_185331_experimental_birth-death,39.725,clockwise,9
+20260405_185331_experimental_birth-death,40.19,underhand_right,1
+20260405_185331_experimental_birth-death,40.65,counter_clockwise,10
+20260405_185331_experimental_birth-death,41.075,underhand_left,2
+20260405_185331_experimental_birth-death,41.55,clockwise,9
+20260405_185331_experimental_birth-death,42.0,overhand_left,3
+20260405_185331_experimental_birth-death,42.405,counter_clockwise,10
+20260405_185331_experimental_birth-death,42.845,overhand_right,4
+20260405_185331_experimental_birth-death,43.295,clockwise,9
+20260405_185331_experimental_birth-death,43.705,underhand_right,1
+20260405_185331_experimental_birth-death,44.39,counter_clockwise,10
+20260405_185331_experimental_birth-death,45.13,clockwise,9
+20260405_185331_experimental_birth-death,45.565,overhand_left,3
+20260405_185331_experimental_birth-death,45.975,counter_clockwise,10
+20260405_185331_experimental_birth-death,46.415,overhand_right,4
+20260405_185331_experimental_birth-death,46.84,clockwise,9
+20260405_185331_experimental_birth-death,47.305,underhand_right,1
+20260405_185331_experimental_birth-death,47.955,counter_clockwise,10
+20260405_185331_experimental_birth-death,48.6,clockwise,9
+20260405_185331_experimental_birth-death,49.025,overhand_left,3
+20260405_185331_experimental_birth-death,49.41,counter_clockwise,10
+20260405_185331_experimental_birth-death,49.845,overhand_right,4
+20260405_185331_experimental_birth-death,50.27,clockwise,9
+20260405_185331_experimental_birth-death,50.715,underhand_right,1
+20260405_185331_experimental_birth-death,51.165,counter_clockwise,10
+20260405_185331_experimental_birth-death,51.695,underhand_left,2
+20260405_185331_experimental_birth-death,52.315,clockwise,9
+20260405_185331_experimental_birth-death,53.045,overhand_left,3
+20260405_185331_experimental_birth-death,53.535,counter_clockwise,10
+20260405_185331_experimental_birth-death,54.165,overhand_right,4
+20260405_185331_experimental_birth-death,54.8,clockwise,9
+20260405_185331_experimental_birth-death,55.465,underhand_right,1
+20260405_185331_experimental_birth-death,56.09,counter_clockwise,10
+20260405_185331_experimental_birth-death,56.66,underhand_left,2
+20260405_185331_experimental_birth-death,57.255,clockwise,9
+20260405_185331_experimental_birth-death,57.83,overhand_left,3
+20260405_185331_experimental_birth-death,58.36,counter_clockwise,10
+20260405_185331_experimental_birth-death,58.915,overhand_right,4
+20260405_185331_experimental_birth-death,59.555,underhand_right,1
+20260405_185331_experimental_birth-death,60.19,counter_clockwise,10
+20260405_185331_experimental_birth-death,60.695,underhand_left,2
+20260405_185331_experimental_birth-death,61.27,clockwise,9
+20260405_185331_experimental_birth-death,61.82,overhand_left,3
+20260405_185331_experimental_birth-death,62.355,counter_clockwise,10
+20260405_185331_experimental_birth-death,62.96,overhand_right,4
+20260405_185331_experimental_birth-death,63.5,clockwise,9
+20260405_185331_experimental_birth-death,64.075,underhand_right,1
+20260405_185331_experimental_birth-death,64.645,counter_clockwise,10
+20260405_185331_experimental_birth-death,65.145,underhand_left,2
+20260405_185331_experimental_birth-death,65.69,clockwise,9
+20260405_185331_experimental_birth-death,66.21,overhand_left,3
+20260405_185331_experimental_birth-death,66.69,counter_clockwise,10
+20260405_185331_experimental_birth-death,67.23,overhand_right,4
+20260405_185331_experimental_birth-death,67.785,clockwise,9
+20260405_185331_experimental_birth-death,68.405,underhand_right,1
+20260405_185331_experimental_birth-death,68.99,counter_clockwise,10
+20260405_185331_experimental_birth-death,69.51,underhand_left,2
+20260405_185331_experimental_birth-death,70.065,clockwise,9
+20260405_185331_experimental_birth-death,70.555,overhand_left,3
+20260405_185331_experimental_birth-death,71.05,counter_clockwise,10
+20260405_185331_experimental_birth-death,71.605,overhand_right,4
+20260405_185331_experimental_birth-death,72.13,clockwise,9
+20260405_185331_experimental_birth-death,72.715,underhand_right,1
+20260405_185331_experimental_birth-death,73.265,counter_clockwise,10
+20260405_185331_experimental_birth-death,73.73,underhand_left,2
+20260405_185331_experimental_birth-death,74.245,clockwise,9
+20260405_185331_experimental_birth-death,74.745,overhand_left,3
+20260405_185331_experimental_birth-death,75.235,counter_clockwise,10
+20260405_185331_experimental_birth-death,75.73,overhand_right,4
+20260405_185331_experimental_birth-death,76.295,clockwise,9
+20260405_185331_experimental_birth-death,76.91,underhand_right,1
+20260405_185331_experimental_birth-death,77.44,counter_clockwise,10
+20260405_185331_experimental_birth-death,77.96,underhand_left,2
+20260405_185331_experimental_birth-death,78.505,clockwise,9
+20260405_185331_experimental_birth-death,79.01,overhand_left,3
+20260405_185331_experimental_birth-death,79.54,counter_clockwise,10
+20260405_185331_experimental_birth-death,80.115,overhand_right,4
+20260405_185331_experimental_birth-death,80.65,clockwise,9
+20260405_185331_experimental_birth-death,81.09,underhand_right,1
+20260405_185331_experimental_birth-death,81.415,counter_clockwise,10
+20260405_185331_experimental_birth-death,82.015,underhand_left,2
+20260405_185331_experimental_birth-death,82.8,clockwise,9
+20260405_185331_experimental_birth-death,83.46,overhand_left,3
+20260405_185331_experimental_birth-death,84.19,counter_clockwise,10
+20260405_185331_experimental_birth-death,84.95,overhand_right,4
+20260405_185331_experimental_birth-death,85.69,clockwise,9
+20260405_185331_experimental_birth-death,86.41,counter_clockwise,10
+20260405_185331_experimental_birth-death,87.1,underhand_left,2
+20260405_185331_experimental_birth-death,87.785,clockwise,9
+20260405_185331_experimental_birth-death,88.465,underhand_right,1
+20260405_185331_experimental_birth-death,89.315,overhand_left,3
+20260405_185331_experimental_birth-death,89.785,counter_clockwise,10
+20260405_185331_experimental_birth-death,90.335,overhand_right,4
+20260405_185331_experimental_birth-death,90.975,clockwise,9
+20260405_185331_experimental_birth-death,91.69,underhand_right,1
+20260405_185331_experimental_birth-death,92.37,counter_clockwise,10
+20260405_185331_experimental_birth-death,92.98,underhand_left,2
+20260405_185331_experimental_birth-death,93.62,clockwise,9
+20260405_185331_experimental_birth-death,94.28,underhand_right,1
+20260405_185331_experimental_birth-death,94.87,overhand_left,3
+20260405_185331_experimental_birth-death,95.45,counter_clockwise,10
+20260405_185331_experimental_birth-death,96.005,overhand_right,4
+20260405_185331_experimental_birth-death,96.555,underhand_right,1
+20260405_185331_experimental_birth-death,97.07,overhand_left,3
+20260405_185331_experimental_birth-death,97.545,counter_clockwise,10
+20260405_185331_experimental_birth-death,98.07,overhand_right,4
+20260405_185331_experimental_birth-death,98.59,underhand_right,1
+20260405_185331_experimental_birth-death,99.105,overhand_left,3
+20260405_185331_experimental_birth-death,99.64,counter_clockwise,10
+20260405_185331_experimental_birth-death,100.24,overhand_right,4
+20260405_185331_experimental_birth-death,100.89,clockwise,9
+20260405_185331_experimental_birth-death,101.73,counter_clockwise,10
+20260405_185331_experimental_birth-death,102.62,clockwise,9
+20260405_185331_experimental_birth-death,103.49,idle,11
+20260405_185331_experimental_birth-death,104.14,idle,11
+20260405_185509_experimental_bass-walk-down,1.36,idle,11
+20260405_185509_experimental_bass-walk-down,1.95,idle,11
+20260405_185509_experimental_bass-walk-down,2.54,idle,11
+20260405_185509_experimental_bass-walk-down,3.12,idle,11
+20260405_185509_experimental_bass-walk-down,3.68,idle,11
+20260405_185509_experimental_bass-walk-down,4.43,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,5.325,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,6.09,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,6.8,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,7.505,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,8.21,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,8.9,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,9.65,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,10.325,overhand_right,4
+20260405_185509_experimental_bass-walk-down,10.88,clockwise,9
+20260405_185509_experimental_bass-walk-down,11.46,overhand_left,3
+20260405_185509_experimental_bass-walk-down,12.1,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,12.735,overhand_right,4
+20260405_185509_experimental_bass-walk-down,13.33,clockwise,9
+20260405_185509_experimental_bass-walk-down,13.925,overhand_left,3
+20260405_185509_experimental_bass-walk-down,14.575,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,15.21,overhand_right,4
+20260405_185509_experimental_bass-walk-down,15.835,clockwise,9
+20260405_185509_experimental_bass-walk-down,16.495,overhand_left,3
+20260405_185509_experimental_bass-walk-down,17.16,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,17.835,dragon_roll,0
+20260405_185509_experimental_bass-walk-down,18.5,sneak_underhand_right,6
+20260405_185509_experimental_bass-walk-down,19.185,dragon_roll,0
+20260405_185509_experimental_bass-walk-down,19.82,sneak_underhand_left,5
+20260405_185509_experimental_bass-walk-down,20.425,overhand_right,4
+20260405_185509_experimental_bass-walk-down,21.01,underhand_right,1
+20260405_185509_experimental_bass-walk-down,21.555,overhand_left,3
+20260405_185509_experimental_bass-walk-down,22.185,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,22.825,overhand_right,4
+20260405_185509_experimental_bass-walk-down,23.41,underhand_right,1
+20260405_185509_experimental_bass-walk-down,24.03,overhand_left,3
+20260405_185509_experimental_bass-walk-down,24.645,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,25.24,overhand_right,4
+20260405_185509_experimental_bass-walk-down,25.865,underhand_right,1
+20260405_185509_experimental_bass-walk-down,26.505,overhand_left,3
+20260405_185509_experimental_bass-walk-down,27.135,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,27.79,dragon_roll,0
+20260405_185509_experimental_bass-walk-down,28.44,sneak_underhand_right,6
+20260405_185509_experimental_bass-walk-down,29.105,dragon_roll,0
+20260405_185509_experimental_bass-walk-down,29.73,sneak_underhand_left,5
+20260405_185509_experimental_bass-walk-down,30.325,overhand_right,4
+20260405_185509_experimental_bass-walk-down,30.91,underhand_right,1
+20260405_185509_experimental_bass-walk-down,31.42,overhand_left,3
+20260405_185509_experimental_bass-walk-down,32.015,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,32.63,overhand_right,4
+20260405_185509_experimental_bass-walk-down,33.24,underhand_right,1
+20260405_185509_experimental_bass-walk-down,33.87,overhand_left,3
+20260405_185509_experimental_bass-walk-down,34.455,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,35.09,overhand_right,4
+20260405_185509_experimental_bass-walk-down,35.7,underhand_right,1
+20260405_185509_experimental_bass-walk-down,36.285,overhand_left,3
+20260405_185509_experimental_bass-walk-down,36.925,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,37.575,dragon_roll,0
+20260405_185509_experimental_bass-walk-down,38.205,sneak_underhand_right,6
+20260405_185509_experimental_bass-walk-down,38.83,dragon_roll,0
+20260405_185509_experimental_bass-walk-down,39.405,sneak_underhand_left,5
+20260405_185509_experimental_bass-walk-down,39.99,overhand_right,4
+20260405_185509_experimental_bass-walk-down,40.625,underhand_right,1
+20260405_185509_experimental_bass-walk-down,41.22,overhand_left,3
+20260405_185509_experimental_bass-walk-down,41.81,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,42.42,overhand_right,4
+20260405_185509_experimental_bass-walk-down,43.025,underhand_right,1
+20260405_185509_experimental_bass-walk-down,43.64,overhand_left,3
+20260405_185509_experimental_bass-walk-down,44.265,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,44.885,overhand_right,4
+20260405_185509_experimental_bass-walk-down,45.51,underhand_right,1
+20260405_185509_experimental_bass-walk-down,46.115,overhand_left,3
+20260405_185509_experimental_bass-walk-down,46.735,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,47.385,dragon_roll,0
+20260405_185509_experimental_bass-walk-down,48.015,sneak_underhand_right,6
+20260405_185509_experimental_bass-walk-down,48.635,dragon_roll,0
+20260405_185509_experimental_bass-walk-down,49.195,sneak_underhand_left,5
+20260405_185509_experimental_bass-walk-down,49.76,overhand_right,4
+20260405_185509_experimental_bass-walk-down,50.31,underhand_right,1
+20260405_185509_experimental_bass-walk-down,50.805,overhand_left,3
+20260405_185509_experimental_bass-walk-down,51.345,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,51.9,overhand_right,4
+20260405_185509_experimental_bass-walk-down,52.415,underhand_right,1
+20260405_185509_experimental_bass-walk-down,52.955,overhand_left,3
+20260405_185509_experimental_bass-walk-down,53.53,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,54.13,overhand_right,4
+20260405_185509_experimental_bass-walk-down,54.73,underhand_right,1
+20260405_185509_experimental_bass-walk-down,55.31,overhand_left,3
+20260405_185509_experimental_bass-walk-down,55.915,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,56.56,dragon_roll,0
+20260405_185509_experimental_bass-walk-down,57.2,sneak_underhand_right,6
+20260405_185509_experimental_bass-walk-down,57.84,dragon_roll,0
+20260405_185509_experimental_bass-walk-down,58.47,sneak_underhand_left,5
+20260405_185509_experimental_bass-walk-down,59.04,dragon_roll,0
+20260405_185509_experimental_bass-walk-down,59.51,sneak_underhand_left,5
+20260405_185509_experimental_bass-walk-down,60.165,idle,11
+20260405_185509_experimental_bass-walk-down,60.845,idle,11
+20260405_185509_experimental_bass-walk-down,61.26,idle,11
+20260406_212408_experimental_jo div,0.6,idle,11
+20260406_212408_experimental_jo div,1.24,idle,11
+20260406_212408_experimental_jo div,1.815,idle,11
+20260406_212408_experimental_jo div,2.27,idle,11
+20260406_212408_experimental_jo div,2.945,idle,11
+20260406_212408_experimental_jo div,3.84,idle,11
+20260406_212408_experimental_jo div,4.715,clockwise,9
+20260406_212408_experimental_jo div,5.465,clockwise,9
+20260406_212408_experimental_jo div,6.145,clockwise,9
+20260406_212408_experimental_jo div,6.795,sneak_overhand_left,7
+20260406_212408_experimental_jo div,7.38,dragon_roll,0
+20260406_212408_experimental_jo div,7.94,overhand_right,4
+20260406_212408_experimental_jo div,8.57,clockwise,9
+20260406_212408_experimental_jo div,9.175,counter_clockwise,10
+20260406_212408_experimental_jo div,9.665,underhand_left,2
+20260406_212408_experimental_jo div,10.205,clockwise,9
+20260406_212408_experimental_jo div,10.775,underhand_right,1
+20260406_212408_experimental_jo div,11.255,overhand_left,3
+20260406_212408_experimental_jo div,11.735,counter_clockwise,10
+20260406_212408_experimental_jo div,12.235,overhand_right,4
+20260406_212408_experimental_jo div,12.76,underhand_right,1
+20260406_212408_experimental_jo div,13.305,overhand_left,3
+20260406_212408_experimental_jo div,13.85,counter_clockwise,10
+20260406_212408_experimental_jo div,14.41,overhand_right,4
+20260406_212408_experimental_jo div,14.96,clockwise,9
+20260406_212408_experimental_jo div,15.51,counter_clockwise,10
+20260406_212408_experimental_jo div,16.06,dragon_roll,0
+20260406_212408_experimental_jo div,16.62,sneak_underhand_right,6
+20260406_212408_experimental_jo div,17.18,sneak_overhand_left,7
+20260406_212408_experimental_jo div,17.725,dragon_roll,0
+20260406_212408_experimental_jo div,18.28,overhand_right,4
+20260406_212408_experimental_jo div,18.9,clockwise,9
+20260406_212408_experimental_jo div,19.48,counter_clockwise,10
+20260406_212408_experimental_jo div,19.985,underhand_left,2
+20260406_212408_experimental_jo div,20.57,clockwise,9
+20260406_212408_experimental_jo div,21.175,sneak_overhand_left,7
+20260406_212408_experimental_jo div,21.7,dragon_roll,0
+20260406_212408_experimental_jo div,22.25,overhand_right,4
+20260406_212408_experimental_jo div,22.845,clockwise,9
+20260406_212408_experimental_jo div,23.4,counter_clockwise,10
+20260406_212408_experimental_jo div,23.89,underhand_left,2
+20260406_212408_experimental_jo div,24.445,clockwise,9
+20260406_212408_experimental_jo div,25.04,sneak_overhand_left,7
+20260406_212408_experimental_jo div,25.55,dragon_roll,0
+20260406_212408_experimental_jo div,26.065,overhand_right,4
+20260406_212408_experimental_jo div,26.64,clockwise,9
+20260406_212408_experimental_jo div,27.205,counter_clockwise,10
+20260406_212408_experimental_jo div,27.725,underhand_left,2
+20260406_212408_experimental_jo div,28.275,clockwise,9
+20260406_212408_experimental_jo div,28.84,underhand_right,1
+20260406_212408_experimental_jo div,29.34,overhand_left,3
+20260406_212408_experimental_jo div,29.825,counter_clockwise,10
+20260406_212408_experimental_jo div,30.36,overhand_right,4
+20260406_212408_experimental_jo div,30.92,clockwise,9
+20260406_212408_experimental_jo div,31.45,counter_clockwise,10
+20260406_212408_experimental_jo div,31.94,underhand_left,2
+20260406_212408_experimental_jo div,32.495,clockwise,9
+20260406_212408_experimental_jo div,33.06,overhand_left,3
+20260406_212408_experimental_jo div,33.575,counter_clockwise,10
+20260406_212408_experimental_jo div,34.12,overhand_right,4
+20260406_212408_experimental_jo div,34.68,clockwise,9
+20260406_212408_experimental_jo div,35.225,counter_clockwise,10
+20260406_212408_experimental_jo div,35.71,underhand_left,2
+20260406_212408_experimental_jo div,36.235,clockwise,9
+20260406_212408_experimental_jo div,36.755,overhand_left,3
+20260406_212408_experimental_jo div,37.245,counter_clockwise,10
+20260406_212408_experimental_jo div,37.8,overhand_right,4
+20260406_212408_experimental_jo div,38.365,clockwise,9
+20260406_212408_experimental_jo div,38.92,counter_clockwise,10
+20260406_212408_experimental_jo div,39.43,underhand_left,2
+20260406_212408_experimental_jo div,39.965,clockwise,9
+20260406_212408_experimental_jo div,40.53,sneak_overhand_left,7
+20260406_212408_experimental_jo div,41.035,dragon_roll,0
+20260406_212408_experimental_jo div,41.52,overhand_right,4
+20260406_212408_experimental_jo div,42.05,underhand_right,1
+20260406_212408_experimental_jo div,42.56,overhand_left,3
+20260406_212408_experimental_jo div,43.055,counter_clockwise,10
+20260406_212408_experimental_jo div,43.585,overhand_right,4
+20260406_212408_experimental_jo div,44.12,clockwise,9
+20260406_212408_experimental_jo div,44.7,underhand_right,1
+20260406_212408_experimental_jo div,45.27,counter_clockwise,10
+20260406_212408_experimental_jo div,45.695,sneak_underhand_right,6
+20260406_212408_experimental_jo div,46.075,dragon_roll,0
+20260406_212408_experimental_jo div,46.64,dragon_roll,0
+20260406_212408_experimental_jo div,47.16,idle,11
+20260406_212408_experimental_jo div,47.55,idle,11
+20260406_212408_experimental_jo div,49.36,dragon_roll,0
+20260406_212408_experimental_jo div,49.965,overhand_right,4
+20260406_212408_experimental_jo div,50.51,underhand_right,1
+20260406_212408_experimental_jo div,51.005,overhand_left,3
+20260406_212408_experimental_jo div,51.53,counter_clockwise,10
+20260406_212408_experimental_jo div,52.07,overhand_right,4
+20260406_212408_experimental_jo div,52.63,clockwise,9
+20260406_212408_experimental_jo div,53.195,counter_clockwise,10
+20260406_212408_experimental_jo div,53.7,underhand_left,2
+20260406_212408_experimental_jo div,54.245,clockwise,9
+20260406_212408_experimental_jo div,54.835,underhand_right,1
+20260406_212408_experimental_jo div,55.335,overhand_left,3
+20260406_212408_experimental_jo div,55.805,counter_clockwise,10
+20260406_212408_experimental_jo div,56.33,overhand_right,4
+20260406_212408_experimental_jo div,56.865,underhand_right,1
+20260406_212408_experimental_jo div,57.395,overhand_left,3
+20260406_212408_experimental_jo div,57.915,counter_clockwise,10
+20260406_212408_experimental_jo div,58.45,overhand_right,4
+20260406_212408_experimental_jo div,58.995,underhand_right,1
+20260406_212408_experimental_jo div,59.49,overhand_left,3
+20260406_212408_experimental_jo div,59.98,counter_clockwise,10
+20260406_212408_experimental_jo div,60.48,overhand_right,4
+20260406_212408_experimental_jo div,60.935,underhand_right,1
+20260406_212408_experimental_jo div,61.385,overhand_left,3
+20260406_212408_experimental_jo div,61.885,counter_clockwise,10
+20260406_212408_experimental_jo div,62.49,overhand_right,4
+20260406_212408_experimental_jo div,63.115,underhand_right,1
+20260406_212408_experimental_jo div,63.695,overhand_left,3
+20260406_212408_experimental_jo div,64.355,counter_clockwise,10
+20260406_212408_experimental_jo div,65.02,overhand_right,4
+20260406_212408_experimental_jo div,65.71,clockwise,9
+20260406_212408_experimental_jo div,66.405,counter_clockwise,10
+20260406_212408_experimental_jo div,67.055,underhand_left,2
+20260406_212408_experimental_jo div,67.74,clockwise,9
+20260406_212408_experimental_jo div,68.39,underhand_right,1
+20260406_212408_experimental_jo div,69.055,counter_clockwise,10
+20260406_212408_experimental_jo div,69.72,underhand_left,2
+20260406_212408_experimental_jo div,70.395,clockwise,9
+20260406_212408_experimental_jo div,71.055,underhand_right,1
+20260406_212408_experimental_jo div,71.715,counter_clockwise,10
+20260406_212408_experimental_jo div,72.395,underhand_left,2
+20260406_212408_experimental_jo div,73.075,clockwise,9
+20260406_212408_experimental_jo div,73.78,underhand_right,1
+20260406_212408_experimental_jo div,74.485,counter_clockwise,10
+20260406_212408_experimental_jo div,75.21,sneak_overhand_right,8
+20260406_212408_experimental_jo div,75.895,dragon_roll,0
+20260406_212408_experimental_jo div,76.55,overhand_right,4
+20260406_212408_experimental_jo div,77.235,sneak_overhand_left,7
+20260406_212408_experimental_jo div,77.93,dragon_roll,0
+20260406_212408_experimental_jo div,78.575,dragon_roll,0
+20260406_212408_experimental_jo div,79.16,dragon_roll,0
+20260406_212408_experimental_jo div,79.765,overhand_right,4
+20260406_212408_experimental_jo div,80.44,clockwise,9
+20260406_212408_experimental_jo div,81.115,counter_clockwise,10
+20260406_212408_experimental_jo div,81.77,dragon_roll,0
+20260406_212408_experimental_jo div,82.405,sneak_underhand_right,6
+20260406_212408_experimental_jo div,83.035,sneak_overhand_left,7
+20260406_212408_experimental_jo div,83.665,dragon_roll,0
+20260406_212408_experimental_jo div,84.285,overhand_right,4
+20260406_212408_experimental_jo div,84.97,clockwise,9
+20260406_212408_experimental_jo div,85.625,counter_clockwise,10
+20260406_212408_experimental_jo div,86.25,dragon_roll,0
+20260406_212408_experimental_jo div,86.87,sneak_underhand_right,6
+20260406_212408_experimental_jo div,87.465,sneak_overhand_left,7
+20260406_212408_experimental_jo div,88.03,dragon_roll,0
+20260406_212408_experimental_jo div,88.59,overhand_right,4
+20260406_212408_experimental_jo div,89.23,clockwise,9
+20260406_212408_experimental_jo div,89.81,counter_clockwise,10
+20260406_212408_experimental_jo div,90.385,dragon_roll,0
+20260406_212408_experimental_jo div,91.0,sneak_underhand_right,6
+20260406_212408_experimental_jo div,91.595,sneak_overhand_left,7
+20260406_212408_experimental_jo div,92.18,dragon_roll,0
+20260406_212408_experimental_jo div,92.795,overhand_right,4
+20260406_212408_experimental_jo div,93.43,sneak_overhand_left,7
+20260406_212408_experimental_jo div,93.975,dragon_roll,0
+20260406_212408_experimental_jo div,94.52,overhand_right,4
+20260406_212408_experimental_jo div,95.14,clockwise,9
+20260406_212408_experimental_jo div,95.705,overhand_left,3
+20260406_212408_experimental_jo div,96.225,counter_clockwise,10
+20260406_212408_experimental_jo div,96.765,overhand_right,4
+20260406_212408_experimental_jo div,97.295,clockwise,9
+20260406_212408_experimental_jo div,97.835,overhand_left,3
+20260406_212408_experimental_jo div,98.37,counter_clockwise,10
+20260406_212408_experimental_jo div,98.96,overhand_right,4
+20260406_212408_experimental_jo div,99.58,dragon_roll,0
+20260406_212408_experimental_jo div,100.205,dragon_roll,0
+20260406_212408_experimental_jo div,100.835,dragon_roll,0
+20260406_212408_experimental_jo div,101.47,dragon_roll,0
+20260406_212408_experimental_jo div,102.115,dragon_roll,0
+20260406_212408_experimental_jo div,102.725,dragon_roll,0
+20260406_212408_experimental_jo div,103.315,overhand_right,4
+20260406_212408_experimental_jo div,103.96,clockwise,9
+20260406_212408_experimental_jo div,104.615,counter_clockwise,10
+20260406_212408_experimental_jo div,105.25,dragon_roll,0
+20260406_212408_experimental_jo div,105.725,dragon_roll,0
+20260406_212408_experimental_jo div,106.66,dragon_roll,0
+20260406_212408_experimental_jo div,107.4,dragon_roll,0
+20260406_212408_experimental_jo div,108.065,dragon_roll,0
+20260406_212408_experimental_jo div,108.745,dragon_roll,0
+20260406_212408_experimental_jo div,109.44,dragon_roll,0
+20260406_212408_experimental_jo div,110.115,dragon_roll,0
+20260406_212408_experimental_jo div,110.75,overhand_right,4
+20260406_212408_experimental_jo div,111.38,clockwise,9
+20260406_212408_experimental_jo div,112.005,counter_clockwise,10
+20260406_212408_experimental_jo div,112.565,underhand_left,2
+20260406_212408_experimental_jo div,113.155,clockwise,9
+20260406_212408_experimental_jo div,113.77,sneak_overhand_left,7
+20260406_212408_experimental_jo div,114.335,dragon_roll,0
+20260406_212408_experimental_jo div,114.9,overhand_right,4
+20260406_212408_experimental_jo div,115.485,clockwise,9
+20260406_212408_experimental_jo div,116.0,overhand_left,3
+20260406_212408_experimental_jo div,116.505,counter_clockwise,10
+20260406_212408_experimental_jo div,117.075,overhand_right,4
+20260406_212408_experimental_jo div,117.63,clockwise,9
+20260406_212408_experimental_jo div,118.115,overhand_left,3
+20260406_212408_experimental_jo div,118.58,counter_clockwise,10
+20260406_212408_experimental_jo div,119.06,overhand_right,4
+20260406_212408_experimental_jo div,119.52,clockwise,9
+20260406_212408_experimental_jo div,119.97,overhand_left,3
+20260406_212408_experimental_jo div,120.395,counter_clockwise,10
+20260406_212408_experimental_jo div,120.805,overhand_right,4
+20260406_212408_experimental_jo div,121.195,clockwise,9
+20260406_212408_experimental_jo div,121.59,overhand_left,3
+20260406_212408_experimental_jo div,121.975,counter_clockwise,10
+20260406_212408_experimental_jo div,122.38,overhand_right,4
+20260406_212408_experimental_jo div,122.85,clockwise,9
+20260406_212408_experimental_jo div,123.365,overhand_left,3
+20260406_212408_experimental_jo div,123.935,counter_clockwise,10
+20260406_212408_experimental_jo div,124.525,overhand_right,4
+20260406_212408_experimental_jo div,125.14,sneak_overhand_left,7
+20260406_212408_experimental_jo div,125.76,dragon_roll,0
+20260406_212408_experimental_jo div,126.505,sneak_overhand_right,8
+20260406_212408_experimental_jo div,126.99,dragon_roll,0
+20260406_212408_experimental_jo div,127.63,overhand_right,4
+20260406_212408_experimental_jo div,128.335,clockwise,9
+20260406_212408_experimental_jo div,128.95,counter_clockwise,10
+20260406_212408_experimental_jo div,129.475,underhand_left,2
+20260406_212408_experimental_jo div,130.03,clockwise,9
+20260406_212408_experimental_jo div,130.555,underhand_right,1
+20260406_212408_experimental_jo div,131.06,counter_clockwise,10
+20260406_212408_experimental_jo div,131.585,underhand_left,2
+20260406_212408_experimental_jo div,132.12,clockwise,9
+20260406_212408_experimental_jo div,132.69,underhand_right,1
+20260406_212408_experimental_jo div,133.26,counter_clockwise,10
+20260406_212408_experimental_jo div,133.88,sneak_overhand_right,8
+20260406_212408_experimental_jo div,134.455,dragon_roll,0
+20260406_212408_experimental_jo div,134.995,overhand_right,4
+20260406_212408_experimental_jo div,135.6,sneak_overhand_left,7
+20260406_212408_experimental_jo div,136.115,dragon_roll,0
+20260406_212408_experimental_jo div,136.815,sneak_overhand_right,8
+20260406_212408_experimental_jo div,137.265,dragon_roll,0
+20260406_212408_experimental_jo div,137.83,counter_clockwise,10
+20260406_212408_experimental_jo div,138.415,clockwise,9
+20260406_212408_experimental_jo div,139.02,underhand_right,1
+20260406_212408_experimental_jo div,139.6,counter_clockwise,10
+20260406_212408_experimental_jo div,140.155,dragon_roll,0
+20260406_212408_experimental_jo div,140.74,sneak_underhand_right,6
+20260406_212408_experimental_jo div,141.315,sneak_overhand_left,7
+20260406_212408_experimental_jo div,141.875,dragon_roll,0
+20260406_212408_experimental_jo div,142.44,overhand_right,4
+20260406_212408_experimental_jo div,143.045,clockwise,9
+20260406_212408_experimental_jo div,143.615,counter_clockwise,10
+20260406_212408_experimental_jo div,144.165,dragon_roll,0
+20260406_212408_experimental_jo div,144.705,sneak_underhand_right,6
+20260406_212408_experimental_jo div,145.25,sneak_overhand_left,7
+20260406_212408_experimental_jo div,145.785,dragon_roll,0
+20260406_212408_experimental_jo div,146.26,overhand_right,4
+20260406_212408_experimental_jo div,146.78,underhand_right,1
+20260406_212408_experimental_jo div,147.29,overhand_left,3
+20260406_212408_experimental_jo div,147.755,counter_clockwise,10
+20260406_212408_experimental_jo div,148.23,overhand_right,4
+20260406_212408_experimental_jo div,148.72,underhand_right,1
+20260406_212408_experimental_jo div,149.195,overhand_left,3
+20260406_212408_experimental_jo div,149.675,counter_clockwise,10
+20260406_212408_experimental_jo div,150.2,overhand_right,4
+20260406_212408_experimental_jo div,150.72,clockwise,9
+20260406_212408_experimental_jo div,151.245,underhand_right,1
+20260406_212408_experimental_jo div,151.775,counter_clockwise,10
+20260406_212408_experimental_jo div,152.285,underhand_left,2
+20260406_212408_experimental_jo div,152.78,clockwise,9
+20260406_212408_experimental_jo div,153.3,underhand_right,1
+20260406_212408_experimental_jo div,153.81,counter_clockwise,10
+20260406_212408_experimental_jo div,154.305,underhand_left,2
+20260406_212408_experimental_jo div,154.84,clockwise,9
+20260406_212408_experimental_jo div,155.39,underhand_right,1
+20260406_212408_experimental_jo div,155.96,counter_clockwise,10
+20260406_212408_experimental_jo div,156.6,dragon_roll,0
+20260406_212408_experimental_jo div,157.25,dragon_roll,0
+20260406_212408_experimental_jo div,157.875,overhand_right,4
+20260406_212408_experimental_jo div,158.49,underhand_right,1
+20260406_212408_experimental_jo div,159.04,overhand_left,3
+20260406_212408_experimental_jo div,159.575,counter_clockwise,10
+20260406_212408_experimental_jo div,160.155,overhand_right,4
+20260406_212408_experimental_jo div,160.735,sneak_overhand_left,7
+20260406_212408_experimental_jo div,161.275,dragon_roll,0
+20260406_212408_experimental_jo div,161.9,sneak_overhand_right,8
+20260406_212408_experimental_jo div,162.565,dragon_roll,0
+20260406_212408_experimental_jo div,163.165,overhand_right,4
+20260406_212408_experimental_jo div,163.79,clockwise,9
+20260406_212408_experimental_jo div,164.395,counter_clockwise,10
+20260406_212408_experimental_jo div,164.975,underhand_left,2
+20260406_212408_experimental_jo div,165.54,clockwise,9
+20260406_212408_experimental_jo div,166.08,underhand_right,1
+20260406_212408_experimental_jo div,166.61,counter_clockwise,10
+20260406_212408_experimental_jo div,167.11,underhand_left,2
+20260406_212408_experimental_jo div,167.645,clockwise,9
+20260406_212408_experimental_jo div,168.195,underhand_right,1
+20260406_212408_experimental_jo div,168.73,counter_clockwise,10
+20260406_212408_experimental_jo div,169.255,underhand_left,2
+20260406_212408_experimental_jo div,169.79,clockwise,9
+20260406_212408_experimental_jo div,170.31,underhand_right,1
+20260406_212408_experimental_jo div,170.875,counter_clockwise,10
+20260406_212408_experimental_jo div,171.505,dragon_roll,0
+20260406_212408_experimental_jo div,172.11,sneak_underhand_right,6
+20260406_212408_experimental_jo div,172.735,dragon_roll,0
+20260406_212408_experimental_jo div,173.36,sneak_underhand_left,5
+20260406_212408_experimental_jo div,173.975,underhand_left,2
+20260406_212408_experimental_jo div,174.575,clockwise,9
+20260406_212408_experimental_jo div,175.105,underhand_right,1
+20260406_212408_experimental_jo div,175.61,counter_clockwise,10
+20260406_212408_experimental_jo div,176.11,underhand_left,2
+20260406_212408_experimental_jo div,176.67,clockwise,9
+20260406_212408_experimental_jo div,177.235,underhand_right,1
+20260406_212408_experimental_jo div,177.775,counter_clockwise,10
+20260406_212408_experimental_jo div,178.53,sneak_overhand_right,8
+20260406_212408_experimental_jo div,179.005,dragon_roll,0
+20260406_212408_experimental_jo div,179.565,overhand_right,4
+20260406_212408_experimental_jo div,180.185,sneak_overhand_left,7
+20260406_212408_experimental_jo div,180.79,dragon_roll,0
+20260406_212408_experimental_jo div,181.375,overhand_right,4
+20260406_212408_experimental_jo div,182.015,clockwise,9
+20260406_212408_experimental_jo div,182.655,sneak_overhand_left,7
+20260406_212408_experimental_jo div,183.335,dragon_roll,0
+20260406_212408_experimental_jo div,184.065,dragon_roll,0
+20260406_212408_experimental_jo div,184.685,sneak_underhand_right,6
+20260406_212408_experimental_jo div,185.28,clockwise,9
+20260406_212408_experimental_jo div,185.88,counter_clockwise,10
+20260406_212408_experimental_jo div,186.44,dragon_roll,0
+20260406_212408_experimental_jo div,187.055,sneak_underhand_right,6
+20260406_212408_experimental_jo div,187.63,sneak_overhand_left,7
+20260406_212408_experimental_jo div,188.24,dragon_roll,0
+20260406_212408_experimental_jo div,188.925,underhand_right,1
+20260406_212408_experimental_jo div,189.56,counter_clockwise,10
+20260406_212408_experimental_jo div,190.2,sneak_overhand_right,8
+20260406_212408_experimental_jo div,190.825,dragon_roll,0
+20260406_212408_experimental_jo div,191.45,underhand_left,2
+20260406_212408_experimental_jo div,192.09,clockwise,9
+20260406_212408_experimental_jo div,192.745,sneak_overhand_left,7
+20260406_212408_experimental_jo div,193.405,dragon_roll,0
+20260406_212408_experimental_jo div,194.055,dragon_roll,0
+20260406_212408_experimental_jo div,194.655,sneak_underhand_right,6
+20260406_212408_experimental_jo div,195.255,clockwise,9
+20260406_212408_experimental_jo div,195.86,counter_clockwise,10
+20260406_212408_experimental_jo div,196.395,dragon_roll,0
+20260406_212408_experimental_jo div,196.905,sneak_underhand_right,6
+20260406_212408_experimental_jo div,197.485,sneak_overhand_left,7
+20260406_212408_experimental_jo div,198.12,dragon_roll,0
+20260406_212408_experimental_jo div,198.755,underhand_right,1
+20260406_212408_experimental_jo div,199.38,counter_clockwise,10
+20260406_212408_experimental_jo div,199.94,dragon_roll,0
+20260406_212408_experimental_jo div,200.465,sneak_underhand_right,6
+20260406_212408_experimental_jo div,201.05,sneak_overhand_left,7
+20260406_212408_experimental_jo div,201.645,dragon_roll,0
+20260406_212408_experimental_jo div,202.23,underhand_right,1
+20260406_212408_experimental_jo div,202.84,counter_clockwise,10
+20260406_212408_experimental_jo div,203.42,dragon_roll,0
+20260406_212408_experimental_jo div,203.945,sneak_underhand_right,6
+20260406_212408_experimental_jo div,204.485,sneak_overhand_left,7
+20260406_212408_experimental_jo div,205.055,dragon_roll,0
+20260406_212408_experimental_jo div,205.66,underhand_right,1
+20260406_212408_experimental_jo div,206.24,counter_clockwise,10
+20260406_212408_experimental_jo div,206.765,dragon_roll,0
+20260406_212408_experimental_jo div,207.285,sneak_underhand_right,6
+20260406_212408_experimental_jo div,207.835,sneak_overhand_left,7
+20260406_212408_experimental_jo div,208.415,dragon_roll,0
+20260406_212408_experimental_jo div,209.0,underhand_right,1
+20260406_212408_experimental_jo div,209.57,counter_clockwise,10
+20260406_212408_experimental_jo div,210.09,dragon_roll,0
+20260406_212408_experimental_jo div,210.65,sneak_underhand_right,6
+20260406_212408_experimental_jo div,211.2,sneak_overhand_left,7
+20260406_212408_experimental_jo div,211.78,dragon_roll,0
+20260406_212408_experimental_jo div,212.43,underhand_right,1
+20260406_212408_experimental_jo div,213.025,counter_clockwise,10
+20260406_212408_experimental_jo div,213.55,underhand_left,2
+20260406_212408_experimental_jo div,214.115,clockwise,9
+20260406_212408_experimental_jo div,214.61,overhand_left,3
+20260406_212408_experimental_jo div,215.135,counter_clockwise,10
+20260406_212408_experimental_jo div,215.73,overhand_right,4
+20260406_212408_experimental_jo div,216.295,clockwise,9
+20260406_212408_experimental_jo div,216.84,overhand_left,3
+20260406_212408_experimental_jo div,217.375,counter_clockwise,10
+20260406_212408_experimental_jo div,217.97,overhand_right,4
+20260406_212408_experimental_jo div,218.55,underhand_right,1
+20260406_212408_experimental_jo div,219.08,counter_clockwise,10
+20260406_212408_experimental_jo div,219.585,underhand_left,2
+20260406_212408_experimental_jo div,220.125,clockwise,9
+20260406_212408_experimental_jo div,220.685,overhand_left,3
+20260406_212408_experimental_jo div,221.25,counter_clockwise,10
+20260406_212408_experimental_jo div,221.795,overhand_right,4
+20260406_212408_experimental_jo div,222.34,clockwise,9
+20260406_212408_experimental_jo div,222.925,underhand_right,1
+20260406_212408_experimental_jo div,223.45,counter_clockwise,10
+20260406_212408_experimental_jo div,223.93,underhand_left,2
+20260406_212408_experimental_jo div,224.47,clockwise,9
+20260406_212408_experimental_jo div,224.995,overhand_left,3
+20260406_212408_experimental_jo div,225.49,counter_clockwise,10
+20260406_212408_experimental_jo div,226.005,overhand_right,4
+20260406_212408_experimental_jo div,226.555,underhand_right,1
+20260406_212408_experimental_jo div,227.065,counter_clockwise,10
+20260406_212408_experimental_jo div,227.52,underhand_left,2
+20260406_212408_experimental_jo div,228.04,clockwise,9
+20260406_212408_experimental_jo div,228.555,overhand_left,3
+20260406_212408_experimental_jo div,229.055,counter_clockwise,10
+20260406_212408_experimental_jo div,229.575,overhand_right,4
+20260406_212408_experimental_jo div,230.12,underhand_right,1
+20260406_212408_experimental_jo div,230.635,counter_clockwise,10
+20260406_212408_experimental_jo div,231.135,underhand_left,2
+20260406_212408_experimental_jo div,231.68,clockwise,9
+20260406_212408_experimental_jo div,232.185,overhand_left,3
+20260406_212408_experimental_jo div,232.685,counter_clockwise,10
+20260406_212408_experimental_jo div,233.25,overhand_right,4
+20260406_212408_experimental_jo div,233.785,clockwise,9
+20260406_212408_experimental_jo div,234.325,underhand_right,1
+20260406_212408_experimental_jo div,234.85,counter_clockwise,10
+20260406_212408_experimental_jo div,235.305,underhand_left,2
+20260406_212408_experimental_jo div,235.8,clockwise,9
+20260406_212408_experimental_jo div,236.29,overhand_left,3
+20260406_212408_experimental_jo div,236.8,counter_clockwise,10
+20260406_212408_experimental_jo div,237.325,overhand_right,4
+20260406_212408_experimental_jo div,237.82,clockwise,9
+20260406_212408_experimental_jo div,238.36,underhand_right,1
+20260406_212408_experimental_jo div,238.855,counter_clockwise,10
+20260406_212408_experimental_jo div,239.31,underhand_left,2
+20260406_212408_experimental_jo div,239.845,clockwise,9
+20260406_212408_experimental_jo div,240.36,overhand_left,3
+20260406_212408_experimental_jo div,240.88,counter_clockwise,10
+20260406_212408_experimental_jo div,241.435,overhand_right,4
+20260406_212408_experimental_jo div,242.005,underhand_right,1
+20260406_212408_experimental_jo div,242.57,counter_clockwise,10
+20260406_212408_experimental_jo div,243.115,dragon_roll,0
+20260406_212408_experimental_jo div,243.62,sneak_underhand_right,6
+20260406_212408_experimental_jo div,244.16,sneak_overhand_left,7
+20260406_212408_experimental_jo div,244.71,dragon_roll,0
+20260406_212408_experimental_jo div,245.22,overhand_right,4
+20260406_212408_experimental_jo div,245.77,clockwise,9
+20260406_212408_experimental_jo div,246.285,overhand_left,3
+20260406_212408_experimental_jo div,246.805,counter_clockwise,10
+20260406_212408_experimental_jo div,247.395,overhand_right,4
+20260406_212408_experimental_jo div,247.975,sneak_overhand_left,7
+20260406_212408_experimental_jo div,248.49,dragon_roll,0
+20260406_212408_experimental_jo div,249.19,sneak_overhand_right,8
+20260406_212408_experimental_jo div,249.64,dragon_roll,0
+20260406_212408_experimental_jo div,250.115,overhand_right,4
+20260406_212408_experimental_jo div,250.6,clockwise,9
+20260406_212408_experimental_jo div,251.12,overhand_left,3
+20260406_212408_experimental_jo div,251.63,counter_clockwise,10
+20260406_212408_experimental_jo div,252.145,overhand_right,4
+20260406_212408_experimental_jo div,252.69,sneak_overhand_left,7
+20260406_212408_experimental_jo div,253.22,dragon_roll,0
+20260406_212408_experimental_jo div,253.585,overhand_right,4
+20260406_212408_experimental_jo div,253.9,sneak_overhand_right,8
+20260406_212408_experimental_jo div,254.335,dragon_roll,0
+20260406_212408_experimental_jo div,254.845,overhand_right,4
+20260406_212408_experimental_jo div,255.35,clockwise,9
+20260406_212408_experimental_jo div,255.87,underhand_right,1
+20260406_212408_experimental_jo div,256.43,counter_clockwise,10
+20260406_212408_experimental_jo div,256.95,dragon_roll,0
+20260406_212408_experimental_jo div,257.415,sneak_underhand_right,6
+20260406_212408_experimental_jo div,257.95,sneak_overhand_left,7
+20260406_212408_experimental_jo div,258.54,dragon_roll,0
+20260406_212408_experimental_jo div,259.135,overhand_right,4
+20260406_212408_experimental_jo div,259.79,underhand_right,1
+20260406_212408_experimental_jo div,260.47,overhand_left,3
+20260406_212408_experimental_jo div,261.21,counter_clockwise,10
+20260406_212408_experimental_jo div,262.0,overhand_right,4
+20260406_212408_experimental_jo div,262.77,sneak_overhand_left,7
+20260406_212408_experimental_jo div,263.52,dragon_roll,0
+20260406_212408_experimental_jo div,264.28,sneak_overhand_right,8
+20260406_212408_experimental_jo div,265.015,dragon_roll,0
+20260406_212408_experimental_jo div,265.71,overhand_right,4
+20260406_212408_experimental_jo div,266.425,clockwise,9
+20260406_212408_experimental_jo div,267.15,counter_clockwise,10
+20260406_212408_experimental_jo div,267.855,dragon_roll,0
+20260406_212408_experimental_jo div,268.585,sneak_underhand_right,6
+20260406_212408_experimental_jo div,269.345,sneak_overhand_left,7
+20260406_212408_experimental_jo div,270.05,dragon_roll,0
+20260406_212408_experimental_jo div,270.635,overhand_right,4
+20260406_212408_experimental_jo div,271.055,overhand_right,4
+20260406_212408_experimental_jo div,271.535,clockwise,9
+20260406_212408_experimental_jo div,272.135,overhand_left,3
+20260406_212408_experimental_jo div,272.55,overhand_left,3
+20260406_212408_experimental_jo div,273.06,counter_clockwise,10
+20260406_212408_experimental_jo div,273.81,overhand_right,4
+20260406_212408_experimental_jo div,274.57,clockwise,9
+20260406_212408_experimental_jo div,275.35,overhand_left,3
+20260406_212408_experimental_jo div,276.095,counter_clockwise,10
+20260406_212408_experimental_jo div,276.855,overhand_right,4
+20260406_212408_experimental_jo div,277.65,sneak_overhand_left,7
+20260406_212408_experimental_jo div,278.435,dragon_roll,0
+20260406_212408_experimental_jo div,279.21,sneak_overhand_right,8
+20260406_212408_experimental_jo div,279.955,dragon_roll,0
+20260406_212408_experimental_jo div,280.75,overhand_right,4
+20260406_212408_experimental_jo div,281.505,underhand_right,1
+20260406_212408_experimental_jo div,282.225,counter_clockwise,10
+20260406_212408_experimental_jo div,282.995,dragon_roll,0
+20260406_212408_experimental_jo div,283.705,sneak_underhand_right,6
+20260406_212408_experimental_jo div,284.405,sneak_overhand_left,7
+20260406_212408_experimental_jo div,285.09,dragon_roll,0
+20260406_212408_experimental_jo div,285.725,overhand_right,4
+20260406_212408_experimental_jo div,286.42,clockwise,9
+20260406_212408_experimental_jo div,287.15,overhand_left,3
+20260406_212408_experimental_jo div,287.83,counter_clockwise,10
+20260406_212408_experimental_jo div,288.5,overhand_right,4
+20260406_212408_experimental_jo div,289.16,clockwise,9
+20260406_212408_experimental_jo div,289.805,overhand_left,3
+20260406_212408_experimental_jo div,290.5,counter_clockwise,10
+20260406_212408_experimental_jo div,291.19,overhand_right,4
+20260406_212408_experimental_jo div,291.935,underhand_right,1
+20260406_212408_experimental_jo div,292.735,counter_clockwise,10
+20260406_212408_experimental_jo div,293.445,underhand_left,2
+20260406_212408_experimental_jo div,294.085,clockwise,9
+20260406_212408_experimental_jo div,294.74,underhand_right,1
+20260406_212408_experimental_jo div,295.41,counter_clockwise,10
+20260406_212408_experimental_jo div,296.01,underhand_left,2
+20260406_212408_experimental_jo div,296.635,clockwise,9
+20260406_212408_experimental_jo div,297.335,underhand_right,1
+20260406_212408_experimental_jo div,298.01,counter_clockwise,10
+20260406_212408_experimental_jo div,298.7,sneak_overhand_right,8
+20260406_212408_experimental_jo div,299.375,dragon_roll,0
+20260406_212408_experimental_jo div,300.035,overhand_right,4
+20260406_212408_experimental_jo div,300.715,dragon_roll,0
+20260406_212408_experimental_jo div,301.41,dragon_roll,0
+20260406_212408_experimental_jo div,302.13,dragon_roll,0
+20260406_212408_experimental_jo div,302.855,dragon_roll,0
+20260406_212408_experimental_jo div,303.575,dragon_roll,0
+20260406_212408_experimental_jo div,304.295,dragon_roll,0
+20260406_212408_experimental_jo div,305.03,underhand_right,1
+20260406_212408_experimental_jo div,305.695,counter_clockwise,10
+20260406_212408_experimental_jo div,306.285,underhand_left,2
+20260406_212408_experimental_jo div,306.855,clockwise,9
+20260406_212408_experimental_jo div,307.39,underhand_right,1
+20260406_212408_experimental_jo div,308.22,counter_clockwise,10
+20260406_212408_experimental_jo div,309.13,clockwise,9
+20260406_212408_experimental_jo div,309.755,sneak_overhand_left,7
+20260406_212408_experimental_jo div,310.295,dragon_roll,0
+20260406_212408_experimental_jo div,310.825,overhand_right,4
+20260406_212408_experimental_jo div,311.435,clockwise,9
+20260406_212408_experimental_jo div,312.02,counter_clockwise,10
+20260406_212408_experimental_jo div,312.57,dragon_roll,0
+20260406_212408_experimental_jo div,313.13,sneak_underhand_right,6
+20260406_212408_experimental_jo div,313.695,sneak_overhand_left,7
+20260406_212408_experimental_jo div,314.245,dragon_roll,0
+20260406_212408_experimental_jo div,314.8,overhand_right,4
+20260406_212408_experimental_jo div,315.385,clockwise,9
+20260406_212408_experimental_jo div,315.91,overhand_left,3
+20260406_212408_experimental_jo div,316.445,counter_clockwise,10
+20260406_212408_experimental_jo div,317.025,overhand_right,4
+20260406_212408_experimental_jo div,317.62,underhand_right,1
+20260406_212408_experimental_jo div,318.175,counter_clockwise,10
+20260406_212408_experimental_jo div,318.76,dragon_roll,0
+20260406_212408_experimental_jo div,319.425,sneak_underhand_right,6
+20260406_212408_experimental_jo div,320.02,sneak_overhand_left,7
+20260406_212408_experimental_jo div,320.59,dragon_roll,0
+20260406_212408_experimental_jo div,321.16,overhand_right,4
+20260406_212408_experimental_jo div,321.74,clockwise,9
+20260406_212408_experimental_jo div,322.315,counter_clockwise,10
+20260406_212408_experimental_jo div,322.865,dragon_roll,0
+20260406_212408_experimental_jo div,323.395,sneak_underhand_right,6
+20260406_212408_experimental_jo div,323.985,sneak_overhand_left,7
+20260406_212408_experimental_jo div,324.61,dragon_roll,0
+20260406_212408_experimental_jo div,325.145,overhand_right,4
+20260406_212408_experimental_jo div,325.71,underhand_right,1
+20260406_212408_experimental_jo div,326.29,overhand_left,3
+20260406_212408_experimental_jo div,326.83,counter_clockwise,10
+20260406_212408_experimental_jo div,327.35,overhand_right,4
+20260406_212408_experimental_jo div,327.925,clockwise,9
+20260406_212408_experimental_jo div,328.505,counter_clockwise,10
+20260406_212408_experimental_jo div,329.02,underhand_left,2
+20260406_212408_experimental_jo div,329.555,clockwise,9
+20260406_212408_experimental_jo div,330.08,underhand_right,1
+20260406_212408_experimental_jo div,330.59,counter_clockwise,10
+20260406_212408_experimental_jo div,331.09,underhand_left,2
+20260406_212408_experimental_jo div,331.635,clockwise,9
+20260406_212408_experimental_jo div,332.23,sneak_overhand_left,7
+20260406_212408_experimental_jo div,332.765,dragon_roll,0
+20260406_212408_experimental_jo div,333.27,overhand_right,4
+20260406_212408_experimental_jo div,333.83,clockwise,9
+20260406_212408_experimental_jo div,334.375,counter_clockwise,10
+20260406_212408_experimental_jo div,334.87,underhand_left,2
+20260406_212408_experimental_jo div,335.425,clockwise,9
+20260406_212408_experimental_jo div,336.025,dragon_roll,0
+20260406_212408_experimental_jo div,336.595,sneak_underhand_right,6
+20260406_212408_experimental_jo div,337.21,dragon_roll,0
+20260406_212408_experimental_jo div,337.885,sneak_underhand_left,5
+20260406_212408_experimental_jo div,338.595,dragon_roll,0
+20260406_212408_experimental_jo div,339.305,sneak_underhand_right,6
+20260406_212408_experimental_jo div,339.945,overhand_left,3
+20260406_212408_experimental_jo div,340.5,counter_clockwise,10
+20260406_212408_experimental_jo div,340.965,overhand_right,4
+20260406_212408_experimental_jo div,341.575,clockwise,9
+20260406_212408_experimental_jo div,342.295,counter_clockwise,10
+20260406_212408_experimental_jo div,342.99,dragon_roll,0
+20260406_212408_experimental_jo div,344.385,idle,11
+20260406_212408_experimental_jo div,344.91,idle,11
+20260406_212408_experimental_jo div,345.595,idle,11
+20260406_212408_experimental_jo div,346.17,idle,11
+20260406_212408_experimental_jo div,346.525,idle,11
+20260406_212408_experimental_jo div,347.02,idle,11
+20260406_212408_experimental_jo div,347.68,idle,11
+20260406_212408_experimental_jo div,348.325,idle,11
+20260406_212408_experimental_jo div,348.885,idle,11
+20260406_212408_experimental_jo div,349.255,idle,11
