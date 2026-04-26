@@ -1,0 +1,23 @@
+cluster,rank,cycle_index,p_cluster_given_x,session_id,t_mid_s,label,label_json
+0,1,3863,0.9999918734208909,20260405_184437_experimental_bass-walk-down,60.96036133846729,counter_clockwise,..\..\data\raw\new-labeled-sessions\20260405_184437_experimental_bass-walk-down\labels_corrected.json
+0,2,4077,0.9997981323104738,20260405_184905_experimental_pachelbel,56.803028123058745,counter_clockwise,..\..\data\raw\new-labeled-sessions\20260405_184905_experimental_pachelbel\labels_corrected.json
+0,3,3738,0.9908295636028245,20260405_173949_experimental_progression,45.56426866540304,underhand_right,..\..\data\raw\new-labeled-sessions\20260405_173949_experimental_progression\labels_corrected.json
+0,4,3799,0.9694100302729902,20260405_173949_experimental_progression,95.17890959439512,sneak_overhand,..\..\data\raw\new-labeled-sessions\20260405_173949_experimental_progression\labels_corrected.json
+0,5,3984,0.8854295391643847,20260405_184729_experimental_pachelbel,74.3101895440028,counter_clockwise,..\..\data\raw\new-labeled-sessions\20260405_184729_experimental_pachelbel\labels_corrected.json
+4,1,2612,1.0,20260315_150630_experimental_jo,58.912039898293514,dragon_roll,..\..\data\raw\new-labeled-sessions\20260315_150630_experimental_jo\labels_corrected.json
+4,2,2741,1.0,20260315_150630_experimental_jo,179.28620784402813,dragon_roll,..\..\data\raw\new-labeled-sessions\20260315_150630_experimental_jo\labels_corrected.json
+4,3,2744,1.0,20260315_150630_experimental_jo,181.73629262952292,dragon_roll,..\..\data\raw\new-labeled-sessions\20260315_150630_experimental_jo\labels_corrected.json
+4,4,3440,1.0,20260316_171550_experimental_jo,30.12120822868326,overhand_left,..\..\data\raw\new-labeled-sessions\20260316_171550_experimental_jo\labels_corrected.json
+4,5,3450,1.0,20260316_171550_experimental_jo,41.661671146841805,sneak_underhand,..\..\data\raw\new-labeled-sessions\20260316_171550_experimental_jo\labels_corrected.json
+4,6,3531,1.0,20260316_171550_experimental_jo,108.03433261805625,overhand_left,..\..\data\raw\new-labeled-sessions\20260316_171550_experimental_jo\labels_corrected.json
+4,7,3839,1.0,20260405_184437_experimental_bass-walk-down,39.18666232390248,dragon_roll,..\..\data\raw\new-labeled-sessions\20260405_184437_experimental_bass-walk-down\labels_corrected.json
+4,8,4003,1.0,20260405_184729_experimental_pachelbel,93.37281044976761,sneak_overhand_right,..\..\data\raw\new-labeled-sessions\20260405_184729_experimental_pachelbel\labels_corrected.json
+4,9,4844,1.0,20260406_212408_experimental_jo div,52.312086350400115,overhand_right,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+4,10,4903,1.0,20260406_212408_experimental_jo div,107.96430720135064,dragon_roll,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+10,1,2679,0.9999981937528558,20260315_150630_experimental_jo,121.55420920103845,sneak_overhand_left,..\..\data\raw\new-labeled-sessions\20260315_150630_experimental_jo\labels_corrected.json
+10,2,2691,0.9999845979136903,20260315_150630_experimental_jo,130.72452667680471,sneak_overhand_left,..\..\data\raw\new-labeled-sessions\20260315_150630_experimental_jo\labels_corrected.json
+10,3,3951,0.9994007247169131,20260405_184729_experimental_pachelbel,41.95575231375467,sneak_overhand_left,..\..\data\raw\new-labeled-sessions\20260405_184729_experimental_pachelbel\labels_corrected.json
+10,4,4089,0.9941532411779105,20260405_184905_experimental_pachelbel,66.64355295531723,sneak_overhand_left,..\..\data\raw\new-labeled-sessions\20260405_184905_experimental_pachelbel\labels_corrected.json
+10,5,5072,0.9790013569050802,20260406_212408_experimental_jo div,277.9610880682986,sneak_overhand_left,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+10,6,3434,0.9781861542450623,20260316_171550_experimental_jo,23.860957225210264,sneak_overhand,..\..\data\raw\new-labeled-sessions\20260316_171550_experimental_jo\labels_corrected.json
+10,7,3488,0.9167307417794421,20260316_171550_experimental_jo,71.61287226334568,sneak_overhand,..\..\data\raw\new-labeled-sessions\20260316_171550_experimental_jo\labels_corrected.json

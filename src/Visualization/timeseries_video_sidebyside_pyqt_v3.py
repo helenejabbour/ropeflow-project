@@ -32,13 +32,13 @@ except ImportError as exc:
 
 
 CONFIG = {
-    "FS": 100.0,
-    "PEAK_PROM_DEGS": 100.0,
-    "PEAK_SAVGOL_WINDOW": 21,
+    "FS": 100.0,             # used for idx/fs dedup — matches validated diagnostic
+    "PEAK_PROM_DEGS": 50.0,
+    "PEAK_SAVGOL_WINDOW": 15,
     "PEAK_SAVGOL_POLY": 3,
-    "PEAK_MIN_DEGS": 200.0,
-    "PEAK_MIN_PERIOD_S": 0.1,
-    "MIN_CYCLE_SAMPLES": 10,
+    "PEAK_MIN_DEGS": 50.0,
+    "PEAK_MIN_PERIOD_S": 0.2,
+    "MERGE_GAP_S": 0.15,
 }
 
 
@@ -48,7 +48,7 @@ def _smooth_mag_deg(omega_rad, cfg):
     if n < 7:
         return mag_deg
 
-    win = int(cfg.get("PEAK_SAVGOL_WINDOW", 21))
+    win = int(cfg.get("PEAK_SAVGOL_WINDOW", 15))
     if win % 2 == 0:
         win += 1
     max_odd = n if (n % 2 == 1) else (n - 1)
@@ -57,9 +57,7 @@ def _smooth_mag_deg(omega_rad, cfg):
     poly = int(cfg.get("PEAK_SAVGOL_POLY", 3))
     poly = max(1, min(poly, win - 2))
 
-    y = savgol_filter(mag_deg, window_length=win, polyorder=poly, mode="interp")
-    y = savgol_filter(y, window_length=win, polyorder=poly, mode="interp")
-    return y
+    return savgol_filter(mag_deg, window_length=win, polyorder=poly, mode="interp")
 
 
 def detect_cycle_peaks(omega_rad, fs, cfg):
@@ -75,38 +73,59 @@ def detect_cycle_peaks(omega_rad, fs, cfg):
     return peaks, mag_smooth
 
 
-def detect_cycles(t, omega, fs=50.0):
-    peaks, mag_smooth = detect_cycle_peaks(omega, fs, CONFIG)
-    if len(peaks) == 0:
-        return [], mag_smooth, peaks
-    cycles = []
-    for i, p in enumerate(peaks):
-        left = 0 if i == 0 else (peaks[i - 1] + p) // 2
-        right = (len(t) - 1) if i == len(peaks) - 1 else (p + peaks[i + 1]) // 2
-        if right <= left or (right - left) < CONFIG["MIN_CYCLE_SAMPLES"]:
-            continue
-        cycles.append((left, right))
-    return cycles, mag_smooth, peaks
+def merge_device_peaks(peaks_d0, peaks_d1, t_d0, t_d1, fs=100.0, gap_s=0.15):
+    """
+    Union-merge D0/D1 peaks. Deduplication uses peak_idx/fs (matches validated diagnostic).
+    Returns (merged_actual_timestamps, merged_sources) where sources are 'D0', 'D1', or 'both'.
+    """
+    tagged = [(p / fs, t_d0[p], "D0") for p in peaks_d0]
+    tagged += [(p / fs, t_d1[p], "D1") for p in peaks_d1]
+    if not tagged:
+        return np.array([]), []
+    tagged.sort(key=lambda x: x[0])
+    all_idx_ts    = np.array([x[0] for x in tagged])
+    all_actual_ts = np.array([x[1] for x in tagged])
+    all_src       = [x[2] for x in tagged]
+
+    accepted = [0]
+    for i in range(1, len(all_idx_ts)):
+        if all_idx_ts[i] - all_idx_ts[accepted[-1]] > gap_s:
+            accepted.append(i)
+
+    group_sources = [set() for _ in accepted]
+    a_idx = 0
+    for i in range(len(all_idx_ts)):
+        if a_idx + 1 < len(accepted) and i >= accepted[a_idx + 1]:
+            a_idx += 1
+        group_sources[a_idx].add(all_src[i])
+
+    merged_ts = all_actual_ts[accepted]
+    merged_sources = [
+        "both" if len(s) > 1 else next(iter(s))
+        for s in group_sources
+    ]
+    return merged_ts, merged_sources
 
 
 def load_device(processed_csv_path):
     df = pd.read_csv(processed_csv_path)
     t = df["timestamp_ms"].values / 1000.0
     omega = df[["gx", "gy", "gz"]].values * (np.pi / 180.0)
-    cycles, mag_smooth, peaks = detect_cycles(t, omega, fs=CONFIG["FS"])
+    peaks, mag_smooth = detect_cycle_peaks(omega, CONFIG["FS"], CONFIG)
     mag_raw = np.linalg.norm(omega, axis=1) * (180.0 / np.pi)
-    return t, mag_raw, mag_smooth, peaks, cycles
+    return t, mag_raw, mag_smooth, peaks
 
 
-def cycle_stats(t, mag_smooth, peaks, cycles, device_name):
-    periods = np.array([t[e] - t[s] for s, e in cycles], dtype=float)
-    peak_vals = mag_smooth[peaks] if len(peaks) else np.array([], dtype=float)
+def cycle_stats(t, peaks, device_name):
+    if len(peaks) < 2:
+        return {"device": device_name, "num_peaks": int(len(peaks)),
+                "mean_period_s": float("nan"), "std_period_s": float("nan")}
+    periods = np.diff(t[peaks])
     return {
         "device": device_name,
-        "num_cycles": int(len(cycles)),
-        "mean_period_s": float(np.mean(periods)) if len(periods) else np.nan,
-        "std_period_s": float(np.std(periods)) if len(periods) else np.nan,
-        "mean_peak_omega_deg_s": float(np.mean(peak_vals)) if len(peak_vals) else np.nan,
+        "num_peaks": int(len(peaks)),
+        "mean_period_s": float(np.mean(periods)),
+        "std_period_s": float(np.std(periods)),
     }
 
 
@@ -135,16 +154,29 @@ class SyncViewer(QMainWindow):
         video_path,
         d0_data,
         d1_data,
+        merged_ts,
+        merged_sources,
         window_seconds=8.0,
         time_offset_s=0.0,
     ):
         super().__init__()
-        self.session_name = session_name
-        self.video_path = video_path
+        self.session_name   = session_name
+        self.video_path     = video_path
         self.window_seconds = float(window_seconds)
 
-        self.t0, self.raw0, self.smooth0, self.peaks0, self.cycles0 = d0_data
-        self.t1, self.raw1, self.smooth1, self.peaks1, self.cycles1 = d1_data
+        self.t0, self.raw0, self.smooth0, self.peaks0 = d0_data
+        self.t1, self.raw1, self.smooth1, self.peaks1 = d1_data
+        self.merged_ts      = merged_ts
+        self.merged_sources = merged_sources
+
+        # Combined signal: interpolate both onto a shared grid, take pointwise max
+        t_min = min(self.t0[0], self.t1[0])
+        t_max = max(self.t0[-1], self.t1[-1])
+        n_pts = max(len(self.t0), len(self.t1))
+        self.t_combined = np.linspace(t_min, t_max, n_pts)
+        i0 = np.interp(self.t_combined, self.t0, self.smooth0, left=0.0, right=0.0)
+        i1 = np.interp(self.t_combined, self.t1, self.smooth1, left=0.0, right=0.0)
+        self.combined = np.maximum(i0, i1)
 
         self.time_offset_box = QDoubleSpinBox()
         self.time_offset_box.setRange(-60.0, 60.0)
@@ -167,17 +199,21 @@ class SyncViewer(QMainWindow):
         self.timeline_slider = QSlider(Qt.Orientation.Horizontal)
         self.timeline_slider.setRange(0, 0)
 
-        self.play_btn = QPushButton("Play")
+        self.play_btn  = QPushButton("Play")
         self.pause_btn = QPushButton("Pause")
 
-        self.figure = Figure(figsize=(8, 6))
+        n_d0     = len(self.peaks0)
+        n_d1     = len(self.peaks1)
+        n_merged = len(self.merged_ts)
+
+        self.figure = Figure(figsize=(8, 5))
         self.canvas = FigureCanvas(self.figure)
-        self.ax0 = self.figure.add_subplot(211)
-        self.ax1 = self.figure.add_subplot(212, sharex=self.ax0)
-        self.figure.tight_layout(rect=[0, 0, 1, 0.96])
+        self.ax = self.figure.add_subplot(111)
+        self.figure.tight_layout(rect=[0, 0, 1, 0.94])
         self.figure.suptitle(
-            f"{self.session_name} | D0 cycles={len(self.cycles0)}, D1 cycles={len(self.cycles1)}",
-            fontsize=11,
+            f"{self.session_name} | D0: {n_d0} peaks, D1: {n_d1} peaks, "
+            f"Merged: {n_merged} unique",
+            fontsize=10,
         )
 
         self._build_ui()
@@ -194,8 +230,7 @@ class SyncViewer(QMainWindow):
         layout = QVBoxLayout(root)
 
         info = QLabel(
-            f"Session: {self.session_name} | Video: {self.video_path.name}",
-            self,
+            f"Session: {self.session_name} | Video: {self.video_path.name}", self
         )
         info.setStyleSheet("font-weight: 600;")
         layout.addWidget(info)
@@ -217,56 +252,44 @@ class SyncViewer(QMainWindow):
         splitter.setSizes([800, 800])
         layout.addWidget(splitter, stretch=1)
 
-    def _draw_cycles(self, ax, t, cycles, color):
-        boundaries = sorted({idx for s, e in cycles for idx in (s, e)})
-        for b in boundaries:
-            ax.axvline(t[b], color=color, ls="--", lw=0.8, alpha=0.35)
-
-        y_min, y_max = ax.get_ylim()
-        y_span = y_max - y_min if y_max > y_min else 1.0
-        y_text = y_max - 0.08 * y_span
-        for i, (s, e) in enumerate(cycles, start=1):
-            t_mid = 0.5 * (t[s] + t[e])
-            duration = t[e] - t[s]
-            ax.text(
-                t_mid,
-                y_text,
-                f"C{i} ({duration:.2f}s)",
-                fontsize=6,
-                ha="center",
-                va="top",
-                color=color,
-                bbox={"facecolor": "white", "edgecolor": "none", "alpha": 0.55, "pad": 1.2},
-            )
-
     def _draw_static_traces(self):
-        self.ax0.clear()
-        self.ax1.clear()
+        self.ax.clear()
 
-        self.ax0.plot(self.t0, self.raw0, color="#9ecae1", lw=1.0, alpha=0.7, label="D0 raw ||ω||")
-        self.ax0.plot(self.t0, self.smooth0, color="#08519c", lw=1.7, label="D0 smoothed ||ω||")
+        # Single combined curve: pointwise max of D0 and D1 smoothed ||omega||
+        self.ax.plot(self.t_combined, self.combined, color="#2f4858", lw=1.5,
+                     label="max(D0, D1) ||w||")
+
+        # Peak markers on the combined curve
         if len(self.peaks0):
-            self.ax0.scatter(self.t0[self.peaks0], self.smooth0[self.peaks0], s=18, c="red", label="D0 peaks")
-        self.ax0.set_title("D0 (left hand)")
-        self.ax0.set_ylabel("||ω|| (deg/s)")
-        self.ax0.grid(alpha=0.25)
-        self.ax0.legend(loc="upper right", fontsize=8)
-
-        self.ax1.plot(self.t1, self.raw1, color="#fdae6b", lw=1.0, alpha=0.7, label="D1 raw ||ω||")
-        self.ax1.plot(self.t1, self.smooth1, color="#a63603", lw=1.7, label="D1 smoothed ||ω||")
+            y0 = np.interp(self.t0[self.peaks0], self.t_combined, self.combined)
+            self.ax.scatter(self.t0[self.peaks0], y0,
+                            s=18, c="#f28e2b", marker="v", zorder=3, label="D0 peaks")
         if len(self.peaks1):
-            self.ax1.scatter(self.t1[self.peaks1], self.smooth1[self.peaks1], s=18, c="red", label="D1 peaks")
-        self.ax1.set_title("D1 (right hand)")
-        self.ax1.set_ylabel("||ω|| (deg/s)")
-        self.ax1.set_xlabel("Time (s)")
-        self.ax1.grid(alpha=0.25)
-        self.ax1.legend(loc="upper right", fontsize=8)
+            y1 = np.interp(self.t1[self.peaks1], self.t_combined, self.combined)
+            self.ax.scatter(self.t1[self.peaks1], y1,
+                            s=18, c="#4e79a7", marker="v", zorder=3, label="D1 peaks")
 
-        self._draw_cycles(self.ax0, self.t0, self.cycles0, "#08519c")
-        self._draw_cycles(self.ax1, self.t1, self.cycles1, "#a63603")
+        # Merged peaks — vertical dashed lines colored by source
+        C      = {"D0": "#17becf", "D1": "#ff7f0e", "both": "#9467bd"}
+        counts = {k: sum(1 for s in self.merged_sources if s == k) for k in C}
+        labels = {
+            "D0":   f"D0-only ({counts['D0']})",
+            "D1":   f"D1-only ({counts['D1']})",
+            "both": f"Both ({counts['both']})",
+        }
+        seen = set()
+        for ts, src in zip(self.merged_ts, self.merged_sources):
+            lbl = labels[src] if src not in seen else None
+            self.ax.axvline(ts, color=C[src], ls="--", lw=0.9, alpha=0.7, label=lbl)
+            seen.add(src)
 
-        self.cursor0 = self.ax0.axvline(self.t0[0], color="black", lw=1.2)
-        self.cursor1 = self.ax1.axvline(self.t1[0], color="black", lw=1.2)
+        self.ax.set_ylabel("||w|| (deg/s)")
+        self.ax.set_xlabel("Time (s)")
+        self.ax.grid(alpha=0.25)
+        self.ax.legend(loc="upper right", fontsize=7)
+
+        t0_start = float(self.t_combined[0])
+        self.cursor = self.ax.axvline(t0_start, color="black", lw=1.2)
         self.canvas.draw_idle()
 
     def _connect_signals(self):
@@ -280,22 +303,21 @@ class SyncViewer(QMainWindow):
     def _on_duration_changed(self, duration_ms):
         self.timeline_slider.setRange(0, int(duration_ms))
 
-    def _set_axis_window(self, ax, t, t_now, window_s):
-        if len(t) == 0:
+    def _set_axis_window(self, t_now, window_s):
+        if len(self.t_combined) == 0:
             return
-        half = 0.5 * window_s
-        left = max(float(t[0]), t_now - half)
-        right = min(float(t[-1]), t_now + half)
-
+        t_lo, t_hi = float(self.t_combined[0]), float(self.t_combined[-1])
+        half  = 0.5 * window_s
+        left  = max(t_lo, t_now - half)
+        right = min(t_hi, t_now + half)
         if right - left < window_s:
-            if left <= float(t[0]):
-                right = min(float(t[-1]), left + window_s)
-            elif right >= float(t[-1]):
-                left = max(float(t[0]), right - window_s)
+            if left <= t_lo:
+                right = min(t_hi, left + window_s)
+            elif right >= t_hi:
+                left = max(t_lo, right - window_s)
         if right <= left:
             right = left + 0.1
-
-        ax.set_xlim(left, right)
+        self.ax.set_xlim(left, right)
 
     def _on_position_changed(self, position_ms):
         if not self.timeline_slider.isSliderDown():
@@ -303,14 +325,11 @@ class SyncViewer(QMainWindow):
             self.timeline_slider.setValue(int(position_ms))
             self.timeline_slider.blockSignals(False)
 
-        t_now = (position_ms / 1000.0) + float(self.time_offset_box.value())
+        t_now    = (position_ms / 1000.0) + float(self.time_offset_box.value())
         window_s = float(self.window_box.value())
 
-        self.cursor0.set_xdata([t_now, t_now])
-        self.cursor1.set_xdata([t_now, t_now])
-
-        self._set_axis_window(self.ax0, self.t0, t_now, window_s)
-        self._set_axis_window(self.ax1, self.t1, t_now, window_s)
+        self.cursor.set_xdata([t_now, t_now])
+        self._set_axis_window(t_now, window_s)
         self.canvas.draw_idle()
 
     def _on_window_changed(self, _):
@@ -345,8 +364,8 @@ def main():
     )
     args = parser.parse_args()
 
-    script_dir = Path(__file__).resolve().parent
-    repo_root = script_dir.parents[1]
+    script_dir    = Path(__file__).resolve().parent
+    repo_root     = script_dir.parents[1]
     processed_dir = repo_root / "data" / "processed"
 
     d0_path = processed_dir / f"{args.session}_device0_processed.csv"
@@ -359,17 +378,23 @@ def main():
         )
 
     video_path = find_video_path(args.session, args.video, script_dir)
-    d0_data = load_device(d0_path)
-    d1_data = load_device(d1_path)
+    d0_data    = load_device(d0_path)
+    d1_data    = load_device(d1_path)
 
-    stats_df = pd.DataFrame(
-        [
-            cycle_stats(d0_data[0], d0_data[2], d0_data[3], d0_data[4], "D0"),
-            cycle_stats(d1_data[0], d1_data[2], d1_data[3], d1_data[4], "D1"),
-        ]
+    t0, _, _, peaks0 = d0_data
+    t1, _, _, peaks1 = d1_data
+    merged_ts, merged_sources = merge_device_peaks(
+        peaks0, peaks1, t0, t1,
+        fs=CONFIG["FS"], gap_s=CONFIG["MERGE_GAP_S"],
     )
+
+    stats_df = pd.DataFrame([
+        cycle_stats(t0, peaks0, "D0"),
+        cycle_stats(t1, peaks1, "D1"),
+    ])
     print("\nCycle statistics")
     print(stats_df.to_string(index=False, float_format=lambda x: f"{x:.3f}"))
+    print(f"Merged unique peaks: {len(merged_ts)}")
     print(f"\nVideo: {video_path}")
 
     app = QApplication(sys.argv)
@@ -378,6 +403,8 @@ def main():
         video_path=video_path,
         d0_data=d0_data,
         d1_data=d1_data,
+        merged_ts=merged_ts,
+        merged_sources=merged_sources,
         window_seconds=args.window_s,
         time_offset_s=args.time_offset_s,
     )

@@ -15,7 +15,8 @@
       "Read(//c/Users/Admin/Projects/ropeflow-project/**)",
       "Bash(done)",
       "Bash(python -c \":*)",
-      "Bash(more)"
+      "Bash(more)",
+      "Bash(del _patch_notebook.py)"
     ]
   }
 }

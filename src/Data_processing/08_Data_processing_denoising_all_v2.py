@@ -40,7 +40,9 @@ MADGWICK_BETA   = 0.1      # convergence gain (higher = more accelerometer corre
 G_MS2           = 9.80665  # m/s² per g
 STATIC_WINDOW_S = 2.0      # seconds assumed static at start for gyro bias estimation
 CYCLE_BAND             = (0.8, 4.0)   # Hz — bandpass shown in PSD plot only
-PEAK_MIN_DIST          = 0.4      # seconds — min time between peaks (0.4 s × 50 Hz = 20 samples, matches validated diagnostic)
+CYCLE_SAVGOL_WINDOW    = 15       # samples — smoothing window for ||omega||
+CYCLE_SAVGOL_POLYORDER = 3        # Savgol polynomial order
+CYCLE_MIN_PERIOD_S     = 0.4      # seconds — at 50 Hz gives 20-sample spacing, equivalent to 0.2 s at 100 Hz
 CYCLE_PROMINENCE_DEGS  = 50.0     # deg/s — min peak prominence
 CYCLE_MIN_PEAK_DEGS    = 50.0     # deg/s — absolute minimum peak height (post-prominence filter)
 GAP_WARN_MS     = 100.0    # ms  — gaps above this threshold are flagged
@@ -204,13 +206,28 @@ def detect_cycles(gyr_degs, fs):
     Detect rope-flow cycles from ||omega(t)|| — matches cycle_detection_pairing_v2:
     single Savgol pass, prominence + absolute-height filter, no period-ratio culling.
     """
-    mag        = np.linalg.norm(gyr_degs, axis=1)
-    mag_smooth = signal.savgol_filter(mag, window_length=15, polyorder=3)
+    mag = np.linalg.norm(gyr_degs, axis=1)
+    n = len(mag)
+    if n < 7:
+        return np.array([], dtype=int), mag
 
-    peaks, _ = signal.find_peaks(mag_smooth,
-                                 distance=int(PEAK_MIN_DIST * fs),
-                                 prominence=CYCLE_PROMINENCE_DEGS)
-    peaks = peaks[mag_smooth[peaks] >= CYCLE_MIN_PEAK_DEGS]
+    win = int(CYCLE_SAVGOL_WINDOW)
+    if win % 2 == 0:
+        win += 1
+    max_odd = n if n % 2 == 1 else n - 1
+    win = max(5, min(win, max_odd))
+
+    poly = int(CYCLE_SAVGOL_POLYORDER)
+    poly = max(1, min(poly, win - 2))
+
+    mag_smooth = signal.savgol_filter(mag, window_length=win, polyorder=poly, mode='interp')
+
+    peaks, _ = signal.find_peaks(
+        mag_smooth,
+        distance=max(1, int(CYCLE_MIN_PERIOD_S * fs)),
+        prominence=CYCLE_PROMINENCE_DEGS,
+    )
+    peaks = np.array([int(p) for p in peaks if mag_smooth[p] >= CYCLE_MIN_PEAK_DEGS], dtype=int)
 
     return peaks, mag_smooth
 
