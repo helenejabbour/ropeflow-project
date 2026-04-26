@@ -1,0 +1,61 @@
+cluster,rank,cycle_index,dist_to_centroid,session_id,t_mid_s,label,label_json
+0,1,1841,17.37417221069336,20260316_171550_experimental_jo,56.40226186568167,overhand,..\..\data\raw\new-labeled-sessions\20260316_171550_experimental_jo\labels_corrected.json
+0,2,1958,17.791671752929688,20260405_173949_experimental_progression,35.613336970858484,overhand,..\..\data\raw\new-labeled-sessions\20260405_173949_experimental_progression\labels_corrected.json
+0,3,2258,18.003496170043945,20260405_185509_experimental_bass-walk-down,36.5765348277406,OL,..\..\data\raw\new-labeled-sessions\20260405_185509_experimental_bass-walk-down\labels_corrected.json
+0,4,1953,18.205862045288086,20260405_173949_experimental_progression,26.56249096481211,overhand,..\..\data\raw\new-labeled-sessions\20260405_173949_experimental_progression\labels_corrected.json
+0,5,2544,18.400447845458984,20260406_212408_experimental_jo div,240.62959956040226,CCW,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+1,1,2581,18.50701141357422,20260406_212408_experimental_jo div,311.0724087928744,OR3,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+1,2,1395,19.909523010253906,20260315_150630_experimental_jo,78.56272075507863,CW,..\..\data\raw\new-labeled-sessions\20260315_150630_experimental_jo\labels_corrected.json
+1,3,1386,19.965612411499023,20260315_150630_experimental_jo,66.57230553350199,OR3,..\..\data\raw\new-labeled-sessions\20260315_150630_experimental_jo\labels_corrected.json
+1,4,1840,20.394834518432617,20260316_171550_experimental_jo,55.48222523670722,overhand,..\..\data\raw\new-labeled-sessions\20260316_171550_experimental_jo\labels_corrected.json
+1,5,1466,20.411354064941406,20260315_150630_experimental_jo,193.19669004353975,OR3,..\..\data\raw\new-labeled-sessions\20260315_150630_experimental_jo\labels_corrected.json
+2,1,2193,18.369464874267578,20260405_185331_experimental_birth-death,20.693349288495007,UL0,..\..\data\raw\new-labeled-sessions\20260405_185331_experimental_birth-death\labels_corrected.json
+2,2,2509,18.725255966186523,20260406_212408_experimental_jo div,164.66656942814234,CCW,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+2,3,2578,18.851449966430664,20260406_212408_experimental_jo div,305.9722062447113,CCW,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+2,4,2572,19.027904510498047,20260406_212408_experimental_jo div,293.0916924079513,CCW,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+2,5,2523,19.051498413085938,20260406_212408_experimental_jo div,189.82757270914502,CCW,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+3,1,1393,21.044296264648438,20260315_150630_experimental_jo,76.50264863242953,CCW,..\..\data\raw\new-labeled-sessions\20260315_150630_experimental_jo\labels_corrected.json
+3,2,1462,21.047945022583008,20260315_150630_experimental_jo,184.32638196573157,OL2,..\..\data\raw\new-labeled-sessions\20260315_150630_experimental_jo\labels_corrected.json
+3,3,2189,21.82097816467285,20260405_185331_experimental_birth-death,12.822075829031565,CCW,..\..\data\raw\new-labeled-sessions\20260405_185331_experimental_birth-death\labels_corrected.json
+3,4,2276,22.14517593383789,20260405_185509_experimental_bass-walk-down,56.24001753810644,FB,..\..\data\raw\new-labeled-sessions\20260405_185509_experimental_bass-walk-down\labels_corrected.json
+3,5,2501,22.313949584960938,20260406_212408_experimental_jo div,141.02562621623252,USR,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+4,1,2515,18.09781837463379,20260406_212408_experimental_jo div,180.46719895780586,OSL,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+4,2,2582,18.478517532348633,20260406_212408_experimental_jo div,313.95252391606175,OSL,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+4,3,2447,18.478927612304688,20260406_212408_experimental_jo div,7.050280740791511,OSL,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+4,4,2527,18.700910568237305,20260406_212408_experimental_jo div,201.37803308765487,OSL,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+4,5,2049,18.870227813720703,20260405_184729_experimental_pachelbel,14.441978586223074,OSL,..\..\data\raw\new-labeled-sessions\20260405_184729_experimental_pachelbel\labels_corrected.json
+5,1,2459,19.57220458984375,20260406_212408_experimental_jo div,34.39137178909856,OR,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+5,2,2209,20.060516357421875,20260405_185331_experimental_birth-death,46.73756514173556,CW,..\..\data\raw\new-labeled-sessions\20260405_185331_experimental_birth-death\labels_corrected.json
+5,3,1888,20.077953338623047,20260316_171550_experimental_jo,123.05493499440993,overhand,..\..\data\raw\new-labeled-sessions\20260316_171550_experimental_jo\labels_corrected.json
+5,4,1848,20.319026947021484,20260316_171550_experimental_jo,65.9326441461321,overhand,..\..\data\raw\new-labeled-sessions\20260316_171550_experimental_jo\labels_corrected.json
+5,5,2532,20.325788497924805,20260406_212408_experimental_jo div,216.0286179360948,cw,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+6,1,2457,17.411882400512695,20260406_212408_experimental_jo div,31.28124731924644,CCW,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+6,2,2450,17.480077743530273,20260406_212408_experimental_jo div,19.31076984317334,CCW,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+6,3,1404,17.64608383178711,20260315_150630_experimental_jo,88.63306929572047,CCW,..\..\data\raw\new-labeled-sessions\20260315_150630_experimental_jo\labels_corrected.json
+6,4,2466,17.665040969848633,20260406_212408_experimental_jo div,53.05211575807174,CCW,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+6,5,1373,17.735790252685547,20260315_150630_experimental_jo,48.171668405377716,CCW,..\..\data\raw\new-labeled-sessions\20260315_150630_experimental_jo\labels_corrected.json
+7,1,1856,19.745424270629883,20260316_171550_experimental_jo,79.85320230000852,overhand,..\..\data\raw\new-labeled-sessions\20260316_171550_experimental_jo\labels_corrected.json
+7,2,1849,19.762155532836914,20260316_171550_experimental_jo,66.56266906439703,overhand,..\..\data\raw\new-labeled-sessions\20260316_171550_experimental_jo\labels_corrected.json
+7,3,2274,19.802757263183594,20260405_185509_experimental_bass-walk-down,54.92978246063228,UR,..\..\data\raw\new-labeled-sessions\20260405_185509_experimental_bass-walk-down\labels_corrected.json
+7,4,2533,20.302709579467773,20260406_212408_experimental_jo div,216.52863788317399,cw,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+7,5,1407,20.472679138183594,20260315_150630_experimental_jo,92.80321393584441,USR,..\..\data\raw\new-labeled-sessions\20260315_150630_experimental_jo\labels_corrected.json
+8,1,1444,18.239107131958008,20260315_150630_experimental_jo,151.76525551596433,UR0,..\..\data\raw\new-labeled-sessions\20260315_150630_experimental_jo\labels_corrected.json
+8,2,2513,18.423229217529297,20260406_212408_experimental_jo div,177.017061151951,UR0,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+8,3,1403,19.31890106201172,20260315_150630_experimental_jo,87.99304733274235,UR0,..\..\data\raw\new-labeled-sessions\20260315_150630_experimental_jo\labels_corrected.json
+8,4,2067,19.43801498413086,20260405_184729_experimental_pachelbel,46.75641127617608,CW,..\..\data\raw\new-labeled-sessions\20260405_184729_experimental_pachelbel\labels_corrected.json
+8,5,2579,19.561405181884766,20260406_212408_experimental_jo div,309.4223435945438,CW,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+9,1,1986,17.491926193237305,20260405_173949_experimental_progression,89.98841288923356,overhand,..\..\data\raw\new-labeled-sessions\20260405_173949_experimental_progression\labels_corrected.json
+9,2,1865,17.67322540283203,20260316_171550_experimental_jo,92.08369281030883,underhand,..\..\data\raw\new-labeled-sessions\20260316_171550_experimental_jo\labels_corrected.json
+9,3,1973,18.305213928222656,20260405_173949_experimental_progression,63.235912296370046,overhand,..\..\data\raw\new-labeled-sessions\20260405_173949_experimental_progression\labels_corrected.json
+9,4,1970,18.53087615966797,20260405_173949_experimental_progression,57.885410992494855,overhand,..\..\data\raw\new-labeled-sessions\20260405_173949_experimental_progression\labels_corrected.json
+9,5,1960,18.8629150390625,20260405_173949_experimental_progression,40.293764475186364,overhand,..\..\data\raw\new-labeled-sessions\20260405_173949_experimental_progression\labels_corrected.json
+10,1,1834,18.868101119995117,20260316_171550_experimental_jo,42.81171702671281,sneak_underhand,..\..\data\raw\new-labeled-sessions\20260316_171550_experimental_jo\labels_corrected.json
+10,2,2260,18.906187057495117,20260405_185509_experimental_bass-walk-down,39.647080855652746,USL,..\..\data\raw\new-labeled-sessions\20260405_185509_experimental_bass-walk-down\labels_corrected.json
+10,3,2277,18.938756942749023,20260405_185509_experimental_bass-walk-down,58.660469536500415,USL,..\..\data\raw\new-labeled-sessions\20260405_185509_experimental_bass-walk-down\labels_corrected.json
+10,4,2522,19.87581443786621,20260406_212408_experimental_jo div,188.60752358224948,UR0,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+10,5,1894,20.068790435791016,20260316_171550_experimental_jo,133.80536630993169,sneak_underhand,..\..\data\raw\new-labeled-sessions\20260316_171550_experimental_jo\labels_corrected.json
+11,1,1452,21.272483825683594,20260315_150630_experimental_jo,162.18561563139087,CCW,..\..\data\raw\new-labeled-sessions\20260315_150630_experimental_jo\labels_corrected.json
+11,2,2210,21.624374389648438,20260405_185331_experimental_birth-death,48.59786918145388,CW,..\..\data\raw\new-labeled-sessions\20260405_185331_experimental_birth-death\labels_corrected.json
+11,3,1392,21.82903480529785,20260315_150630_experimental_jo,74.00256186810819,OR-OSL,..\..\data\raw\new-labeled-sessions\20260315_150630_experimental_jo\labels_corrected.json
+11,4,1902,21.88930892944336,20260316_171550_experimental_jo,153.96617450463418,overhand,..\..\data\raw\new-labeled-sessions\20260316_171550_experimental_jo\labels_corrected.json
+11,5,1394,21.938678741455078,20260315_150630_experimental_jo,77.21267346476489,CCW,..\..\data\raw\new-labeled-sessions\20260315_150630_experimental_jo\labels_corrected.json

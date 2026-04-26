@@ -1,0 +1,6 @@
+method,silhouette,davies_bouldin,n_clusters,noise_frac,ari_vs_kmeans
+HDBSCAN on PCA-95%var,0.53,1.5207,3,0.0083,-0.0009
+K-Means(k=13) on PCA-95%var,0.0446,3.0323,13,0.0,0.4062
+"Agglomerative(k=13, ward) on PCA-95%var",0.0334,3.5384,13,0.0,0.3335
+"GMM(k=13, full covariance) on PCA-95%var",0.0283,3.5067,13,0.0,0.3492
+K-Means(k=13) shape-norm [EXISTING BASELINE],0.016,4.2376,13,0.0,1.0

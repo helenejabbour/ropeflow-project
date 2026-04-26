@@ -1,0 +1,6 @@
+cluster,clockwise,counter_clockwise,dragon_roll,idle,overhand_left,sneak_overhand,sneak_overhand_left,sneak_underhand_left,sneak_underhand_right,underhand_right
+0,0.0,0.25,0.0,0.0,0.75,0.0,0.0,0.0,0.0,0.0
+1,0.0,0.9,0.0,0.05,0.0,0.0,0.0,0.05,0.0,0.0
+2,0.4,0.15,0.0,0.0,0.2,0.0,0.0,0.05,0.05,0.15
+3,0.1,0.2,0.1,0.0,0.3,0.0,0.05,0.0,0.0,0.25
+4,0.0,0.0,0.0,0.0,0.0,0.1,0.9,0.0,0.0,0.0

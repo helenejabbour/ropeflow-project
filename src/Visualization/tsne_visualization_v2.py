@@ -22,14 +22,13 @@ OUT_PATH = RESULTS_DIR / "tsne_raw_cycles_kmeans.png"
 
 CONFIG = {
   "FS": 50.0,
-  "CYCLE_PROMINENCE_DEGS": 100.0,
-  "CYCLE_SAVGOL_WINDOW": 21,
-  "CYCLE_SAVGOL_POLYORDER": 3,
-  "CYCLE_MIN_PEAK_DEGS": 300.0,
-  "CYCLE_MIN_PERIOD_S": 0.5,
-  "CYCLE_MAX_PERIOD_S": 3.0,
+  "PEAK_PROM_DEGS": 100.0,
+  "PEAK_SAVGOL_WINDOW": 21,
+  "PEAK_SAVGOL_POLY": 3,
+  "PEAK_MIN_DEGS": 50.0,
+  "PEAK_MIN_PERIOD_S": 0.5,
+  "PEAK_PAIR_MAX_DT_S": 0.25,
   "TARGET_LEN": 64,
-  "MIN_CYCLE_SAMPLES": 10,
 }
 
 
@@ -44,90 +43,68 @@ def extract_signals(df):
   return t, acc, omega
 
 
-def detect_cycles(t, omega, fs=50.0):
-  """
-  Same cycle logic as cycle_detection.py / V10:
-  - two-pass Savitzky-Golay on ||omega||
-  - peak thresholds in deg/s
-  - 1 peak = 1 cycle with midpoint boundaries
-  """
-  mag_deg = np.linalg.norm(omega, axis=1) * (180.0 / np.pi)
+def _smooth_mag_deg(omega_rad, cfg):
+  mag_deg = np.linalg.norm(omega_rad, axis=1) * (180.0 / np.pi)
   n = len(mag_deg)
   if n < 7:
-    return [], mag_deg, np.array([], dtype=int)
+    return mag_deg
 
-  win = int(CONFIG.get("CYCLE_SAVGOL_WINDOW", 21))
+  win = int(cfg.get("PEAK_SAVGOL_WINDOW", 21))
   if win % 2 == 0:
     win += 1
   max_odd = n if (n % 2 == 1) else (n - 1)
   win = max(5, min(win, max_odd))
 
-  poly = int(CONFIG.get("CYCLE_SAVGOL_POLYORDER", 3))
+  poly = int(cfg.get("PEAK_SAVGOL_POLY", 3))
   poly = max(1, min(poly, win - 2))
 
-  mag_smooth = savgol_filter(mag_deg, window_length=win, polyorder=poly, mode="interp")
-  mag_smooth = savgol_filter(mag_smooth, window_length=win, polyorder=poly, mode="interp")
+  y = savgol_filter(mag_deg, window_length=win, polyorder=poly, mode="interp")
+  y = savgol_filter(y, window_length=win, polyorder=poly, mode="interp")
+  return y
 
+
+def detect_cycle_peaks(omega_rad, fs, cfg):
+  mag_smooth = _smooth_mag_deg(omega_rad, cfg)
+  if len(mag_smooth) < 7:
+    return np.array([], dtype=int), mag_smooth
   peaks, _ = find_peaks(
     mag_smooth,
-    distance=max(1, int(CONFIG["CYCLE_MIN_PERIOD_S"] * fs)),
-    prominence=CONFIG["CYCLE_PROMINENCE_DEGS"],
-    height=CONFIG["CYCLE_MIN_PEAK_DEGS"],
+    distance=max(1, int(cfg["PEAK_MIN_PERIOD_S"] * fs)),
+    prominence=cfg["PEAK_PROM_DEGS"],
   )
-
-  if len(peaks) == 0:
-    return [], mag_smooth, peaks
-
-  cycles = []
-  for i, p in enumerate(peaks):
-    left = 0 if i == 0 else (peaks[i - 1] + p) // 2
-    right = (len(t) - 1) if i == len(peaks) - 1 else (p + peaks[i + 1]) // 2
-    if right <= left:
-      continue
-    if (right - left) < CONFIG["MIN_CYCLE_SAMPLES"]:
-      continue
-    cycles.append((left, right))
-
-  return cycles, mag_smooth, peaks
+  peaks = np.array([int(p) for p in peaks if mag_smooth[p] >= cfg["PEAK_MIN_DEGS"]], dtype=int)
+  return peaks, mag_smooth
 
 
-def pair_cycles(t0, cyc0, t1, cyc1):
-  paired0, paired1, used = [], [], set()
-  for c0 in cyc0:
-    best_i, best_overlap = -1, -1.0
-    for i, c1 in enumerate(cyc1):
-      if i in used:
+def pair_peaks_same_swing(t0, peaks0, t1, peaks1, max_dt_s):
+  if len(peaks0) == 0 or len(peaks1) == 0:
+    return []
+  used, pairs = set(), []
+  t1_peaks = t1[peaks1]
+  for p0 in peaks0:
+    d = np.abs(t1_peaks - t0[p0])
+    for idx in np.argsort(d):
+      p1 = int(peaks1[idx])
+      if p1 in used:
         continue
-      overlap = max(0.0, min(t0[c0[1]], t1[c1[1]]) - max(t0[c0[0]], t1[c1[0]]))
-      if overlap > best_overlap:
-        best_overlap, best_i = overlap, i
-    if best_i >= 0 and best_overlap > 0:
-      paired0.append(c0)
-      paired1.append(cyc1[best_i])
-      used.add(best_i)
-  return paired0, paired1
+      if d[idx] <= max_dt_s:
+        used.add(p1)
+        pairs.append((int(p0), p1))
+        break
+  return pairs
 
 
-def resample_cycle(signal, target_len):
-  n = len(signal)
-  if n < 2:
-    if signal.ndim == 1:
-      return np.zeros(target_len)
-    return np.zeros((target_len, signal.shape[1]))
-  x_old = np.linspace(0, 1, n)
-  x_new = np.linspace(0, 1, target_len)
-  if signal.ndim == 1:
-    return np.interp(x_new, x_old, signal)
-  return np.column_stack([np.interp(x_new, x_old, signal[:, j]) for j in range(signal.shape[1])])
-
-
-def build_cycle_matrix(A0, A1, om0, om1, s0, e0, s1, e1, target_len=64):
-  state0 = np.column_stack([A0[s0:e0], om0[s0:e0]]) # (N0, 6)
-  state1 = np.column_stack([A1[s1:e1], om1[s1:e1]]) # (N1, 6)
-  r0 = resample_cycle(state0, target_len)
-  r1 = resample_cycle(state1, target_len)
-  # [D0(6ch), D1(6ch)] x 64 => (12, 64)
-  return np.column_stack([r0, r1]).T
+def extract_fixed_window(ch6, center_idx, window=64):
+  half = window // 2
+  start = int(center_idx) - half
+  end = start + window
+  out = np.zeros((6, window), dtype=np.float32)
+  src_lo, src_hi = max(0, start), min(ch6.shape[0], end)
+  if src_hi <= src_lo:
+    return out
+  dst_lo = src_lo - start
+  out[:, dst_lo:dst_lo + (src_hi - src_lo)] = ch6[src_lo:src_hi].T
+  return out
 
 
 def discover_processed_pairs(processed_dir):
@@ -148,15 +125,17 @@ def process_entry(entry):
   t0, A0, om0 = extract_signals(df0)
   t1, A1, om1 = extract_signals(df1)
 
-  cyc0, _, _ = detect_cycles(t0, om0, fs=CONFIG["FS"])
-  cyc1, _, _ = detect_cycles(t1, om1, fs=CONFIG["FS"])
-  p0, p1 = pair_cycles(t0, cyc0, t1, cyc1)
+  peaks0, _ = detect_cycle_peaks(om0, CONFIG["FS"], CONFIG)
+  peaks1, _ = detect_cycle_peaks(om1, CONFIG["FS"], CONFIG)
+  pairs = pair_peaks_same_swing(t0, peaks0, t1, peaks1, CONFIG["PEAK_PAIR_MAX_DT_S"])
 
-  vectors = []
-  sessions = []
-  for (s0, e0), (s1, e1) in zip(p0, p1):
-    cm = build_cycle_matrix(A0, A1, om0, om1, s0, e0, s1, e1, CONFIG["TARGET_LEN"])
-    vectors.append(cm.reshape(-1)) # 12*64 = 768
+  ch0 = np.column_stack([A0, om0 * (180.0 / np.pi)])
+  ch1 = np.column_stack([A1, om1 * (180.0 / np.pi)])
+  vectors, sessions = [], []
+  for p0, p1 in pairs:
+    w0 = extract_fixed_window(ch0, p0, CONFIG["TARGET_LEN"])
+    w1 = extract_fixed_window(ch1, p1, CONFIG["TARGET_LEN"])
+    vectors.append(np.vstack([w0, w1]).reshape(-1))  # (12, 64) -> 768
     sessions.append(session_name)
   return vectors, sessions
 
