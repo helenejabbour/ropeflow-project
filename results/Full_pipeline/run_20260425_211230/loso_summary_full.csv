@@ -1,0 +1,4 @@
+approach,macro_f1
+MiniRocket + RidgeCV,0.8192249600135498
+PCA + GBM,0.8139551213445384
+"RF (769-D, balanced)",0.8108630457592944

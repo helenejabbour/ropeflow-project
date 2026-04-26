@@ -1,0 +1,23 @@
+cluster,rank,cycle_index,p_cluster_given_x,session_id,t_mid_s,label,label_json
+1,1,1917,1.0,20260316_171550_experimental_jo,176.48707798921106,sneak_overhand,..\..\data\raw\new-labeled-sessions\20260316_171550_experimental_jo\labels_corrected.json
+1,2,2006,1.0,20260405_184437_experimental_bass-walk-down,28.994928731960254,sneak_underhand_right,..\..\data\raw\new-labeled-sessions\20260405_184437_experimental_bass-walk-down\labels_corrected.json
+1,3,2111,1.0,20260405_184905_experimental_pachelbel,48.82260283034658,sneak_overhand_left,..\..\data\raw\new-labeled-sessions\20260405_184905_experimental_pachelbel\labels_corrected.json
+1,4,2463,1.0,20260406_212408_experimental_jo div,40.761625629873535,sneak_overhand_left,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+1,5,2476,1.0,20260406_212408_experimental_jo div,83.35332477908203,sneak_overhand_left,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+1,6,2558,1.0,20260406_212408_experimental_jo div,271.2608215754765,clockwise,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+1,7,2559,1.0,20260406_212408_experimental_jo div,274.2009388643021,clockwise,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+1,8,2566,1.0,20260406_212408_experimental_jo div,284.76135934857564,sneak_overhand_left,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+1,9,2580,1.0,20260406_212408_experimental_jo div,310.0123668470833,sneak_overhand_left,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+1,10,1464,0.9999999999999716,20260315_150630_experimental_jo,188.53652858491694,sneak_overhand_left,..\..\data\raw\new-labeled-sessions\20260315_150630_experimental_jo\labels_corrected.json
+4,1,1353,1.0,20260315_150630_experimental_jo,10.530364765845103,idle,..\..\data\raw\new-labeled-sessions\20260315_150630_experimental_jo\labels_corrected.json
+4,2,1357,1.0,20260315_150630_experimental_jo,18.340635446532765,overhand_right,..\..\data\raw\new-labeled-sessions\20260315_150630_experimental_jo\labels_corrected.json
+4,3,1834,1.0,20260316_171550_experimental_jo,42.81171702671281,sneak_underhand,..\..\data\raw\new-labeled-sessions\20260316_171550_experimental_jo\labels_corrected.json
+4,4,1869,1.0,20260316_171550_experimental_jo,99.20397867865088,dragon_roll,..\..\data\raw\new-labeled-sessions\20260316_171550_experimental_jo\labels_corrected.json
+4,5,1990,1.0,20260405_184437_experimental_bass-walk-down,3.2605536456744737,idle,..\..\data\raw\new-labeled-sessions\20260405_184437_experimental_bass-walk-down\labels_corrected.json
+4,6,2088,1.0,20260405_184729_experimental_pachelbel,102.12400584775662,dragon_roll,..\..\data\raw\new-labeled-sessions\20260405_184729_experimental_pachelbel\labels_corrected.json
+4,7,2238,1.0,20260405_185509_experimental_bass-walk-down,5.110906912027782,counter_clockwise,..\..\data\raw\new-labeled-sessions\20260405_185509_experimental_bass-walk-down\labels_corrected.json
+4,8,2277,1.0,20260405_185509_experimental_bass-walk-down,58.660469536500415,sneak_underhand_left,..\..\data\raw\new-labeled-sessions\20260405_185509_experimental_bass-walk-down\labels_corrected.json
+4,9,2522,1.0,20260406_212408_experimental_jo div,188.60752358224948,underhand_right,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+4,10,2007,0.9999999999999432,20260405_184437_experimental_bass-walk-down,30.91525672169081,sneak_underhand_left,..\..\data\raw\new-labeled-sessions\20260405_184437_experimental_bass-walk-down\labels_corrected.json
+5,1,2548,0.9962736015346668,20260406_212408_experimental_jo div,250.84000705076778,clockwise,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+6,1,1412,0.9997841632357984,20260315_150630_experimental_jo,99.6534509790645,counter_clockwise,..\..\data\raw\new-labeled-sessions\20260315_150630_experimental_jo\labels_corrected.json

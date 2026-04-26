@@ -1,0 +1,13 @@
+cluster,rank,cycle_index,p_cluster_given_x,session_id,t_mid_s,label,label_json
+3,1,1370,1.0,20260315_150630_experimental_jo,44.65154622299727,underhand_right,..\..\data\raw\new-labeled-sessions\20260315_150630_experimental_jo\labels_corrected.json
+3,2,1379,1.0,20260315_150630_experimental_jo,58.21201615472384,sneak_underhand_right,..\..\data\raw\new-labeled-sessions\20260315_150630_experimental_jo\labels_corrected.json
+3,3,1409,1.0,20260315_150630_experimental_jo,94.01325519044354,clockwise,..\..\data\raw\new-labeled-sessions\20260315_150630_experimental_jo\labels_corrected.json
+3,4,2017,1.0,20260405_184437_experimental_bass-walk-down,43.78744348654171,underhand_right,..\..\data\raw\new-labeled-sessions\20260405_184437_experimental_bass-walk-down\labels_corrected.json
+3,5,2057,1.0,20260405_184729_experimental_pachelbel,29.90409899555422,sneak_underhand_right,..\..\data\raw\new-labeled-sessions\20260405_184729_experimental_pachelbel\labels_corrected.json
+3,6,2071,1.0,20260405_184729_experimental_pachelbel,53.44732928181021,dragon_roll,..\..\data\raw\new-labeled-sessions\20260405_184729_experimental_pachelbel\labels_corrected.json
+3,7,2255,1.0,20260405_185509_experimental_bass-walk-down,33.465967074480716,underhand_right,..\..\data\raw\new-labeled-sessions\20260405_185509_experimental_bass-walk-down\labels_corrected.json
+3,8,2268,1.0,20260405_185509_experimental_bass-walk-down,47.74851952882762,sneak_underhand_right,..\..\data\raw\new-labeled-sessions\20260405_185509_experimental_bass-walk-down\labels_corrected.json
+3,9,2517,1.0,20260406_212408_experimental_jo div,182.3072725910684,clockwise,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+3,10,1380,0.9999999999999432,20260315_150630_experimental_jo,59.62206383962841,sneak_underhand_left,..\..\data\raw\new-labeled-sessions\20260315_150630_experimental_jo\labels_corrected.json
+6,1,2006,0.9990884627114929,20260405_184437_experimental_bass-walk-down,28.994928731960254,sneak_underhand_right,..\..\data\raw\new-labeled-sessions\20260405_184437_experimental_bass-walk-down\labels_corrected.json
+11,1,1361,0.9735044806814459,20260315_150630_experimental_jo,25.840895343496562,dragon_roll,..\..\data\raw\new-labeled-sessions\20260315_150630_experimental_jo\labels_corrected.json

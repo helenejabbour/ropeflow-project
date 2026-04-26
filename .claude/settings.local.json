@@ -14,7 +14,8 @@
       "Bash(do echo:*)",
       "Read(//c/Users/Admin/Projects/ropeflow-project/**)",
       "Bash(done)",
-      "Bash(python -c \":*)"
+      "Bash(python -c \":*)",
+      "Bash(more)"
     ]
   }
 }

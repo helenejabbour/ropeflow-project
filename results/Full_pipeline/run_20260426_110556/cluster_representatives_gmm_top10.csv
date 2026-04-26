@@ -1,0 +1,23 @@
+cluster,rank,cycle_index,p_cluster_given_x,session_id,t_mid_s,label,label_json
+0,1,1400,0.9999999999999716,20260315_150630_experimental_jo,83.79290160432252,overhand_left,..\..\data\raw\new-labeled-sessions\20260315_150630_experimental_jo\labels_corrected.json
+0,2,1857,0.9999999999999147,20260316_171550_experimental_jo,80.47322711156176,overhand_left,..\..\data\raw\new-labeled-sessions\20260316_171550_experimental_jo\labels_corrected.json
+0,3,2271,0.9999999999968452,20260405_185509_experimental_bass-walk-down,51.14913462152123,counter_clockwise,..\..\data\raw\new-labeled-sessions\20260405_185509_experimental_bass-walk-down\labels_corrected.json
+0,4,1850,0.9999999989297237,20260316_171550_experimental_jo,67.20269494562908,overhand_left,..\..\data\raw\new-labeled-sessions\20260316_171550_experimental_jo\labels_corrected.json
+0,5,2266,0.9999999966490236,20260405_185509_experimental_bass-walk-down,46.35827310298146,overhand_left,..\..\data\raw\new-labeled-sessions\20260405_185509_experimental_bass-walk-down\labels_corrected.json
+0,6,2494,0.9999999965646396,20260406_212408_experimental_jo div,123.60493080397106,overhand_left,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+0,7,2571,0.9999999913902116,20260406_212408_experimental_jo div,290.09157249746494,overhand_left,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+0,8,2019,0.9999999725388594,20260405_184437_experimental_bass-walk-down,46.857966534304474,counter_clockwise,..\..\data\raw\new-labeled-sessions\20260405_184437_experimental_bass-walk-down\labels_corrected.json
+0,9,2569,0.999999906882384,20260406_212408_experimental_jo div,287.4514672908924,overhand_left,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+0,10,2462,0.9999998715548,20260406_212408_experimental_jo div,38.08151894154021,clockwise,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+2,1,1403,1.0,20260315_150630_experimental_jo,87.99304733274235,underhand_right,..\..\data\raw\new-labeled-sessions\20260315_150630_experimental_jo\labels_corrected.json
+2,2,1444,1.0,20260315_150630_experimental_jo,151.76525551596433,underhand_right,..\..\data\raw\new-labeled-sessions\20260315_150630_experimental_jo\labels_corrected.json
+2,3,2123,1.0,20260405_184905_experimental_pachelbel,71.67382147439534,clockwise,..\..\data\raw\new-labeled-sessions\20260405_184905_experimental_pachelbel\labels_corrected.json
+2,4,2198,1.0,20260405_185331_experimental_birth-death,33.14536893301843,underhand_right,..\..\data\raw\new-labeled-sessions\20260405_185331_experimental_birth-death\labels_corrected.json
+2,5,2207,1.0,20260405_185331_experimental_birth-death,43.947117108065456,counter_clockwise,..\..\data\raw\new-labeled-sessions\20260405_185331_experimental_birth-death\labels_corrected.json
+2,6,2213,1.0,20260405_185331_experimental_birth-death,50.87823893493517,underhand_right,..\..\data\raw\new-labeled-sessions\20260405_185331_experimental_birth-death\labels_corrected.json
+2,7,2482,1.0,20260406_212408_experimental_jo div,96.37384431502981,counter_clockwise,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+2,8,2492,1.0,20260406_212408_experimental_jo div,120.46480587833048,counter_clockwise,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+2,9,2503,1.0,20260406_212408_experimental_jo div,147.85589829431473,counter_clockwise,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+2,10,2513,1.0,20260406_212408_experimental_jo div,177.017061151951,underhand_right,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+3,1,2562,0.980412403144969,20260406_212408_experimental_jo div,277.1110539872556,overhand_right,..\..\data\raw\new-labeled-sessions\20260406_212408_experimental_jo div\labels_corrected.json
+3,2,1393,0.8520372879608711,20260315_150630_experimental_jo,76.50264863242953,counter_clockwise,..\..\data\raw\new-labeled-sessions\20260315_150630_experimental_jo\labels_corrected.json
