@@ -1,0 +1,1969 @@
+session_id,t_mid_s,label,label_idx
+20260315_150630_experimental_jo,0.73002476,unknown,12
+20260315_150630_experimental_jo,1.6800576,unknown,12
+20260315_150630_experimental_jo,3.4301188,unknown,12
+20260315_150630_experimental_jo,4.130143,unknown,12
+20260315_150630_experimental_jo,5.560192,unknown,12
+20260315_150630_experimental_jo,6.3002186,unknown,12
+20260315_150630_experimental_jo,7.050244,unknown,12
+20260315_150630_experimental_jo,7.870273,unknown,12
+20260315_150630_experimental_jo,8.6903,unknown,12
+20260315_150630_experimental_jo,10.550365,unknown,12
+20260315_150630_experimental_jo,11.28039,unknown,12
+20260315_150630_experimental_jo,12.960448,unknown,12
+20260315_150630_experimental_jo,13.470467,unknown,12
+20260315_150630_experimental_jo,14.350497,unknown,12
+20260315_150630_experimental_jo,14.950518,overhand_right,4
+20260315_150630_experimental_jo,15.620541,clockwise,9
+20260315_150630_experimental_jo,16.480572,sneak_underhand_left,5
+20260315_150630_experimental_jo,17.130592,overhand_left,3
+20260315_150630_experimental_jo,18.320635,overhand_right,4
+20260315_150630_experimental_jo,21.08073,overhand_right,4
+20260315_150630_experimental_jo,22.79079,dragon_roll,0
+20260315_150630_experimental_jo,23.620817,dragon_roll,0
+20260315_150630_experimental_jo,24.290842,dragon_roll,0
+20260315_150630_experimental_jo,25.170872,dragon_roll,0
+20260315_150630_experimental_jo,25.830894,dragon_roll,0
+20260315_150630_experimental_jo,26.430916,dragon_roll,0
+20260315_150630_experimental_jo,27.530954,counter_clockwise,10
+20260315_150630_experimental_jo,28.881,clockwise,9
+20260315_150630_experimental_jo,29.521023,underhand_right,1
+20260315_150630_experimental_jo,30.251047,counter_clockwise,10
+20260315_150630_experimental_jo,30.961073,underhand_left,2
+20260315_150630_experimental_jo,32.11111,underhand_right,1
+20260315_150630_experimental_jo,32.861137,counter_clockwise,10
+20260315_150630_experimental_jo,33.401157,underhand_left,2
+20260315_150630_experimental_jo,34.441193,dragon_roll,0
+20260315_150630_experimental_jo,35.961246,dragon_roll,0
+20260315_150630_experimental_jo,37.601303,dragon_roll,0
+20260315_150630_experimental_jo,39.411366,overhand_right,4
+20260315_150630_experimental_jo,40.781414,unknown,12
+20260315_150630_experimental_jo,41.461437,overhand_right,4
+20260315_150630_experimental_jo,42.16146,underhand_right,1
+20260315_150630_experimental_jo,42.901485,counter_clockwise,10
+20260315_150630_experimental_jo,43.92152,underhand_right,1
+20260315_150630_experimental_jo,44.651546,underhand_right,1
+20260315_150630_experimental_jo,45.37157,overhand_left,3
+20260315_150630_experimental_jo,46.52161,overhand_right,4
+20260315_150630_experimental_jo,48.19167,counter_clockwise,10
+20260315_150630_experimental_jo,50.011734,underhand_right,1
+20260315_150630_experimental_jo,51.16177,counter_clockwise,10
+20260315_150630_experimental_jo,51.951797,clockwise,9
+20260315_150630_experimental_jo,52.55182,underhand_right,1
+20260315_150630_experimental_jo,53.781864,counter_clockwise,10
+20260315_150630_experimental_jo,54.59189,underhand_left,2
+20260315_150630_experimental_jo,55.321915,sneak_underhand_right,6
+20260315_150630_experimental_jo,56.05194,dragon_roll,0
+20260315_150630_experimental_jo,57.301983,sneak_underhand_left,5
+20260315_150630_experimental_jo,58.202015,sneak_underhand_right,6
+20260315_150630_experimental_jo,58.91204,dragon_roll,0
+20260315_150630_experimental_jo,59.632065,sneak_underhand_left,5
+20260315_150630_experimental_jo,60.30209,counter_clockwise,10
+20260315_150630_experimental_jo,61.722137,overhand_right,4
+20260315_150630_experimental_jo,62.98218,counter_clockwise,10
+20260315_150630_experimental_jo,63.81221,overhand_right,4
+20260315_150630_experimental_jo,64.722244,underhand_right,1
+20260315_150630_experimental_jo,65.44227,overhand_left,3
+20260315_150630_experimental_jo,66.582306,overhand_right,4
+20260315_150630_experimental_jo,68.12236,counter_clockwise,10
+20260315_150630_experimental_jo,69.802414,underhand_right,1
+20260315_150630_experimental_jo,70.49244,counter_clockwise,10
+20260315_150630_experimental_jo,72.1725,underhand_right,1
+20260315_150630_experimental_jo,72.892525,counter_clockwise,10
+20260315_150630_experimental_jo,74.012566,unknown,12
+20260315_150630_experimental_jo,74.68259,clockwise,9
+20260315_150630_experimental_jo,76.51265,counter_clockwise,10
+20260315_150630_experimental_jo,77.202675,counter_clockwise,10
+20260315_150630_experimental_jo,78.59272,clockwise,9
+20260315_150630_experimental_jo,79.95277,underhand_right,1
+20260315_150630_experimental_jo,80.56279,overhand_left,3
+20260315_150630_experimental_jo,81.45282,counter_clockwise,10
+20260315_150630_experimental_jo,82.45286,underhand_right,1
+20260315_150630_experimental_jo,83.102875,underhand_right,1
+20260315_150630_experimental_jo,83.7829,overhand_left,3
+20260315_150630_experimental_jo,84.80294,clockwise,9
+20260315_150630_experimental_jo,86.34299,counter_clockwise,10
+20260315_150630_experimental_jo,88.003044,underhand_right,1
+20260315_150630_experimental_jo,88.65307,counter_clockwise,10
+20260315_150630_experimental_jo,90.35313,underhand_right,1
+20260315_150630_experimental_jo,91.01315,counter_clockwise,10
+20260315_150630_experimental_jo,92.07319,dragon_roll,0
+20260315_150630_experimental_jo,92.79321,sneak_underhand_right,6
+20260315_150630_experimental_jo,93.503235,clockwise,9
+20260315_150630_experimental_jo,94.00326,clockwise,9
+20260315_150630_experimental_jo,94.843285,dragon_roll,0
+20260315_150630_experimental_jo,96.033325,sneak_underhand_left,5
+20260315_150630_experimental_jo,97.483376,counter_clockwise,10
+20260315_150630_experimental_jo,98.98343,underhand_right,1
+20260315_150630_experimental_jo,99.66345,counter_clockwise,10
+20260315_150630_experimental_jo,100.72349,counter_clockwise,10
+20260315_150630_experimental_jo,101.84353,underhand_right,1
+20260315_150630_experimental_jo,102.62355,counter_clockwise,10
+20260315_150630_experimental_jo,103.603584,underhand_right,1
+20260315_150630_experimental_jo,104.25361,underhand_right,1
+20260315_150630_experimental_jo,104.96364,counter_clockwise,10
+20260315_150630_experimental_jo,105.43365,counter_clockwise,10
+20260315_150630_experimental_jo,106.01367,clockwise,9
+20260315_150630_experimental_jo,106.63369,clockwise,9
+20260315_150630_experimental_jo,107.213715,unknown,12
+20260315_150630_experimental_jo,108.01374,unknown,12
+20260315_150630_experimental_jo,108.49376,underhand_right,1
+20260315_150630_experimental_jo,109.16378,underhand_right,1
+20260315_150630_experimental_jo,109.90381,counter_clockwise,10
+20260315_150630_experimental_jo,110.50383,overhand_right,4
+20260315_150630_experimental_jo,111.01385,underhand_right,1
+20260315_150630_experimental_jo,111.523865,underhand_right,1
+20260315_150630_experimental_jo,112.32389,counter_clockwise,10
+20260315_150630_experimental_jo,112.94391,counter_clockwise,10
+20260315_150630_experimental_jo,113.44393,overhand_right,4
+20260315_150630_experimental_jo,115.00398,counter_clockwise,10
+20260315_150630_experimental_jo,117.094055,overhand_left,3
+20260315_150630_experimental_jo,118.27409,overhand_right,4
+20260315_150630_experimental_jo,118.93412,underhand_right,1
+20260315_150630_experimental_jo,119.58414,overhand_left,3
+20260315_150630_experimental_jo,120.41417,overhand_right,4
+20260315_150630_experimental_jo,120.98419,sneak_overhand_left,7
+20260315_150630_experimental_jo,121.55421,sneak_overhand_left,7
+20260315_150630_experimental_jo,122.294235,dragon_roll,0
+20260315_150630_experimental_jo,123.65428,overhand_left,3
+20260315_150630_experimental_jo,124.264305,overhand_left,3
+20260315_150630_experimental_jo,124.86433,counter_clockwise,10
+20260315_150630_experimental_jo,125.38434,overhand_right,4
+20260315_150630_experimental_jo,126.114365,sneak_overhand_left,7
+20260315_150630_experimental_jo,126.88439,dragon_roll,0
+20260315_150630_experimental_jo,127.62442,underhand_right,1
+20260315_150630_experimental_jo,128.78445,overhand_left,3
+20260315_150630_experimental_jo,129.49448,counter_clockwise,10
+20260315_150630_experimental_jo,129.9945,overhand_right,4
+20260315_150630_experimental_jo,130.72453,sneak_overhand_left,7
+20260315_150630_experimental_jo,132.13458,counter_clockwise,10
+20260315_150630_experimental_jo,132.8946,counter_clockwise,10
+20260315_150630_experimental_jo,133.52463,overhand_right,4
+20260315_150630_experimental_jo,134.27464,clockwise,9
+20260315_150630_experimental_jo,135.04468,unknown,12
+20260315_150630_experimental_jo,136.46472,overhand_left,3
+20260315_150630_experimental_jo,137.50476,overhand_right,4
+20260315_150630_experimental_jo,138.28479,sneak_overhand_left,7
+20260315_150630_experimental_jo,139.65483,counter_clockwise,10
+20260315_150630_experimental_jo,140.21486,underhand_right,1
+20260315_150630_experimental_jo,140.93488,underhand_right,1
+20260315_150630_experimental_jo,141.5049,overhand_left,3
+20260315_150630_experimental_jo,142.58493,overhand_right,4
+20260315_150630_experimental_jo,143.28496,sneak_overhand_left,7
+20260315_150630_experimental_jo,145.36504,counter_clockwise,10
+20260315_150630_experimental_jo,146.10506,counter_clockwise,10
+20260315_150630_experimental_jo,147.88512,sneak_underhand_left,5
+20260315_150630_experimental_jo,149.9952,counter_clockwise,10
+20260315_150630_experimental_jo,151.76526,underhand_right,1
+20260315_150630_experimental_jo,152.53528,counter_clockwise,10
+20260315_150630_experimental_jo,153.67532,dragon_roll,0
+20260315_150630_experimental_jo,154.32535,sneak_underhand_right,6
+20260315_150630_experimental_jo,154.99536,dragon_roll,0
+20260315_150630_experimental_jo,156.12541,sneak_underhand_left,5
+20260315_150630_experimental_jo,156.95543,sneak_underhand_right,6
+20260315_150630_experimental_jo,157.65546,dragon_roll,0
+20260315_150630_experimental_jo,158.32549,sneak_underhand_left,5
+20260315_150630_experimental_jo,158.9555,dragon_roll,0
+20260315_150630_experimental_jo,159.63553,sneak_underhand_right,6
+20260315_150630_experimental_jo,160.32555,dragon_roll,0
+20260315_150630_experimental_jo,160.81557,dragon_roll,0
+20260315_150630_experimental_jo,161.52559,sneak_underhand_left,5
+20260315_150630_experimental_jo,162.19562,counter_clockwise,10
+20260315_150630_experimental_jo,162.88564,sneak_underhand_left,5
+20260315_150630_experimental_jo,163.52567,dragon_roll,0
+20260315_150630_experimental_jo,166.31577,dragon_roll,0
+20260315_150630_experimental_jo,168.30583,underhand_right,1
+20260315_150630_experimental_jo,168.85585,underhand_right,1
+20260315_150630_experimental_jo,169.51587,counter_clockwise,10
+20260315_150630_experimental_jo,170.52591,underhand_right,1
+20260315_150630_experimental_jo,171.46594,counter_clockwise,10
+20260315_150630_experimental_jo,172.43597,clockwise,9
+20260315_150630_experimental_jo,173.006,underhand_right,1
+20260315_150630_experimental_jo,173.626,counter_clockwise,10
+20260315_150630_experimental_jo,175.00606,underhand_right,1
+20260315_150630_experimental_jo,175.61607,counter_clockwise,10
+20260315_150630_experimental_jo,177.05614,underhand_right,1
+20260315_150630_experimental_jo,177.63615,counter_clockwise,10
+20260315_150630_experimental_jo,178.68619,sneak_underhand_right,6
+20260315_150630_experimental_jo,179.28621,dragon_roll,0
+20260315_150630_experimental_jo,179.87622,sneak_underhand_left,5
+20260315_150630_experimental_jo,181.06627,sneak_underhand_right,6
+20260315_150630_experimental_jo,181.7363,dragon_roll,0
+20260315_150630_experimental_jo,182.74632,sneak_underhand_left,5
+20260315_150630_experimental_jo,184.32639,overhand_left,3
+20260315_150630_experimental_jo,184.9664,counter_clockwise,10
+20260315_150630_experimental_jo,186.07645,sneak_overhand_left,7
+20260315_150630_experimental_jo,186.63646,dragon_roll,0
+20260315_150630_experimental_jo,187.36649,sneak_overhand_right,8
+20260315_150630_experimental_jo,188.52654,sneak_overhand_left,7
+20260315_150630_experimental_jo,189.08655,dragon_roll,0
+20260315_150630_experimental_jo,189.79657,dragon_roll,0
+20260315_150630_experimental_jo,191.05661,underhand_right,1
+20260315_150630_experimental_jo,192.19666,counter_clockwise,10
+20260315_150630_experimental_jo,193.18669,overhand_right,4
+20260315_150630_experimental_jo,194.70674,counter_clockwise,10
+20260315_150630_experimental_jo,195.75677,clockwise,9
+20260315_150630_experimental_jo,196.94682,unknown,12
+20260315_150630_experimental_jo,197.63684,unknown,12
+20260315_155448_experimental_jo,1.7600635,overhand_left,3
+20260315_155448_experimental_jo,3.0701115,overhand_left,3
+20260315_155448_experimental_jo,4.9301777,overhand_left,3
+20260315_155448_experimental_jo,6.1802225,overhand_left,3
+20260315_155448_experimental_jo,7.360268,overhand_left,3
+20260315_155448_experimental_jo,8.040292,overhand_left,3
+20260315_155448_experimental_jo,8.620312,overhand_left,3
+20260315_155448_experimental_jo,9.680352,overhand_left,3
+20260315_155448_experimental_jo,12.10044,overhand_left,3
+20260315_155448_experimental_jo,13.430485,overhand_left,3
+20260315_155448_experimental_jo,14.6405325,underhand_right,1
+20260315_155448_experimental_jo,16.210588,underhand_right,1
+20260315_155448_experimental_jo,16.910614,underhand_right,1
+20260315_155448_experimental_jo,17.410631,underhand_right,1
+20260315_155448_experimental_jo,18.000652,underhand_right,1
+20260315_155448_experimental_jo,18.840683,underhand_right,1
+20260315_155448_experimental_jo,19.980722,underhand_right,1
+20260315_155448_experimental_jo,20.70075,underhand_right,1
+20260315_155448_experimental_jo,21.26077,underhand_right,1
+20260315_155448_experimental_jo,21.840792,underhand_right,1
+20260315_155448_experimental_jo,22.930832,underhand_right,1
+20260315_155448_experimental_jo,23.600855,underhand_right,1
+20260315_155448_experimental_jo,24.730896,underhand_right,1
+20260315_155448_experimental_jo,26.020943,underhand_right,1
+20260315_155448_experimental_jo,26.730967,underhand_right,1
+20260315_155448_experimental_jo,28.011017,underhand_right,1
+20260315_155448_experimental_jo,28.691038,underhand_right,1
+20260315_155448_experimental_jo,29.30106,underhand_right,1
+20260315_155448_experimental_jo,30.001085,underhand_right,1
+20260315_155448_experimental_jo,30.751116,underhand_right,1
+20260315_155448_experimental_jo,32.421177,underhand_right,1
+20260315_155448_experimental_jo,33.0612,underhand_right,1
+20260315_155448_experimental_jo,34.78126,overhand_left,3
+20260315_155448_experimental_jo,35.301277,overhand_left,3
+20260315_155448_experimental_jo,36.13131,overhand_left,3
+20260315_155448_experimental_jo,37.561363,dragon_roll,0
+20260315_155448_experimental_jo,38.271385,dragon_roll,0
+20260315_155448_experimental_jo,39.061417,dragon_roll,0
+20260315_155448_experimental_jo,40.61147,dragon_roll,0
+20260315_155448_experimental_jo,42.551544,overhand_left,3
+20260315_155448_experimental_jo,43.141563,overhand_left,3
+20260315_155448_experimental_jo,43.91159,overhand_left,3
+20260315_155448_experimental_jo,44.99163,overhand_left,3
+20260315_155448_experimental_jo,45.711655,overhand_left,3
+20260315_155448_experimental_jo,47.031704,overhand_left,3
+20260315_155448_experimental_jo,47.631725,overhand_left,3
+20260315_155448_experimental_jo,48.26175,overhand_left,3
+20260315_155448_experimental_jo,48.88177,overhand_left,3
+20260315_155448_experimental_jo,49.501793,overhand_left,3
+20260315_155448_experimental_jo,50.861843,overhand_left,3
+20260315_155448_experimental_jo,51.531868,overhand_left,3
+20260315_155448_experimental_jo,52.201893,overhand_left,3
+20260315_155448_experimental_jo,52.791912,overhand_left,3
+20260315_155448_experimental_jo,54.11196,overhand_left,3
+20260315_155448_experimental_jo,54.791985,overhand_left,3
+20260315_155448_experimental_jo,56.55205,overhand_left,3
+20260315_155448_experimental_jo,57.262077,overhand_left,3
+20260315_155448_experimental_jo,57.852093,overhand_left,3
+20260315_155448_experimental_jo,58.452114,overhand_left,3
+20260315_155448_experimental_jo,59.63216,overhand_left,3
+20260315_155448_experimental_jo,61.03221,underhand_right,1
+20260315_155448_experimental_jo,62.57227,underhand_right,1
+20260315_155448_experimental_jo,63.172287,overhand_left,3
+20260315_155448_experimental_jo,64.202324,overhand_left,3
+20260315_155448_experimental_jo,65.94239,underhand_right,1
+20260315_155448_experimental_jo,66.62241,underhand_right,1
+20260315_155448_experimental_jo,67.21243,underhand_right,1
+20260315_155448_experimental_jo,67.91246,underhand_right,1
+20260315_155448_experimental_jo,68.50248,underhand_right,1
+20260315_155448_experimental_jo,69.46252,underhand_right,1
+20260315_155448_experimental_jo,69.98254,overhand_left,3
+20260315_155448_experimental_jo,70.56255,overhand_left,3
+20260315_155448_experimental_jo,71.30258,overhand_left,3
+20260315_155448_experimental_jo,72.19262,overhand_left,3
+20260315_155448_experimental_jo,72.622635,overhand_left,3
+20260315_155448_experimental_jo,73.31265,overhand_left,3
+20260315_155448_experimental_jo,73.91268,overhand_left,3
+20260315_155448_experimental_jo,74.632706,overhand_left,3
+20260315_155448_experimental_jo,75.54274,underhand_right,1
+20260315_155448_experimental_jo,76.25276,underhand_right,1
+20260315_155448_experimental_jo,76.98279,underhand_right,1
+20260315_155448_experimental_jo,77.60281,underhand_right,1
+20260315_155448_experimental_jo,78.66285,underhand_right,1
+20260315_155448_experimental_jo,79.802895,underhand_right,1
+20260315_155448_experimental_jo,80.45291,underhand_right,1
+20260315_155448_experimental_jo,81.40295,underhand_right,1
+20260315_155448_experimental_jo,81.93297,underhand_right,1
+20260315_155448_experimental_jo,82.442986,overhand_left,3
+20260315_155448_experimental_jo,83.28302,overhand_left,3
+20260315_155448_experimental_jo,84.233055,overhand_left,3
+20260315_155448_experimental_jo,84.95308,overhand_left,3
+20260315_155448_experimental_jo,86.19312,overhand_left,3
+20260315_155448_experimental_jo,86.70314,overhand_left,3
+20260315_155448_experimental_jo,87.30316,overhand_left,3
+20260315_155448_experimental_jo,87.953186,overhand_left,3
+20260315_155448_experimental_jo,89.64325,overhand_left,3
+20260315_155448_experimental_jo,90.81329,overhand_left,3
+20260315_155448_experimental_jo,91.593315,overhand_left,3
+20260315_155448_experimental_jo,93.30338,overhand_left,3
+20260315_155448_experimental_jo,94.19341,overhand_left,3
+20260315_155448_experimental_jo,95.77347,underhand_right,1
+20260315_155448_experimental_jo,96.403496,underhand_right,1
+20260315_155448_experimental_jo,98.00355,underhand_right,1
+20260315_155448_experimental_jo,98.62357,underhand_right,1
+20260315_155448_experimental_jo,100.823654,overhand_left,3
+20260315_155448_experimental_jo,102.91373,overhand_left,3
+20260315_155448_experimental_jo,103.99377,overhand_left,3
+20260315_155448_experimental_jo,104.67379,overhand_left,3
+20260315_155448_experimental_jo,105.883835,overhand_left,3
+20260315_155448_experimental_jo,106.52386,overhand_left,3
+20260315_155448_experimental_jo,107.5739,overhand_left,3
+20260315_155448_experimental_jo,108.233925,overhand_left,3
+20260315_155448_experimental_jo,108.713936,overhand_left,3
+20260315_155448_experimental_jo,109.35396,overhand_left,3
+20260315_155448_experimental_jo,111.66405,overhand_left,3
+20260315_155448_experimental_jo,112.12406,overhand_left,3
+20260315_155448_experimental_jo,112.82409,overhand_left,3
+20260315_155448_experimental_jo,113.46411,overhand_left,3
+20260315_155448_experimental_jo,114.58415,overhand_left,3
+20260315_155448_experimental_jo,115.454185,underhand_right,1
+20260315_155448_experimental_jo,117.01424,underhand_right,1
+20260315_155448_experimental_jo,117.60426,underhand_right,1
+20260315_155448_experimental_jo,119.54433,underhand_right,1
+20260315_155448_experimental_jo,120.01435,underhand_right,1
+20260315_155448_experimental_jo,120.614365,underhand_right,1
+20260315_155448_experimental_jo,121.84441,underhand_right,1
+20260315_155448_experimental_jo,122.49444,underhand_right,1
+20260315_155448_experimental_jo,122.92445,underhand_right,1
+20260315_155448_experimental_jo,123.42447,underhand_right,1
+20260315_155448_experimental_jo,124.2945,underhand_right,1
+20260315_155448_experimental_jo,124.99453,overhand_left,3
+20260315_155448_experimental_jo,125.534546,overhand_left,3
+20260315_155448_experimental_jo,126.054565,overhand_left,3
+20260315_155448_experimental_jo,126.86459,overhand_left,3
+20260315_155448_experimental_jo,127.31461,overhand_left,3
+20260315_155448_experimental_jo,127.804634,overhand_left,3
+20260315_155448_experimental_jo,128.59467,overhand_left,3
+20260315_155448_experimental_jo,129.6147,overhand_left,3
+20260315_155448_experimental_jo,130.79474,overhand_left,3
+20260315_155448_experimental_jo,131.46477,overhand_left,3
+20260315_155448_experimental_jo,132.60481,overhand_left,3
+20260315_155448_experimental_jo,133.42484,overhand_left,3
+20260315_155448_experimental_jo,133.86485,underhand_right,1
+20260315_155448_experimental_jo,134.58487,overhand_left,3
+20260315_155448_experimental_jo,135.1149,overhand_left,3
+20260315_155448_experimental_jo,135.79492,overhand_left,3
+20260315_155448_experimental_jo,136.80496,overhand_left,3
+20260315_155448_experimental_jo,137.46498,overhand_left,3
+20260315_155448_experimental_jo,137.935,overhand_left,3
+20260315_155448_experimental_jo,138.66502,overhand_left,3
+20260315_155448_experimental_jo,139.56505,overhand_left,3
+20260315_155448_experimental_jo,140.29509,overhand_left,3
+20260315_155448_experimental_jo,140.9951,overhand_left,3
+20260315_155448_experimental_jo,141.49513,overhand_left,3
+20260315_155448_experimental_jo,142.49516,overhand_left,3
+20260315_155448_experimental_jo,143.21518,overhand_left,3
+20260315_155448_experimental_jo,143.96521,overhand_left,3
+20260315_155448_experimental_jo,144.62524,overhand_left,3
+20260315_155448_experimental_jo,145.14526,overhand_left,3
+20260315_155448_experimental_jo,145.73528,overhand_left,3
+20260315_155448_experimental_jo,146.63531,underhand_right,1
+20260315_155448_experimental_jo,148.13536,underhand_right,1
+20260315_155448_experimental_jo,148.8954,underhand_right,1
+20260315_155448_experimental_jo,150.40546,underhand_right,1
+20260315_155448_experimental_jo,151.05547,underhand_right,1
+20260315_155448_experimental_jo,151.97551,overhand_left,3
+20260315_155448_experimental_jo,152.58553,overhand_left,3
+20260315_155448_experimental_jo,153.18555,overhand_left,3
+20260315_155448_experimental_jo,153.90558,underhand_right,1
+20260315_155448_experimental_jo,154.4756,overhand_left,3
+20260315_155448_experimental_jo,155.13562,overhand_left,3
+20260315_155448_experimental_jo,155.64565,underhand_right,1
+20260315_155448_experimental_jo,156.30566,underhand_right,1
+20260315_155448_experimental_jo,157.03569,overhand_left,3
+20260315_155448_experimental_jo,157.54572,overhand_left,3
+20260315_155448_experimental_jo,158.67575,overhand_left,3
+20260315_155448_experimental_jo,159.42578,overhand_left,3
+20260315_155448_experimental_jo,160.0158,underhand_right,1
+20260315_155448_experimental_jo,160.99583,overhand_left,3
+20260315_155448_experimental_jo,161.57585,overhand_left,3
+20260315_155448_experimental_jo,162.21588,overhand_left,3
+20260315_155448_experimental_jo,163.31592,overhand_left,3
+20260315_155448_experimental_jo,164.14595,underhand_right,1
+20260315_155448_experimental_jo,165.766,underhand_right,1
+20260315_155448_experimental_jo,166.39603,underhand_right,1
+20260315_155448_experimental_jo,168.06609,underhand_right,1
+20260315_155448_experimental_jo,168.74611,underhand_right,1
+20260315_155448_experimental_jo,170.00616,underhand_right,1
+20260315_155448_experimental_jo,171.2662,dragon_roll,0
+20260315_155448_experimental_jo,172.52625,overhand_left,3
+20260315_155448_experimental_jo,174.20631,underhand_right,1
+20260315_155448_experimental_jo,175.09634,dragon_roll,0
+20260315_155448_experimental_jo,176.01637,overhand_left,3
+20260315_155448_experimental_jo,176.8464,overhand_left,3
+20260315_155448_experimental_jo,177.93645,overhand_left,3
+20260315_155448_experimental_jo,178.77647,overhand_left,3
+20260315_182722_experimental_jo,0.64006525,overhand_left,3
+20260315_182722_experimental_jo,3.800389,overhand_left,3
+20260315_182722_experimental_jo,4.8805,overhand_left,3
+20260315_182722_experimental_jo,6.720688,overhand_left,3
+20260315_182722_experimental_jo,7.9708166,overhand_left,3
+20260315_182722_experimental_jo,8.560877,overhand_left,3
+20260315_182722_experimental_jo,9.100933,overhand_left,3
+20260315_182722_experimental_jo,9.991023,overhand_left,3
+20260315_182722_experimental_jo,10.701097,overhand_left,3
+20260315_182722_experimental_jo,11.831212,overhand_left,3
+20260315_182722_experimental_jo,13.251358,overhand_left,3
+20260315_182722_experimental_jo,14.321467,overhand_left,3
+20260315_182722_experimental_jo,15.121549,overhand_left,3
+20260315_182722_experimental_jo,15.801619,overhand_left,3
+20260315_182722_experimental_jo,17.141756,underhand_right,1
+20260315_182722_experimental_jo,17.891832,underhand_right,1
+20260315_182722_experimental_jo,20.902142,underhand_right,1
+20260315_182722_experimental_jo,21.692223,underhand_right,1
+20260315_182722_experimental_jo,22.292284,underhand_right,1
+20260315_182722_experimental_jo,23.442402,underhand_right,1
+20260315_182722_experimental_jo,24.232483,underhand_right,1
+20260315_182722_experimental_jo,24.812542,underhand_right,1
+20260315_182722_experimental_jo,26.042667,underhand_right,1
+20260315_182722_experimental_jo,28.732943,dragon_roll,0
+20260315_182722_experimental_jo,30.383112,dragon_roll,0
+20260315_182722_experimental_jo,32.1933,dragon_roll,0
+20260315_182722_experimental_jo,33.09339,overhand_left,3
+20260315_182722_experimental_jo,34.27351,dragon_roll,0
+20260315_182722_experimental_jo,35.83367,overhand_left,3
+20260315_182722_experimental_jo,36.883778,overhand_left,3
+20260315_182722_experimental_jo,37.35383,overhand_left,3
+20260315_182722_experimental_jo,38.353928,overhand_left,3
+20260315_182722_experimental_jo,39.604057,overhand_left,3
+20260315_182722_experimental_jo,40.39414,overhand_left,3
+20260315_182722_experimental_jo,41.69427,overhand_left,3
+20260315_182722_experimental_jo,43.094414,overhand_left,3
+20260315_182722_experimental_jo,44.244534,overhand_left,3
+20260315_182722_experimental_jo,44.954605,overhand_left,3
+20260315_182722_experimental_jo,46.26474,overhand_left,3
+20260315_182722_experimental_jo,46.994816,overhand_left,3
+20260315_182722_experimental_jo,48.334953,overhand_left,3
+20260315_182722_experimental_jo,49.7851,overhand_left,3
+20260315_182722_experimental_jo,51.25525,overhand_left,3
+20260315_182722_experimental_jo,52.33536,overhand_left,3
+20260315_182722_experimental_jo,52.885418,underhand_right,1
+20260315_182722_experimental_jo,53.535484,underhand_right,1
+20260315_182722_experimental_jo,54.15555,underhand_right,1
+20260315_182722_experimental_jo,55.265663,overhand_left,3
+20260315_182722_experimental_jo,56.285767,overhand_left,3
+20260315_182722_experimental_jo,57.32587,underhand_right,1
+20260315_182722_experimental_jo,58.646008,underhand_right,1
+20260315_182722_experimental_jo,59.35608,underhand_right,1
+20260315_182722_experimental_jo,61.11626,underhand_right,1
+20260315_182722_experimental_jo,62.20637,underhand_right,1
+20260315_182722_experimental_jo,62.97645,underhand_right,1
+20260315_182722_experimental_jo,63.54651,underhand_right,1
+20260315_182722_experimental_jo,64.28658,underhand_right,1
+20260315_182722_experimental_jo,65.3567,underhand_right,1
+20260315_182722_experimental_jo,65.96676,overhand_left,3
+20260315_182722_experimental_jo,67.18688,overhand_left,3
+20260315_182722_experimental_jo,67.926956,overhand_left,3
+20260315_182722_experimental_jo,68.91706,overhand_left,3
+20260315_182722_experimental_jo,69.58713,overhand_left,3
+20260315_182722_experimental_jo,70.38721,overhand_left,3
+20260315_182722_experimental_jo,70.907265,overhand_left,3
+20260315_182722_experimental_jo,71.49732,overhand_left,3
+20260315_182722_experimental_jo,72.2674,underhand_right,1
+20260315_182722_experimental_jo,73.02748,overhand_left,3
+20260315_182722_experimental_jo,74.1876,dragon_roll,0
+20260315_182722_experimental_jo,74.87767,overhand_left,3
+20260315_182722_experimental_jo,75.51774,overhand_left,3
+20260315_182722_experimental_jo,76.68786,overhand_left,3
+20260315_182722_experimental_jo,77.46793,overhand_left,3
+20260315_182722_experimental_jo,78.79807,overhand_left,3
+20260315_182722_experimental_jo,80.68826,overhand_left,3
+20260315_182722_experimental_jo,81.35834,overhand_left,3
+20260315_182722_experimental_jo,81.9984,overhand_left,3
+20260315_182722_experimental_jo,82.58846,overhand_left,3
+20260315_182722_experimental_jo,83.34853,overhand_left,3
+20260315_182722_experimental_jo,83.85859,overhand_left,3
+20260315_182722_experimental_jo,85.04871,overhand_left,3
+20260315_182722_experimental_jo,86.61887,underhand_right,1
+20260315_182722_experimental_jo,87.839,underhand_right,1
+20260315_182722_experimental_jo,89.55917,underhand_right,1
+20260315_182722_experimental_jo,90.62928,dragon_roll,0
+20260315_182722_experimental_jo,91.28935,underhand_right,1
+20260315_182722_experimental_jo,92.16944,dragon_roll,0
+20260315_182722_experimental_jo,92.7295,dragon_roll,0
+20260315_182722_experimental_jo,93.359566,dragon_roll,0
+20260315_182722_experimental_jo,94.17965,underhand_right,1
+20260315_182722_experimental_jo,95.329765,underhand_right,1
+20260315_182722_experimental_jo,95.899826,underhand_right,1
+20260315_182722_experimental_jo,96.5899,underhand_right,1
+20260315_182722_experimental_jo,97.63,overhand_left,3
+20260315_182722_experimental_jo,98.11005,overhand_left,3
+20260315_182722_experimental_jo,99.41019,overhand_left,3
+20260315_182722_experimental_jo,100.13026,overhand_left,3
+20260315_182722_experimental_jo,101.00034,overhand_left,3
+20260315_182722_experimental_jo,101.62041,overhand_left,3
+20260315_182722_experimental_jo,102.77053,overhand_left,3
+20260315_182722_experimental_jo,104.030655,overhand_left,3
+20260315_182722_experimental_jo,105.14077,overhand_left,3
+20260315_182722_experimental_jo,105.69083,overhand_left,3
+20260315_182722_experimental_jo,106.4309,overhand_left,3
+20260315_182722_experimental_jo,107.59102,overhand_left,3
+20260315_182722_experimental_jo,108.3711,overhand_left,3
+20260315_182722_experimental_jo,109.54122,overhand_left,3
+20260315_182722_experimental_jo,110.2513,overhand_left,3
+20260315_182722_experimental_jo,111.51142,overhand_left,3
+20260315_182722_experimental_jo,112.68154,overhand_left,3
+20260315_182722_experimental_jo,113.76165,overhand_left,3
+20260315_182722_experimental_jo,114.50173,overhand_left,3
+20260315_182722_experimental_jo,115.11179,overhand_left,3
+20260315_182722_experimental_jo,115.85187,overhand_left,3
+20260315_182722_experimental_jo,116.43192,overhand_left,3
+20260315_182722_experimental_jo,116.98198,overhand_left,3
+20260315_182722_experimental_jo,118.00209,overhand_left,3
+20260315_182722_experimental_jo,118.84217,overhand_left,3
+20260315_182722_experimental_jo,119.73226,overhand_left,3
+20260315_182722_experimental_jo,120.67236,overhand_left,3
+20260315_182722_experimental_jo,121.50245,underhand_right,1
+20260315_182722_experimental_jo,122.0225,underhand_right,1
+20260315_182722_experimental_jo,122.652565,underhand_right,1
+20260315_182722_experimental_jo,123.23262,underhand_right,1
+20260315_182722_experimental_jo,123.902695,underhand_right,1
+20260315_182722_experimental_jo,125.03281,underhand_right,1
+20260315_182722_experimental_jo,125.72288,underhand_right,1
+20260315_182722_experimental_jo,126.282936,underhand_right,1
+20260315_182722_experimental_jo,127.003006,underhand_right,1
+20260315_182722_experimental_jo,127.9231,underhand_right,1
+20260315_182722_experimental_jo,128.9732,underhand_right,1
+20260315_182722_experimental_jo,130.58337,underhand_right,1
+20260316_170025_experimental_oli,1.3706387,overhand_left,3
+20260316_170025_experimental_oli,2.251049,overhand_left,3
+20260316_170025_experimental_oli,2.8313193,overhand_left,3
+20260316_170025_experimental_oli,3.5316458,overhand_left,3
+20260316_170025_experimental_oli,4.9523077,overhand_left,3
+20260316_170025_experimental_oli,5.532578,overhand_left,3
+20260316_170025_experimental_oli,6.2329044,overhand_left,3
+20260316_170025_experimental_oli,6.9432354,overhand_left,3
+20260316_170025_experimental_oli,7.6235523,overhand_left,3
+20260316_170025_experimental_oli,8.744075,underhand_right,1
+20260316_170025_experimental_oli,9.684513,underhand_right,1
+20260316_170025_experimental_oli,10.154732,underhand_right,1
+20260316_170025_experimental_oli,11.585399,underhand_right,1
+20260316_170025_experimental_oli,12.936028,underhand_right,1
+20260316_170025_experimental_oli,13.746406,underhand_right,1
+20260316_170025_experimental_oli,14.78689,underhand_right,1
+20260316_170025_experimental_oli,15.767347,underhand_right,1
+20260316_170025_experimental_oli,17.758276,underhand_right,1
+20260316_170025_experimental_oli,18.368559,overhand_left,3
+20260316_170025_experimental_oli,19.128914,overhand_left,3
+20260316_170025_experimental_oli,19.709185,overhand_left,3
+20260316_170025_experimental_oli,20.309464,overhand_left,3
+20260316_170025_experimental_oli,21.0298,overhand_left,3
+20260316_170025_experimental_oli,21.61007,overhand_left,3
+20260316_170025_experimental_oli,22.480476,overhand_left,3
+20260316_170025_experimental_oli,23.320868,overhand_left,3
+20260316_170025_experimental_oli,23.781082,overhand_left,3
+20260316_170025_experimental_oli,24.601463,overhand_left,3
+20260316_170025_experimental_oli,25.351814,overhand_left,3
+20260316_170025_experimental_oli,26.402304,overhand_left,3
+20260316_170025_experimental_oli,27.6829,overhand_left,3
+20260316_170025_experimental_oli,28.273174,overhand_left,3
+20260316_170025_experimental_oli,30.284111,overhand_left,3
+20260316_170025_experimental_oli,31.20454,overhand_left,3
+20260316_170025_experimental_oli,31.884857,overhand_left,3
+20260316_170025_experimental_oli,32.495144,overhand_left,3
+20260316_170025_experimental_oli,33.58565,underhand_right,1
+20260316_170025_experimental_oli,34.095886,underhand_right,1
+20260316_170025_experimental_oli,34.866245,underhand_right,1
+20260316_170025_experimental_oli,35.506546,underhand_right,1
+20260316_170025_experimental_oli,36.687096,overhand_left,3
+20260316_170025_experimental_oli,37.607525,dragon_roll,0
+20260316_170025_experimental_oli,39.128235,overhand_left,3
+20260316_170025_experimental_oli,40.27877,overhand_left,3
+20260316_170310_experimental_oli,0.5300359,overhand_left,3
+20260316_170310_experimental_oli,1.3600922,underhand_right,1
+20260316_170310_experimental_oli,2.7101836,underhand_right,1
+20260316_170310_experimental_oli,3.7502542,underhand_right,1
+20260316_170310_experimental_oli,5.6403823,underhand_right,1
+20260316_170310_experimental_oli,6.600447,underhand_right,1
+20260316_170310_experimental_oli,7.2804933,underhand_right,1
+20260316_170310_experimental_oli,8.470574,underhand_right,1
+20260316_170310_experimental_oli,9.450641,underhand_right,1
+20260316_170310_experimental_oli,10.150688,overhand_left,3
+20260316_170310_experimental_oli,12.340837,overhand_left,3
+20260316_170310_experimental_oli,12.910875,overhand_left,3
+20260316_170310_experimental_oli,14.580988,overhand_left,3
+20260316_170310_experimental_oli,15.151027,overhand_left,3
+20260316_170310_experimental_oli,16.421112,overhand_left,3
+20260316_170310_experimental_oli,17.531189,overhand_left,3
+20260316_170310_experimental_oli,18.101227,overhand_left,3
+20260316_170310_experimental_oli,18.841276,overhand_left,3
+20260316_170310_experimental_oli,20.141365,overhand_left,3
+20260316_170310_experimental_oli,22.661535,underhand_right,1
+20260316_170310_experimental_oli,23.221573,overhand_left,3
+20260316_170310_experimental_oli,23.911621,overhand_left,3
+20260316_170310_experimental_oli,25.23171,overhand_left,3
+20260316_170310_experimental_oli,25.771746,overhand_left,3
+20260316_170310_experimental_oli,26.771814,overhand_left,3
+20260316_170310_experimental_oli,27.351854,overhand_left,3
+20260316_170310_experimental_oli,28.62194,overhand_left,3
+20260316_170310_experimental_oli,29.602007,overhand_left,3
+20260316_170310_experimental_oli,30.742083,overhand_left,3
+20260316_170310_experimental_oli,31.672146,overhand_left,3
+20260316_170310_experimental_oli,32.852226,overhand_left,3
+20260316_170310_experimental_oli,33.882298,overhand_left,3
+20260316_170310_experimental_oli,34.79236,underhand_right,1
+20260316_170310_experimental_oli,35.4024,underhand_right,1
+20260316_170310_experimental_oli,36.15245,underhand_right,1
+20260316_170310_experimental_oli,36.672485,underhand_right,1
+20260316_170310_experimental_oli,37.30253,underhand_right,1
+20260316_170310_experimental_oli,37.862564,underhand_right,1
+20260316_170310_experimental_oli,39.08265,overhand_left,3
+20260316_170310_experimental_oli,40.75276,underhand_right,1
+20260316_170310_experimental_oli,41.422806,underhand_right,1
+20260316_170310_experimental_oli,42.292866,underhand_right,1
+20260316_170310_experimental_oli,44.253,underhand_right,1
+20260316_170310_experimental_oli,45.083054,overhand_left,3
+20260316_170310_experimental_oli,46.77317,overhand_left,3
+20260316_170310_experimental_oli,48.223267,overhand_left,3
+20260316_170310_experimental_oli,48.773304,overhand_left,3
+20260316_170310_experimental_oli,49.783375,overhand_left,3
+20260316_170310_experimental_oli,51.103462,underhand_right,1
+20260316_170310_experimental_oli,51.563496,overhand_left,3
+20260316_170310_experimental_oli,52.053528,overhand_left,3
+20260316_170310_experimental_oli,53.193604,overhand_left,3
+20260316_170310_experimental_oli,53.70364,overhand_left,3
+20260316_170310_experimental_oli,54.17367,overhand_left,3
+20260316_170310_experimental_oli,55.253746,overhand_left,3
+20260316_170310_experimental_oli,57.033867,underhand_right,1
+20260316_170310_experimental_oli,57.83392,underhand_right,1
+20260316_171050_experimental_oli,0.29003882,overhand_left,3
+20260316_171050_experimental_oli,0.7701031,overhand_left,3
+20260316_171050_experimental_oli,1.4801981,overhand_left,3
+20260316_171050_experimental_oli,2.480332,overhand_left,3
+20260316_171050_experimental_oli,3.250435,dragon_roll,0
+20260316_171050_experimental_oli,4.080546,dragon_roll,0
+20260316_171050_experimental_oli,4.8706517,dragon_roll,0
+20260316_171050_experimental_oli,5.580747,dragon_roll,0
+20260316_171050_experimental_oli,7.040942,dragon_roll,0
+20260316_171050_experimental_oli,7.4609985,dragon_roll,0
+20260316_171050_experimental_oli,8.131088,overhand_left,3
+20260316_171050_experimental_oli,8.701164,overhand_left,3
+20260316_171050_experimental_oli,9.49127,overhand_left,3
+20260316_171050_experimental_oli,10.01134,overhand_left,3
+20260316_171050_experimental_oli,10.76144,overhand_left,3
+20260316_171050_experimental_oli,11.201499,overhand_left,3
+20260316_171050_experimental_oli,11.961601,overhand_left,3
+20260316_171050_experimental_oli,12.531677,overhand_left,3
+20260316_171050_experimental_oli,13.271776,overhand_left,3
+20260316_171050_experimental_oli,14.191899,underhand_right,1
+20260316_171050_experimental_oli,15.042013,underhand_right,1
+20260316_171050_experimental_oli,15.932133,underhand_right,1
+20260316_171050_experimental_oli,16.792248,underhand_right,1
+20260316_171050_experimental_oli,17.432333,underhand_right,1
+20260316_171050_experimental_oli,18.042416,underhand_right,1
+20260316_171050_experimental_oli,18.782515,overhand_left,3
+20260316_171050_experimental_oli,19.36259,overhand_left,3
+20260316_171050_experimental_oli,19.982674,underhand_right,1
+20260316_171050_experimental_oli,21.062819,overhand_left,3
+20260316_171050_experimental_oli,21.512878,overhand_left,3
+20260316_171050_experimental_oli,22.142963,overhand_left,3
+20260316_171050_experimental_oli,23.003078,overhand_left,3
+20260316_171050_experimental_oli,23.613161,overhand_left,3
+20260316_171050_experimental_oli,24.123228,overhand_left,3
+20260316_171050_experimental_oli,24.703306,overhand_left,3
+20260316_171050_experimental_oli,25.133364,overhand_left,3
+20260316_171050_experimental_oli,26.053488,overhand_left,3
+20260316_171050_experimental_oli,27.323656,overhand_left,3
+20260316_171050_experimental_oli,27.993746,overhand_left,3
+20260316_171050_experimental_oli,28.633833,overhand_left,3
+20260316_171050_experimental_oli,29.713976,overhand_left,3
+20260316_171050_experimental_oli,30.26405,overhand_left,3
+20260316_171050_experimental_oli,31.134167,underhand_right,1
+20260316_171050_experimental_oli,31.844261,underhand_right,1
+20260316_171050_experimental_oli,32.474346,overhand_left,3
+20260316_171050_experimental_oli,33.71451,overhand_left,3
+20260316_171050_experimental_oli,34.29459,overhand_left,3
+20260316_171050_experimental_oli,35.624767,overhand_left,3
+20260316_171050_experimental_oli,37.114967,overhand_left,3
+20260316_171050_experimental_oli,37.67504,overhand_left,3
+20260316_171050_experimental_oli,38.17511,underhand_right,1
+20260316_171050_experimental_oli,39.295258,overhand_left,3
+20260316_171050_experimental_oli,40.105366,underhand_right,1
+20260316_171050_experimental_oli,40.85547,overhand_left,3
+20260316_171050_experimental_oli,41.335533,overhand_left,3
+20260316_171050_experimental_oli,42.43568,overhand_left,3
+20260316_171050_experimental_oli,43.345802,overhand_left,3
+20260316_171050_experimental_oli,43.92588,overhand_left,3
+20260316_171050_experimental_oli,44.635975,overhand_left,3
+20260316_171050_experimental_oli,45.476086,dragon_roll,0
+20260316_171050_experimental_oli,46.346203,dragon_roll,0
+20260316_171050_experimental_oli,47.086304,dragon_roll,0
+20260316_171050_experimental_oli,47.74639,dragon_roll,0
+20260316_171050_experimental_oli,49.156578,dragon_roll,0
+20260316_171050_experimental_oli,49.68665,dragon_roll,0
+20260316_171050_experimental_oli,51.09684,dragon_roll,0
+20260316_171050_experimental_oli,51.716923,overhand_left,3
+20260316_171050_experimental_oli,53.0471,overhand_left,3
+20260316_171050_experimental_oli,53.607174,overhand_left,3
+20260316_171050_experimental_oli,54.337273,overhand_left,3
+20260316_171050_experimental_oli,55.627445,overhand_left,3
+20260316_171050_experimental_oli,57.047634,overhand_left,3
+20260316_171050_experimental_oli,57.787735,overhand_left,3
+20260316_171050_experimental_oli,59.0279,overhand_left,3
+20260316_171050_experimental_oli,60.028034,overhand_left,3
+20260316_171050_experimental_oli,61.70826,dragon_roll,0
+20260316_171050_experimental_oli,62.288338,dragon_roll,0
+20260316_171050_experimental_oli,63.118446,dragon_roll,0
+20260316_171050_experimental_oli,64.538635,dragon_roll,0
+20260316_171050_experimental_oli,65.18873,dragon_roll,0
+20260316_171050_experimental_oli,65.80881,dragon_roll,0
+20260316_171050_experimental_oli,66.758934,dragon_roll,0
+20260316_171050_experimental_oli,67.84908,overhand_left,3
+20260316_171050_experimental_oli,68.42916,overhand_left,3
+20260316_171050_experimental_oli,69.08925,overhand_left,3
+20260316_171050_experimental_oli,70.08938,underhand_right,1
+20260316_171050_experimental_oli,71.42956,underhand_right,1
+20260316_171050_experimental_oli,72.139656,underhand_right,1
+20260316_171050_experimental_oli,73.16979,underhand_right,1
+20260316_171050_experimental_oli,74.13992,underhand_right,1
+20260316_171050_experimental_oli,74.89002,underhand_right,1
+20260316_171050_experimental_oli,76.07018,underhand_right,1
+20260316_171050_experimental_oli,76.89029,overhand_left,3
+20260316_171050_experimental_oli,78.180466,overhand_left,3
+20260316_171050_experimental_oli,78.73054,overhand_left,3
+20260316_171050_experimental_oli,79.42063,overhand_left,3
+20260316_171050_experimental_oli,80.01071,overhand_left,3
+20260316_171050_experimental_oli,80.6608,overhand_left,3
+20260316_171050_experimental_oli,81.240875,overhand_left,3
+20260316_171050_experimental_oli,82.55105,overhand_left,3
+20260316_171050_experimental_oli,84.50131,overhand_left,3
+20260316_171050_experimental_oli,84.98138,overhand_left,3
+20260316_171050_experimental_oli,86.08152,overhand_left,3
+20260316_171050_experimental_oli,86.6616,underhand_right,1
+20260316_171050_experimental_oli,87.59172,underhand_right,1
+20260316_171050_experimental_oli,88.68187,underhand_right,1
+20260316_171050_experimental_oli,89.37196,dragon_roll,0
+20260316_171050_experimental_oli,89.88203,dragon_roll,0
+20260316_171050_experimental_oli,90.592125,overhand_left,3
+20260316_171050_experimental_oli,91.1522,overhand_left,3
+20260316_171050_experimental_oli,91.8723,overhand_left,3
+20260316_171050_experimental_oli,92.42237,overhand_left,3
+20260316_171050_experimental_oli,93.13246,overhand_left,3
+20260316_171050_experimental_oli,93.70254,overhand_left,3
+20260316_171050_experimental_oli,94.44264,overhand_left,3
+20260316_171050_experimental_oli,95.89284,overhand_left,3
+20260316_171050_experimental_oli,96.4129,overhand_left,3
+20260316_171550_experimental_jo,0.68002725,unknown,12
+20260316_171550_experimental_jo,2.6101048,unknown,12
+20260316_171550_experimental_jo,3.1601264,overhand_left,3
+20260316_171550_experimental_jo,4.24017,overhand_left,3
+20260316_171550_experimental_jo,5.2202096,overhand_left,3
+20260316_171550_experimental_jo,5.8102326,overhand_left,3
+20260316_171550_experimental_jo,6.3402543,overhand_left,3
+20260316_171550_experimental_jo,8.200329,underhand_right,1
+20260316_171550_experimental_jo,9.260371,underhand_right,1
+20260316_171550_experimental_jo,9.880396,underhand_right,1
+20260316_171550_experimental_jo,10.410418,underhand_right,1
+20260316_171550_experimental_jo,12.020482,underhand_right,1
+20260316_171550_experimental_jo,12.620506,underhand_right,1
+20260316_171550_experimental_jo,14.150568,dragon_roll,0
+20260316_171550_experimental_jo,15.690629,dragon_roll,0
+20260316_171550_experimental_jo,16.660667,dragon_roll,0
+20260316_171550_experimental_jo,18.410738,dragon_roll,0
+20260316_171550_experimental_jo,19.340776,dragon_roll,0
+20260316_171550_experimental_jo,19.770794,dragon_roll,0
+20260316_171550_experimental_jo,20.410818,dragon_roll,0
+20260316_171550_experimental_jo,21.100845,overhand_left,3
+20260316_171550_experimental_jo,22.090885,overhand_left,3
+20260316_171550_experimental_jo,23.18093,overhand_left,3
+20260316_171550_experimental_jo,23.860958,unknown,12
+20260316_171550_experimental_jo,24.941,overhand_left,3
+20260316_171550_experimental_jo,25.581026,unknown,12
+20260316_171550_experimental_jo,27.93112,overhand_left,3
+20260316_171550_experimental_jo,28.511143,overhand_left,3
+20260316_171550_experimental_jo,29.071165,overhand_left,3
+20260316_171550_experimental_jo,30.121208,overhand_left,3
+20260316_171550_experimental_jo,30.741234,overhand_left,3
+20260316_171550_experimental_jo,31.341257,overhand_left,3
+20260316_171550_experimental_jo,32.751312,overhand_left,3
+20260316_171550_experimental_jo,33.271336,overhand_left,3
+20260316_171550_experimental_jo,35.331417,overhand_left,3
+20260316_171550_experimental_jo,35.831436,overhand_left,3
+20260316_171550_experimental_jo,36.491463,overhand_left,3
+20260316_171550_experimental_jo,37.801517,underhand_right,1
+20260316_171550_experimental_jo,39.721592,sneak_underhand,11
+20260316_171550_experimental_jo,41.66167,sneak_underhand,11
+20260316_171550_experimental_jo,42.17169,sneak_underhand,11
+20260316_171550_experimental_jo,42.83172,sneak_underhand,11
+20260316_171550_experimental_jo,43.291737,overhand_left,3
+20260316_171550_experimental_jo,44.021767,overhand_left,3
+20260316_171550_experimental_jo,44.491783,overhand_left,3
+20260316_171550_experimental_jo,44.9718,overhand_left,3
+20260316_171550_experimental_jo,45.511826,overhand_left,3
+20260316_171550_experimental_jo,46.451862,overhand_left,3
+20260316_171550_experimental_jo,47.3619,overhand_left,3
+20260316_171550_experimental_jo,47.87192,overhand_left,3
+20260316_171550_experimental_jo,48.39194,overhand_left,3
+20260316_171550_experimental_jo,49.011967,overhand_left,3
+20260316_171550_experimental_jo,50.14201,overhand_left,3
+20260316_171550_experimental_jo,50.882042,overhand_left,3
+20260316_171550_experimental_jo,51.732075,overhand_left,3
+20260316_171550_experimental_jo,52.432102,overhand_left,3
+20260316_171550_experimental_jo,53.252136,overhand_left,3
+20260316_171550_experimental_jo,53.932163,overhand_left,3
+20260316_171550_experimental_jo,54.762196,overhand_left,3
+20260316_171550_experimental_jo,55.462223,overhand_left,3
+20260316_171550_experimental_jo,56.402264,overhand_left,3
+20260316_171550_experimental_jo,57.162292,overhand_left,3
+20260316_171550_experimental_jo,58.87236,overhand_left,3
+20260316_171550_experimental_jo,60.242416,overhand_left,3
+20260316_171550_experimental_jo,61.032448,overhand_left,3
+20260316_171550_experimental_jo,61.742477,overhand_left,3
+20260316_171550_experimental_jo,63.162533,overhand_left,3
+20260316_171550_experimental_jo,64.60259,overhand_left,3
+20260316_171550_experimental_jo,65.16261,overhand_left,3
+20260316_171550_experimental_jo,65.952644,overhand_left,3
+20260316_171550_experimental_jo,66.59267,overhand_left,3
+20260316_171550_experimental_jo,67.2427,overhand_left,3
+20260316_171550_experimental_jo,67.73272,overhand_left,3
+20260316_171550_experimental_jo,68.76276,unknown,12
+20260316_171550_experimental_jo,69.38278,unknown,12
+20260316_171550_experimental_jo,70.05281,unknown,12
+20260316_171550_experimental_jo,70.95284,overhand_left,3
+20260316_171550_experimental_jo,71.61287,unknown,12
+20260316_171550_experimental_jo,72.382904,unknown,12
+20260316_171550_experimental_jo,73.04293,overhand_left,3
+20260316_171550_experimental_jo,74.49299,unknown,12
+20260316_171550_experimental_jo,75.23302,overhand_left,3
+20260316_171550_experimental_jo,76.71307,unknown,12
+20260316_171550_experimental_jo,77.59311,unknown,12
+20260316_171550_experimental_jo,78.39314,unknown,12
+20260316_171550_experimental_jo,79.24318,overhand_left,3
+20260316_171550_experimental_jo,79.8432,overhand_left,3
+20260316_171550_experimental_jo,80.44323,overhand_left,3
+20260316_171550_experimental_jo,81.723274,overhand_left,3
+20260316_171550_experimental_jo,83.36334,unknown,12
+20260316_171550_experimental_jo,84.26338,unknown,12
+20260316_171550_experimental_jo,85.02341,unknown,12
+20260316_171550_experimental_jo,85.723434,overhand_left,3
+20260316_171550_experimental_jo,86.31346,unknown,12
+20260316_171550_experimental_jo,86.84348,unknown,12
+20260316_171550_experimental_jo,87.76352,overhand_left,3
+20260316_171550_experimental_jo,88.36354,overhand_left,3
+20260316_171550_experimental_jo,88.91357,overhand_left,3
+20260316_171550_experimental_jo,90.173615,overhand_left,3
+20260316_171550_experimental_jo,91.073654,underhand_right,1
+20260316_171550_experimental_jo,92.03369,underhand_right,1
+20260316_171550_experimental_jo,92.86372,underhand_right,1
+20260316_171550_experimental_jo,93.803764,underhand_right,1
+20260316_171550_experimental_jo,94.48379,underhand_right,1
+20260316_171550_experimental_jo,95.25382,underhand_right,1
+20260316_171550_experimental_jo,96.42387,underhand_right,1
+20260316_171550_experimental_jo,97.2139,underhand_right,1
+20260316_171550_experimental_jo,97.843925,dragon_roll,0
+20260316_171550_experimental_jo,98.53395,dragon_roll,0
+20260316_171550_experimental_jo,99.804,dragon_roll,0
+20260316_171550_experimental_jo,100.52403,dragon_roll,0
+20260316_171550_experimental_jo,101.23406,dragon_roll,0
+20260316_171550_experimental_jo,101.88409,dragon_roll,0
+20260316_171550_experimental_jo,102.474106,dragon_roll,0
+20260316_171550_experimental_jo,103.264145,dragon_roll,0
+20260316_171550_experimental_jo,103.91417,overhand_left,3
+20260316_171550_experimental_jo,104.99421,overhand_left,3
+20260316_171550_experimental_jo,105.48423,overhand_left,3
+20260316_171550_experimental_jo,106.04425,overhand_left,3
+20260316_171550_experimental_jo,107.09429,overhand_left,3
+20260316_171550_experimental_jo,108.03433,overhand_left,3
+20260316_171550_experimental_jo,108.494354,overhand_left,3
+20260316_171550_experimental_jo,109.07437,overhand_left,3
+20260316_171550_experimental_jo,110.16442,overhand_left,3
+20260316_171550_experimental_jo,110.83444,unknown,12
+20260316_171550_experimental_jo,112.014496,overhand_left,3
+20260316_171550_experimental_jo,112.70452,overhand_left,3
+20260316_171550_experimental_jo,113.21454,overhand_left,3
+20260316_171550_experimental_jo,113.81457,overhand_left,3
+20260316_171550_experimental_jo,114.38459,overhand_left,3
+20260316_171550_experimental_jo,114.98461,overhand_left,3
+20260316_171550_experimental_jo,115.50463,overhand_left,3
+20260316_171550_experimental_jo,116.16466,unknown,12
+20260316_171550_experimental_jo,116.84469,unknown,12
+20260316_171550_experimental_jo,117.52471,overhand_left,3
+20260316_171550_experimental_jo,118.83476,unknown,12
+20260316_171550_experimental_jo,119.39479,overhand_left,3
+20260316_171550_experimental_jo,120.004814,unknown,12
+20260316_171550_experimental_jo,120.48483,unknown,12
+20260316_171550_experimental_jo,121.21486,overhand_left,3
+20260316_171550_experimental_jo,123.04494,overhand_left,3
+20260316_171550_experimental_jo,123.80496,underhand_right,1
+20260316_171550_experimental_jo,124.40499,sneak_underhand,11
+20260316_171550_experimental_jo,124.89501,sneak_underhand,11
+20260316_171550_experimental_jo,125.41503,sneak_underhand,11
+20260316_171550_experimental_jo,126.69508,underhand_right,1
+20260316_171550_experimental_jo,127.34511,underhand_right,1
+20260316_171550_experimental_jo,127.99513,sneak_underhand,11
+20260316_171550_experimental_jo,128.43515,sneak_underhand,11
+20260316_171550_experimental_jo,129.17519,sneak_underhand,11
+20260316_171550_experimental_jo,130.21523,sneak_underhand,11
+20260316_171550_experimental_jo,130.94525,dragon_roll,0
+20260316_171550_experimental_jo,131.53528,sneak_underhand,11
+20260316_171550_experimental_jo,132.09529,overhand_left,3
+20260316_171550_experimental_jo,132.71532,sneak_underhand,11
+20260316_171550_experimental_jo,133.81537,sneak_underhand,11
+20260316_171550_experimental_jo,134.4554,overhand_left,3
+20260316_171550_experimental_jo,134.92542,dragon_roll,0
+20260316_171550_experimental_jo,136.70549,dragon_roll,0
+20260316_171550_experimental_jo,137.71553,dragon_roll,0
+20260316_171550_experimental_jo,138.45555,dragon_roll,0
+20260316_171550_experimental_jo,139.05557,dragon_roll,0
+20260316_171550_experimental_jo,141.51567,dragon_roll,0
+20260316_171550_experimental_jo,142.1657,dragon_roll,0
+20260316_171550_experimental_jo,143.66576,dragon_roll,0
+20260316_171550_experimental_jo,144.22578,overhand_left,3
+20260316_171550_experimental_jo,144.8858,overhand_left,3
+20260316_171550_experimental_jo,145.52583,overhand_left,3
+20260316_171550_experimental_jo,146.20586,overhand_left,3
+20260316_171550_experimental_jo,147.1259,overhand_left,3
+20260316_171550_experimental_jo,148.02594,overhand_left,3
+20260316_171550_experimental_jo,148.93597,overhand_left,3
+20260316_171550_experimental_jo,149.766,overhand_left,3
+20260316_171550_experimental_jo,150.69604,overhand_left,3
+20260316_171550_experimental_jo,151.29607,overhand_left,3
+20260316_171550_experimental_jo,151.75609,overhand_left,3
+20260316_171550_experimental_jo,152.34612,overhand_left,3
+20260316_171550_experimental_jo,153.21614,overhand_left,3
+20260316_171550_experimental_jo,153.96617,overhand_left,3
+20260316_171550_experimental_jo,155.21622,overhand_left,3
+20260316_171550_experimental_jo,156.23627,overhand_left,3
+20260316_171550_experimental_jo,157.0663,overhand_left,3
+20260316_171550_experimental_jo,157.76633,overhand_left,3
+20260316_171550_experimental_jo,158.50636,overhand_left,3
+20260316_171550_experimental_jo,159.24638,overhand_left,3
+20260316_171550_experimental_jo,159.83641,overhand_left,3
+20260316_171550_experimental_jo,160.76645,overhand_left,3
+20260316_171550_experimental_jo,161.37646,overhand_left,3
+20260316_171550_experimental_jo,162.33652,overhand_left,3
+20260316_171550_experimental_jo,163.00653,overhand_left,3
+20260316_171550_experimental_jo,163.67656,overhand_left,3
+20260316_171550_experimental_jo,164.40659,overhand_left,3
+20260316_171550_experimental_jo,165.28662,overhand_left,3
+20260316_171550_experimental_jo,165.74664,overhand_left,3
+20260316_171550_experimental_jo,166.8967,overhand_left,3
+20260316_171550_experimental_jo,167.67673,overhand_left,3
+20260316_171550_experimental_jo,168.52676,overhand_left,3
+20260316_171550_experimental_jo,169.4468,unknown,12
+20260316_171550_experimental_jo,170.10683,unknown,12
+20260316_171550_experimental_jo,170.96686,unknown,12
+20260316_171550_experimental_jo,171.40688,unknown,12
+20260316_171550_experimental_jo,171.9269,unknown,12
+20260316_171550_experimental_jo,172.64693,unknown,12
+20260316_171550_experimental_jo,174.15698,unknown,12
+20260316_171550_experimental_jo,175.61705,overhand_left,3
+20260316_171550_experimental_jo,176.46707,unknown,12
+20260316_171550_experimental_jo,177.33711,unknown,12
+20260316_171550_experimental_jo,178.28716,unknown,12
+20260316_171550_experimental_jo,179.12718,unknown,12
+20260316_171550_experimental_jo,179.91722,overhand_left,3
+20260316_171550_experimental_jo,180.91725,underhand_right,1
+20260316_171550_experimental_jo,181.50728,underhand_right,1
+20260316_171550_experimental_jo,182.44731,underhand_right,1
+20260316_171550_experimental_jo,183.16734,underhand_right,1
+20260316_171550_experimental_jo,183.74738,underhand_right,1
+20260316_171550_experimental_jo,184.27739,underhand_right,1
+20260316_171550_experimental_jo,184.8574,unknown,12
+20260316_172228_experimental_jo,0.5701044,dragon_roll,0
+20260316_172228_experimental_jo,1.1201825,dragon_roll,0
+20260316_172228_experimental_jo,1.7903148,dragon_roll,0
+20260316_172228_experimental_jo,5.6110005,overhand_left,3
+20260316_172228_experimental_jo,6.211128,underhand_right,1
+20260316_172228_experimental_jo,6.781226,underhand_right,1
+20260316_172228_experimental_jo,7.8113976,overhand_left,3
+20260316_172228_experimental_jo,8.421525,overhand_left,3
+20260316_172228_experimental_jo,9.081615,overhand_left,3
+20260316_172228_experimental_jo,10.001794,overhand_left,3
+20260316_172228_experimental_jo,10.511901,overhand_left,3
+20260316_172228_experimental_jo,11.092011,overhand_left,3
+20260316_172228_experimental_jo,11.66209,overhand_left,3
+20260316_172228_experimental_jo,12.182178,overhand_left,3
+20260316_172228_experimental_jo,12.732288,overhand_left,3
+20260316_172228_experimental_jo,13.372419,overhand_left,3
+20260316_172228_experimental_jo,15.252729,overhand_left,3
+20260316_172228_experimental_jo,15.932852,overhand_left,3
+20260316_172228_experimental_jo,16.45296,overhand_left,3
+20260316_172228_experimental_jo,16.983076,overhand_left,3
+20260316_172228_experimental_jo,17.663193,overhand_left,3
+20260316_172228_experimental_jo,18.183266,overhand_left,3
+20260316_172228_experimental_jo,18.793385,overhand_left,3
+20260316_172228_experimental_jo,19.313494,overhand_left,3
+20260316_172228_experimental_jo,20.493681,underhand_right,1
+20260316_172228_experimental_jo,21.133833,underhand_right,1
+20260316_172228_experimental_jo,22.394047,overhand_left,3
+20260316_172228_experimental_jo,23.494238,underhand_right,1
+20260316_172228_experimental_jo,24.01435,underhand_right,1
+20260316_172228_experimental_jo,24.714453,underhand_right,1
+20260316_172228_experimental_jo,25.464582,overhand_left,3
+20260316_172228_experimental_jo,25.904665,overhand_left,3
+20260316_172228_experimental_jo,27.094889,overhand_left,3
+20260316_172228_experimental_jo,28.28511,dragon_roll,0
+20260316_172228_experimental_jo,29.315279,overhand_left,3
+20260316_172228_experimental_jo,30.265455,overhand_left,3
+20260316_172228_experimental_jo,32.06576,overhand_left,3
+20260316_172228_experimental_jo,33.61604,dragon_roll,0
+20260316_172228_experimental_jo,35.146317,dragon_roll,0
+20260316_172228_experimental_jo,36.776615,dragon_roll,0
+20260316_172228_experimental_jo,38.396908,dragon_roll,0
+20260316_172228_experimental_jo,40.637314,dragon_roll,0
+20260316_172228_experimental_jo,41.64749,dragon_roll,0
+20260316_172228_experimental_jo,42.727715,dragon_roll,0
+20260316_172228_experimental_jo,43.40784,dragon_roll,0
+20260316_172228_experimental_jo,44.19796,dragon_roll,0
+20260316_172228_experimental_jo,44.77807,dragon_roll,0
+20260316_172228_experimental_jo,45.24815,overhand_left,3
+20260316_172228_experimental_jo,45.83827,overhand_left,3
+20260316_172228_experimental_jo,46.988464,overhand_left,3
+20260316_172228_experimental_jo,47.7586,overhand_left,3
+20260316_172228_experimental_jo,48.3287,underhand_right,1
+20260316_172228_experimental_jo,49.458908,underhand_right,1
+20260316_172228_experimental_jo,49.999004,overhand_left,3
+20260316_172228_experimental_jo,51.059193,underhand_right,1
+20260316_172228_experimental_jo,52.319435,overhand_left,3
+20260316_172228_experimental_jo,54.539837,overhand_left,3
+20260405_173949_experimental_progression,0.71006864,sneak_underhand,11
+20260405_173949_experimental_progression,1.320125,underhand_right,1
+20260405_173949_experimental_progression,2.9202747,sneak_underhand,11
+20260405_173949_experimental_progression,4.360417,sneak_underhand,11
+20260405_173949_experimental_progression,5.740531,dragon_roll,0
+20260405_173949_experimental_progression,6.670622,sneak_underhand,11
+20260405_173949_experimental_progression,8.160765,sneak_underhand,11
+20260405_173949_experimental_progression,10.29096,underhand_right,1
+20260405_173949_experimental_progression,11.101031,underhand_right,1
+20260405_173949_experimental_progression,11.671093,underhand_right,1
+20260405_173949_experimental_progression,13.291242,underhand_right,1
+20260405_173949_experimental_progression,14.531362,overhand_left,3
+20260405_173949_experimental_progression,15.031408,overhand_left,3
+20260405_173949_experimental_progression,15.76148,overhand_left,3
+20260405_173949_experimental_progression,16.321527,overhand_left,3
+20260405_173949_experimental_progression,17.671663,sneak_underhand,11
+20260405_173949_experimental_progression,18.34172,underhand_right,1
+20260405_173949_experimental_progression,19.541824,underhand_right,1
+20260405_173949_experimental_progression,20.031876,underhand_right,1
+20260405_173949_experimental_progression,20.511923,overhand_left,3
+20260405_173949_experimental_progression,21.231993,overhand_left,3
+20260405_173949_experimental_progression,21.772036,overhand_left,3
+20260405_173949_experimental_progression,22.482105,overhand_left,3
+20260405_173949_experimental_progression,23.062168,unknown,12
+20260405_173949_experimental_progression,23.692223,underhand_right,1
+20260405_173949_experimental_progression,25.362375,dragon_roll,0
+20260405_173949_experimental_progression,25.902426,overhand_left,3
+20260405_173949_experimental_progression,26.572493,overhand_left,3
+20260405_173949_experimental_progression,27.272541,overhand_left,3
+20260405_173949_experimental_progression,27.872606,overhand_left,3
+20260405_173949_experimental_progression,28.462671,unknown,12
+20260405_173949_experimental_progression,29.072725,underhand_right,1
+20260405_173949_experimental_progression,30.142822,unknown,12
+20260405_173949_experimental_progression,30.602865,overhand_left,3
+20260405_173949_experimental_progression,31.232925,overhand_left,3
+20260405_173949_experimental_progression,31.802975,overhand_left,3
+20260405_173949_experimental_progression,32.413033,overhand_left,3
+20260405_173949_experimental_progression,32.993095,unknown,12
+20260405_173949_experimental_progression,33.563145,underhand_right,1
+20260405_173949_experimental_progression,34.50323,dragon_roll,0
+20260405_173949_experimental_progression,34.983273,sneak_underhand,11
+20260405_173949_experimental_progression,35.63334,overhand_left,3
+20260405_173949_experimental_progression,36.11338,overhand_left,3
+20260405_173949_experimental_progression,36.713436,overhand_left,3
+20260405_173949_experimental_progression,37.783543,underhand_right,1
+20260405_173949_experimental_progression,39.653713,overhand_left,3
+20260405_173949_experimental_progression,40.30377,overhand_left,3
+20260405_173949_experimental_progression,41.39388,underhand_right,1
+20260405_173949_experimental_progression,42.263958,dragon_roll,0
+20260405_173949_experimental_progression,42.754,sneak_underhand,11
+20260405_173949_experimental_progression,43.35406,overhand_left,3
+20260405_173949_experimental_progression,43.8341,overhand_left,3
+20260405_173949_experimental_progression,44.564163,overhand_left,3
+20260405_173949_experimental_progression,45.56427,underhand_right,1
+20260405_173949_experimental_progression,46.444347,dragon_roll,0
+20260405_173949_experimental_progression,46.89439,sneak_underhand,11
+20260405_173949_experimental_progression,47.494446,overhand_left,3
+20260405_173949_experimental_progression,48.07449,overhand_left,3
+20260405_173949_experimental_progression,49.054596,sneak_underhand,11
+20260405_173949_experimental_progression,49.54464,underhand_right,1
+20260405_173949_experimental_progression,50.414722,dragon_roll,0
+20260405_173949_experimental_progression,50.96477,overhand_left,3
+20260405_173949_experimental_progression,51.634834,overhand_left,3
+20260405_173949_experimental_progression,52.88494,overhand_left,3
+20260405_173949_experimental_progression,53.925053,underhand_right,1
+20260405_173949_experimental_progression,54.915134,overhand_left,3
+20260405_173949_experimental_progression,55.395184,underhand_right,1
+20260405_173949_experimental_progression,56.435284,sneak_underhand,11
+20260405_173949_experimental_progression,57.195347,overhand_left,3
+20260405_173949_experimental_progression,57.885414,overhand_left,3
+20260405_173949_experimental_progression,59.03553,underhand_right,1
+20260405_173949_experimental_progression,60.095623,unknown,12
+20260405_173949_experimental_progression,60.645676,unknown,12
+20260405_173949_experimental_progression,61.10572,sneak_underhand,11
+20260405_173949_experimental_progression,61.755783,overhand_left,3
+20260405_173949_experimental_progression,63.255913,overhand_left,3
+20260405_173949_experimental_progression,64.36603,underhand_right,1
+20260405_173949_experimental_progression,65.32612,dragon_roll,0
+20260405_173949_experimental_progression,65.896164,overhand_left,3
+20260405_173949_experimental_progression,66.59624,overhand_left,3
+20260405_173949_experimental_progression,67.366295,overhand_left,3
+20260405_173949_experimental_progression,67.96636,overhand_left,3
+20260405_173949_experimental_progression,68.586426,unknown,12
+20260405_173949_experimental_progression,69.16647,underhand_right,1
+20260405_173949_experimental_progression,70.606606,overhand_left,3
+20260405_173949_experimental_progression,71.29668,overhand_left,3
+20260405_173949_experimental_progression,71.94673,overhand_left,3
+20260405_173949_experimental_progression,72.60679,overhand_left,3
+20260405_173949_experimental_progression,73.166855,sneak_underhand,11
+20260405_173949_experimental_progression,73.7269,underhand_right,1
+20260405_173949_experimental_progression,74.596985,dragon_roll,0
+20260405_173949_experimental_progression,75.12703,sneak_underhand,11
+20260405_173949_experimental_progression,75.787094,overhand_left,3
+20260405_173949_experimental_progression,76.42714,overhand_left,3
+20260405_173949_experimental_progression,78.07731,underhand_right,1
+20260405_173949_experimental_progression,79.1374,unknown,12
+20260405_173949_experimental_progression,80.14751,overhand_left,3
+20260405_173949_experimental_progression,80.687546,overhand_left,3
+20260405_173949_experimental_progression,81.34761,overhand_left,3
+20260405_173949_experimental_progression,82.56773,underhand_right,1
+20260405_173949_experimental_progression,83.77785,overhand_left,3
+20260405_173949_experimental_progression,84.62792,overhand_left,3
+20260405_173949_experimental_progression,85.24796,overhand_left,3
+20260405_173949_experimental_progression,86.27808,sneak_underhand,11
+20260405_173949_experimental_progression,86.85813,underhand_right,1
+20260405_173949_experimental_progression,87.78821,sneak_underhand,11
+20260405_173949_experimental_progression,88.84832,overhand_left,3
+20260405_173949_experimental_progression,89.97842,overhand_left,3
+20260405_173949_experimental_progression,91.00852,underhand_right,1
+20260405_173949_experimental_progression,91.8786,overhand_left,3
+20260405_173949_experimental_progression,92.288635,sneak_underhand,11
+20260405_173949_experimental_progression,92.9487,overhand_left,3
+20260405_173949_experimental_progression,93.52874,overhand_left,3
+20260405_173949_experimental_progression,94.0988,overhand_left,3
+20260405_173949_experimental_progression,95.17891,unknown,12
+20260405_184437_experimental_bass-walk-down,0.9001518,unknown,12
+20260405_184437_experimental_bass-walk-down,3.2605538,unknown,12
+20260405_184437_experimental_bass-walk-down,3.8906612,unknown,12
+20260405_184437_experimental_bass-walk-down,4.5807786,unknown,12
+20260405_184437_experimental_bass-walk-down,5.360911,unknown,12
+20260405_184437_experimental_bass-walk-down,6.1610465,unknown,12
+20260405_184437_experimental_bass-walk-down,6.8911705,unknown,12
+20260405_184437_experimental_bass-walk-down,7.581289,unknown,12
+20260405_184437_experimental_bass-walk-down,9.161558,unknown,12
+20260405_184437_experimental_bass-walk-down,10.36176,overhand_right,4
+20260405_184437_experimental_bass-walk-down,11.6619835,underhand_right,1
+20260405_184437_experimental_bass-walk-down,13.042216,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,13.692328,underhand_right,1
+20260405_184437_experimental_bass-walk-down,14.172409,underhand_right,1
+20260405_184437_experimental_bass-walk-down,14.772511,overhand_left,3
+20260405_184437_experimental_bass-walk-down,16.252762,underhand_right,1
+20260405_184437_experimental_bass-walk-down,16.732845,underhand_right,1
+20260405_184437_experimental_bass-walk-down,17.412962,overhand_left,3
+20260405_184437_experimental_bass-walk-down,18.12308,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,18.913214,sneak_underhand_right,6
+20260405_184437_experimental_bass-walk-down,19.713352,dragon_roll,0
+20260405_184437_experimental_bass-walk-down,20.863548,sneak_underhand_left,5
+20260405_184437_experimental_bass-walk-down,21.493656,underhand_right,1
+20260405_184437_experimental_bass-walk-down,22.05375,underhand_right,1
+20260405_184437_experimental_bass-walk-down,24.434153,underhand_right,1
+20260405_184437_experimental_bass-walk-down,25.234291,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,26.364483,underhand_right,1
+20260405_184437_experimental_bass-walk-down,26.914576,underhand_right,1
+20260405_184437_experimental_bass-walk-down,27.534681,overhand_left,3
+20260405_184437_experimental_bass-walk-down,28.30481,dragon_roll,0
+20260405_184437_experimental_bass-walk-down,28.984926,sneak_underhand_right,6
+20260405_184437_experimental_bass-walk-down,30.93526,overhand_right,4
+20260405_184437_experimental_bass-walk-down,31.635376,underhand_right,1
+20260405_184437_experimental_bass-walk-down,34.805916,overhand_left,3
+20260405_184437_experimental_bass-walk-down,35.99612,underhand_right,1
+20260405_184437_experimental_bass-walk-down,36.536213,underhand_right,1
+20260405_184437_experimental_bass-walk-down,37.136314,overhand_left,3
+20260405_184437_experimental_bass-walk-down,37.76642,dragon_roll,0
+20260405_184437_experimental_bass-walk-down,38.506546,sneak_underhand_right,6
+20260405_184437_experimental_bass-walk-down,39.18666,dragon_roll,0
+20260405_184437_experimental_bass-walk-down,40.21684,sneak_underhand_left,5
+20260405_184437_experimental_bass-walk-down,40.93696,underhand_right,1
+20260405_184437_experimental_bass-walk-down,41.387035,underhand_right,1
+20260405_184437_experimental_bass-walk-down,42.00714,overhand_left,3
+20260405_184437_experimental_bass-walk-down,42.58724,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,43.35737,underhand_right,1
+20260405_184437_experimental_bass-walk-down,43.797443,underhand_right,1
+20260405_184437_experimental_bass-walk-down,44.497566,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,45.747776,underhand_right,1
+20260405_184437_experimental_bass-walk-down,46.87797,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,47.498074,dragon_roll,0
+20260405_184437_experimental_bass-walk-down,48.318214,sneak_underhand_right,6
+20260405_184437_experimental_bass-walk-down,49.898483,sneak_underhand_left,5
+20260405_184437_experimental_bass-walk-down,50.5986,underhand_right,1
+20260405_184437_experimental_bass-walk-down,51.708794,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,54.039185,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,54.99935,underhand_right,1
+20260405_184437_experimental_bass-walk-down,55.789482,overhand_left,3
+20260405_184437_experimental_bass-walk-down,56.519608,dragon_roll,0
+20260405_184437_experimental_bass-walk-down,57.259735,sneak_underhand_right,6
+20260405_184437_experimental_bass-walk-down,57.829834,dragon_roll,0
+20260405_184437_experimental_bass-walk-down,59.06004,sneak_underhand_left,5
+20260405_184437_experimental_bass-walk-down,59.910187,underhand_right,1
+20260405_184437_experimental_bass-walk-down,60.96036,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,61.970535,underhand_right,1
+20260405_184437_experimental_bass-walk-down,62.87069,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,63.84085,underhand_right,1
+20260405_184437_experimental_bass-walk-down,64.88103,overhand_left,3
+20260405_184437_experimental_bass-walk-down,65.50114,dragon_roll,0
+20260405_184437_experimental_bass-walk-down,66.101234,sneak_underhand_right,6
+20260405_184437_experimental_bass-walk-down,66.69134,dragon_roll,0
+20260405_184437_experimental_bass-walk-down,67.81153,sneak_underhand_left,5
+20260405_184437_experimental_bass-walk-down,68.50164,underhand_right,1
+20260405_184437_experimental_bass-walk-down,68.93172,underhand_right,1
+20260405_184437_experimental_bass-walk-down,69.74186,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,70.281944,overhand_right,4
+20260405_184437_experimental_bass-walk-down,70.98206,underhand_right,1
+20260405_184437_experimental_bass-walk-down,71.44215,underhand_right,1
+20260405_184437_experimental_bass-walk-down,72.21228,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,72.72236,overhand_right,4
+20260405_184437_experimental_bass-walk-down,73.372475,underhand_right,1
+20260405_184437_experimental_bass-walk-down,73.82255,underhand_right,1
+20260405_184437_experimental_bass-walk-down,74.53267,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,75.172775,dragon_roll,0
+20260405_184437_experimental_bass-walk-down,75.77288,sneak_underhand_right,6
+20260405_184437_experimental_bass-walk-down,76.38299,dragon_roll,0
+20260405_184437_experimental_bass-walk-down,77.513176,sneak_underhand_left,5
+20260405_184437_experimental_bass-walk-down,78.37332,underhand_right,1
+20260405_184437_experimental_bass-walk-down,79.24347,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,81.32382,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,82.72406,underhand_right,1
+20260405_184437_experimental_bass-walk-down,83.46419,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,84.154305,dragon_roll,0
+20260405_184437_experimental_bass-walk-down,84.94444,sneak_underhand_right,6
+20260405_184437_experimental_bass-walk-down,85.46453,dragon_roll,0
+20260405_184437_experimental_bass-walk-down,86.08463,dragon_roll,0
+20260405_184437_experimental_bass-walk-down,86.69474,sneak_underhand_left,5
+20260405_184437_experimental_bass-walk-down,87.58489,underhand_right,1
+20260405_184437_experimental_bass-walk-down,88.18499,overhand_left,3
+20260405_184437_experimental_bass-walk-down,88.76509,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,89.615234,underhand_right,1
+20260405_184437_experimental_bass-walk-down,90.405365,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,91.45555,underhand_right,1
+20260405_184437_experimental_bass-walk-down,92.62575,counter_clockwise,10
+20260405_184437_experimental_bass-walk-down,93.24585,dragon_roll,0
+20260405_184437_experimental_bass-walk-down,93.73593,dragon_roll,0
+20260405_184437_experimental_bass-walk-down,94.34604,sneak_underhand_right,6
+20260405_184437_experimental_bass-walk-down,95.79629,unknown,12
+20260405_184437_experimental_bass-walk-down,96.68643,unknown,12
+20260405_184729_experimental_pachelbel,0.40005487,unknown,12
+20260405_184729_experimental_pachelbel,3.96054,unknown,12
+20260405_184729_experimental_pachelbel,4.680639,unknown,12
+20260405_184729_experimental_pachelbel,6.1108346,unknown,12
+20260405_184729_experimental_pachelbel,8.211124,sneak_underhand_right,6
+20260405_184729_experimental_pachelbel,8.941223,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,9.571311,dragon_roll,0
+20260405_184729_experimental_pachelbel,10.491436,counter_clockwise,10
+20260405_184729_experimental_pachelbel,11.021512,counter_clockwise,10
+20260405_184729_experimental_pachelbel,11.881628,dragon_roll,0
+20260405_184729_experimental_pachelbel,13.741883,clockwise,9
+20260405_184729_experimental_pachelbel,14.431977,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,15.212085,dragon_roll,0
+20260405_184729_experimental_pachelbel,15.89218,dragon_roll,0
+20260405_184729_experimental_pachelbel,16.482258,sneak_underhand_right,6
+20260405_184729_experimental_pachelbel,17.93246,counter_clockwise,10
+20260405_184729_experimental_pachelbel,18.572548,dragon_roll,0
+20260405_184729_experimental_pachelbel,19.39266,sneak_underhand_right,6
+20260405_184729_experimental_pachelbel,19.99274,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,20.612825,dragon_roll,0
+20260405_184729_experimental_pachelbel,22.113033,counter_clockwise,10
+20260405_184729_experimental_pachelbel,24.903414,clockwise,9
+20260405_184729_experimental_pachelbel,25.60351,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,26.373615,dragon_roll,0
+20260405_184729_experimental_pachelbel,27.783812,unknown,12
+20260405_184729_experimental_pachelbel,29.073988,counter_clockwise,10
+20260405_184729_experimental_pachelbel,29.9141,sneak_underhand_right,6
+20260405_184729_experimental_pachelbel,30.404167,sneak_underhand_right,6
+20260405_184729_experimental_pachelbel,31.184275,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,31.854368,dragon_roll,0
+20260405_184729_experimental_pachelbel,32.774494,counter_clockwise,10
+20260405_184729_experimental_pachelbel,33.30457,counter_clockwise,10
+20260405_184729_experimental_pachelbel,33.984665,sneak_overhand_right,8
+20260405_184729_experimental_pachelbel,35.474865,clockwise,9
+20260405_184729_experimental_pachelbel,35.974934,clockwise,9
+20260405_184729_experimental_pachelbel,36.665028,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,37.385124,dragon_roll,0
+20260405_184729_experimental_pachelbel,38.15523,sneak_underhand_right,6
+20260405_184729_experimental_pachelbel,38.605293,sneak_underhand_right,6
+20260405_184729_experimental_pachelbel,39.965485,counter_clockwise,10
+20260405_184729_experimental_pachelbel,40.735584,sneak_underhand_right,6
+20260405_184729_experimental_pachelbel,41.365673,sneak_underhand_right,6
+20260405_184729_experimental_pachelbel,41.955753,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,42.605843,dragon_roll,0
+20260405_184729_experimental_pachelbel,44.00604,counter_clockwise,10
+20260405_184729_experimental_pachelbel,44.92616,dragon_roll,0
+20260405_184729_experimental_pachelbel,46.74641,clockwise,9
+20260405_184729_experimental_pachelbel,47.426502,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,48.186607,dragon_roll,0
+20260405_184729_experimental_pachelbel,49.46678,sneak_underhand_right,6
+20260405_184729_experimental_pachelbel,50.80697,counter_clockwise,10
+20260405_184729_experimental_pachelbel,52.247166,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,52.837246,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,53.44733,dragon_roll,0
+20260405_184729_experimental_pachelbel,54.96754,counter_clockwise,10
+20260405_184729_experimental_pachelbel,55.627632,sneak_overhand_right,8
+20260405_184729_experimental_pachelbel,56.307724,dragon_roll,0
+20260405_184729_experimental_pachelbel,57.67791,unknown,12
+20260405_184729_experimental_pachelbel,58.337997,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,59.098103,dragon_roll,0
+20260405_184729_experimental_pachelbel,59.838203,sneak_underhand_right,6
+20260405_184729_experimental_pachelbel,60.43829,unknown,12
+20260405_184729_experimental_pachelbel,61.74847,counter_clockwise,10
+20260405_184729_experimental_pachelbel,63.108654,sneak_underhand_right,6
+20260405_184729_experimental_pachelbel,63.638725,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,64.20881,dragon_roll,0
+20260405_184729_experimental_pachelbel,65.498985,counter_clockwise,10
+20260405_184729_experimental_pachelbel,66.06907,sneak_overhand_right,8
+20260405_184729_experimental_pachelbel,66.82917,underhand_left,2
+20260405_184729_experimental_pachelbel,67.87931,clockwise,9
+20260405_184729_experimental_pachelbel,68.45939,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,69.47953,dragon_roll,0
+20260405_184729_experimental_pachelbel,70.18963,sneak_underhand_right,6
+20260405_184729_experimental_pachelbel,71.25977,counter_clockwise,10
+20260405_184729_experimental_pachelbel,72.99001,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,74.31019,counter_clockwise,10
+20260405_184729_experimental_pachelbel,75.23032,sneak_overhand_right,8
+20260405_184729_experimental_pachelbel,76.88055,clockwise,9
+20260405_184729_experimental_pachelbel,77.45062,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,78.51077,dragon_roll,0
+20260405_184729_experimental_pachelbel,79.22086,unknown,12
+20260405_184729_experimental_pachelbel,80.30102,counter_clockwise,10
+20260405_184729_experimental_pachelbel,81.35116,sneak_underhand_right,6
+20260405_184729_experimental_pachelbel,81.96124,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,82.46131,dragon_roll,0
+20260405_184729_experimental_pachelbel,83.59147,counter_clockwise,10
+20260405_184729_experimental_pachelbel,84.19155,sneak_overhand_right,8
+20260405_184729_experimental_pachelbel,85.841774,clockwise,9
+20260405_184729_experimental_pachelbel,86.431854,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,87.25197,dragon_roll,0
+20260405_184729_experimental_pachelbel,88.36212,unknown,12
+20260405_184729_experimental_pachelbel,89.06221,counter_clockwise,10
+20260405_184729_experimental_pachelbel,91.1225,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,92.43268,counter_clockwise,10
+20260405_184729_experimental_pachelbel,93.37281,sneak_overhand_right,8
+20260405_184729_experimental_pachelbel,94.09291,underhand_left,2
+20260405_184729_experimental_pachelbel,94.68299,clockwise,9
+20260405_184729_experimental_pachelbel,95.67312,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,97.34335,sneak_underhand_right,6
+20260405_184729_experimental_pachelbel,97.97344,unknown,12
+20260405_184729_experimental_pachelbel,99.1236,counter_clockwise,10
+20260405_184729_experimental_pachelbel,99.923706,sneak_underhand_right,6
+20260405_184729_experimental_pachelbel,100.6238,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,101.223885,sneak_overhand_left,7
+20260405_184729_experimental_pachelbel,102.14401,dragon_roll,0
+20260405_184729_experimental_pachelbel,102.914116,dragon_roll,0
+20260405_184729_experimental_pachelbel,103.99426,unknown,12
+20260405_184729_experimental_pachelbel,104.53434,unknown,12
+20260405_184905_experimental_pachelbel,0.48002476,unknown,12
+20260405_184905_experimental_pachelbel,3.9002078,unknown,12
+20260405_184905_experimental_pachelbel,6.2903347,clockwise,9
+20260405_184905_experimental_pachelbel,7.0003724,clockwise,9
+20260405_184905_experimental_pachelbel,7.7404118,clockwise,9
+20260405_184905_experimental_pachelbel,8.46045,clockwise,9
+20260405_184905_experimental_pachelbel,9.20049,clockwise,9
+20260405_184905_experimental_pachelbel,9.9705305,clockwise,9
+20260405_184905_experimental_pachelbel,10.720571,clockwise,9
+20260405_184905_experimental_pachelbel,11.4206085,clockwise,9
+20260405_184905_experimental_pachelbel,12.070642,sneak_overhand_left,7
+20260405_184905_experimental_pachelbel,12.76068,dragon_roll,0
+20260405_184905_experimental_pachelbel,14.230759,counter_clockwise,10
+20260405_184905_experimental_pachelbel,17.020906,clockwise,9
+20260405_184905_experimental_pachelbel,17.65094,sneak_overhand_left,7
+20260405_184905_experimental_pachelbel,18.440983,dragon_roll,0
+20260405_184905_experimental_pachelbel,19.661049,sneak_underhand_right,6
+20260405_184905_experimental_pachelbel,20.541096,counter_clockwise,10
+20260405_184905_experimental_pachelbel,21.131126,dragon_roll,0
+20260405_184905_experimental_pachelbel,22.281189,sneak_overhand_left,7
+20260405_184905_experimental_pachelbel,22.781214,sneak_overhand_left,7
+20260405_184905_experimental_pachelbel,23.28124,dragon_roll,0
+20260405_184905_experimental_pachelbel,24.491306,counter_clockwise,10
+20260405_184905_experimental_pachelbel,25.35135,dragon_roll,0
+20260405_184905_experimental_pachelbel,26.881433,clockwise,9
+20260405_184905_experimental_pachelbel,27.40146,sneak_overhand_left,7
+20260405_184905_experimental_pachelbel,28.48152,dragon_roll,0
+20260405_184905_experimental_pachelbel,29.201557,underhand_right,1
+20260405_184905_experimental_pachelbel,29.871592,counter_clockwise,10
+20260405_184905_experimental_pachelbel,30.381618,dragon_roll,0
+20260405_184905_experimental_pachelbel,31.441677,sneak_overhand_left,7
+20260405_184905_experimental_pachelbel,32.401726,dragon_roll,0
+20260405_184905_experimental_pachelbel,33.18177,counter_clockwise,10
+20260405_184905_experimental_pachelbel,34.12182,sneak_overhand_right,8
+20260405_184905_experimental_pachelbel,35.44189,underhand_left,2
+20260405_184905_experimental_pachelbel,36.061924,clockwise,9
+20260405_184905_experimental_pachelbel,36.701958,sneak_overhand_left,7
+20260405_184905_experimental_pachelbel,37.471996,dragon_roll,0
+20260405_184905_experimental_pachelbel,38.182037,dragon_roll,0
+20260405_184905_experimental_pachelbel,38.752068,sneak_underhand_right,6
+20260405_184905_experimental_pachelbel,40.232147,counter_clockwise,10
+20260405_184905_experimental_pachelbel,40.90218,dragon_roll,0
+20260405_184905_experimental_pachelbel,41.46221,sneak_underhand_right,6
+20260405_184905_experimental_pachelbel,42.312256,sneak_overhand_left,7
+20260405_184905_experimental_pachelbel,43.1423,dragon_roll,0
+20260405_184905_experimental_pachelbel,44.26236,counter_clockwise,10
+20260405_184905_experimental_pachelbel,44.902393,counter_clockwise,10
+20260405_184905_experimental_pachelbel,45.862446,dragon_roll,0
+20260405_184905_experimental_pachelbel,46.452477,dragon_roll,0
+20260405_184905_experimental_pachelbel,47.47253,clockwise,9
+20260405_184905_experimental_pachelbel,48.072563,clockwise,9
+20260405_184905_experimental_pachelbel,48.832603,sneak_overhand_left,7
+20260405_184905_experimental_pachelbel,49.70265,dragon_roll,0
+20260405_184905_experimental_pachelbel,50.49269,dragon_roll,0
+20260405_184905_experimental_pachelbel,51.142727,sneak_underhand_right,6
+20260405_184905_experimental_pachelbel,52.13278,counter_clockwise,10
+20260405_184905_experimental_pachelbel,52.702812,counter_clockwise,10
+20260405_184905_experimental_pachelbel,53.44285,dragon_roll,0
+20260405_184905_experimental_pachelbel,55.08294,dragon_roll,0
+20260405_184905_experimental_pachelbel,55.68297,dragon_roll,0
+20260405_184905_experimental_pachelbel,56.80303,counter_clockwise,10
+20260405_184905_experimental_pachelbel,57.333057,counter_clockwise,10
+20260405_184905_experimental_pachelbel,58.033096,sneak_overhand_right,8
+20260405_184905_experimental_pachelbel,59.64318,clockwise,9
+20260405_184905_experimental_pachelbel,60.20321,clockwise,9
+20260405_184905_experimental_pachelbel,60.95325,sneak_overhand_left,7
+20260405_184905_experimental_pachelbel,61.763294,dragon_roll,0
+20260405_184905_experimental_pachelbel,62.513332,dragon_roll,0
+20260405_184905_experimental_pachelbel,63.19337,sneak_underhand_right,6
+20260405_184905_experimental_pachelbel,64.063416,counter_clockwise,10
+20260405_184905_experimental_pachelbel,64.60345,counter_clockwise,10
+20260405_184905_experimental_pachelbel,65.86351,sneak_underhand_right,6
+20260405_184905_experimental_pachelbel,66.643555,sneak_overhand_left,7
+20260405_184905_experimental_pachelbel,67.30359,dragon_roll,0
+20260405_184905_experimental_pachelbel,68.27364,counter_clockwise,10
+20260405_184905_experimental_pachelbel,68.84367,counter_clockwise,10
+20260405_184905_experimental_pachelbel,69.523705,sneak_overhand_right,8
+20260405_184905_experimental_pachelbel,70.173744,dragon_roll,0
+20260405_184905_experimental_pachelbel,71.14379,clockwise,9
+20260405_184905_experimental_pachelbel,71.68382,clockwise,9
+20260405_184905_experimental_pachelbel,72.36386,sneak_overhand_left,7
+20260405_184905_experimental_pachelbel,73.2239,dragon_roll,0
+20260405_184905_experimental_pachelbel,73.933945,dragon_roll,0
+20260405_184905_experimental_pachelbel,74.503975,sneak_underhand_right,6
+20260405_184905_experimental_pachelbel,75.91405,counter_clockwise,10
+20260405_184905_experimental_pachelbel,77.18411,sneak_overhand_left,7
+20260405_184905_experimental_pachelbel,77.75414,sneak_overhand_left,7
+20260405_184905_experimental_pachelbel,78.264175,dragon_roll,0
+20260405_184905_experimental_pachelbel,79.51424,counter_clockwise,10
+20260405_184905_experimental_pachelbel,80.77431,sneak_overhand_left,7
+20260405_184905_experimental_pachelbel,81.42434,sneak_overhand_left,7
+20260405_184905_experimental_pachelbel,83.40445,unknown,12
+20260405_185331_experimental_birth-death,2.3903837,unknown,12
+20260405_185331_experimental_birth-death,4.2106786,clockwise,9
+20260405_185331_experimental_birth-death,4.9908066,clockwise,9
+20260405_185331_experimental_birth-death,6.4010353,clockwise,9
+20260405_185331_experimental_birth-death,7.1911616,clockwise,9
+20260405_185331_experimental_birth-death,7.8512683,counter_clockwise,10
+20260405_185331_experimental_birth-death,8.471371,overhand_right,4
+20260405_185331_experimental_birth-death,10.531702,counter_clockwise,10
+20260405_185331_experimental_birth-death,12.231978,overhand_left,3
+20260405_185331_experimental_birth-death,12.842079,counter_clockwise,10
+20260405_185331_experimental_birth-death,13.4821825,overhand_right,4
+20260405_185331_experimental_birth-death,14.112284,clockwise,9
+20260405_185331_experimental_birth-death,15.8325615,underhand_left,2
+20260405_185331_experimental_birth-death,17.112768,clockwise,9
+20260405_185331_experimental_birth-death,17.712866,counter_clockwise,10
+20260405_185331_experimental_birth-death,18.332966,counter_clockwise,10
+20260405_185331_experimental_birth-death,18.913057,clockwise,9
+20260405_185331_experimental_birth-death,20.713352,underhand_left,2
+20260405_185331_experimental_birth-death,21.943548,clockwise,9
+20260405_185331_experimental_birth-death,22.523645,counter_clockwise,10
+20260405_185331_experimental_birth-death,23.153748,overhand_right,4
+20260405_185331_experimental_birth-death,25.454119,underhand_left,2
+20260405_185331_experimental_birth-death,26.654312,clockwise,9
+20260405_185331_experimental_birth-death,27.204403,counter_clockwise,10
+20260405_185331_experimental_birth-death,28.544624,clockwise,9
+20260405_185331_experimental_birth-death,29.234735,counter_clockwise,10
+20260405_185331_experimental_birth-death,29.864834,underhand_left,2
+20260405_185331_experimental_birth-death,30.644966,clockwise,9
+20260405_185331_experimental_birth-death,31.745142,overhand_right,4
+20260405_185331_experimental_birth-death,32.545273,clockwise,9
+20260405_185331_experimental_birth-death,33.14537,underhand_right,1
+20260405_185331_experimental_birth-death,34.425575,clockwise,9
+20260405_185331_experimental_birth-death,35.08568,counter_clockwise,10
+20260405_185331_experimental_birth-death,36.22587,clockwise,9
+20260405_185331_experimental_birth-death,36.815964,underhand_right,1
+20260405_185331_experimental_birth-death,38.056164,clockwise,9
+20260405_185331_experimental_birth-death,38.696262,counter_clockwise,10
+20260405_185331_experimental_birth-death,39.776443,clockwise,9
+20260405_185331_experimental_birth-death,40.36654,underhand_right,1
+20260405_185331_experimental_birth-death,41.596737,clockwise,9
+20260405_185331_experimental_birth-death,42.25684,counter_clockwise,10
+20260405_185331_experimental_birth-death,43.377026,clockwise,9
+20260405_185331_experimental_birth-death,43.95712,counter_clockwise,10
+20260405_185331_experimental_birth-death,45.157314,clockwise,9
+20260405_185331_experimental_birth-death,46.877594,clockwise,9
+20260405_185331_experimental_birth-death,47.467686,underhand_right,1
+20260405_185331_experimental_birth-death,48.587868,clockwise,9
+20260405_185331_experimental_birth-death,49.257973,counter_clockwise,10
+20260405_185331_experimental_birth-death,50.87824,underhand_right,1
+20260405_185331_experimental_birth-death,52.588512,clockwise,9
+20260405_185331_experimental_birth-death,53.218613,counter_clockwise,10
+20260405_185331_experimental_birth-death,53.938732,overhand_right,4
+20260405_185331_experimental_birth-death,54.628845,clockwise,9
+20260405_185331_experimental_birth-death,56.389126,counter_clockwise,10
+20260405_185331_experimental_birth-death,57.269276,clockwise,9
+20260405_185331_experimental_birth-death,58.119408,counter_clockwise,10
+20260405_185331_experimental_birth-death,59.399616,underhand_right,1
+20260405_185331_experimental_birth-death,60.06972,counter_clockwise,10
+20260405_185331_experimental_birth-death,61.59997,clockwise,9
+20260405_185331_experimental_birth-death,62.14006,counter_clockwise,10
+20260405_185331_experimental_birth-death,62.740154,overhand_right,4
+20260405_185331_experimental_birth-death,63.390263,clockwise,9
+20260405_185331_experimental_birth-death,64.300415,underhand_right,1
+20260405_185331_experimental_birth-death,66.01069,overhand_left,3
+20260405_185331_experimental_birth-death,66.50076,counter_clockwise,10
+20260405_185331_experimental_birth-death,67.600945,clockwise,9
+20260405_185331_experimental_birth-death,68.67112,underhand_right,1
+20260405_185331_experimental_birth-death,69.1912,counter_clockwise,10
+20260405_185331_experimental_birth-death,70.04134,clockwise,9
+20260405_185331_experimental_birth-death,70.85147,counter_clockwise,10
+20260405_185331_experimental_birth-death,72.03166,clockwise,9
+20260405_185331_experimental_birth-death,72.911804,underhand_right,1
+20260405_185331_experimental_birth-death,75.41221,counter_clockwise,10
+20260405_185331_experimental_birth-death,77.13249,underhand_right,1
+20260405_185331_experimental_birth-death,80.54304,clockwise,9
+20260405_185331_experimental_birth-death,81.40318,counter_clockwise,10
+20260405_185331_experimental_birth-death,83.143456,overhand_left,3
+20260405_185331_experimental_birth-death,83.78356,overhand_left,3
+20260405_185331_experimental_birth-death,84.6337,overhand_right,4
+20260405_185331_experimental_birth-death,85.42383,clockwise,9
+20260405_185331_experimental_birth-death,86.07394,counter_clockwise,10
+20260405_185331_experimental_birth-death,86.58402,counter_clockwise,10
+20260405_185331_experimental_birth-death,88.114265,clockwise,9
+20260405_185331_experimental_birth-death,88.82438,underhand_right,1
+20260405_185331_experimental_birth-death,90.00458,counter_clockwise,10
+20260405_185331_experimental_birth-death,92.69501,underhand_left,2
+20260405_185331_experimental_birth-death,94.605316,overhand_left,3
+20260405_185331_experimental_birth-death,95.19541,counter_clockwise,10
+20260405_185331_experimental_birth-death,95.7355,counter_clockwise,10
+20260405_185331_experimental_birth-death,96.84568,underhand_right,1
+20260405_185331_experimental_birth-death,97.72582,counter_clockwise,10
+20260405_185331_experimental_birth-death,98.40593,underhand_right,1
+20260405_185331_experimental_birth-death,98.846,overhand_left,3
+20260405_185331_experimental_birth-death,99.39609,counter_clockwise,10
+20260405_185331_experimental_birth-death,100.6663,clockwise,9
+20260405_185331_experimental_birth-death,101.36641,counter_clockwise,10
+20260405_185331_experimental_birth-death,102.46659,clockwise,9
+20260405_185331_experimental_birth-death,104.096855,unknown,12
+20260405_185509_experimental_bass-walk-down,0.5301077,unknown,12
+20260405_185509_experimental_bass-walk-down,0.99018675,unknown,12
+20260405_185509_experimental_bass-walk-down,1.740319,unknown,12
+20260405_185509_experimental_bass-walk-down,3.6306283,unknown,12
+20260405_185509_experimental_bass-walk-down,5.1009064,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,8.4515085,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,9.151625,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,9.981774,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,10.621894,clockwise,9
+20260405_185509_experimental_bass-walk-down,11.06197,clockwise,9
+20260405_185509_experimental_bass-walk-down,12.372205,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,12.932319,overhand_right,4
+20260405_185509_experimental_bass-walk-down,13.542412,clockwise,9
+20260405_185509_experimental_bass-walk-down,14.722643,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,15.472769,overhand_right,4
+20260405_185509_experimental_bass-walk-down,16.112875,clockwise,9
+20260405_185509_experimental_bass-walk-down,16.803007,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,17.453102,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,18.23326,sneak_underhand_right,6
+20260405_185509_experimental_bass-walk-down,20.103594,sneak_underhand_left,5
+20260405_185509_experimental_bass-walk-down,20.59369,overhand_right,4
+20260405_185509_experimental_bass-walk-down,21.203781,underhand_right,1
+20260405_185509_experimental_bass-walk-down,21.973936,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,23.694214,underhand_right,1
+20260405_185509_experimental_bass-walk-down,24.754395,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,25.524565,overhand_right,4
+20260405_185509_experimental_bass-walk-down,26.104652,underhand_right,1
+20260405_185509_experimental_bass-walk-down,26.824797,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,27.484886,dragon_roll,0
+20260405_185509_experimental_bass-walk-down,28.185028,sneak_underhand_right,6
+20260405_185509_experimental_bass-walk-down,29.975351,sneak_underhand_left,5
+20260405_185509_experimental_bass-walk-down,31.085539,underhand_right,1
+20260405_185509_experimental_bass-walk-down,32.365772,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,33.505974,underhand_right,1
+20260405_185509_experimental_bass-walk-down,34.116085,overhand_left,3
+20260405_185509_experimental_bass-walk-down,34.696186,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,35.876396,underhand_right,1
+20260405_185509_experimental_bass-walk-down,36.566532,overhand_left,3
+20260405_185509_experimental_bass-walk-down,37.226627,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,38.48688,sneak_underhand_right,6
+20260405_185509_experimental_bass-walk-down,39.65708,sneak_underhand_left,5
+20260405_185509_experimental_bass-walk-down,40.86729,underhand_right,1
+20260405_185509_experimental_bass-walk-down,41.547424,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,42.0675,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,43.02769,underhand_right,1
+20260405_185509_experimental_bass-walk-down,43.917835,overhand_left,3
+20260405_185509_experimental_bass-walk-down,44.52794,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,45.25806,underhand_right,1
+20260405_185509_experimental_bass-walk-down,45.728153,underhand_right,1
+20260405_185509_experimental_bass-walk-down,46.37828,overhand_left,3
+20260405_185509_experimental_bass-walk-down,47.028378,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,47.78853,sneak_underhand_right,6
+20260405_185509_experimental_bass-walk-down,48.298634,sneak_underhand_right,6
+20260405_185509_experimental_bass-walk-down,49.40882,sneak_underhand_left,5
+20260405_185509_experimental_bass-walk-down,50.478996,underhand_right,1
+20260405_185509_experimental_bass-walk-down,51.16914,counter_clockwise,10
+20260405_185509_experimental_bass-walk-down,52.369358,underhand_right,1
+20260405_185509_experimental_bass-walk-down,53.209484,overhand_left,3
+20260405_185509_experimental_bass-walk-down,54.469707,underhand_right,1
+20260405_185509_experimental_bass-walk-down,54.95979,underhand_right,1
+20260405_185509_experimental_bass-walk-down,55.539906,overhand_left,3
+20260405_185509_experimental_bass-walk-down,56.230015,dragon_roll,0
+20260405_185509_experimental_bass-walk-down,56.890137,dragon_roll,0
+20260405_185509_experimental_bass-walk-down,57.610275,dragon_roll,0
+20260405_185509_experimental_bass-walk-down,58.200375,sneak_underhand_left,5
+20260405_185509_experimental_bass-walk-down,58.67047,sneak_underhand_left,5
+20260405_185509_experimental_bass-walk-down,59.620636,sneak_underhand_left,5
+20260405_185509_experimental_bass-walk-down,60.530792,unknown,12
+20260406_212408_experimental_jo div,0.46001834,unknown,12
+20260406_212408_experimental_jo div,1.6000646,unknown,12
+20260406_212408_experimental_jo div,3.410136,unknown,12
+20260406_212408_experimental_jo div,4.550182,clockwise,9
+20260406_212408_experimental_jo div,6.4102554,clockwise,9
+20260406_212408_experimental_jo div,7.0402803,sneak_overhand_left,7
+20260406_212408_experimental_jo div,8.330333,clockwise,9
+20260406_212408_experimental_jo div,9.390375,counter_clockwise,10
+20260406_212408_experimental_jo div,10.870435,underhand_right,1
+20260406_212408_experimental_jo div,11.460457,overhand_left,3
+20260406_212408_experimental_jo div,11.9904785,counter_clockwise,10
+20260406_212408_experimental_jo div,12.600503,underhand_right,1
+20260406_212408_experimental_jo div,13.02052,underhand_right,1
+20260406_212408_experimental_jo div,13.55054,overhand_left,3
+20260406_212408_experimental_jo div,15.340611,counter_clockwise,10
+20260406_212408_experimental_jo div,16.870674,sneak_underhand_right,6
+20260406_212408_experimental_jo div,17.400694,sneak_overhand_left,7
+20260406_212408_experimental_jo div,19.700787,counter_clockwise,10
+20260406_212408_experimental_jo div,20.830832,clockwise,9
+20260406_212408_experimental_jo div,21.380852,sneak_overhand_left,7
+20260406_212408_experimental_jo div,22.5809,clockwise,9
+20260406_212408_experimental_jo div,23.230927,counter_clockwise,10
+20260406_212408_experimental_jo div,24.710985,clockwise,9
+20260406_212408_experimental_jo div,25.261007,sneak_overhand_left,7
+20260406_212408_experimental_jo div,26.391052,clockwise,9
+20260406_212408_experimental_jo div,27.501097,underhand_left,2
+20260406_212408_experimental_jo div,28.471136,clockwise,9
+20260406_212408_experimental_jo div,29.07116,underhand_right,1
+20260406_212408_experimental_jo div,29.541178,overhand_left,3
+20260406_212408_experimental_jo div,30.0712,counter_clockwise,10
+20260406_212408_experimental_jo div,30.661222,clockwise,9
+20260406_212408_experimental_jo div,31.291248,counter_clockwise,10
+20260406_212408_experimental_jo div,32.731304,clockwise,9
+20260406_212408_experimental_jo div,33.271328,overhand_left,3
+20260406_212408_experimental_jo div,33.84135,overhand_right,4
+20260406_212408_experimental_jo div,34.391373,overhand_right,4
+20260406_212408_experimental_jo div,35.43141,counter_clockwise,10
+20260406_212408_experimental_jo div,36.971474,counter_clockwise,10
+20260406_212408_experimental_jo div,38.071518,overhand_right,4
+20260406_212408_experimental_jo div,39.15156,counter_clockwise,10
+20260406_212408_experimental_jo div,40.221603,clockwise,9
+20260406_212408_experimental_jo div,40.751625,sneak_overhand_left,7
+20260406_212408_experimental_jo div,41.86167,underhand_right,1
+20260406_212408_experimental_jo div,42.30169,underhand_right,1
+20260406_212408_experimental_jo div,43.921753,clockwise,9
+20260406_212408_experimental_jo div,44.501774,underhand_right,1
+20260406_212408_experimental_jo div,47.431892,unknown,12
+20260406_212408_experimental_jo div,49.111958,dragon_roll,0
+20260406_212408_experimental_jo div,50.302006,underhand_right,1
+20260406_212408_experimental_jo div,50.702023,underhand_right,1
+20260406_212408_experimental_jo div,51.232044,overhand_left,3
+20260406_212408_experimental_jo div,52.312088,overhand_right,4
+20260406_212408_experimental_jo div,53.042114,counter_clockwise,10
+20260406_212408_experimental_jo div,54.492172,clockwise,9
+20260406_212408_experimental_jo div,55.092197,underhand_right,1
+20260406_212408_experimental_jo div,55.542217,counter_clockwise,10
+20260406_212408_experimental_jo div,56.62226,underhand_right,1
+20260406_212408_experimental_jo div,57.632298,overhand_left,3
+20260406_212408_experimental_jo div,58.69234,overhand_right,4
+20260406_212408_experimental_jo div,59.222363,underhand_right,1
+20260406_212408_experimental_jo div,60.012394,counter_clockwise,10
+20260406_212408_experimental_jo div,60.87243,underhand_right,1
+20260406_212408_experimental_jo div,61.72246,counter_clockwise,10
+20260406_212408_experimental_jo div,62.6725,overhand_right,4
+20260406_212408_experimental_jo div,63.40253,underhand_right,1
+20260406_212408_experimental_jo div,63.98255,counter_clockwise,10
+20260406_212408_experimental_jo div,64.42257,counter_clockwise,10
+20260406_212408_experimental_jo div,66.77267,underhand_left,2
+20260406_212408_experimental_jo div,67.48269,clockwise,9
+20260406_212408_experimental_jo div,68.262726,underhand_right,1
+20260406_212408_experimental_jo div,68.91275,counter_clockwise,10
+20260406_212408_experimental_jo div,69.632774,underhand_left,2
+20260406_212408_experimental_jo div,70.1828,clockwise,9
+20260406_212408_experimental_jo div,70.97283,underhand_right,1
+20260406_212408_experimental_jo div,71.53285,counter_clockwise,10
+20260406_212408_experimental_jo div,72.32288,underhand_left,2
+20260406_212408_experimental_jo div,74.802986,counter_clockwise,10
+20260406_212408_experimental_jo div,76.93307,sneak_overhand_left,7
+20260406_212408_experimental_jo div,77.5331,sneak_overhand_left,7
+20260406_212408_experimental_jo div,78.06312,dragon_roll,0
+20260406_212408_experimental_jo div,78.91315,dragon_roll,0
+20260406_212408_experimental_jo div,79.953186,overhand_right,4
+20260406_212408_experimental_jo div,80.93323,counter_clockwise,10
+20260406_212408_experimental_jo div,81.593254,dragon_roll,0
+20260406_212408_experimental_jo div,82.7233,sneak_overhand_left,7
+20260406_212408_experimental_jo div,83.33332,sneak_overhand_left,7
+20260406_212408_experimental_jo div,83.803345,dragon_roll,0
+20260406_212408_experimental_jo div,85.90343,counter_clockwise,10
+20260406_212408_experimental_jo div,87.163475,sneak_overhand_left,7
+20260406_212408_experimental_jo div,87.7335,sneak_overhand_left,7
+20260406_212408_experimental_jo div,88.98355,clockwise,9
+20260406_212408_experimental_jo div,89.663574,counter_clockwise,10
+20260406_212408_experimental_jo div,91.30364,sneak_overhand_left,7
+20260406_212408_experimental_jo div,91.88367,sneak_overhand_left,7
+20260406_212408_experimental_jo div,92.953705,overhand_right,4
+20260406_212408_experimental_jo div,93.68374,sneak_overhand_left,7
+20260406_212408_experimental_jo div,94.94379,clockwise,9
+20260406_212408_experimental_jo div,95.423805,clockwise,9
+20260406_212408_experimental_jo div,96.38384,counter_clockwise,10
+20260406_212408_experimental_jo div,97.29388,clockwise,9
+20260406_212408_experimental_jo div,98.07391,overhand_left,3
+20260406_212408_experimental_jo div,99.34396,dragon_roll,0
+20260406_212408_experimental_jo div,99.95399,dragon_roll,0
+20260406_212408_experimental_jo div,100.584015,dragon_roll,0
+20260406_212408_experimental_jo div,101.214035,dragon_roll,0
+20260406_212408_experimental_jo div,101.91406,dragon_roll,0
+20260406_212408_experimental_jo div,102.7641,dragon_roll,0
+20260406_212408_experimental_jo div,103.51413,overhand_right,4
+20260406_212408_experimental_jo div,105.364204,dragon_roll,0
+20260406_212408_experimental_jo div,107.11427,dragon_roll,0
+20260406_212408_experimental_jo div,107.96431,dragon_roll,0
+20260406_212408_experimental_jo div,109.33436,dragon_roll,0
+20260406_212408_experimental_jo div,109.994385,dragon_roll,0
+20260406_212408_experimental_jo div,111.10443,clockwise,9
+20260406_212408_experimental_jo div,111.82446,counter_clockwise,10
+20260406_212408_experimental_jo div,113.42452,clockwise,9
+20260406_212408_experimental_jo div,114.02455,sneak_overhand_left,7
+20260406_212408_experimental_jo div,115.74462,clockwise,9
+20260406_212408_experimental_jo div,116.21464,overhand_left,3
+20260406_212408_experimental_jo div,117.8647,clockwise,9
+20260406_212408_experimental_jo div,118.594734,counter_clockwise,10
+20260406_212408_experimental_jo div,119.49477,clockwise,9
+20260406_212408_experimental_jo div,120.424805,counter_clockwise,10
+20260406_212408_experimental_jo div,121.33484,clockwise,9
+20260406_212408_experimental_jo div,121.884865,counter_clockwise,10
+20260406_212408_experimental_jo div,122.57489,overhand_right,4
+20260406_212408_experimental_jo div,123.63493,overhand_left,3
+20260406_212408_experimental_jo div,124.21496,counter_clockwise,10
+20260406_212408_experimental_jo div,124.73498,overhand_right,4
+20260406_212408_experimental_jo div,125.44501,sneak_overhand_left,7
+20260406_212408_experimental_jo div,125.96503,dragon_roll,0
+20260406_212408_experimental_jo div,126.635056,sneak_overhand_right,8
+20260406_212408_experimental_jo div,127.185074,dragon_roll,0
+20260406_212408_experimental_jo div,128.83514,counter_clockwise,10
+20260406_212408_experimental_jo div,130.3952,underhand_right,1
+20260406_212408_experimental_jo div,131.29524,counter_clockwise,10
+20260406_212408_experimental_jo div,132.48529,underhand_right,1
+20260406_212408_experimental_jo div,133.44533,counter_clockwise,10
+20260406_212408_experimental_jo div,134.76538,overhand_right,4
+20260406_212408_experimental_jo div,135.3454,sneak_overhand_left,7
+20260406_212408_experimental_jo div,135.87543,sneak_overhand_left,7
+20260406_212408_experimental_jo div,136.72545,sneak_overhand_right,8
+20260406_212408_experimental_jo div,137.30548,dragon_roll,0
+20260406_212408_experimental_jo div,138.18552,clockwise,9
+20260406_212408_experimental_jo div,138.80554,underhand_right,1
+20260406_212408_experimental_jo div,141.02562,sneak_underhand_right,6
+20260406_212408_experimental_jo div,141.57565,sneak_overhand_left,7
+20260406_212408_experimental_jo div,142.78569,clockwise,9
+20260406_212408_experimental_jo div,143.84573,counter_clockwise,10
+20260406_212408_experimental_jo div,144.97578,sneak_overhand_left,7
+20260406_212408_experimental_jo div,146.83586,underhand_right,1
+20260406_212408_experimental_jo div,148.52592,underhand_right,1
+20260406_212408_experimental_jo div,148.96594,underhand_right,1
+20260406_212408_experimental_jo div,149.83598,counter_clockwise,10
+20260406_212408_experimental_jo div,151.06602,underhand_right,1
+20260406_212408_experimental_jo div,151.98607,counter_clockwise,10
+20260406_212408_experimental_jo div,152.67609,clockwise,9
+20260406_212408_experimental_jo div,154.02614,counter_clockwise,10
+20260406_212408_experimental_jo div,155.18619,underhand_right,1
+20260406_212408_experimental_jo div,156.16623,counter_clockwise,10
+20260406_212408_experimental_jo div,157.47629,dragon_roll,0
+20260406_212408_experimental_jo div,158.27632,underhand_right,1
+20260406_212408_experimental_jo div,159.29636,overhand_left,3
+20260406_212408_experimental_jo div,160.3264,overhand_right,4
+20260406_212408_experimental_jo div,160.96642,sneak_overhand_left,7
+20260406_212408_experimental_jo div,163.53653,clockwise,9
+20260406_212408_experimental_jo div,164.57657,counter_clockwise,10
+20260406_212408_experimental_jo div,165.86662,underhand_right,1
+20260406_212408_experimental_jo div,166.94666,underhand_left,2
+20260406_212408_experimental_jo div,168.01671,underhand_right,1
+20260406_212408_experimental_jo div,169.05675,underhand_left,2
+20260406_212408_experimental_jo div,170.15678,underhand_right,1
+20260406_212408_experimental_jo div,171.22684,dragon_roll,0
+20260406_212408_experimental_jo div,171.90686,sneak_underhand_right,6
+20260406_212408_experimental_jo div,172.52689,dragon_roll,0
+20260406_212408_experimental_jo div,172.9969,dragon_roll,0
+20260406_212408_experimental_jo div,173.57692,sneak_underhand_left,5
+20260406_212408_experimental_jo div,174.90698,underhand_right,1
+20260406_212408_experimental_jo div,175.537,counter_clockwise,10
+20260406_212408_experimental_jo div,177.04706,underhand_right,1
+20260406_212408_experimental_jo div,177.68709,counter_clockwise,10
+20260406_212408_experimental_jo div,179.94717,sneak_overhand_left,7
+20260406_212408_experimental_jo div,180.4572,sneak_overhand_left,7
+20260406_212408_experimental_jo div,181.73724,clockwise,9
+20260406_212408_experimental_jo div,182.29727,clockwise,9
+20260406_212408_experimental_jo div,182.8873,sneak_overhand_left,7
+20260406_212408_experimental_jo div,183.70732,dragon_roll,0
+20260406_212408_experimental_jo div,184.47736,sneak_underhand_right,6
+20260406_212408_experimental_jo div,185.02737,clockwise,9
+20260406_212408_experimental_jo div,186.13742,counter_clockwise,10
+20260406_212408_experimental_jo div,187.8275,sneak_overhand_left,7
+20260406_212408_experimental_jo div,188.62752,underhand_right,1
+20260406_212408_experimental_jo div,189.81757,counter_clockwise,10
+20260406_212408_experimental_jo div,192.35767,clockwise,9
+20260406_212408_experimental_jo div,193.0977,dragon_roll,0
+20260406_212408_experimental_jo div,193.70773,dragon_roll,0
+20260406_212408_experimental_jo div,194.46776,sneak_underhand_right,6
+20260406_212408_experimental_jo div,195.02779,clockwise,9
+20260406_212408_experimental_jo div,197.21786,sneak_overhand_left,7
+20260406_212408_experimental_jo div,197.7779,sneak_overhand_left,7
+20260406_212408_experimental_jo div,200.77802,sneak_overhand_left,7
+20260406_212408_experimental_jo div,201.36803,sneak_overhand_left,7
+20260406_212408_experimental_jo div,201.82805,dragon_roll,0
+20260406_212408_experimental_jo div,203.10811,counter_clockwise,10
+20260406_212408_experimental_jo div,203.76813,sneak_underhand_right,6
+20260406_212408_experimental_jo div,204.74817,sneak_overhand_left,7
+20260406_212408_experimental_jo div,207.55827,sneak_overhand_left,7
+20260406_212408_experimental_jo div,208.1183,sneak_overhand_left,7
+20260406_212408_experimental_jo div,209.77837,counter_clockwise,10
+20260406_212408_experimental_jo div,210.4684,sneak_underhand_right,6
+20260406_212408_experimental_jo div,211.44844,sneak_overhand_left,7
+20260406_212408_experimental_jo div,213.25851,counter_clockwise,10
+20260406_212408_experimental_jo div,214.86858,counter_clockwise,10
+20260406_212408_experimental_jo div,216.02863,clockwise,9
+20260406_212408_experimental_jo div,216.53864,clockwise,9
+20260406_212408_experimental_jo div,217.10866,counter_clockwise,10
+20260406_212408_experimental_jo div,218.1587,overhand_right,4
+20260406_212408_experimental_jo div,219.28874,counter_clockwise,10
+20260406_212408_experimental_jo div,220.92882,overhand_left,3
+20260406_212408_experimental_jo div,221.51884,counter_clockwise,10
+20260406_212408_experimental_jo div,222.05885,clockwise,9
+20260406_212408_experimental_jo div,223.3289,counter_clockwise,10
+20260406_212408_experimental_jo div,224.21895,clockwise,9
+20260406_212408_experimental_jo div,224.70897,clockwise,9
+20260406_212408_experimental_jo div,226.20903,overhand_right,4
+20260406_212408_experimental_jo div,227.84909,clockwise,9
+20260406_212408_experimental_jo div,228.27911,clockwise,9
+20260406_212408_experimental_jo div,228.78912,overhand_left,3
+20260406_212408_experimental_jo div,230.95921,underhand_left,2
+20260406_212408_experimental_jo div,231.58923,clockwise,9
+20260406_212408_experimental_jo div,232.41927,overhand_left,3
+20260406_212408_experimental_jo div,233.59932,clockwise,9
+20260406_212408_experimental_jo div,234.13934,underhand_right,1
+20260406_212408_experimental_jo div,234.73936,counter_clockwise,10
+20260406_212408_experimental_jo div,236.51944,overhand_left,3
+20260406_212408_experimental_jo div,237.64948,clockwise,9
+20260406_212408_experimental_jo div,238.19951,underhand_right,1
+20260406_212408_experimental_jo div,238.72952,counter_clockwise,10
+20260406_212408_experimental_jo div,240.5996,counter_clockwise,10
+20260406_212408_experimental_jo div,241.15962,counter_clockwise,10
+20260406_212408_experimental_jo div,241.71965,underhand_right,1
+20260406_212408_experimental_jo div,243.89973,sneak_overhand_left,7
+20260406_212408_experimental_jo div,244.43976,sneak_overhand_left,7
+20260406_212408_experimental_jo div,245.54979,clockwise,9
+20260406_212408_experimental_jo div,245.99982,clockwise,9
+20260406_212408_experimental_jo div,246.51984,overhand_left,3
+20260406_212408_experimental_jo div,247.13986,overhand_right,4
+20260406_212408_experimental_jo div,247.62988,overhand_right,4
+20260406_212408_experimental_jo div,248.2399,sneak_overhand_left,7
+20260406_212408_experimental_jo div,249.30995,sneak_overhand_right,8
+20260406_212408_experimental_jo div,250.85,clockwise,9
+20260406_212408_experimental_jo div,251.36003,overhand_left,3
+20260406_212408_experimental_jo div,252.47008,sneak_overhand_left,7
+20260406_212408_experimental_jo div,252.9601,sneak_overhand_left,7
+20260406_212408_experimental_jo div,254.02014,sneak_overhand_right,8
+20260406_212408_experimental_jo div,255.15018,clockwise,9
+20260406_212408_experimental_jo div,256.66025,counter_clockwise,10
+20260406_212408_experimental_jo div,257.69028,sneak_overhand_left,7
+20260406_212408_experimental_jo div,259.31033,overhand_right,4
+20260406_212408_experimental_jo div,260.01038,underhand_right,1
+20260406_212408_experimental_jo div,260.7304,overhand_left,3
+20260406_212408_experimental_jo div,261.53043,counter_clockwise,10
+20260406_212408_experimental_jo div,262.39047,sneak_overhand_left,7
+20260406_212408_experimental_jo div,263.0705,sneak_overhand_left,7
+20260406_212408_experimental_jo div,263.91052,sneak_overhand_right,8
+20260406_212408_experimental_jo div,264.64056,sneak_overhand_right,8
+20260406_212408_experimental_jo div,266.0006,overhand_right,4
+20260406_212408_experimental_jo div,267.01065,counter_clockwise,10
+20260406_212408_experimental_jo div,267.65067,dragon_roll,0
+20260406_212408_experimental_jo div,268.96072,sneak_underhand_right,6
+20260406_212408_experimental_jo div,269.67075,sneak_overhand_left,7
+20260406_212408_experimental_jo div,271.26083,clockwise,9
+20260406_212408_experimental_jo div,271.74084,clockwise,9
+20260406_212408_experimental_jo div,273.3709,counter_clockwise,10
+20260406_212408_experimental_jo div,274.21094,clockwise,9
+20260406_212408_experimental_jo div,274.92096,clockwise,9
+20260406_212408_experimental_jo div,275.531,overhand_left,3
+20260406_212408_experimental_jo div,276.45102,overhand_right,4
+20260406_212408_experimental_jo div,277.10104,overhand_right,4
+20260406_212408_experimental_jo div,277.9611,sneak_overhand_left,7
+20260406_212408_experimental_jo div,279.74115,dragon_roll,0
+20260406_212408_experimental_jo div,281.1512,overhand_right,4
+20260406_212408_experimental_jo div,282.05124,counter_clockwise,10
+20260406_212408_experimental_jo div,282.64127,dragon_roll,0
+20260406_212408_experimental_jo div,284.07132,sneak_overhand_left,7
+20260406_212408_experimental_jo div,284.75137,sneak_overhand_left,7
+20260406_212408_experimental_jo div,285.28137,dragon_roll,0
+20260406_212408_experimental_jo div,286.2214,clockwise,9
+20260406_212408_experimental_jo div,286.77145,clockwise,9
+20260406_212408_experimental_jo div,287.49146,overhand_left,3
+20260406_212408_experimental_jo div,288.1015,counter_clockwise,10
+20260406_212408_experimental_jo div,288.91153,clockwise,9
+20260406_212408_experimental_jo div,289.46155,clockwise,9
+20260406_212408_experimental_jo div,290.12158,overhand_left,3
+20260406_212408_experimental_jo div,291.79163,underhand_right,1
+20260406_212408_experimental_jo div,293.0717,counter_clockwise,10
+20260406_212408_experimental_jo div,293.83173,clockwise,9
+20260406_212408_experimental_jo div,294.64175,underhand_right,1
+20260406_212408_experimental_jo div,295.67178,counter_clockwise,10
+20260406_212408_experimental_jo div,296.55182,clockwise,9
+20260406_212408_experimental_jo div,297.22186,underhand_right,1
+20260406_212408_experimental_jo div,297.76187,counter_clockwise,10
+20260406_212408_experimental_jo div,299.05194,sneak_overhand_right,8
+20260406_212408_experimental_jo div,301.10202,dragon_roll,0
+20260406_212408_experimental_jo div,301.83203,dragon_roll,0
+20260406_212408_experimental_jo div,302.51205,dragon_roll,0
+20260406_212408_experimental_jo div,303.29208,dragon_roll,0
+20260406_212408_experimental_jo div,303.99213,dragon_roll,0
+20260406_212408_experimental_jo div,304.55215,dragon_roll,0
+20260406_212408_experimental_jo div,305.96222,counter_clockwise,10
+20260406_212408_experimental_jo div,306.78223,clockwise,9
+20260406_212408_experimental_jo div,307.40225,underhand_right,1
+20260406_212408_experimental_jo div,307.9123,counter_clockwise,10
+20260406_212408_experimental_jo div,309.42233,clockwise,9
+20260406_212408_experimental_jo div,309.99237,sneak_overhand_left,7
+20260406_212408_experimental_jo div,311.0524,overhand_right,4
+20260406_212408_experimental_jo div,312.25247,counter_clockwise,10
+20260406_212408_experimental_jo div,313.3725,sneak_underhand_right,6
+20260406_212408_experimental_jo div,313.93253,sneak_overhand_left,7
+20260406_212408_experimental_jo div,315.15256,clockwise,9
+20260406_212408_experimental_jo div,316.1426,overhand_left,3
+20260406_212408_experimental_jo div,316.65262,counter_clockwise,10
+20260406_212408_experimental_jo div,317.36267,underhand_right,1
+20260406_212408_experimental_jo div,319.12274,sneak_underhand_right,6
+20260406_212408_experimental_jo div,319.76276,sneak_overhand_left,7
+20260406_212408_experimental_jo div,320.25278,sneak_overhand_left,7
+20260406_212408_experimental_jo div,321.53284,clockwise,9
+20260406_212408_experimental_jo div,322.53287,counter_clockwise,10
+20260406_212408_experimental_jo div,323.71292,sneak_overhand_left,7
+20260406_212408_experimental_jo div,324.29294,sneak_overhand_left,7
+20260406_212408_experimental_jo div,325.533,underhand_right,1
+20260406_212408_experimental_jo div,325.973,underhand_right,1
+20260406_212408_experimental_jo div,326.95303,counter_clockwise,10
+20260406_212408_experimental_jo div,328.4031,counter_clockwise,10
+20260406_212408_experimental_jo div,329.92316,underhand_right,1
+20260406_212408_experimental_jo div,330.8132,counter_clockwise,10
+20260406_212408_experimental_jo div,331.93323,clockwise,9
+20260406_212408_experimental_jo div,332.47327,sneak_overhand_left,7
+20260406_212408_experimental_jo div,333.6133,clockwise,9
+20260406_212408_experimental_jo div,334.61334,counter_clockwise,10
+20260406_212408_experimental_jo div,335.7634,dragon_roll,0
+20260406_212408_experimental_jo div,336.42343,sneak_underhand_right,6
+20260406_212408_experimental_jo div,337.04346,dragon_roll,0
+20260406_212408_experimental_jo div,340.12357,overhand_left,3
+20260406_212408_experimental_jo div,340.5936,counter_clockwise,10
+20260406_212408_experimental_jo div,341.36362,clockwise,9
+20260406_212408_experimental_jo div,342.11365,counter_clockwise,10
+20260406_212408_experimental_jo div,342.8437,dragon_roll,0
+20260406_212408_experimental_jo div,343.3337,dragon_roll,0
+20260406_212408_experimental_jo div,344.23373,unknown,12
+20260406_212408_experimental_jo div,345.30377,unknown,12
+20260406_212408_experimental_jo div,345.9838,unknown,12
