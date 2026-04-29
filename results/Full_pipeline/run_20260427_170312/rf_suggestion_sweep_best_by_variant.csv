@@ -1,0 +1,3 @@
+variant,window,center_jitter,peak_recenter,mode,train_accuracy,test_accuracy,macro_f1,gap
+rf_window-sweep,40,2,False,single_window,1.0,0.8409090909090909,0.8502596905071607,0.15909090909090906
+rf_baseline,32,0,False,single_window,1.0,0.821969696969697,0.836680256365566,0.17803030303030298

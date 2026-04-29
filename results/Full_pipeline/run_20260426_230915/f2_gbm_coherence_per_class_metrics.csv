@@ -1,0 +1,13 @@
+class,precision,recall,f1,support
+dragon_roll,0.0,0.0,0.0,71
+underhand_right,0.0,0.0,0.0,81
+underhand_left,0.0,0.0,0.0,17
+overhand_left,0.2708333333333333,1.0,0.4262295081967213,143
+overhand_right,0.0,0.0,0.0,35
+sneak_underhand_left,0.0,0.0,0.0,15
+sneak_underhand_right,0.0,0.0,0.0,16
+sneak_overhand_left,0.0,0.0,0.0,26
+sneak_overhand_right,0.0,0.0,0.0,6
+clockwise,0.0,0.0,0.0,38
+counter_clockwise,0.0,0.0,0.0,58
+idle,0.0,0.0,0.0,22

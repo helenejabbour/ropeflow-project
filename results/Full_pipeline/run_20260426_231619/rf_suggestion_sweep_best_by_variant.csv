@@ -1,0 +1,5 @@
+variant,window,center_jitter,class_weight,scaling,train_accuracy,test_accuracy,macro_f1,gap
+rf_window-sweep,40,2,balanced_subsample,global,1.0,0.8409090909090909,0.8502596905071607,0.15909090909090906
+rf_class-weight-audit,32,0,balanced,global,1.0,0.821969696969697,0.8381448709391551,0.17803030303030298
+rf_baseline,32,0,balanced_subsample,global,1.0,0.821969696969697,0.836680256365566,0.17803030303030298
+rf_physics-scaling,32,0,balanced_subsample,physics,1.0,0.821969696969697,0.836680256365566,0.17803030303030298

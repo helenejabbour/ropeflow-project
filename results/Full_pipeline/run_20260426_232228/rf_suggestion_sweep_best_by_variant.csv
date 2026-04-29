@@ -1,0 +1,5 @@
+variant,window,center_jitter,peak_recenter,mode,train_accuracy,test_accuracy,macro_f1,gap
+rf_window-sweep,40,2,False,single_window,1.0,0.8409090909090909,0.8502596905071607,0.15909090909090906
+rf_baseline,32,0,False,single_window,1.0,0.821969696969697,0.836680256365566,0.17803030303030298
+rf_multiwindow-vote,24|32|40,0,False,multiwindow_vote,1.0,0.8200757575757576,0.8351002405261035,0.17992424242424243
+rf_peak-recenter,32,0,True,single_window,1.0,0.7821969696969697,0.8087868973778641,0.21780303030303028
