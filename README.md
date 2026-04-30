@@ -139,8 +139,8 @@ jupyter notebook "Final submission/12_Full_Pipeline_v12.ipynb"
 |:---|:---|
 | **Mounir Khalil** | Classification pipeline, ESN, experiments, sonification |
 | **Helene Jabbour** | Data collection, preprocessing pipeline, labeling |
-| **Course** | EECE 798K / MECH 798M — Data-Driven Modeling, AUB |
-| **Instructor** | Prof. Joseph Bakarji — [ml4science.com](https://ml4science.com) |
+| **Course** | EECE 798K / MECH 798M — Data-Driven Modeling, AUB — [ml4science.com](https://ml4science.com) |
+| **Instructor** | Prof. Joseph Bakarji |
 
 ---
 
